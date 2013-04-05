@@ -1,11 +1,12 @@
 
 * <2013-04-08 Mon> Objetivos
-** [/] diego
+** [0/1] diego
 *** STARTED snapp de los eventos: notificacion superpuestos
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
 
+*** TODO merge pull requests
 
 * <2013-04-05 Fri> Objetivos
 ** [0/3] Fabricio
@@ -19,6 +20,11 @@
 *** TODO mosto -> caspa
 
 ** [0/2] josx & adrian
+
+*** DONE borrar archivos de node-cellar
+
+
+*** DONE revert checksum 
 *** TODO merge kb
 *** TODO 2 issues del listado
 
@@ -51,7 +57,9 @@ INSERT
 REMOVE
 GOTO
 …
-** [0/4] Cristian
+** [1/5] Cristian
+*** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+
 *** TODO fork de melted en tic
 *** TODO realizar los merge de mosto
 *** TODO definición de políticas de merging para mosto 
