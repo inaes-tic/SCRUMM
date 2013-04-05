@@ -88,7 +88,6 @@ CLOSED: [2013-04-05 Fri 14:27]
 :END:
 
 ** [0/0] adrian
-
 ** [1/1] diego
 *** DONE port a 0.10
 CLOSED: [2013-04-05 Fri 14:19]
