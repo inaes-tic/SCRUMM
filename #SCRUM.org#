@@ -24,24 +24,37 @@ depiende de mbc-common
 init db
 driver de mosto recive json de conf
 migrar codigo de caspa
-* <2013-04-05 Fri> Objetivos
-** [0/3] Fabricio
-*** STARTED Terminar mosto.js
+
+** [/] fabricio
+*** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
 :LOGBOOK:
 - State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
 :END:
+*** STARTED debugeando tema de timecodes
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** TODO tes
 
-resolviendo incoherencia playlist -> clips (falta testeo)
-debugeando tema de timecodes
 
+* <2013-04-05 Fri> Objetivos
+** [5/6] Fabricio
 
 *** DONE mosto.js: fetch funciona.
-
-funcion de validacion
-syncro funciona
-*** TODO integracion driver json
-*** TODO mosto en 0.10
+*** DONE mosto.js: funcion de validacion
+*** DONE mosto.js: syncro funciona
+*** DONE integracion driver json
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
+*** DONE mosto en 0.10
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
 
 ** [1/1] Tom
 *** DONE Driver pub/sub                                        
