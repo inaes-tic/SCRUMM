@@ -38,8 +38,17 @@ migrar codigo de caspa
 :END:
 *** TODO tests mocha
 *** TODO driver mubsub
+** [/] cristian
+*** STARTED Eliminar directorios absolutos a mosto.
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
+:END:
 
-** 
+*** TODO testear, mocha
+** [0/1] adrian
+*** STARTED fila vacia
+
+*** TODO paginación
 * <2013-04-05 Fri> Objetivos
 ** [5/5] Fabricio
 *** DONE mosto.js: fetch funciona.
@@ -74,8 +83,9 @@ CLOSED: [2013-04-05 Fri 14:27]
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:27]
 :END:
 
+** [0/1] adrian
 
-** [/] adrian
+*** STARTED fila vacia
 *** TODO merge kb
 ** [1/1] diego
 *** DONE port a 0.10
@@ -106,10 +116,9 @@ INSERT
 REMOVE
 GOTO
 …
-** [2/5] Cristian
+** [1/1] Cristian
 *** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
 
-*** DONE Eliminar directorios absolutos a mosto.
 
 
 
