@@ -1,0 +1,40 @@
+
+* <2013-04-05 Fri> Objetivos
+** [0/3] Fabricio
+*** TODO Terminar mosto.js
+*** TODO integracion driver json
+*** TODO mosto en 0.10
+
+** [0/3] Tom
+*** TODO Driver pub/sub                                        
+*** TODO tests mocha
+*** TODO mosto -> caspa
+
+** [0/2] josx & adrian
+*** TODO merge kb
+*** TODO 2 issues del listado
+
+** [0/2] diego
+*** TODO port a 0.10
+*** TODO snapp de los eventos: notificacion superpuestos
+
+** [3/3] Juan Martin
+*** DONE driver melted
+CLOSED: [2013-04-05 Fri 12:51]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:51]
+:END:
+*** DONE kill playplaylist
+CLOSED: [2013-04-05 Fri 12:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:52]
+:END:
+*** DONE operaciones atomizadas
+CLOSED: [2013-04-05 Fri 12:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:52]
+:END:
+INSERT
+REMOVE
+GOTO
+…
