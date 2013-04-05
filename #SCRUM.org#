@@ -1,4 +1,12 @@
 
+* <2013-04-08 Mon> Objetivos
+** [/] diego
+*** STARTED snapp de los eventos: notificacion superpuestos
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+
+
 * <2013-04-05 Fri> Objetivos
 ** [0/3] Fabricio
 *** TODO Terminar mosto.js
@@ -14,9 +22,14 @@
 *** TODO merge kb
 *** TODO 2 issues del listado
 
-** [0/2] diego
-*** TODO port a 0.10
-*** TODO snapp de los eventos: notificacion superpuestos
+** [1/2] diego
+*** DONE port a 0.10
+CLOSED: [2013-04-05 Fri 14:19]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+Bug en less, reporteado fixeado.
+mergeado.
 
 ** [3/3] Juan Martin
 *** DONE driver melted
@@ -38,7 +51,7 @@ INSERT
 REMOVE
 GOTO
 …
-** [/] Cristian
+** [0/4] Cristian
 *** TODO fork de melted en tic
 *** TODO realizar los merge de mosto
 *** TODO definición de políticas de merging para mosto 
