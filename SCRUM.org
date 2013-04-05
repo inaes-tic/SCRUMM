@@ -1,22 +1,102 @@
 
-* <2013-04-05 Fri> Objetivos
-** [0/3] Fabricio
-*** TODO Terminar mosto.js
-*** TODO integracion driver json
-*** TODO mosto en 0.10
-
-** [0/3] Tom
-*** TODO Driver pub/sub                                        
-*** TODO tests mocha
-*** TODO mosto -> caspa
-
-** [0/2] josx & adrian
-*** TODO merge kb
-*** TODO 2 issues del listado
-
+* <2013-04-08 Mon> Objetivos
 ** [0/2] diego
-*** TODO port a 0.10
-*** TODO snapp de los eventos: notificacion superpuestos
+*** STARTED sn5app de los eventos: notificacion superpuestos
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+
+*** TODO merge pull requests
+** [0/3] josx
+*** STARTED i18n-abide bug
+en-US BCP47 (HTML5)
+
+*** TODO Conf module en backbone.io
+*** TODO UI de configuración
+** [0/3] tom
+*** STARTED tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
+*** TODO mosto -> caspa
+depiende de mbc-common
+*** STARTED mbc-common
+init db
+driver de mosto recive json de conf
+migrar codigo de caspa
+
+** [0/4] fabricio
+*** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** STARTED debugeando tema de timecodes
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** TODO tests mocha
+*** TODO driver mubsub
+** [0/2] cristian
+*** STARTED Eliminar directorios absolutos a mosto.
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
+:END:
+
+*** TODO testear, mocha
+** [0/3] adrian
+*** STARTED fila vacia
+
+*** TODO paginación
+*** STARTED merge kb
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
+:END:
+* <2013-04-05 Fri> Objetivos
+** [5/5] Fabricio
+*** DONE mosto.js: fetch funciona.
+*** DONE mosto.js: funcion de validacion
+*** DONE mosto.js: syncro funciona
+*** DONE integracion driver json
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
+*** DONE mosto en 0.10
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
+
+** [1/1] Tom
+*** DONE Driver pub/sub                                        
+CLOSED: [2013-04-05 Fri 14:33]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:33]
+:END:
+** [4/4] josx & adrian
+*** DONE borrar archivos de node-cellar
+*** DONE revert checksum changes
+*** DONE in-tree fonts
+se usa el formato ??? wof
+estandard para HTML5
+*** DONE 2 issues del listado
+CLOSED: [2013-04-05 Fri 14:27]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:27]
+:END:
+
+** [0/0] adrian
+
+** [1/1] diego
+*** DONE port a 0.10
+CLOSED: [2013-04-05 Fri 14:19]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+Bug en less, reporteado fixeado.
+mergeado.
 
 ** [3/3] Juan Martin
 *** DONE driver melted
@@ -38,3 +118,10 @@ INSERT
 REMOVE
 GOTO
 …
+** [1/1] Cristian
+*** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+
+
+
+
+
