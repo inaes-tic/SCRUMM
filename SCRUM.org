@@ -2,7 +2,7 @@
 
 * <2013-04-08 Mon> Objetivos
 ** [0/2] diego
-*** STARTED sn5app de los eventos: notificacion superpuestos
+*** STARTED snapp de los eventos: notificacion superpuestos
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
