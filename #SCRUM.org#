@@ -19,14 +19,18 @@ en-US BCP47 (HTML5)
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
 :END:
 *** TODO mosto -> caspa
-
+depiende de mbc-common
+*** STARTED mbc-common
+init db
+driver de mosto recive json de conf
+migrar codigo de caspa
 * <2013-04-05 Fri> Objetivos
 ** [0/3] Fabricio
 *** TODO Terminar mosto.js
 *** TODO integracion driver json
 *** TODO mosto en 0.10
 
-** [1/3] Tom
+** [1/1] Tom
 *** DONE Driver pub/sub                                        
 CLOSED: [2013-04-05 Fri 14:33]
 :LOGBOOK:
@@ -43,7 +47,6 @@ CLOSED: [2013-04-05 Fri 14:27]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:27]
 :END:
-
 
 
 ** [/] adrian
