@@ -1,0 +1,120 @@
+Niv Sardi
+
+
+Table of Contents
+─────────────────
+
+1 <2013-04-05 Fri> Objetivos
+.. 1.1 [5/5] Fabricio
+..... 1.1.1 DONE mosto.js: fetch funciona.
+..... 1.1.2 DONE mosto.js: funcion de validacion
+..... 1.1.3 DONE mosto.js: syncro funciona
+..... 1.1.4 DONE integracion driver json
+..... 1.1.5 DONE mosto en 0.10
+.. 1.2 [1/1] Tom
+..... 1.2.1 DONE Driver pub/sub
+.. 1.3 [4/4] josx & adrian
+..... 1.3.1 DONE borrar archivos de node-cellar
+..... 1.3.2 DONE revert checksum changes
+..... 1.3.3 DONE in-tree fonts
+..... 1.3.4 DONE 2 issues del listado
+.. 1.4 [0/0] adrian
+.. 1.5 [1/1] diego
+..... 1.5.1 DONE port a 0.10
+.. 1.6 [3/3] Juan Martin
+..... 1.6.1 DONE driver melted
+..... 1.6.2 DONE kill playplaylist
+..... 1.6.3 DONE operaciones atomizadas
+.. 1.7 [1/1] Cristian
+..... 1.7.1 DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+
+
+1 <2013-04-05 Fri> Objetivos
+════════════════════════════
+
+1.1 [5/5] Fabricio
+──────────────────
+
+1.1.1 DONE mosto.js: fetch funciona.
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.1.2 DONE mosto.js: funcion de validacion
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.1.3 DONE mosto.js: syncro funciona
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.1.4 DONE integracion driver json
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.1.5 DONE mosto en 0.10
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.2 [1/1] Tom
+─────────────
+
+1.2.1 DONE Driver pub/sub
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.3 [4/4] josx & adrian
+───────────────────────
+
+1.3.1 DONE borrar archivos de node-cellar
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.3.2 DONE revert checksum changes
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.3.3 DONE in-tree fonts
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+  se usa el formato ??? wof estandard para HTML5
+
+
+1.3.4 DONE 2 issues del listado
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.4 [0/0] adrian
+────────────────
+
+
+1.5 [1/1] diego
+───────────────
+
+1.5.1 DONE port a 0.10
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+  Bug en less, reporteado fixeado. mergeado.
+
+
+1.6 [3/3] Juan Martin
+─────────────────────
+
+1.6.1 DONE driver melted
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.6.2 DONE kill playplaylist
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+
+1.6.3 DONE operaciones atomizadas
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+
+  INSERT REMOVE GOTO …
+
+
+1.7 [1/1] Cristian
+──────────────────
+
+1.7.1 DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
