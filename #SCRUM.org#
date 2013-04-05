@@ -13,18 +13,26 @@ en-US BCP47 (HTML5)
 
 *** TODO Conf module en backbone.io
 *** TODO UI de configuración
+** [0/2] tom
+*** STARTED tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
+*** TODO mosto -> caspa
+
 * <2013-04-05 Fri> Objetivos
 ** [0/3] Fabricio
 *** TODO Terminar mosto.js
 *** TODO integracion driver json
 *** TODO mosto en 0.10
 
-** [0/3] Tom
-*** TODO Driver pub/sub                                        
-*** TODO tests mocha
-*** TODO mosto -> caspa
-
-** [4/6] josx & adrian
+** [1/3] Tom
+*** DONE Driver pub/sub                                        
+CLOSED: [2013-04-05 Fri 14:33]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:33]
+:END:
+** [4/4] josx & adrian
 *** DONE borrar archivos de node-cellar
 *** DONE revert checksum changes
 *** DONE in-tree fonts
@@ -72,6 +80,7 @@ GOTO
 ** [1/5] Cristian
 *** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
 
+*** DONE Eliminar directorios absolutos a mosto.
 *** TODO fork de melted en tic
 *** TODO realizar los merge de mosto
 *** TODO definición de políticas de merging para mosto 
