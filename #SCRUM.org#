@@ -26,7 +26,20 @@ driver de mosto recive json de conf
 migrar codigo de caspa
 * <2013-04-05 Fri> Objetivos
 ** [0/3] Fabricio
-*** TODO Terminar mosto.js
+*** STARTED Terminar mosto.js
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+
+resolviendo incoherencia playlist -> clips (falta testeo)
+debugeando tema de timecodes
+
+
+*** DONE mosto.js: fetch funciona.
+
+funcion de validacion
+syncro funciona
 *** TODO integracion driver json
 *** TODO mosto en 0.10
 
