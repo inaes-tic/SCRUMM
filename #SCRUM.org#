@@ -1,0 +1,145 @@
+#+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
+
+* <2013-04-10 Wed> Objetivos
+** [/] tom
+*** STARTED mosto -> caspa
+depiende de mbc-common
+
+*** STARTED driver redis
+ Empecé a escribir el driver de pub/sub para redis en mbc-common. La
+ única dificultad "extra" es que estaría lindo wrappearlo para poder
+ publicar / recibir mensajes JSON, y sería hermoso poder FILTRAR por
+ campos de objetos JSON como hace mubsub. Pude hacer la parte de
+ publicar todo bien, con lo de convertir de string a JSON antes de
+ levantar el evento de publish no me salió, pero tampoco tuve tiempo de
+ debuggear por qué se está rompiendo, seguro es una tontería.
+
+
+* <2013-04-08 Mon> Objetivos
+** [0/2] diego
+*** STARTED snapp de los eventos: notificacion superpuestos
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+
+*** TODO merge pull requests
+** [0/3] adrian
+*** STARTED fila vacia
+
+*** TODO paginación
+*** STARTED merge kb
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
+:END:
+** [0/3] josx
+*** STARTED i18n-abide bug
+en-US BCP47 (HTML5)
+
+*** TODO Conf module en backbone.io
+*** TODO UI de configuración
+** [0/3] tom
+*** STARTED tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
+
+*** STARTED mbc-common
+init db
+driver de mosto recive json de conf
+migrar codigo de caspa
+
+** [0/1] juan martin
+*** TODO test test test
+** [0/4] fabricio
+*** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** STARTED debugeando tema de timecodes
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** TODO tests mocha
+*** TODO integracion driver mubsub
+** [0/2] cristian
+*** STARTED Eliminar directorios absolutos a mosto.
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
+:END:
+
+*** TODO testear, mocha
+
+
+* <2013-04-05 Fri> Objetivos
+** [5/5] Fabricio
+*** DONE mosto.js: fetch funciona.
+*** DONE mosto.js: funcion de validacion
+*** DONE mosto.js: syncro funciona
+*** DONE integracion driver json
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
+*** DONE mosto en 0.10
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
+
+** [1/1] Tom
+*** DONE Driver pub/sub                                        
+CLOSED: [2013-04-05 Fri 14:33]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:33]
+:END:
+** [4/4] josx & adrian
+*** DONE borrar archivos de node-cellar
+*** DONE revert checksum changes
+*** DONE in-tree fonts
+se usa el formato ??? wof
+estandard para HTML5
+*** DONE 2 issues del listado
+CLOSED: [2013-04-05 Fri 14:27]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:27]
+:END:
+
+** [0/0] adrian
+** [1/1] diego
+*** DONE port a 0.10
+CLOSED: [2013-04-05 Fri 14:19]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+Bug en less, reporteado fixeado.
+mergeado.
+
+** [3/3] Juan Martin
+*** DONE driver melted
+CLOSED: [2013-04-05 Fri 12:51]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:51]
+:END:
+*** DONE kill playplaylist
+CLOSED: [2013-04-05 Fri 12:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:52]
+:END:
+*** DONE operaciones atomizadas
+CLOSED: [2013-04-05 Fri 12:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:52]
+:END:
+INSERT
+REMOVE
+GOTO
+…
+** [1/1] Cristian
+*** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+
+
+
+
+
