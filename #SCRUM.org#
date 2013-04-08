@@ -59,9 +59,11 @@ bug: change event when modify something from another view.
 *** TODO async events for drivers
 *** TODO queue for drivers.
 *** TODO melted clips: have usefull names. 
-** [/] cristian
+** [0/1] cristian
 *** REPORT test test test <-                                      :jmrunge:
 
+** [0/0] tom
+*** TODO mosto -> caspa
 * <2013-04-08 Mon> Objetivos
 ** [1/1] diego
 *** DONE merge pull requests
@@ -71,12 +73,12 @@ bug: change event when modify something from another view.
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
 :END:
-** [1/3] josx
+** [2/2] josx
 *** DONE Conf module en backbone.io
 CLOSED: [2013-04-08 Mon 14:14]
 *** DONE i18n-abide: language string
-** [0/3] tom
-** [1/2] juan martin
+** [0/0] tom
+** [1/1] juan martin
 *** DONE bugfix:
 ** [0/4] fabricio
 *** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
@@ -92,10 +94,6 @@ CLOSED: [2013-04-08 Mon 14:14]
 *** TODO tests mocha
 *** TODO integracion driver mubsub
 ** [0/2] cristian
-*** STARTED Eliminar directorios absolutos a mosto.
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
-:END:
 
 *** TODO testear, mocha
 
