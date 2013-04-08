@@ -1,5 +1,8 @@
 #+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
 
+* Backlog
+** REPORT paginación                                                   :sip:
+
 * <2013-04-10 Wed> Objetivos
 ** [0/5] tom
 *** STARTED mosto -> caspa
@@ -39,23 +42,25 @@ notificacion superpuestos
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
 *** STARTED UI de conflictos
- 
 ** [/] adrian
 *** TODO medios repetidos
+*** TODO bug 'guardar o no los cambios'
+
 * <2013-04-08 Mon> Objetivos
 ** [1/1] diego
 *** DONE merge pull requests
-** [2/3] adrian
+** [2/2] adrian
 *** DONE fila vacia
-*** REPORT paginación
-
 *** DONE merge kb
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
 :END:
 ** [0/3] josx
+
+*** DONE
 *** STARTED i18n-abide bug
 en-US BCP47 (HTML5)
+-> follow up con hatsch
 
 *** TODO Conf module en backbone.io
 *** TODO UI de configuración
