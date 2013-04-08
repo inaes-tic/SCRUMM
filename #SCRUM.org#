@@ -46,14 +46,18 @@ notificacion superpuestos
 *** TODO medios repetidos
 *** TODO bug 'guardar o no los cambios'
 
-
-** [1/3] josx
+** [0/3] josx
 *** STARTED i18n-abide bug
 en-US BCP47 (HTML5)
 -> follow up con hatsch
 
 *** STARTED UI de configuración
-bug: change event when modify ts
+bug: change event when modify something from another view.
+*** TODO merge node-config
+
+** [/] jmrunge
+*** TODO async events for drivers
+*** TODO queue 
 * <2013-04-08 Mon> Objetivos
 ** [1/1] diego
 *** DONE merge pull requests
@@ -70,6 +74,7 @@ CLOSED: [2013-04-08 Mon 14:14]
 ** [0/3] tom
 ** [0/1] juan martin
 *** TODO test test test
+*** DONE bugfix:
 ** [0/4] fabricio
 *** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
 :LOGBOOK:
