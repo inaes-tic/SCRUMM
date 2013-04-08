@@ -34,7 +34,8 @@ init db
 driver de mosto recive json de conf
 migrar codigo de caspa
 
-** [/] juan martin
+** [0/1] juan martin
+*** TODO test test test
 ** [0/4] fabricio
 *** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
 :LOGBOOK:
@@ -47,7 +48,7 @@ migrar codigo de caspa
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
 :END:
 *** TODO tests mocha
-*** TODO driver mubsub
+*** TODO integracion driver mubsub
 ** [0/2] cristian
 *** STARTED Eliminar directorios absolutos a mosto.
 :LOGBOOK:
