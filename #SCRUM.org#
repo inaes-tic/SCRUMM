@@ -55,9 +55,13 @@ en-US BCP47 (HTML5)
 bug: change event when modify something from another view.
 *** TODO merge node-config
 
-** [/] jmrunge
+** [0/3] jmrunge
 *** TODO async events for drivers
-*** TODO queue 
+*** TODO queue for drivers.
+*** TODO melted clips: have usefull names. 
+** [/] cristian
+*** REPORT test test test <-                                      :jmrunge:
+
 * <2013-04-08 Mon> Objetivos
 ** [1/1] diego
 *** DONE merge pull requests
@@ -72,8 +76,7 @@ bug: change event when modify something from another view.
 CLOSED: [2013-04-08 Mon 14:14]
 *** DONE i18n-abide: language string
 ** [0/3] tom
-** [0/1] juan martin
-*** TODO test test test
+** [1/2] juan martin
 *** DONE bugfix:
 ** [0/4] fabricio
 *** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
