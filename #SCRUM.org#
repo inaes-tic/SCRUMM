@@ -1,9 +1,11 @@
 #+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
 
 * <2013-04-10 Wed> Objetivos
-** [/] tom
+** [0/4] tom
 *** STARTED mosto -> caspa
 depiende de mbc-common
+
+<2013-04-08 Mon> blockeado por driver redis
 
 *** STARTED driver redis
  Empecé a escribir el driver de pub/sub para redis en mbc-common. La
@@ -14,7 +16,22 @@ depiende de mbc-common
  levantar el evento de publish no me salió, pero tampoco tuve tiempo de
  debuggear por qué se está rompiendo, seguro es una tontería.
 
+*** driver mubsub: pull playlist
+CLOSED: [2013-04-08 Mon 11:53]
+Empecé con los arreglos que hablamos en la mailing list al driver de
+playlists de mongodb: permitirle a mosto pollear las playlists que
+necesita
+*** STARTED tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
 
+*** STARTED mbc-common
+init db
+driver de mosto recive json de conf
+migrar codigo de caspa
+
+*
 * <2013-04-08 Mon> Objetivos
 ** [0/2] diego
 *** STARTED snapp de los eventos: notificacion superpuestos
@@ -38,17 +55,7 @@ en-US BCP47 (HTML5)
 *** TODO Conf module en backbone.io
 *** TODO UI de configuración
 ** [0/3] tom
-*** STARTED tests mocha
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
-:END:
-
-*** STARTED mbc-common
-init db
-driver de mosto recive json de conf
-migrar codigo de caspa
-
-** [0/1] juan martin
+* [0/1] juan martin
 *** TODO test test test
 ** [0/4] fabricio
 *** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
