@@ -60,8 +60,14 @@ bug: change event when modify something from another view.
 *** TODO queue for drivers.
 *** TODO melted clips: have usefull names. 
 ** [0/1] cristian
+*** STARTED +Eliminar directorios absolutos a mosto.
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
+:END:
+
 *** REPORT test test test <-                                      :jmrunge:
 
+*** TODO +test core, mocha
 ** [0/0] tom
 *** TODO mosto -> caspa
 * <2013-04-08 Mon> Objetivos
@@ -93,9 +99,7 @@ CLOSED: [2013-04-08 Mon 14:14]
 :END:
 *** TODO tests mocha
 *** TODO integracion driver mubsub
-** [0/2] cristian
-
-*** TODO testear, mocha
+** [0/0] cristian
 
 
 * <2013-04-05 Fri> Objetivos
