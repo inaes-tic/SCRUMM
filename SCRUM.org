@@ -1,5 +1,8 @@
 #+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
 
+* Backlog
+** REPORT paginación                                                   :sip:
+
 * <2013-04-10 Wed> Objetivos
 ** [0/5] tom
 *** STARTED mosto -> caspa
@@ -32,31 +35,72 @@ migrar codigo de caspa
 
 *
 
-* <2013-04-08 Mon> Objetivos
-** [0/2] diego
-*** STARTED snapp de los eventos: notificacion superpuestos
+** [/] diego
+*** STARTED snapp de los eventos:
+notificacion superpuestos
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
+*** STARTED UI de conflictos
+** [/] adrian
+*** TODO medios repetidos
+*** TODO bug 'guardar o no los cambios'
 
-*** TODO merge pull requests
-** [0/3] adrian
-*** STARTED fila vacia
-
-*** TODO paginación
-*** STARTED merge kb
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
-:END:
 ** [0/3] josx
 *** STARTED i18n-abide bug
 en-US BCP47 (HTML5)
+-> follow up con hatsch
 
-*** TODO Conf module en backbone.io
-*** TODO UI de configuración
-** [0/3] tom
-** [0/1] juan martin
-*** TODO test test test
+*** STARTED UI de configuración
+bug: change event when modify something from another view.
+*** TODO merge node-config
+
+** [0/3] jmrunge
+*** TODO async events for drivers
+*** TODO queue for drivers.
+*** TODO melted clips: have usefull names. 
+** [0/1] cristian
+*** STARTED +Eliminar directorios absolutos a mosto.
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
+:END:
+
+*** REPORT test test test <-                                      :jmrunge:
+
+*** TODO +test core, mocha
+** [0/0] tom
+*** TODO mosto -> caspa
+
+** [0/4] fabricio
+*** STARTED +resolviendo incoherencia playlist -> clips (falta testeo)
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** STARTED +debugeando tema de timecodes
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** TODO +tests mocha
+*** TODO +integracion driver mubsub
+
+* <2013-04-08 Mon> Objetivos
+** [1/1] diego
+*** DONE merge pull requests
+** [2/2] adrian
+*** DONE fila vacia
+*** DONE merge kb
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
+:END:
+** [2/2] josx
+*** DONE Conf module en backbone.io
+CLOSED: [2013-04-08 Mon 14:14]
+*** DONE i18n-abide: language string
+** [0/0] tom
+** [1/1] juan martin
+*** DONE bugfix:
 ** [0/4] fabricio
 *** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
 :LOGBOOK:
@@ -70,13 +114,7 @@ en-US BCP47 (HTML5)
 :END:
 *** TODO tests mocha
 *** TODO integracion driver mubsub
-** [0/2] cristian
-*** STARTED Eliminar directorios absolutos a mosto.
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
-:END:
-
-*** TODO testear, mocha
+** [0/0] cristian
 
 
 * <2013-04-05 Fri> Objetivos
