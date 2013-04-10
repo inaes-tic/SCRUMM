@@ -8,7 +8,11 @@
 *** STARTED mosto -> caspa
 depiende de mbc-common
 
-<2013-04-08 Mon> blockeado por driver redis
+
+**** WONTFIX <2013-04-08 Mon> blockeado por driver redis 
+**** DONE <2013-04-10 Wed> publica el estatus
+**** STARTED <2013-04-10 Wed> falta definir
+
 
 *** STARTED driver redis
  Empecé a escribir el driver de pub/sub para redis en mbc-common. La
@@ -35,30 +39,11 @@ migrar codigo de caspa
 
 *
 
-** [0/2] diego
-*** STARTED snapp de los eventos:
-notificacion superpuestos
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
-:END:
-*** STARTED UI de conflictos
-** [0/2] adrian
-*** TODO medios repetidos
-*** TODO bug 'guardar o no los cambios'
-
-** [0/3] josx
-*** STARTED i18n-abide bug
-en-US BCP47 (HTML5)
--> follow up con hatsch
-
-*** STARTED UI de configuración
-bug: change event when modify something from another view.
-*** TODO merge node-config
-
 ** [0/3] jmrunge
 *** TODO async events for drivers
 *** TODO queue for drivers.
 *** TODO melted clips: have usefull names. 
+
 ** [0/3] cristian
 *** STARTED +Eliminar directorios absolutos a mosto.
 :LOGBOOK:
@@ -81,6 +66,27 @@ bug: change event when modify something from another view.
 :END:
 *** TODO +tests mocha
 *** TODO +integracion driver mubsub
+
+** [0/2] diego
+*** STARTED snapp de los eventos:
+notificacion superpuestos
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+*** STARTED UI de conflictos
+** [0/2] adrian
+*** TODO medios repetidos
+*** TODO bug 'guardar o no los cambios'
+
+** [0/3] josx
+*** STARTED i18n-abide bug
+en-US BCP47 (HTML5)
+-> follow up con hatsch
+
+*** STARTED UI de configuración
+bug: change event when modify something from another view.
+*** TODO merge node-config
+
 
 * <2013-04-08 Mon> Objetivos
 ** [1/1] diego
