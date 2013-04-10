@@ -67,7 +67,7 @@ notificacion superpuestos
 <2013-04-10 Wed> investigar librerias de undo
 *** REPORT medios repetidos                                         :xaiki:
 <2013-04-10 Wed> a hablar
-*** TODO migrar a kb: el header
+*** TODO [#A] migrar a kb: el header
 
 ** [1/3] josx
 *** REPORT i18n-abide bug                                          :hatsch:
