@@ -14,9 +14,17 @@ depiende de mbc-common
 **** DONE <2013-04-10 Wed> pasa solo lo que cambio.
 **** STARTED <2013-04-10 Wed> falta definir lo que sube
 
+*** STARTED +tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
+**** DONE <2013-04-10 Wed> algunos tests
+
+**** TODO <2013-04-10 Wed> test CUD
+**** TODO <2013-04-10 Wed> test getplaylist
+
 * <2013-04-10 Wed> Objetivos
 ** [1/5] tom
-
 *** WONTFIX driver redis
 CLOSED: [2013-04-10 Wed 14:42]
  Empecé a escribir el driver de pub/sub para redis en mbc-common. La
@@ -31,18 +39,16 @@ CLOSED: [2013-04-10 Wed 14:42]
 **** <2013-04-08 Mon> Empecé con los arreglos que hablamos en la mailing list
 al driver de playlists de mongodb: permitirle a mosto pollear las playlists
 que necesita
-*** STARTED tests mocha
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
-:END:
-**** <2013-04-10 Wed> algunos tests
-
 *** STARTED mbc-common
-init db
-driver de mosto recive json de conf
-migrar codigo de caspa
 
-*
+**** DONE init db
+**** driver de mosto recive json de conf
+
+
+*** DONE driver pub-sub
+
+
+migrar codigo de caspa
 
 ** [0/3] jmrunge
 *** TODO async events for drivers
