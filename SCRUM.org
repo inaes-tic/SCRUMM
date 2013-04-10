@@ -52,6 +52,16 @@ depiende de mbc-common
 *** TODO ++integracion driver mubsub
 
 <2013-04-10 Wed> no se toco
+** [0/2] diego
+*** STARTED portar a FC 1.5
+notificacion superpuestos
+<2013-04-10 Wed> andaba con FC 1.6
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+*** TODO reinstalar su systema operativo.
+
+*** TODO UI Configuracion
 * <2013-04-10 Wed> Objetivos
 ** [3/3] tom
 *** WONTFIX driver redis
@@ -85,13 +95,6 @@ que necesita
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
 :END:
 ** [0/2] diego
-*** STARTED portar a FC 1.5
-notificacion superpuestos
-<2013-04-10 Wed> andaba con FC 1.6
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
-:END:
-*** TODO reinstalar su systema operativo.
 *** DONE UI de conflictos
 ** [0/2] adrian
 *** TODO medios repetidos
