@@ -5,9 +5,8 @@
 
 
 * <2013-04-12 Fri> Objetivos
-* <2013-04-10 Wed> Objetivos
-** [1/5] tom
-*** STARTED mosto -> caspa
+** [/] tom
+*** STARTED +mosto -> caspa
 depiende de mbc-common
 
 **** WONTFIX <2013-04-08 Mon> blockeado por driver redis 
@@ -15,6 +14,8 @@ depiende de mbc-common
 **** DONE <2013-04-10 Wed> pasa solo lo que cambio.
 **** STARTED <2013-04-10 Wed> falta definir lo que sube
 
+* <2013-04-10 Wed> Objetivos
+** [1/5] tom
 
 *** WONTFIX driver redis
 CLOSED: [2013-04-10 Wed 14:42]
@@ -26,16 +27,15 @@ CLOSED: [2013-04-10 Wed 14:42]
  levantar el evento de publish no me salió, pero tampoco tuve tiempo de
  debuggear por qué se está rompiendo, seguro es una tontería.
 
-*** STARTED driver mubsub: pull playlist
-<2013-04-08 Mon>Empecé con los arreglos que hablamos en la mailing list al driver de
-
-
-playlists de mongodb: permitirle a mosto pollear las playlists que
-necesita
+*** DONE +driver mubsub: pull playlist
+**** <2013-04-08 Mon> Empecé con los arreglos que hablamos en la mailing list
+al driver de playlists de mongodb: permitirle a mosto pollear las playlists
+que necesita
 *** STARTED tests mocha
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
 :END:
+**** <2013-04-10 Wed> algunos tests
 
 *** STARTED mbc-common
 init db
