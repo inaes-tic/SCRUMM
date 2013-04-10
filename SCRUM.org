@@ -40,7 +40,7 @@ depiende de mbc-common
 **** +test core, mocha
 **** lista de tests
 *** TODO 2 tests
-*** TODO integracion continua: jenkins
+*** TODO integracion continua: jenkins o otro.
 * <2013-04-10 Wed> Objetivos
 ** [3/3] tom
 *** WONTFIX driver redis
