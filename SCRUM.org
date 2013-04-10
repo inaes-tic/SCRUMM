@@ -51,6 +51,7 @@ depiende de mbc-common
 <2013-04-10 Wed> parte de la logica
 *** TODO ++integracion driver mubsub
 
+<2013-04-10 Wed> no se toco
 * <2013-04-10 Wed> Objetivos
 ** [3/3] tom
 *** WONTFIX driver redis
@@ -77,20 +78,21 @@ que necesita
 - State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
 :END:
 
-** [0/4] fabricio
+** [1/1] fabricio
 *** DONE +debugeando tema de timecodes
 :LOGBOOK:
 - State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
 :END:
-
 ** [0/2] diego
-*** STARTED snapp de los eventos:
+*** STARTED portar a FC 1.5
 notificacion superpuestos
+<2013-04-10 Wed> andaba con FC 1.6
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
-*** STARTED UI de conflictos
+*** TODO reinstalar su systema operativo.
+*** DONE UI de conflictos
 ** [0/2] adrian
 *** TODO medios repetidos
 *** TODO bug 'guardar o no los cambios'
