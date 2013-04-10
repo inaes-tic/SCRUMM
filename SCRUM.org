@@ -41,6 +41,16 @@ depiende de mbc-common
 **** lista de tests
 *** TODO 2 tests
 *** TODO integracion continua: jenkins o otro.
+** [0/4] fabricio
+*** STARTED ++resolviendo incoherencia playlist -> clips (falta testeo)
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** STARTED ++tests mocha
+<2013-04-10 Wed> parte de la logica
+*** TODO ++integracion driver mubsub
+
 * <2013-04-10 Wed> Objetivos
 ** [3/3] tom
 *** WONTFIX driver redis
@@ -61,26 +71,18 @@ que necesita
 ** [2/2] jmrunge
 *** DONE async events for drivers
 *** DONE queue for drivers.
-** [0/3] cristian
+** [1/1] cristian
 *** DONE +Eliminar directorios absolutos a mosto.
 :LOGBOOK:
 - State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
 :END:
 
-
 ** [0/4] fabricio
-*** STARTED +resolviendo incoherencia playlist -> clips (falta testeo)
+*** DONE +debugeando tema de timecodes
 :LOGBOOK:
 - State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
 :END:
-*** STARTED +debugeando tema de timecodes
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
-- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
-:END:
-*** TODO +tests mocha
-*** TODO +integracion driver mubsub
 
 ** [0/2] diego
 *** STARTED snapp de los eventos:
