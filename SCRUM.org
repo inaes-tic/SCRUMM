@@ -5,8 +5,18 @@
 
 
 * <2013-04-12 Fri> Objetivos
-** [/] tom
-*** STARTED +mosto -> caspa
+** [0/3] tom
+*** STARTED [#A] +tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
+**** DONE <2013-04-10 Wed> algunos tests
+
+**** [#B] TODO <2013-04-10 Wed> test CUD playlist
+
+**** [#A] TODO <2013-04-10 Wed> test status
+**** [#C] TODO <2013-04-10 Wed> test getplaylist
+*** STARTED [#B] +mosto -> caspa
 depiende de mbc-common
 
 **** WONTFIX <2013-04-08 Mon> blockeado por driver redis 
@@ -14,18 +24,16 @@ depiende de mbc-common
 **** DONE <2013-04-10 Wed> pasa solo lo que cambio.
 **** STARTED <2013-04-10 Wed> falta definir lo que sube
 
-*** STARTED +tests mocha
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
-:END:
-**** DONE <2013-04-10 Wed> algunos tests
-
-**** TODO <2013-04-10 Wed> test CUD
-**** TODO <2013-04-10 Wed> test getplaylist
-*** STARTED mbc-common
+*** STARTED [#C] mbc-common
 **** DONE <2013-04-10 Wed> init db
 **** TODO driver de mosto recive json de conf                       :josx:
 **** TODO migrar codigo de caspa
+
+** [0/2] jmrunge
+*** STARTED +melted clips: have usefull names. 
+*** STARTED bug melted-node                                      :fabricio:
+
+*** TODO getStatus, getPlaylist: JSON -> Obj Mosto
 
 * <2013-04-10 Wed> Objetivos
 ** [1/5] tom
@@ -44,12 +52,9 @@ CLOSED: [2013-04-10 Wed 14:42]
 al driver de playlists de mongodb: permitirle a mosto pollear las playlists
 que necesita
 *** DONE driver pub-sub
-
 ** [0/3] jmrunge
-*** TODO async events for drivers
-*** TODO queue for drivers.
-*** TODO melted clips: have usefull names. 
-
+*** DONE async events for drivers
+*** DONE queue for drivers.
 ** [0/3] cristian
 *** STARTED +Eliminar directorios absolutos a mosto.
 :LOGBOOK:
