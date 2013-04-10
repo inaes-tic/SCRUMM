@@ -142,21 +142,8 @@ CLOSED: [2013-04-08 Mon 14:14]
 ** [0/0] tom
 ** [1/1] juan martin
 *** DONE bugfix:
-** [0/4] fabricio
-*** STARTED resolviendo incoherencia playlist -> clips (falta testeo)
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
-- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
-:END:
-*** STARTED debugeando tema de timecodes
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
-- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
-:END:
-*** TODO tests mocha
-*** TODO integracion driver mubsub
+** [0/0] fabricio
 ** [0/0] cristian
-
 
 * <2013-04-05 Fri> Objetivos
 ** [5/5] Fabricio
