@@ -52,8 +52,8 @@ depiende de mbc-common
 *** TODO ++integracion driver mubsub
 
 <2013-04-10 Wed> no se toco
-** [0/2] diego
-*** STARTED portar a FC 1.5
+** [0/3] diego
+*** STARTED +portar a FC 1.5
 notificacion superpuestos
 <2013-04-10 Wed> andaba con FC 1.6
 :LOGBOOK:
@@ -62,6 +62,13 @@ notificacion superpuestos
 *** TODO reinstalar su systema operativo.
 
 *** TODO UI Configuracion
+** [0/3] adrian
+*** STARTED +bug 'guardar o no los cambios'
+<2013-04-10 Wed> investigar librerias de undo
+*** REPORT medios repetidos                                         :xaiki:
+<2013-04-10 Wed> a hablar
+*** TODO migrar a kb: el header
+
 * <2013-04-10 Wed> Objetivos
 ** [3/3] tom
 *** WONTFIX driver redis
@@ -94,16 +101,16 @@ que necesita
 - State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
 :END:
-** [0/2] diego
+** [1/1] diego
 *** DONE UI de conflictos
-** [0/2] adrian
-*** TODO medios repetidos
-*** TODO bug 'guardar o no los cambios'
+** [0/0] adrian
 
 ** [0/3] josx
-*** STARTED i18n-abide bug
+*** DONE i18n-abide bug
 en-US BCP47 (HTML5)
 -> follow up con hatsch
+
+**** DONE <2013-04-10 Wed> cambiaba la conf
 
 *** STARTED UI de configuración
 bug: change event when modify something from another view.
