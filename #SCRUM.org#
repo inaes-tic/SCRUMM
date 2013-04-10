@@ -105,20 +105,22 @@ que necesita
 *** DONE UI de conflictos
 ** [0/0] adrian
 
-** [0/3] josx
+** [1/3] josx
 *** REPORT i18n-abide bug                                          :hatsch:
 en-US BCP47 (HTML5)
 -> follow up con hatsch
 
 **** DONE <2013-04-10 Wed> cambiaba la conf
 
-*** STARTED UI de configuración
+*** STARTED +UI de configuración
 bug: change event when modify something from another view.
-
-
-**** <2013-04-10 Wed>  
-*** TODO merge node-config
-
+**** DONE <2013-04-10 Wed> UI Basica
+**** TODO Pulir,
+**** TODO 3 niveles
+**** TODO configuracion de caspa
+*** WONTFIX merge node-config
+CLOSED: [2013-04-10 Wed 15:05]
+<2013-04-10 Wed> se resolvio.
 
 * <2013-04-08 Mon> Objetivos
 ** [1/1] diego
