@@ -3,7 +3,6 @@
 * Backlog
 ** REPORT paginación                                                   :sip:
 
-
 * <2013-04-12 Fri> Objetivos
 ** [0/3] tom
 *** STARTED [#A] +tests mocha
