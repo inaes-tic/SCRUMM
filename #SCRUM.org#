@@ -23,7 +23,11 @@ CLOSED: [2013-04-12 Fri 14:33]
 **** TODO driver de mosto recive json de conf                       :josx:
 **** TODO migrar codigo de caspa
 *** TODO travis mbc-common
+*** REPORT travis not failing
 ** [0/0] jmrunge
+*** REPORT travis not failing
+*** TODO [#A] test for
+*** TODO [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
 ** [0/0] cristian
 ** [0/4] fabricio
 *** TODO test bug melted-node
@@ -68,11 +72,12 @@ depiende de mbc-common
 **** DONE <2013-04-10 Wed> falta definir lo que sube
 CLOSED: [2013-04-12 Fri 14:34]
 
-** [0/3] jmrunge
-*** STARTED [#A] +melted clips: have usefull names. 
-*** STARTED [#B]bug melted-node                                    :fabricio:
+** [2/3] jmrunge
+*** DONE [#A] +melted clips: have usefull names. 
+CLOSED: [2013-04-12 Fri 14:39]
+*** DONE [#B]bug melted-node                                     :fabricio:
+CLOSED: [2013-04-12 Fri 14:39]
 
-*** TODO [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
 ** [0/3] cristian
 *** STARTED test test test <-                                       :jmrunge:
 <2013-04-10 Wed> started
