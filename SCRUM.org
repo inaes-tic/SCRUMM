@@ -20,6 +20,15 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 *** TODO [#A] migrar a kb: el header
 <2013-04-12 Fri> no progress
 
+
+** [/] josx
+*** STARTED node-config fork
+to-merge
+
+*** STARTED migrate conf-view to kb
+<2013-04-12 Fri> hard without backbone-relational
+*** TODO [#A] migrate to mbc-common
+*** TODO [#C] travis for backbone.io
 * <2013-04-12 Fri> Objetivos
 ** [0/3] tom
 *** STARTED [#A] +tests mocha
@@ -80,19 +89,24 @@ notificacion superpuestos
 *** TODO UI Configuracion
 ** [0/3] adrian
 
-** [1/3] josx
-*** REPORT i18n-abide bug                                          :hatsch:
+** [3/3] josx
+*** DONE i18n-abide bug                                            :hatsch:
+CLOSED: [2013-04-12 Fri 14:19]
 en-US BCP47 (HTML5)
 -> follow up con hatsch
-
 **** DONE <2013-04-10 Wed> cambiaba la conf
 
-*** STARTED +UI de configuración
+*** DONE node-config middleware
+*** DONE +UI de configuración
+CLOSED: [2013-04-12 Fri 14:24]
 bug: change event when modify something from another view.
 **** DONE <2013-04-10 Wed> UI Basica
-**** TODO Pulir,
-**** TODO 3 niveles
-**** TODO configuracion de caspa
+**** DONE Pulir,
+CLOSED: [2013-04-12 Fri 14:24]
+**** DONE 3 niveles
+CLOSED: [2013-04-12 Fri 14:24]
+**** DONE configuracion de caspa
+CLOSED: [2013-04-12 Fri 14:24]
 
 * <2013-04-10 Wed> Objetivos
 ** [3/3] tom
