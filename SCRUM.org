@@ -4,6 +4,22 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 * Backlog
 ** REPORT paginación                                                   :sip:
 
+
+* <2013-04-15 Mon> Objetivos
+** [0/3] tom
+** [0/2] jmrunge
+** [0/3] cristian
+** [0/4] fabricio
+** [0/3] diego
+** [0/3] adrian
+*** STARTED ++bug 'guardar o no los cambios'
+<2013-04-10 Wed> +investigar librerias de undo
+*** REPORT +medios repetidos                                          :xaiki:
+<2013-04-10 Wed> a hablar
+<2013-04-12 Fri> se hace save
+*** TODO [#A] migrar a kb: el header
+<2013-04-12 Fri> no progress
+
 * <2013-04-12 Fri> Objetivos
 ** [0/3] tom
 *** STARTED [#A] +tests mocha
@@ -63,11 +79,6 @@ notificacion superpuestos
 
 *** TODO UI Configuracion
 ** [0/3] adrian
-*** STARTED +bug 'guardar o no los cambios'
-<2013-04-10 Wed> investigar librerias de undo
-*** REPORT medios repetidos                                         :xaiki:
-<2013-04-10 Wed> a hablar
-*** TODO [#A] migrar a kb: el header
 
 ** [1/3] josx
 *** REPORT i18n-abide bug                                          :hatsch:
