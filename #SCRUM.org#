@@ -1,0 +1,248 @@
+#+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
+https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
+
+* Backlog
+** REPORT paginación                                                   :sip:
+
+
+* <2013-04-15 Mon> Objetivos
+** [0/0] tom
+*** STARTED [#A] ++tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
+**** DONE <2013-04-10 Wed> algunos tests
+
+**** DONE [#B] <2013-04-10 Wed> test CUD playlist
+CLOSED: [2013-04-12 Fri 14:33]
+
+**** STARTED [#A] <2013-04-10 Wed> test status
+**** TODO [#C] <2013-04-10 Wed> test getplaylist
+*** STARTED [#B] +mbc-common
+**** DONE <2013-04-10 Wed> init db
+**** TODO driver de mosto recive json de conf                       :josx:
+**** TODO migrar codigo de caspa
+*** TODO travis mbc-common
+** [0/0] jmrunge
+** [0/0] cristian
+** [0/4] fabricio
+*** TODO test bug melted-node
+*** STARTED ++resolviendo incoherencia playlist -> clips (falta testeo)
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** STARTED ++tests mocha
+<2013-04-10 Wed> parte de la logica
+<2013-04-12 Fri> not started
+*** TODO +++integracion driver mubsub
+<2013-04-10 Wed> no se toco
+
+** [0/0] diego
+** [0/3] adrian
+*** STARTED ++bug 'guardar o no los cambios'
+<2013-04-10 Wed> +investigar librerias de undo
+*** REPORT +medios repetidos                                          :xaiki:
+<2013-04-10 Wed> a hablar
+<2013-04-12 Fri> se hace save
+*** TODO [#A] migrar a kb: el header
+<2013-04-12 Fri> no progress
+
+** [0/4] josx
+*** STARTED node-config fork
+to-merge
+
+*** STARTED migrate conf-view to kb
+<2013-04-12 Fri> hard without backbone-relational
+*** TODO [#A] migrate to mbc-common
+*** TODO [#C] travis for backbone.io
+* <2013-04-12 Fri> Objetivos
+** [1/1] tom
+*** DONE [#B] +mosto -> caspa
+CLOSED: [2013-04-12 Fri 14:34]
+depiende de mbc-common
+
+**** WONTFIX <2013-04-08 Mon> blockeado por driver redis 
+**** DONE <2013-04-10 Wed> publica el estatus
+**** DONE <2013-04-10 Wed> pasa solo lo que cambio.
+**** DONE <2013-04-10 Wed> falta definir lo que sube
+CLOSED: [2013-04-12 Fri 14:34]
+
+** [0/3] jmrunge
+*** STARTED [#A] +melted clips: have usefull names. 
+*** STARTED [#B]bug melted-node                                    :fabricio:
+
+*** TODO [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
+** [0/3] cristian
+*** STARTED test test test <-                                       :jmrunge:
+<2013-04-10 Wed> started
+**** +test core, mocha
+**** lista de tests
+*** TODO 2 tests
+*** TODO integracion continua: jenkins o otro.
+** [0/3] diego
+*** STARTED +portar a FC 1.5
+notificacion superpuestos
+<2013-04-10 Wed> andaba con FC 1.6
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+*** TODO reinstalar su systema operativo.
+
+*** TODO UI Configuracion
+** [1/1] fabricio
+*** DONE bug melted-node 
+<2013-04-12 Fri> not started
+** [0/0] adrian
+
+** [3/3] josx
+*** DONE i18n-abide bug                                            :hatsch:
+CLOSED: [2013-04-12 Fri 14:19]
+en-US BCP47 (HTML5)
+-> follow up con hatsch
+**** DONE <2013-04-10 Wed> cambiaba la conf
+
+*** DONE node-config middleware
+*** DONE +UI de configuración
+CLOSED: [2013-04-12 Fri 14:24]
+bug: change event when modify something from another view.
+**** DONE <2013-04-10 Wed> UI Basica
+**** DONE Pulir,
+CLOSED: [2013-04-12 Fri 14:24]
+**** DONE 3 niveles
+CLOSED: [2013-04-12 Fri 14:24]
+**** DONE configuracion de caspa
+CLOSED: [2013-04-12 Fri 14:24]
+
+* <2013-04-10 Wed> Objetivos
+** [3/3] tom
+*** WONTFIX driver redis
+CLOSED: [2013-04-10 Wed 14:42]
+ Empecé a escribir el driver de pub/sub para redis en mbc-common. La
+ única dificultad "extra" es que estaría lindo wrappearlo para poder
+ publicar / recibir mensajes JSON, y sería hermoso poder FILTRAR por
+ campos de objetos JSON como hace mubsub. Pude hacer la parte de
+ publicar todo bien, con lo de convertir de string a JSON antes de
+ levantar el evento de publish no me salió, pero tampoco tuve tiempo de
+ debuggear por qué se está rompiendo, seguro es una tontería.
+
+*** DONE +driver mubsub: pull playlist
+**** <2013-04-08 Mon> Empecé con los arreglos que hablamos en la mailing list
+al driver de playlists de mongodb: permitirle a mosto pollear las playlists
+que necesita
+*** DONE driver pub-sub
+** [2/2] jmrunge
+*** DONE async events for drivers
+*** DONE queue for drivers.
+** [1/1] cristian
+*** DONE +Eliminar directorios absolutos a mosto.
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
+:END:
+
+** [1/1] fabricio
+*** DONE +debugeando tema de timecodes
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+** [1/1] diego
+*** DONE UI de conflictos
+** [0/0] adrian
+
+** [2/2] josx
+*** WONTFIX merge node-config
+CLOSED: [2013-04-10 Wed 15:05]
+<2013-04-10 Wed> se resolvio.
+*** DONE middleware backbone.io
+
+* <2013-04-08 Mon> Objetivos
+** [1/1] diego
+*** DONE merge pull requests
+** [2/2] adrian
+*** DONE fila vacia
+*** DONE merge kb
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
+:END:
+** [2/2] josx
+*** DONE Conf module en backbone.io
+CLOSED: [2013-04-08 Mon 14:14]
+*** DONE i18n-abide: language string
+** [0/0] tom
+** [1/1] juan martin
+*** DONE bugfix:
+** [0/0] fabricio
+** [0/0] cristian
+
+* <2013-04-05 Fri> Objetivos
+** [5/5] Fabricio
+*** DONE mosto.js: fetch funciona.
+*** DONE mosto.js: funcion de validacion
+*** DONE mosto.js: syncro funciona
+*** DONE integracion driver json
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
+*** DONE mosto en 0.10
+CLOSED: [2013-04-05 Fri 14:40]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
+:END:
+
+** [1/1] Tom
+*** DONE Driver pub/sub                                        
+CLOSED: [2013-04-05 Fri 14:33]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:33]
+:END:
+** [4/4] josx & adrian
+*** DONE borrar archivos de node-cellar
+*** DONE revert checksum changes
+*** DONE in-tree fonts
+se usa el formato ??? wof
+estandard para HTML5
+*** DONE 2 issues del listado
+CLOSED: [2013-04-05 Fri 14:27]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:27]
+:END:
+
+** [0/0] adrian
+** [1/1] diego
+*** DONE port a 0.10
+CLOSED: [2013-04-05 Fri 14:19]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+Bug en less, reporteado fixeado.
+mergeado.
+
+** [3/3] Juan Martin
+*** DONE driver melted
+CLOSED: [2013-04-05 Fri 12:51]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:51]
+:END:
+*** DONE kill playplaylist
+CLOSED: [2013-04-05 Fri 12:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:52]
+:END:
+*** DONE operaciones atomizadas
+CLOSED: [2013-04-05 Fri 12:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 12:52]
+:END:
+INSERT
+REMOVE
+GOTO
+…
+** [1/1] Cristian
+*** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+
+
+
+
+
