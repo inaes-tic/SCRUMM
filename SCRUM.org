@@ -10,6 +10,18 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** [0/2] jmrunge
 ** [0/3] cristian
 ** [0/4] fabricio
+*** TODO test bug melted-node
+*** STARTED ++resolviendo incoherencia playlist -> clips (falta testeo)
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+*** STARTED ++tests mocha
+<2013-04-10 Wed> parte de la logica
+<2013-04-12 Fri> not started
+*** TODO +++integracion driver mubsub
+<2013-04-10 Wed> no se toco
+
 ** [0/3] diego
 ** [0/3] adrian
 *** STARTED ++bug 'guardar o no los cambios'
@@ -67,16 +79,8 @@ depiende de mbc-common
 *** TODO 2 tests
 *** TODO integracion continua: jenkins o otro.
 ** [0/4] fabricio
-*** STARTED ++resolviendo incoherencia playlist -> clips (falta testeo)
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
-- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
-:END:
-*** STARTED ++tests mocha
-<2013-04-10 Wed> parte de la logica
-*** TODO ++integracion driver mubsub
-
-<2013-04-10 Wed> no se toco
+*** DONE bug melted-node 
+<2013-04-12 Fri> not started
 ** [0/3] diego
 *** STARTED +portar a FC 1.5
 notificacion superpuestos
