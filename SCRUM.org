@@ -1,4 +1,5 @@
 #+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
+https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 * Backlog
 ** REPORT paginación                                                   :sip:
