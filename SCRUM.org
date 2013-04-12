@@ -26,9 +26,17 @@ CLOSED: [2013-04-12 Fri 14:33]
 *** REPORT travis not failing
 ** [0/0] jmrunge
 *** REPORT travis not failing
-*** TODO [#A] test for melted-node bug
+*** TODO [#A] test for melted-node bug                  :fabricio:cristian:
 *** TODO [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
 ** [0/0] cristian
+*** STARTED +test test test <-                                      :jmrunge:
+<2013-04-10 Wed> started
+**** +test core, mocha
+**** lista de tests
+*** TODO +2 tests
+
+*** TODO travis not failing
+*** TODO merge 4 pull requests
 ** [0/4] fabricio
 *** TODO test bug melted-node
 *** STARTED ++resolviendo incoherencia playlist -> clips (falta testeo)
@@ -72,19 +80,16 @@ depiende de mbc-common
 **** DONE <2013-04-10 Wed> falta definir lo que sube
 CLOSED: [2013-04-12 Fri 14:34]
 
-** [2/3] jmrunge
+** [2/2] jmrunge
 *** DONE [#A] +melted clips: have usefull names. 
 CLOSED: [2013-04-12 Fri 14:39]
 *** DONE [#B] bug melted-node                                      :fabricio:
 CLOSED: [2013-04-12 Fri 14:39]
-
 ** [0/3] cristian
-*** STARTED test test test <-                                       :jmrunge:
-<2013-04-10 Wed> started
-**** +test core, mocha
-**** lista de tests
-*** TODO 2 tests
-*** TODO integracion continua: jenkins o otro.
+
+*** WONTFIX integracion continua: jenkins o otro.
+**** DONE <2013-04-12 Fri> jenkins funciona
+**** DONE jenkins VS travis
 ** [0/3] diego
 *** STARTED +portar a FC 1.5
 notificacion superpuestos
