@@ -4,9 +4,15 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 * Backlog
 ** REPORT paginación                                                   :sip:
 
+** STARTED +portar a FC 1.5
+notificacion superpuestos
+<2013-04-10 Wed> andaba con FC 1.6
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
+:END:
 
 * <2013-04-15 Mon> Objetivos
-** [0/0] tom
+** [0/4] tom
 *** STARTED [#A] ++tests mocha
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
@@ -24,11 +30,11 @@ CLOSED: [2013-04-12 Fri 14:33]
 **** TODO migrar codigo de caspa
 *** TODO travis mbc-common
 *** REPORT travis not failing
-** [0/0] jmrunge
+** [0/3] jmrunge
 *** REPORT travis not failing
 *** TODO [#A] test for melted-node bug                  :fabricio:cristian:
 *** TODO [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
-** [0/0] cristian
+** [0/4] cristian
 *** STARTED +test test test <-                                      :jmrunge:
 <2013-04-10 Wed> started
 **** +test core, mocha
@@ -50,7 +56,11 @@ CLOSED: [2013-04-12 Fri 14:33]
 *** TODO +++integracion driver mubsub
 <2013-04-10 Wed> no se toco
 
-** [0/0] diego
+** [0/4] diego
+*** TODO undo
+*** TODO nunca empujar 
+*** TODO UI Configuracion                                            :josx:
+*** TODO estetica general
 ** [0/3] adrian
 *** STARTED ++bug 'guardar o no los cambios'
 <2013-04-10 Wed> +investigar librerias de undo
@@ -85,26 +95,19 @@ CLOSED: [2013-04-12 Fri 14:34]
 CLOSED: [2013-04-12 Fri 14:39]
 *** DONE [#B] bug melted-node                                      :fabricio:
 CLOSED: [2013-04-12 Fri 14:39]
-** [0/3] cristian
+** [1/1] cristian
 
 *** WONTFIX integracion continua: jenkins o otro.
 **** DONE <2013-04-12 Fri> jenkins funciona
 **** DONE jenkins VS travis
-** [0/3] diego
-*** STARTED +portar a FC 1.5
-notificacion superpuestos
-<2013-04-10 Wed> andaba con FC 1.6
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
-:END:
-*** TODO reinstalar su systema operativo.
-
-*** TODO UI Configuracion
+** [2/2] diego
+*** DONE bug: borrar un evento no siempre se ve
+*** DONE reinstalar su systema operativo.
+CLOSED: [2013-04-12 Fri 14:53]
 ** [1/1] fabricio
 *** DONE bug melted-node 
 <2013-04-12 Fri> not started
 ** [0/0] adrian
-
 ** [3/3] josx
 *** DONE i18n-abide bug                                            :hatsch:
 CLOSED: [2013-04-12 Fri 14:19]
