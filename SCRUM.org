@@ -82,7 +82,6 @@ bug: change event when modify something from another view.
 **** TODO 3 niveles
 **** TODO configuracion de caspa
 
-
 * <2013-04-10 Wed> Objetivos
 ** [3/3] tom
 *** WONTFIX driver redis
