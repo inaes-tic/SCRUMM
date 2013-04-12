@@ -6,9 +6,20 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 
 * <2013-04-15 Mon> Objetivos
-** [0/3] tom
-** [0/2] jmrunge
-** [0/3] cristian
+** [0/0] tom
+*** STARTED [#A] ++tests mocha
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
+:END:
+**** DONE <2013-04-10 Wed> algunos tests
+
+**** DONE [#B] <2013-04-10 Wed> test CUD playlist
+CLOSED: [2013-04-12 Fri 14:33]
+
+**** STARTED [#A] <2013-04-10 Wed> test status
+**** TODO [#C] <2013-04-10 Wed> test getplaylist
+** [0/0] jmrunge
+** [0/0] cristian
 ** [0/4] fabricio
 *** TODO test bug melted-node
 *** STARTED ++resolviendo incoherencia playlist -> clips (falta testeo)
@@ -22,7 +33,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 *** TODO +++integracion driver mubsub
 <2013-04-10 Wed> no se toco
 
-** [0/3] diego
+** [0/0] diego
 ** [0/3] adrian
 *** STARTED ++bug 'guardar o no los cambios'
 <2013-04-10 Wed> +investigar librerias de undo
@@ -32,8 +43,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 *** TODO [#A] migrar a kb: el header
 <2013-04-12 Fri> no progress
 
-
-** [/] josx
+** [0/4] josx
 *** STARTED node-config fork
 to-merge
 
@@ -43,16 +53,6 @@ to-merge
 *** TODO [#C] travis for backbone.io
 * <2013-04-12 Fri> Objetivos
 ** [0/3] tom
-*** STARTED [#A] +tests mocha
-:LOGBOOK:
-- State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
-:END:
-**** DONE <2013-04-10 Wed> algunos tests
-
-**** [#B] TODO <2013-04-10 Wed> test CUD playlist
-
-**** [#A] TODO <2013-04-10 Wed> test status
-**** [#C] TODO <2013-04-10 Wed> test getplaylist
 *** STARTED [#B] +mosto -> caspa
 depiende de mbc-common
 
@@ -66,7 +66,7 @@ depiende de mbc-common
 **** TODO driver de mosto recive json de conf                       :josx:
 **** TODO migrar codigo de caspa
 
-** [0/2] jmrunge
+** [0/3] jmrunge
 *** STARTED [#A] +melted clips: have usefull names. 
 *** STARTED [#B]bug melted-node                                    :fabricio:
 
@@ -78,9 +78,6 @@ depiende de mbc-common
 **** lista de tests
 *** TODO 2 tests
 *** TODO integracion continua: jenkins o otro.
-** [0/4] fabricio
-*** DONE bug melted-node 
-<2013-04-12 Fri> not started
 ** [0/3] diego
 *** STARTED +portar a FC 1.5
 notificacion superpuestos
@@ -91,7 +88,10 @@ notificacion superpuestos
 *** TODO reinstalar su systema operativo.
 
 *** TODO UI Configuracion
-** [0/3] adrian
+** [1/1] fabricio
+*** DONE bug melted-node 
+<2013-04-12 Fri> not started
+** [0/0] adrian
 
 ** [3/3] josx
 *** DONE i18n-abide bug                                            :hatsch:
