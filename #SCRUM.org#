@@ -78,14 +78,14 @@ CLOSED: [2013-04-12 Fri 14:39]
 *** DONE [#B] bug melted-node                                      :fabricio:
 CLOSED: [2013-04-12 Fri 14:39]
 ** [0/3] cristian
-*** STARTED test test test <-                                       :jmrunge:
+*** STARTED +test test test <-                                      :jmrunge:
 <2013-04-10 Wed> started
 **** +test core, mocha
 **** lista de tests
-*** TODO 2 tests
-*** TODO integracion continua: jenkins o otro.
-
-**** TODO <2013-04-12 Fri> jenkins funciona
+*** TODO +2 tests
+*** WONTFIX integracion continua: jenkins o otro.
+**** DONE <2013-04-12 Fri> jenkins funciona
+**** DONE jenkins VS travis
 ** [0/3] diego
 *** STARTED +portar a FC 1.5
 notificacion superpuestos
