@@ -2,7 +2,7 @@
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 * Backlog
-** REPORT paginación                                                   :sip:
+** REPORT paginación                                                    :sip:
 
 ** STARTED +portar a FC 1.5
 notificacion superpuestos
@@ -10,7 +10,6 @@ notificacion superpuestos
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
-
 
 
 * <2013-04-17 Wed> Objetivos
