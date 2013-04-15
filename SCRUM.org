@@ -11,9 +11,11 @@ notificacion superpuestos
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
 
-* <2013-04-15 Mon> Objetivos
-** [0/4] tom
-*** STARTED [#A] ++tests mocha
+
+
+* <2013-04-17 Wed> Objetivos
+** [/] tom
+*** STARTED [#A] +++tests mocha
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
 :END:
@@ -24,12 +26,15 @@ CLOSED: [2013-04-12 Fri 14:33]
 
 **** STARTED [#A] <2013-04-10 Wed> test status
 **** TODO [#C] <2013-04-10 Wed> test getplaylist
-*** STARTED [#B] +mbc-common
+*** STARTED [#B] ++mbc-common
 **** DONE <2013-04-10 Wed> init db
 **** TODO driver de mosto recive json de conf                       :josx:
 **** TODO migrar codigo de caspa
-*** TODO travis mbc-common
-*** REPORT travis not failing
+*** TODO +travis mbc-common
+*** REPORT +travis not failing
+* <2013-04-15 Mon> Objetivos
+** [0/4] tom
+
 ** [0/3] jmrungec
 *** REPORT travis not failing
 *** TODO [#A] test for melted-node bug                  :fabricio:cristian:
