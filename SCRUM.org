@@ -34,7 +34,7 @@ CLOSED: [2013-04-12 Fri 14:33]
 *** REPORT +travis not failing
 * <2013-04-15 Mon> Objetivos
 ** [0/4] tom
-
+*** DONE publishing de mosto->caspa
 ** [0/3] jmrungec
 *** REPORT travis not failing
 *** TODO [#A] test for melted-node bug                  :fabricio:cristian:
