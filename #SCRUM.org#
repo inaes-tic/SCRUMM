@@ -43,9 +43,18 @@ siguientes me generan en todos los browser eventos Universe backend y
 update pero la vista no se actualiza.
 
 *** STARTED roll-back / memento
-se
+se puede
+
 ** diego
-*** 
+*** REPORT fullcalendar
+*** STARTED mediaview linear
+*** DONE bugfixs
+*** STARTED small-header
+
+** josx
+*** DONE conf -> mbc-common
+*** STARTED conf: back to default
+
 * <2013-04-17 Wed> Objetivos
 ** [/] tom
 *** STARTED [#A] +++tests mocha
