@@ -11,7 +11,26 @@ notificacion superpuestos
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
 * <2013-04-22 Mon> status report
+** Niv (Temario)
+*** avance compra de material
+llamadas telefonicas
+*** avance mosto
+anda en el branch de fabricio
+*** lineas de trabajo caspa
+*** preparacion de la reunion de trabajo presencial del miercoles.
 
+** cristian
+*** STARTED migrar tests a semaphores
+#55
+*** TODO mosto coverity
+
+** tom
+*** STARTED tests fallan porque cosas no mueren
+delete() no sirve
+destroy en mosto
+instancias fuera de before y after
+
+*** TODO migracion a redis
 ** juan martin
 *** DONE con lo que tenia asignado en los SCRUMM
 *** STARTED Estuve haciendo Review y merge de PR de Mosto
@@ -29,6 +48,19 @@ browser abiertos (esto es: agrego medias, cuando pongo un nombre
 distinto del default se graba). No funciona aún: los cambios
 siguientes me generan en todos los browser eventos Universe backend y
 update pero la vista no se actualiza.
+
+*** STARTED roll-back / memento
+se puede
+
+** diego
+*** REPORT fullcalendar
+*** STARTED mediaview linear
+*** DONE bugfixs
+*** STARTED small-header
+
+** josx
+*** DONE conf -> mbc-common
+*** STARTED conf: back to default
 
 * <2013-04-17 Wed> Objetivos
 ** [/] tom
