@@ -16,13 +16,18 @@ notificacion superpuestos
 llamadas telefonicas
 *** avance mosto
 anda en el branch de fabricio
-
 *** lineas de trabajo caspa
 *** preparacion de la reunion de trabajo presencial del miercoles.
 
 ** cristian
 *** STARTED migrar tests a semaphores
 #55
+*** TODO mosto coverity
+
+** tom
+*** STARTED tests fallan porque cosas no mueren
+delete() no sirve
+destroy en mosto
 
 ** juan martin
 *** DONE con lo que tenia asignado en los SCRUMM
