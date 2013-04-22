@@ -28,7 +28,9 @@ anda en el branch de fabricio
 *** STARTED tests fallan porque cosas no mueren
 delete() no sirve
 destroy en mosto
+instancias fuera de before y after
 
+*** TODO migracion a redis
 ** juan martin
 *** DONE con lo que tenia asignado en los SCRUMM
 *** STARTED Estuve haciendo Review y merge de PR de Mosto
