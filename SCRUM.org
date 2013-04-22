@@ -10,7 +10,25 @@ notificacion superpuestos
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
+* <2013-04-22 Mon> status report
 
+** juan martin
+*** DONE con lo que tenia asignado en los SCRUMM
+*** STARTED Estuve haciendo Review y merge de PR de Mosto
+*** STARTED Estoy probando mosto+caspa (metaproyecto mbc-playout)
+*** TODO issues asignadas a mi de mosto
+*** TODO seguir probando mbc-playout y armar la demo
+
+** adrian
+*** STARTED (almost DONE): port editview to kb #90. Podría hacerse mucho
+mas knockout-toso pero me queda algo despelotado el código.
+
+*** STARTED save continuo + undo (afecta #76 y #110). Qué funciona por
+ahora: creo una playlist nueva, se persiste y aparece en todos los
+browser abiertos (esto es: agrego medias, cuando pongo un nombre
+distinto del default se graba). No funciona aún: los cambios
+siguientes me generan en todos los browser eventos Universe backend y
+update pero la vista no se actualiza.
 
 * <2013-04-17 Wed> Objetivos
 ** [/] tom
