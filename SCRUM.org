@@ -3,6 +3,79 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 * Backlog
 ** REPORT paginación                                                    :sip:
+* <2013-04-10 Fri> status report
+** Niv (Temario)
+*** nombre de la cooperativa
+- OpCode[.coop?] gana por goleada
+- Habría que poner algo más relacionado con A/V?
+
+*** direccion en capital federal
+- diego tiene dirección en la casa de los padres
+- tomás no confía en la estabilidad de su domicilio
+- pato no está en la misma situación que diego
+
+*** cargos:
+[
+  'Presidente',
+  'Tesorero',
+  'Vocal',
+  'Sindico Titular',
+]
+no sabemos bien lo que implican los cargos
+
+** cristian
+*** STARTED migrar tests a semaphores
+mirar branch fabriciocosta/cleaning_and_testing
+** tom
+*** TODO tests fallan porque cosas no mueren
+lo habia agarrado cristian
+*** DONE migracion a redis
+*** TODO status
+- pasar el timecode c/100ms
+- pasar el status actual solo cuando hay un cambio de clip
+*** STARTED tests sobre getWindow() en playlist driver
+** diego
+*** STARTED playout view (was 'mediaview linear')
+peleandose con knockback
+subida estructura base para agregar cosas al view
+no estaria listo para el lunes
+*** STARTED small-header
+funciona rudimentariamente: se encoge nada mas
+** josx
+*** DONE conf: back to default
+*** TODO tipos en config
+*** STARTED testing de UI
+Hay un test hecho en phantom
+opciones:
+ - phantomjs (webkit) + mocha + phantom-node
+ - pahntomjs sin phantom-node
+otras opciones:
+ - selenium
+ - sauce labs: testing en la cloud contra la arquitectura que
+   quieras, graba videos de los testeos, se integra, pero puede
+   ser overkill
+*** STARTED ver opciones de logging
+** fabricio
+*** DONE bugs mosto
+#93
+
+*** STARTED limpieza código
+branch fabriciocosta/cleaning_and_testing
+*** STARTED unit tests
+
+*** TODO status
+- pasar el status actual solo cuando hay un cambio de clip
+
+** patricio
+*** STARTED setup
+debian
+entorno
+*** TODO actualizar README
+hubo updates de repos y no anda como dice la documentacion actual
+
+*** TODO testing
+* estatus para el lunes (martes se persenta)
+* tests tests tests
 
 ** STARTED +portar a FC 1.5
 notificacion superpuestos
@@ -308,8 +381,5 @@ GOTO
 …
 ** [1/1] Cristian
 *** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
-
-
-
 
 
