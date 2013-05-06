@@ -1,0 +1,380 @@
+#+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
+#+PROPERTY: priority_ALL Y N
+#+COLUMNS: %70ITEM(Task) %6Effort %allocate %priority
+#+CONSTANTS: total_days=60
+
+
+     #+BEGIN: columnview :hlines 1 :id global
+     | Task                                                                                     | Effort | days   | allocate | priority |
+     |------------------------------------------------------------------------------------------+--------+--------+----------+----------|
+     | * Identificacion                                                                         |        | #ERROR |          |          |
+     | ** TRAMA                                                                                 |        | #ERROR |          |          |
+     |------------------------------------------------------------------------------------------+--------+--------+----------+----------|
+     | * Investigacion                                                                          |        | #ERROR |          |          |
+     | ** MBC-PLAYOUT                                                                           |        | #ERROR |          |          |
+     | *** Scientifica                                                                          |        | #ERROR |          |          |
+     | **** Codecs y optimizaciones                                                             |        | #ERROR |          |          |
+     | **** Tratamiento de senal en tiempo real                                                 |        | #ERROR |          |          |
+     | **** shreding distribuido resiliante                                                     |        | #ERROR |          |          |
+     | *** Tecnica                                                                              |        | #ERROR |          |          |
+     | **** Applicaciones web reactivas                                                         |        | #ERROR |          |          |
+     | **** precision, interoperacion y cooperacion de processos                                |        | #ERROR |          |          |
+     | **** Metadata embedida en archivos de medios                                             |        | #ERROR |          |          |
+     | **** filesystems                                                                         |        | #ERROR |          |          |
+     | **** transcoding                                                                         |        | #ERROR |          |          |
+     | **** integracion IMDB                                                                    |        | #ERROR |          |          |
+     | *** Operativa                                                                            |        | #ERROR |          |          |
+     | **** indexacion en base de datos distribuida                                             |        | #ERROR |          |          |
+     | **** busqueda optimizada de amplio dataset distribuido                                   |        | #ERROR |          |          |
+     | **** Deteccion automatizada de cuadros negros totales                                    |        | #ERROR |          |          |
+     | **** Deteccion automatizada de cuadros negros parciales                                  |        | #ERROR |          |          |
+     | **** Deteccion de baja, distrurbio o falta de sonido                                     |        | #ERROR |          |          |
+     |------------------------------------------------------------------------------------------+--------+--------+----------+----------|
+     | * Desarrollo                                                                             |        | #ERROR |          |          |
+     | ** MBC-PLAYOUT                                                                           |        | #ERROR |          |          |
+     | *** Ingesta                                                                              |        | #ERROR |          |          |
+     | **** Ingesta automatica (gstfs)                                                          |     21 | #ERROR |          | Y        |
+     | ***** bindings c - node-config                                                           |        | #ERROR |          | Y        |
+     | ***** transcoding                                                                        |        | #ERROR |          | Y        |
+     | ***** plugins                                                                            |        | #ERROR |          |          |
+     | ****** deteccion aplanamiento colorspace                                                 |        | #ERROR |          |          |
+     | ****** deteccion silencio                                                                |        | #ERROR |          |          |
+     | ****** deteccion cuadros negros                                                          |        | #ERROR |          |          |
+     | ***** clasificarlos para el futuro uso, e indexacion rapida.                             |        | #ERROR |          |          |
+     | ****** filter md5                                                                        |        | #ERROR |          |          |
+     | ****** filter mongo                                                                      |        | #ERROR |          |          |
+     | ****** filtro_generico                                                                   |        | #ERROR |          |          |
+     | ***** convertir al formato y estandard de uso interno al system,                         |        | #ERROR |          |          |
+     | ****** mapping node-config -> libav{codec,format}                                        |        | #ERROR |          |          |
+     | ***** extraccion/agregacion de metadata                                                  |        | #ERROR |          |          |
+     | ****** filter_grilo                                                                      |        | #ERROR |          |          |
+     | ****** filter_avmetadata                                                                 |        | #ERROR |          |          |
+     | **** tags de contenidos                                                                  |      8 | #ERROR |          |          |
+     | ***** filesystem                                                                         |        | #ERROR |          |          |
+     | ***** ui                                                                                 |        | #ERROR |          |          |
+     | ***** search                                                                             |        | #ERROR |          |          |
+     | ***** integracion de grafica                                                             |        | #ERROR |          |          |
+     | ***** UI                                                                                 |        | #ERROR |          |          |
+     | ***** search                                                                             |        | #ERROR |          |          |
+     | ***** FS                                                                                 |        | #ERROR |          |          |
+     | ****** filter ffmpeg                                                                     |        | #ERROR |          |          |
+     | ****** filter grilo                                                                      |        | #ERROR |          |          |
+     | ****** perceptua hash                                                                    |        | #ERROR |          |          |
+     | ***** grafica                                                                            |        | #ERROR |          |          |
+     | ****** autogenerar grafica por tag                                                       |        | #ERROR |          |          |
+     | *** Administracion                                                                       |        | #ERROR |          |          |
+     | **** listas autogeneradas                                                                |      5 | #ERROR |          |          |
+     | ***** UI                                                                                 |        | #ERROR |          |          |
+     | **** Configuracion centralizada                                                          |      5 | #ERROR |          | Y        |
+     | ***** UI                                                                                 |        | #ERROR |          | Y        |
+     | ****** widgets                                                                           |        | #ERROR |          |          |
+     | ****** polish                                                                            |        | #ERROR |          |          |
+     | ***** mosto drivers                                                                      |        | #ERROR |          |          |
+     | **** Edicion no lineal basica: in, out, cut                                              |      8 | #ERROR |          |          |
+     | ***** stream MLT                                                                         |        | #ERROR |          |          |
+     | **** herencia entre playlists                                                            |      3 | #ERROR |          |          |
+     | ***** backbone relational                                                                |        | #ERROR |          |          |
+     | *** Generacion de Graficos                                                               |        | #ERROR |          |          |
+     | **** Edicion de Graficos                                                                 |     13 | #ERROR |          |          |
+     | **** Composición de diferentes ingestas en una señal de video,                           |        | #ERROR |          |          |
+     | **** Composición o mezcla de audio y sonido por separado.                                |        | #ERROR |          |          |
+     | **** Inserción de gráficos para diversos usos.                                           |        | #ERROR |          |          |
+     | **** Inserción de subtítulos y textos varios (placas).                                   |        | #ERROR |          |          |
+     | **** Filtros                                                                             |        | #ERROR |          |          |
+     | **** Conversión de aspectos, tonalidades, colores, etc.                                  |        | #ERROR |          |          |
+     | **** Zocalos dinamicos, independientes de la playlist o el clip (con su propio schedule) |        | #ERROR |          |          |
+     | **** TODO                                                                                |        | #ERROR |          |          |
+     | *** Programacion                                                                         |        | #ERROR |          |          |
+     | **** Configuración Web de la programacion con vista de calendario                        |      8 | #ERROR |          |          |
+     | **** Reproducción automática                                                             |     13 | #ERROR |          | Y        |
+     | ***** mosto / refactor                                                                   |        | #ERROR |          | Y        |
+     | ****** backbone playlist (fetch)                                                         |        | #ERROR |          | Y        |
+     | ****** backbone sync                                                                     |        | #ERROR |          | Y        |
+     | ****** migrar a event emitter                                                            |        | #ERROR |          | Y        |
+     | ****** backbone drivers                                                                  |        | #ERROR |          | Y        |
+     | ****** Driver MVCP                                                                       |        | #ERROR |          |          |
+     | **** Vista aplanada del calendario: playout view                                         |      5 | #ERROR |          | Y        |
+     | ***** snap UI                                                                            |        | #ERROR |          |          |
+     | ***** shadow size                                                                        |        | #ERROR |          |          |
+     | ***** update FullCalendar                                                                |        | #ERROR |          |          |
+     | ***** Occurrence edit time                                                               |        | #ERROR |          |          |
+     | **** override rapido de contenidos al aire                                               |      1 | #ERROR |          |          |
+     | ***** play now view                                                                      |        | #ERROR |          |          |
+     | ***** mosto override                                                                     |        | #ERROR |          |          |
+     | **** Streamer MELT                                                                       |     21 | #ERROR |          |          |
+     | *** Monitoreo                                                                            |        | #ERROR |          |          |
+     | **** Estatus en tiempo real del aire                                                     |      2 | #ERROR |          |          |
+     | **** Demonios de control                                                                 |      8 | #ERROR |          |          |
+     | **** reporte de reproducion/programacion                                                 |      2 | #ERROR |          |          |
+     | *** Playout                                                                              |        | #ERROR |          |          |
+     | **** Melted Multicast                                                                    |        | #ERROR |          | Y        |
+     | ***** Streaming a Web                                                                    |      5 | #ERROR |          | Y        |
+     | ***** Playout a SDI                                                                      |      1 | #ERROR |          |          |
+     | ***** Playout a compuesto                                                                |      1 | #ERROR |          | Y        |
+     | ***** Streaming TS para TDA                                                              |      2 | #ERROR |          |          |
+     |------------------------------------------------------------------------------------------+--------+--------+----------+----------|
+     | * Pruebas                                                                                |        | #ERROR |          |          |
+     | ** MBC-PLAYOUT                                                                           |        | #ERROR |          |          |
+     | *** Tests Unitarios                                                                      |        | #ERROR |          |          |
+     | *** Tests Funcionales                                                                    |        | #ERROR |          |          |
+     | *** Alpha testing                                                                        |        | #ERROR |          |          |
+     | *** Beta Testing                                                                         |        | #ERROR |          |          |
+     | *** Cyclos RC                                                                            |        | #ERROR |          |          |
+     #+TBLFM: $3=$2*34/($total_days)
+#+END:
+
+
+* Identificacion
+:PROPERTIES:
+:END:
+** TRAMA
+* Investigacion
+** MBC-PLAYOUT
+*** Scientifica
+**** Codecs y optimizaciones
+**** Tratamiento de senal en tiempo real
+**** shreding distribuido resiliante
+
+*** Tecnica
+**** Applicaciones web reactivas
+**** precision, interoperacion y cooperacion de processos
+
+**** Metadata embedida en archivos de medios
+**** filesystems
+**** transcoding
+**** integracion IMDB
+*** Operativa
+**** indexacion en base de datos distribuida
+**** busqueda optimizada de amplio dataset distribuido
+**** Deteccion automatizada de cuadros negros totales
+**** Deteccion automatizada de cuadros negros parciales
+(discriminacion de grafica)
+**** Deteccion de baja, distrurbio o falta de sonido
+* Desarrollo
+** MBC-PLAYOUT
+*** Ingesta
+**** Ingesta automatica (gstfs)
+:PROPERTIES:
+:Effort:   21
+:priority: Y
+:END:
+Transcoding y normalizacion.
+
+Ingesta: parte del systema que se encarga de recibir los archivos
+multimediales y tratarlos para ser aptos a ser consumidos y reproducidos
+por los distintos elementos del sistema.
+
+Requisitos tecnicos:
+
+***** bindings c - node-config
+:PROPERTIES:
+:priority: Y
+:END:
+comunicacion entre distintos lenguajes de programación, para poder comunicar fffs
+con el playout
+***** transcoding
+:PROPERTIES:
+:priority: Y
+:END:
+conversion entre formatos: pasar cualquier formato de entrada a un formato
+normalizado
+***** plugins
+****** deteccion aplanamiento colorspace
+****** deteccion silencio
+****** deteccion cuadros negros
+***** clasificarlos para el futuro uso, e indexacion rapida.
+****** filter md5
+obtener un fingerprint del archivo para darnos cuenta si algo cambio y
+detectar archivos repetidos
+****** filter mongo
+cargar la metadata en la base de datos
+
+****** filtro_generico
+***** convertir al formato y estandard de uso interno al system,
+****** mapping node-config -> libav{codec,format}
+
+***** extraccion/agregacion de metadata
+****** filter_grilo
+****** filter_avmetadata
+
+**** tags de contenidos
+:PROPERTIES:
+:Effort:   8
+:END:
+***** filesystem
+***** ui
+***** search
+***** integracion de grafica
+***** UI
+interfaz de usuario
+***** search
+***** FS
+features necesarias en fffs para soportar tags
+****** filter ffmpeg
+****** filter grilo
+****** perceptua hash
+***** grafica
+****** autogenerar grafica por tag
+generar campos como "nombre de artista" o "nombre del tema" directamente
+desde la metadata de la media
+*** Administracion
+**** listas autogeneradas
+:PROPERTIES:
+:Effort:   5
+:END:
++ por tag
++ aleatorio
++ por ultimo ingestado
++ por metadata
++ por frecuencia
+***** UI
+**** Configuracion centralizada
+:PROPERTIES:
+:Effort:   5
+:priority: Y
+:END:
+***** UI
+:PROPERTIES:
+:priority: Y
+:END:
+****** widgets
+****** polish
+***** mosto drivers
+**** Edicion no lineal basica: in, out, cut
+:PROPERTIES:
+:Effort:   8
+:END:
+***** stream MLT
+**** herencia entre playlists
+usar las playlists como templates sobre occurrences. Es decir,
+tener la posibilidad de modificar una playlist y elegir si ese cambio
+afecta o no las occurrences ya programadas, o poder modificar una
+occurrence en particular
+:PROPERTIES:
+:Effort:   3
+:END:
+***** backbone relational
+*** Generacion de Graficos
+**** Edicion de Graficos
+:PROPERTIES:
+:Effort:   13
+:END:
+**** Composición de diferentes ingestas en una señal de video,
+ usando diversos efectos gráficos para una suave transición.
+**** Composición o mezcla de audio y sonido por separado.
+**** Inserción de gráficos para diversos usos.
+ Inserción de Logos,
+ identificación del Canal, etc.
+**** Inserción de subtítulos y textos varios (placas).
+placas inteligentes
+**** Filtros
+**** Conversión de aspectos, tonalidades, colores, etc.
+**** Zocalos dinamicos, independientes de la playlist o el clip (con su propio schedule)
+
+**** TODO
+
+*** Programacion
+**** Configuración Web de la programacion con vista de calendario
+:PROPERTIES:
+:Effort:   8
+:END:
+**** Reproducción automática
+:PROPERTIES:
+:Effort:   13
+:priority: Y
+:END:
+de las diferentes fuentes y emisión del contenido al canal, según el
+calendario
+***** mosto / refactor
+:PROPERTIES:
+:priority: Y
+:END:
+****** backbone playlist (fetch)
+:PROPERTIES:
+:priority: Y
+:END:
+****** backbone sync
+:PROPERTIES:
+:priority: Y
+:END:
+****** migrar a event emitter
+:PROPERTIES:
+:priority: Y
+:END:
+****** backbone drivers
+       :PROPERTIES:
+       :priority: Y
+       :END:
+****** Driver MVCP
+migrar a C++
+**** Vista aplanada del calendario: playout view
+:PROPERTIES:
+:Effort:   5
+:priority: Y
+:END:
+***** snap UI
+cuando ponemos un programa que pisa otro, la UI automaticamente lo pega al final del
+programa anterior. Queremos una UI que le avise al usuario lo que está pasando
+***** shadow size
+***** update FullCalendar
+***** Occurrence edit time
+poder elegir el horario exacto de un programa al ponerlo al aire
+**** override rapido de contenidos al aire
+:PROPERTIES:
+:Effort:   1
+:END:
+***** play now view
+sobreescribir la programación que está al aire en el momento, por emergencias, etc
+***** mosto override
+**** Streamer MELT
+:PROPERTIES:
+:Effort:   21
+:END:
+*** Monitoreo
+**** Estatus en tiempo real del aire
+:PROPERTIES:
+:Effort:   2
+:END:
+**** Demonios de control
+:PROPERTIES:
+:Effort:   8
+:END:
+**** reporte de reproducion/programacion
+:PROPERTIES:
+:Effort:   2
+:END:
+
+*** Playout
+:PROPERTIES:
+:END:
+**** Melted Multicast
+:PROPERTIES:
+:priority: Y
+:END:
+***** Streaming a Web
+:PROPERTIES:
+:Effort:   5
+:priority: Y
+:END:
+
+***** Playout a SDI
+:PROPERTIES:
+:Effort:   1
+:END:
+***** Playout a compuesto
+:PROPERTIES:
+:Effort:   1
+:priority: Y
+:END:
+***** Streaming TS para TDA
+:PROPERTIES:
+:Effort:   2
+:END:
+
+* Pruebas
+** MBC-PLAYOUT
+*** Tests Unitarios
+*** Tests Funcionales
+*** Alpha testing
+*** Beta Testing
+*** Cyclos RC
