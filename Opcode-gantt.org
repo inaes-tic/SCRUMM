@@ -10,11 +10,9 @@
 ** MBC-PLAYOUT
 *** Scientifica
 **** Codecs y optimizaciones
-     
 **** Tratamiento de senal en tiempo real
 **** shreding distribuido resiliante
 
-     
 *** Tecnica
 **** Applicaciones web reactivas
 **** precision, interoperacion y cooperacion de processos
@@ -38,7 +36,14 @@
 :Effort:   21
 :priority: Y
 :END:
-Transcoding y normalizacion a la ingesta
+Transcoding y normalizacion.
+
+Ingesta: parte del systema que se encarga de recibir los archivos
+multimediales y tratarlos para ser aptos a ser consumidos y reproducidos
+por los distintos elementos del sistema.
+
+Requisitos tecnicos:
+
 ***** bindings c - node-config
 :PROPERTIES:
 :priority: Y
@@ -55,16 +60,25 @@ normalizado
 ****** deteccion aplanamiento colorspace
 ****** deteccion silencio
 ****** deteccion cuadros negros
+***** clasificarlos para el futuro uso, e indexacion rapida.
 ****** filter md5
 obtener un fingerprint del archivo para darnos cuenta si algo cambio y
 detectar archivos repetidos
 ****** filter mongo
 cargar la metadata en la base de datos
+
+****** filtro_generico
+***** convertir al formato y estandard de uso interno al system,
+****** mapping node-config -> libav{codec,format}
+
+***** extraccion/agregacion de metadata
+****** filter_grilo
+****** filter_avmetadata
+
 **** tags de contenidos
 :PROPERTIES:
 :Effort:   8
 :END:
-
 ***** filesystem
 ***** ui
 ***** search
