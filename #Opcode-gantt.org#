@@ -118,7 +118,8 @@
      | *** Alpha testing                                                                        |        |      |          |          |
      | *** Beta Testing                                                                         |        |      |          |          |
      | *** Cyclos RC                                                                            |        |      |          |          |
-     #+END:
+     #+TBLFM: $3=$2*34/($days)
+#+END:
 
 
 * Identificacion
