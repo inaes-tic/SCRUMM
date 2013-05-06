@@ -96,14 +96,17 @@ anda en el branch de fabricio
 *** STARTED migrar tests a semaphores
 #55
 *** TODO mosto coverity
-
 ** tom
 *** STARTED tests fallan porque cosas no mueren
 delete() no sirve
 destroy en mosto
 instancias fuera de before y after
 
-*** TODO migracion a redis
+*** FIXED migracion a redis
+CLOSED: [2013-04-24 Wed 15:03]
+
+*** STARTED tests set-windows
+*** DONE event-emitter
 ** juan martin
 *** DONE con lo que tenia asignado en los SCRUMM
 *** STARTED Estuve haciendo Review y merge de PR de Mosto
@@ -133,7 +136,16 @@ se puede
 
 ** josx
 *** DONE conf -> mbc-common
-*** STARTED conf: back to default
+*** DONE conf: back to default
+CLOSED: [2013-04-24 Wed 15:10]
+
+*** DONE merge back node-config
+*** STARTED conf types
+*** STARTED testing funcional: phantom
+
+** fabricio
+*** TODO test en mbc-playout
+*** TODO 20 tests
 
 * <2013-04-17 Wed> Objetivos
 ** [/] tom
@@ -223,7 +235,6 @@ CLOSED: [2013-04-12 Fri 14:39]
 *** DONE [#B] bug melted-node                                      :fabricio:
 CLOSED: [2013-04-12 Fri 14:39]
 ** [1/1] cristian
-
 *** WONTFIX integracion continua: jenkins o otro.
 **** DONE <2013-04-12 Fri> jenkins funciona
 **** DONE jenkins VS travis
@@ -314,7 +325,6 @@ CLOSED: [2013-04-08 Mon 14:14]
 *** DONE bugfix:
 ** [0/0] fabricio
 ** [0/0] cristian
-
 * <2013-04-05 Fri> Objetivos
 ** [5/5] Fabricio
 *** DONE mosto.js: fetch funciona.
