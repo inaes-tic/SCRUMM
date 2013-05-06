@@ -2,6 +2,12 @@
 #+PROPERTY: priority_ALL Y N
 #+COLUMNS: %70ITEM(Task) %6Effort %allocate %priority
 
+* Column view
+     #+BEGIN: columnview :hlines 1 :id global
+
+     #+END:
+
+
 * Identificacion
 :PROPERTIES:
 :END:
