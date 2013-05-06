@@ -1,0 +1,155 @@
+#+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
+#+COLUMNS: %70ITEM(Task) %6Effort %allocate
+
+* Identificacion
+** TRAMA
+* Investigacion
+** MBC-PLAYOUT
+*** Scientifica
+**** Codecs y optimizaciones
+
+**** Tratamiento de senal en tiempo real
+**** shreding distribuido resiliante
+
+
+*** Tecnica
+**** Applicaciones web reactivas
+**** precision, interoperacion y cooperacion de processos
+
+**** Metadata embedida en archivos de medios
+**** filesystems
+**** transcoding
+**** integracion IMDB
+*** Operativa
+**** indexacion en base de datos distribuida
+**** busqueda optimizada de amplio dataset distribuido
+**** Deteccion automatizada de cuadros negros totales
+**** Deteccion automatizada de cuadros negros parciales
+(discriminacion de grafica)
+**** Deteccion de baja, distrurbio o falta de sonido
+* Desarrollo
+** MBC-PLAYOUT
+*** Ingesta
+**** Ingesta automatica (gstfs)
+:PROPERTIES:
+:Effort:   21
+:END:
+Transcoding y normalizacion a la ingesta
+**** tags de contenidos
+:PROPERTIES:
+:Effort:   8
+:END:
+
+***** filesystem
+***** ui
+***** search
+***** integracion de grafica
+
+*** Administracion
+**** listas autogeneradas
+:PROPERTIES:
+:Effort:   5
+:END:
+***** por tag
+***** aleatorio
+***** por ultimo ingestado
+**** Configuracion centralizada
+:PROPERTIES:
+:Effort:   5
+:END:
+**** Edicion no lineal basica: in, out, cut
+:PROPERTIES:
+:Effort:   8
+:END:
+
+**** herencia entre playlists
+:PROPERTIES:
+:Effort:   3
+:END:
+*** Generacion de Graficos
+**** Edicion de Graficos
+:PROPERTIES:
+:Effort:   13
+:END:
+**** Composición de diferentes ingestas en una señal de video,
+ usando diversos efectos gráficos para una suave transición.
+
+**** Composición o mezcla de audio y sonido por separado.
+**** Inserción de gráficos para diversos usos.
+ Inserción de Logos,
+ identificación del Canal, etc.
+**** Inserción de subtítulos y textos varios (placas).
+placas inteligentes
+**** Filtros
+**** Conversión de aspectos, tonalidades, colores, etc.
+**** Zocalos dinamicos, independientes de la playlist o el clip (con su propio schedule)
+
+
+**** TODO
+
+*** Programacion
+**** Configuración Web de la programacion con vista de calendario
+:PROPERTIES:
+:Effort:   8
+:END:
+**** Reproducción automática
+:PROPERTIES:
+:Effort:   13
+:END:
+de las diferentes fuentes y emisión del contenido al canal, según el
+calendario
+
+**** Vista aplanada del calendario: playout view
+:PROPERTIES:
+:Effort:   5
+:END:
+**** override rapido de contenidos al aire
+:PROPERTIES:
+:Effort:   1
+:END:
+
+
+**** Streamer MELT
+:PROPERTIES:
+:Effort:   21
+:END:
+*** Monitoreo
+**** Estatus en tiempo real del aire
+:PROPERTIES:
+:Effort:   2
+:END:
+**** Demonios de control
+:PROPERTIES:
+:Effort:   8
+:END:
+**** reporte de reproducion/programacion
+:PROPERTIES:
+:Effort:   2
+:END:
+
+*** Playout
+**** Streaming a Web
+:PROPERTIES:
+:Effort:   5
+:END:
+
+**** Playout a SDI
+:PROPERTIES:
+:Effort:   1
+:END:
+**** Playout a compuesto
+:PROPERTIES:
+:Effort:   1
+:END:
+**** Streaming TS para TDA
+:PROPERTIES:
+:Effort:   2
+:END:
+
+* Pruebas
+** MBC-PLAYOUT
+*** Tests Unitarios
+*** Tests Funcionales
+*** Alpha testing
+*** Beta Testing
+*** Cyclos RC
