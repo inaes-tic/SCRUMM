@@ -120,7 +120,7 @@
      | *** Alpha testing                                                                        |        | #ERROR |          |          |
      | *** Beta Testing                                                                         |        | #ERROR |          |          |
      | *** Cyclos RC                                                                            |        | #ERROR |          |          |
-     #+TBLFM: $3=$2*34/($total_days)
+     #+TBLFM: $3=$2*$effort_max/$total_days
 #+END:
 
 
