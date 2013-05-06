@@ -1,7 +1,7 @@
 #+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
 #+PROPERTY: priority_ALL Y N
 #+COLUMNS: %70ITEM(Task) %6Effort %allocate %priority
-#+CONSTANTS: total_days=60 effort_max=34
+#+CONSTANTS: total_days=60. effort_max=34
 
 
      #+BEGIN: columnview :hlines 1 :id global
