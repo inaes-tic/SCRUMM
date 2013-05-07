@@ -1,10 +1,10 @@
-#+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
+#+PROPERTY: fibonacci_effort_ALL 1 2 3 5 8 13 21 34
 #+PROPERTY: priority_ALL Y N
-#+COLUMNS: %70ITEM(Task) %6Effort %days_effort %allocate %priority
+#+COLUMNS: %70ITEM(Task) %fibonacci_effort %days_effort %allocate %priority
 #+CONSTANTS: total_days=60. effort_max=34
 
      #+BEGIN: columnview :hlines 1 :id global
-     | Task                                                                                     | Effort | allocate | priority |
+     | Task                                                                                     | fibonacci_effort | allocate | priority |
      |------------------------------------------------------------------------------------------+--------+----------+----------|
      | * Identificacion                                                                         |        |          |          |
      | ** TRAMA                                                                                 |        |          |          |
@@ -153,7 +153,7 @@
 *** Ingesta
 **** Ingesta automatica (gstfs)
 :PROPERTIES:
-:Effort:   21
+:fibonacci_effort:   21
 :priority: Y
 :END:
 Transcoding y normalizacion.
@@ -197,7 +197,7 @@ cargar la metadata en la base de datos
 
 **** tags de contenidos
 :PROPERTIES:
-:Effort:   8
+:fibonacci_effort:   8
 :END:
 ***** filesystem
 ***** ui
@@ -218,7 +218,7 @@ desde la metadata de la media
 *** Administracion
 **** listas autogeneradas
 :PROPERTIES:
-:Effort:   5
+:fibonacci_effort:   5
 :END:
 + por tag
 + aleatorio
@@ -228,7 +228,7 @@ desde la metadata de la media
 ***** UI 
 **** Configuracion centralizada
 :PROPERTIES:
-:Effort:   5
+:fibonacci_effort:   5
 :priority: Y
 :END:
 ***** UI
@@ -240,7 +240,7 @@ desde la metadata de la media
 ***** mosto drivers
 **** Edicion no lineal basica: in, out, cut
 :PROPERTIES:
-:Effort:   8
+:fibonacci_effort:   8
 :END:
 ***** stream MLT
 **** herencia entre playlists
@@ -249,13 +249,13 @@ tener la posibilidad de modificar una playlist y elegir si ese cambio
 afecta o no las occurrences ya programadas, o poder modificar una
 occurrence en particular
 :PROPERTIES:
-:Effort:   3
+:fibonacci_effort:   3
 :END:
 ***** backbone relational
 *** Generacion de Graficos
 **** Edicion de Graficos
 :PROPERTIES:
-:Effort:   13
+:fibonacci_effort:   13
 :END:
 **** Composición de diferentes ingestas en una señal de video,
  usando diversos efectos gráficos para una suave transición.
@@ -274,11 +274,11 @@ placas inteligentes
 *** Programacion
 **** Configuración Web de la programacion con vista de calendario
 :PROPERTIES:
-:Effort:   8
+:fibonacci_effort:   8
 :END:
 **** Reproducción automática
 :PROPERTIES:
-:Effort:   13
+:fibonacci_effort:   13
 :priority: Y
 :END:
 de las diferentes fuentes y emisión del contenido al canal, según el
@@ -307,7 +307,7 @@ calendario
 migrar a C++
 **** Vista aplanada del calendario: playout view
 :PROPERTIES:
-:Effort:   5
+:fibonacci_effort:   5
 :priority: Y
 :END:
 ***** snap UI
@@ -319,27 +319,27 @@ programa anterior. Queremos una UI que le avise al usuario lo que está pasando
 poder elegir el horario exacto de un programa al ponerlo al aire
 **** override rapido de contenidos al aire
 :PROPERTIES:
-:Effort:   1
+:fibonacci_effort:   1
 :END:
 ***** play now view
 sobreescribir la programación que está al aire en el momento, por emergencias, etc
 ***** mosto override
 **** Streamer MELT
 :PROPERTIES:
-:Effort:   21
+:fibonacci_effort:   21
 :END:
 *** Monitoreo
 **** Estatus en tiempo real del aire
 :PROPERTIES:
-:Effort:   2
+:fibonacci_effort:   2
 :END:
 **** Demonios de control
 :PROPERTIES:
-:Effort:   8
+:fibonacci_effort:   8
 :END:
 **** reporte de reproducion/programacion
 :PROPERTIES:
-:Effort:   2
+:fibonacci_effort:   2
 :END:
 
 *** Playout
@@ -351,22 +351,22 @@ sobreescribir la programación que está al aire en el momento, por emergencias,
 :END:
 ***** Streaming a Web
 :PROPERTIES:
-:Effort:   5
+:fibonacci_effort:   5
 :priority: Y
 :END:
 
 ***** Playout a SDI
 :PROPERTIES:
-:Effort:   1
+:fibonacci_effort:   1
 :END:
 ***** Playout a compuesto
 :PROPERTIES:
-:Effort:   1
+:fibonacci_effort:   1
 :priority: Y
 :END:
 ***** Streaming TS para TDA
 :PROPERTIES:
-:Effort:   2
+:fibonacci_effort:   2
 :END:
 
 * Pruebas
