@@ -1,124 +1,10 @@
 #+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
 #+PROPERTY: priority_ALL Y N
-#+COLUMNS: %70ITEM(Task) %6Effort %days_effort %allocate %priority
+#+COLUMNS: %60ITEM(Task) %6Effort{+} %effort_sum{:} %days_effort %allocate %priority
 #+CONSTANTS: total_days=60. effort_max=34
 
-     #+BEGIN: columnview :hlines 1 :id global
-     | Task                                                                                     | Effort | allocate | priority |
-     |------------------------------------------------------------------------------------------+--------+----------+----------|
-     | * Identificacion                                                                         |        |          |          |
-     | ** TRAMA                                                                                 |        |          |          |
-     |------------------------------------------------------------------------------------------+--------+----------+----------|
-     | * Investigacion                                                                          |        |          |          |
-     | ** MBC-PLAYOUT                                                                           |        |          |          |
-     | *** Scientifica                                                                          |        |          |          |
-     | **** Codecs y optimizaciones                                                             |        |          |          |
-     | **** Tratamiento de senal en tiempo real                                                 |        |          |          |
-     | **** shreding distribuido resiliante                                                     |        |          |          |
-     | *** Tecnica                                                                              |        |          |          |
-     | **** Applicaciones web reactivas                                                         |        |          |          |
-     | **** precision, interoperacion y cooperacion de processos                                |        |          |          |
-     | **** Metadata embedida en archivos de medios                                             |        |          |          |
-     | **** filesystems                                                                         |        |          |          |
-     | **** transcoding                                                                         |        |          |          |
-     | **** integracion IMDB                                                                    |        |          |          |
-     | *** Operativa                                                                            |        |          |          |
-     | **** indexacion en base de datos distribuida                                             |        |          |          |
-     | **** busqueda optimizada de amplio dataset distribuido                                   |        |          |          |
-     | **** Deteccion automatizada de cuadros negros totales                                    |        |          |          |
-     | **** Deteccion automatizada de cuadros negros parciales                                  |        |          |          |
-     | **** Deteccion de baja, distrurbio o falta de sonido                                     |        |          |          |
-     |------------------------------------------------------------------------------------------+--------+----------+----------|
-     | * Desarrollo                                                                             |        |          |          |
-     | ** MBC-PLAYOUT                                                                           |        |          |          |
-     | *** Ingesta                                                                              |        |          |          |
-     | **** Ingesta automatica (gstfs)                                                          |     21 |          | Y        |
-     | ***** bindings c - node-config                                                           |        |          | Y        |
-     | ***** transcoding                                                                        |        |          | Y        |
-     | ***** plugins                                                                            |        |          |          |
-     | ****** deteccion aplanamiento colorspace                                                 |        |          |          |
-     | ****** deteccion silencio                                                                |        |          |          |
-     | ****** deteccion cuadros negros                                                          |        |          |          |
-     | ***** clasificarlos para el futuro uso, e indexacion rapida.                             |        |          |          |
-     | ****** filter md5                                                                        |        |          |          |
-     | ****** filter mongo                                                                      |        |          |          |
-     | ****** filtro_generico                                                                   |        |          |          |
-     | ***** convertir al formato y estandard de uso interno al system,                         |        |          |          |
-     | ****** mapping node-config -> libav{codec,format}                                        |        |          |          |
-     | ***** extraccion/agregacion de metadata                                                  |        |          |          |
-     | ****** filter_grilo                                                                      |        |          |          |
-     | ****** filter_avmetadata                                                                 |        |          |          |
-     | **** tags de contenidos                                                                  |      8 |          |          |
-     | ***** filesystem                                                                         |        |          |          |
-     | ***** ui                                                                                 |        |          |          |
-     | ***** search                                                                             |        |          |          |
-     | ***** integracion de grafica                                                             |        |          |          |
-     | ***** UI                                                                                 |        |          |          |
-     | ***** search                                                                             |        |          |          |
-     | ***** FS                                                                                 |        |          |          |
-     | ****** filter ffmpeg                                                                     |        |          |          |
-     | ****** filter grilo                                                                      |        |          |          |
-     | ****** perceptua hash                                                                    |        |          |          |
-     | ***** grafica                                                                            |        |          |          |
-     | ****** autogenerar grafica por tag                                                       |        |          |          |
-     | *** Administracion                                                                       |        |          |          |
-     | **** listas autogeneradas                                                                |      5 |          |          |
-     | ***** UI                                                                                 |        |          |          |
-     | **** Configuracion centralizada                                                          |      5 |          | Y        |
-     | ***** UI                                                                                 |        |          | Y        |
-     | ****** widgets                                                                           |        |          |          |
-     | ****** polish                                                                            |        |          |          |
-     | ***** mosto drivers                                                                      |        |          |          |
-     | **** Edicion no lineal basica: in, out, cut                                              |      8 |          |          |
-     | ***** stream MLT                                                                         |        |          |          |
-     | **** herencia entre playlists                                                            |      3 |          |          |
-     | ***** backbone relational                                                                |        |          |          |
-     | *** Generacion de Graficos                                                               |        |          |          |
-     | **** Edicion de Graficos                                                                 |     13 |          |          |
-     | **** Composición de diferentes ingestas en una señal de video,                           |        |          |          |
-     | **** Composición o mezcla de audio y sonido por separado.                                |        |          |          |
-     | **** Inserción de gráficos para diversos usos.                                           |        |          |          |
-     | **** Inserción de subtítulos y textos varios (placas).                                   |        |          |          |
-     | **** Filtros                                                                             |        |          |          |
-     | **** Conversión de aspectos, tonalidades, colores, etc.                                  |        |          |          |
-     | **** Zocalos dinamicos, independientes de la playlist o el clip (con su propio schedule) |        |          |          |
-     | **** TODO                                                                                |        |          |          |
-     | *** Programacion                                                                         |        |          |          |
-     | **** Configuración Web de la programacion con vista de calendario                        |      8 |          |          |
-     | **** Reproducción automática                                                             |     13 |          | Y        |
-     | ***** mosto / refactor                                                                   |        |          | Y        |
-     | ****** backbone playlist (fetch)                                                         |        |          | Y        |
-     | ****** backbone sync                                                                     |        |          | Y        |
-     | ****** migrar a event emitter                                                            |        |          | Y        |
-     | ****** backbone drivers                                                                  |        |          | Y        |
-     | ****** Driver MVCP                                                                       |        |          |          |
-     | **** Vista aplanada del calendario: playout view                                         |      5 |          | Y        |
-     | ***** snap UI                                                                            |        |          |          |
-     | ***** shadow size                                                                        |        |          |          |
-     | ***** update FullCalendar                                                                |        |          |          |
-     | ***** Occurrence edit time                                                               |        |          |          |
-     | **** override rapido de contenidos al aire                                               |      1 |          |          |
-     | ***** play now view                                                                      |        |          |          |
-     | ***** mosto override                                                                     |        |          |          |
-     | **** Streamer MELT                                                                       |     21 |          |          |
-     | *** Monitoreo                                                                            |        |          |          |
-     | **** Estatus en tiempo real del aire                                                     |      2 |          |          |
-     | **** Demonios de control                                                                 |      8 |          |          |
-     | **** reporte de reproducion/programacion                                                 |      2 |          |          |
-     | *** Playout                                                                              |        |          |          |
-     | **** Melted Multicast                                                                    |        |          | Y        |
-     | ***** Streaming a Web                                                                    |      5 |          | Y        |
-     | ***** Playout a SDI                                                                      |      1 |          |          |
-     | ***** Playout a compuesto                                                                |      1 |          | Y        |
-     | ***** Streaming TS para TDA                                                              |      2 |          |          |
-     |------------------------------------------------------------------------------------------+--------+----------+----------|
-     | * Pruebas                                                                                |        |          |          |
-     | ** MBC-PLAYOUT                                                                           |        |          |          |
-     | *** Tests Unitarios                                                                      |        |          |          |
-     | *** Tests Funcionales                                                                    |        |          |          |
-     | *** Alpha testing                                                                        |        |          |          |
-     | *** Beta Testing                                                                         |        |          |          |
-     | *** Cyclos RC                                                                            |        |          |          |
+     #+BEGIN: columnview :hlines 1 :id "alvar"
+
      #+END:
 
 
@@ -150,7 +36,9 @@
 **** Deteccion de baja, distrurbio o falta de sonido
 * Desarrollo
 ** MBC-PLAYOUT
+*** sum
 *** Ingesta
+
 **** Ingesta automatica (gstfs)
 :PROPERTIES:
 :Effort:   21
@@ -261,7 +149,7 @@ occurrence en particular
  usando diversos efectos gráficos para una suave transición.
 **** Composición o mezcla de audio y sonido por separado.
 **** Inserción de gráficos para diversos usos.
- Inserción de Logos,
+Inserción de Logos,
  identificación del Canal, etc.
 **** Inserción de subtítulos y textos varios (placas).
 placas inteligentes
@@ -370,6 +258,9 @@ sobreescribir la programación que está al aire en el momento, por emergencias,
 :END:
 
 * Pruebas
+:PROPERTIES:
+:Effort:   34
+:END:
 ** MBC-PLAYOUT
 *** Tests Unitarios
 *** Tests Funcionales
