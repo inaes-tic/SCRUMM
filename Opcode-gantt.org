@@ -3,8 +3,16 @@
 #+EMAIL: xaiki@inaes.gob.ar
 #+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
 
+#+BEGIN_SRC emacs-lisp
+(defun scrum-get-fibonacci ()
+(let (times)
+(setq times 0)
+(org-map-entries (setq times (+ times (string-to-int (or (org-entry-get nil "Effort") "0")))))
+times))
+)
 (scrum-get-fibonacci)
-(org-map-entries (lambda () (org-entry-get nil "Effort")))
+#+END_SRC
+
 #+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
 #+PROPERTY: priority_ALL Y N
 #+COLUMNS: %60ITEM(Task) %6Effort{+} %effort_sum{:} %days_effort %allocate %priority
