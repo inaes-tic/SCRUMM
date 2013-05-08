@@ -4,9 +4,11 @@
 #+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
 
 #+BEGIN_SRC emacs-lisp
-(scrum-get-fibonacci)
+(defun scrum-get-fibonacci ()
 (let (times)
-(org-map-entries (lambda () (org-entry-get nil "Effort")))
+(setq times 0)
+(org-map-entries (lambda () (setq time (+ times (int (org-entry-get nil "Effort"))))))))
+(scrum-get-fibonacci)
 #+END_SRC
 
 #+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
