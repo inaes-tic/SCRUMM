@@ -4,6 +4,7 @@
 #+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
 
 (scrum-get-fibonacci)
+(org-map-entries (lambda () 'message (point)))
 #+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
 #+PROPERTY: priority_ALL Y N
 #+COLUMNS: %60ITEM(Task) %6Effort{+} %effort_sum{:} %days_effort %allocate %priority
