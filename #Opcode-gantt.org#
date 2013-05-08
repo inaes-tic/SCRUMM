@@ -7,7 +7,7 @@
 (defun scrum-get-fibonacci ()
 (let (times)
 (setq times 0)
-(org-map-entries (lambda () (setq time (+ times (int (org-entry-get nil "Effort"))))))))
+(org-map-entries (lambda () (setq time (+ times (or (org-entry-get nil "Effort") 0)))))))
 (scrum-get-fibonacci)
 #+END_SRC
 
