@@ -28,9 +28,12 @@
 
   (save-excursion
     (let (tasks)
-      (org-map-entries (lambda () (setq tasks (point))) "Effort=.*")
-      (goto-char tasks)
+      (org-map-entries (lambda ()
       (message "visiting %s" (buffer-substring (point) (line-end-position)))
+      (message "entry at point %s" (org-entry-get (point) "Effort"))
+)) "Effort=.*")
+      (goto-char tasks)
+
 ))
 
 (save-excursion
