@@ -27,14 +27,12 @@
 
 
   (save-excursion
-    (let (tasks sum)
+    (let (sum)
       (setq sum 0)
       (org-map-entries (lambda ()
       (setq fibo (org-entry-get (point) "Effort"))
-      (when fibo (progn
-          (push fibo tasks)
-          (setq sum (+ sum (string-to-number fibo)))
-      ))))
+      (when fibo (setq sum (+ sum (string-to-number fibo)))
+      )))
  sum
 )
 
