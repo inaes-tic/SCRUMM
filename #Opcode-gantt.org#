@@ -32,10 +32,11 @@
       (org-map-entries (lambda ()
       (setq fibo (org-entry-get (point) "Effort"))
       (when fibo (progn
-          (push fibo tasks))
-          (setq sum (+ sum fi
-      ))
-   tasks)
+          (push fibo tasks)
+          (setq sum (+ sum (string-to-number fibo)))
+      ))))
+ sum
+)
 
 ) "Effort=[[:digit:]].*"))
       (goto-char tasks)
