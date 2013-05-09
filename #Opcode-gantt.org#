@@ -4,11 +4,6 @@
 #+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
 
 #+BEGIN_SRC emacs-lisp
-(defun scrum-get-fibo ()
-(let (ret)
-(setq ret (org-entry-properties (point) 'standard))
-(setq ret (remove-if (lambda (ii)
-
 (defun scrum-get-fibonacci ()
 (let (times)
 (setq times 0)
