@@ -16,7 +16,7 @@
       (while (re-search-forward "^[ \t]*#\\+PROJECT_TIME: \\(.*\\)" nil t)
 	(setq time (substring-no-properties (match-string 1)))))
 time)
-
+(scrum-get-project-time)
 
 (lambda ()
 (setq fibo
