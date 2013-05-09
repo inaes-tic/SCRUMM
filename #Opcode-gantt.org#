@@ -21,9 +21,17 @@
     ret))
 (let (a)
 (setq a 0)
-(org-map-entries  (message "v (buffer-substring (point) (line-end-position))) "Effort=.*")
+(org-map-entries (buffer-substring (point) (line-end-position)) "Effort=.*")
 
 )
+
+
+  (save-excursion
+    (let (tasks)
+      (org-map-entries (lambda () (setq tasks (point))) "ID")
+      (goto-char tasks)
+      (message "visiting %s" (buffer-substring (point) (line-end-position)))
+))
 
 (save-excursion
 (let (efforts)
