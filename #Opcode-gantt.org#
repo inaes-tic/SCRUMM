@@ -31,7 +31,7 @@
       (org-map-entries (lambda ()
       (message "visiting %s" (buffer-substring (point) (line-end-position)))
       (message "entry at point %s" (org-entry-get (point) "Effort"))
-) "Effort=5"))
+) "Effort=.+"))
       (goto-char tasks)
 
 ))
