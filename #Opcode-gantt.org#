@@ -17,6 +17,7 @@
 	(setq time (substring-no-properties (match-string 1)))))
 time)
 (scrum-get-project-time)
+(scrum-update-effort-from-fibonacci)
 
 (lambda ()
 (setq fibo
