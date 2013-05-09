@@ -21,7 +21,7 @@
     ret))
 (let (a)
 (setq a 0)
-(org-map-entries (setq a (+ a 1)) "Effort=.*")
+(org-map-entries (org-entry-get) "Effort=.*")
 
 )
 (let (times)
