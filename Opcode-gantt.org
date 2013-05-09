@@ -2,7 +2,7 @@
 #+AUTHOR: Niv Sardi
 #+EMAIL: xaiki@inaes.gob.ar
 #+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
-#+CONSTANTS: project_time=60d
+#+PROJECT_TIME: 60d
 
 #+BEGIN_SRC emacs-lisp
 (last (org-property-get-allowed-values nil "fiboEffort"))
@@ -13,6 +13,7 @@
 (setq scrum-fibonacci-effort-property-name "fiboEffort")
 (scrum-get-fibonacci-total)
 (scrum-get-fibonacci-max)
+(org-table-formula-constants-l)
 #+END_SRC
 h
 #+PROPERTY: fiboEffort_ALL 1 2 3 5 8 13 21 34
