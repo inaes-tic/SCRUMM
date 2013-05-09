@@ -21,9 +21,13 @@
     ret))
 (let (a)
 (setq a 0)
-(org-map-entries (org-entry-get) "Effort=.*")
+(org-map-entries (org-entry-properties) "Effort=.*")
 
 )
+
+(save-excursion
+(let (e
+
 (let (times)
 (setq times 0)
 (org-map-entries (setq times (+ times (string-to-int (or (org-entry-get nil "Effort") "0")))))
