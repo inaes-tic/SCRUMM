@@ -27,10 +27,15 @@
 
 
   (save-excursion
-    (let (tasks)
+    (let (sum)
+      (setq sum 0)
       (org-map-entries (lambda ()
-      (message "visiting %s" (buffer-substring (point) (line-end-position)))
-      (message "entry at point %s" (org-entry-get (point) "Effort"))
+      (setq fibo (org-entry-get (point) "Effort"))
+      (when fibo (setq sum (+ sum (string-to-number fibo)))
+      )))
+ sum
+)
+
 ) "Effort=[[:digit:]].*"))
       (goto-char tasks)
 
@@ -49,7 +54,7 @@ times))
 )
 (scrum-get-fibonacci)
 #+END_SRC
-
+h
 #+PROPERTY: Effort_ALL 1 2 3 5 8 13 21 34
 #+PROPERTY: priority_ALL Y N
 #+COLUMNS: %60ITEM(Task) %6Effort{+} %effort_sum{:} %days_effort %allocate %priority
@@ -58,7 +63,7 @@ times))
      #+BEGIN: columnview :hlines 1 :id "alvar"
 
      #+END:
-
+(org-buffer-property-keys t)
 
 * Identificacion
 :PROPERTIES:
