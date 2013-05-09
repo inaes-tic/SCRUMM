@@ -11,6 +11,7 @@
 (setq fibo
 (setq scrum-fibonacci-effort-property-name "fiboEffort")
 (scrum-get-fibonacci-total)
+(scrum-get-fibonacci-max)
 #+END_SRC
 h
 #+PROPERTY: fiboEffort_ALL 1 2 3 5 8 13 21 34
