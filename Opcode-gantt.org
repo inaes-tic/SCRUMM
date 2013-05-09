@@ -9,6 +9,16 @@
 (org-buffer-property-keys)
 (org-entry-get nil "PROJECT_TIME")
 (org-map-entries
+
+  (let (time)
+    (save-excursion
+      (goto-char (point-min))
+      (while (re-search-forward "^[ \t]*#\\+PROJECT_TIME: \\(.*\\)" nil t)
+	(setq time (substring-no-properties (match-string 1)))))
+time)
+(scrum-get-project-time)
+(scrum-update-effort-from-fibonacci)
+
 (lambda ()
 (setq fibo
 (setq scrum-fibonacci-effort-property-name "fiboEffort")
