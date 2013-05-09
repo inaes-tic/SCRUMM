@@ -5,6 +5,13 @@
 
 #+BEGIN_SRC emacs-lisp
 (last (org-property-get-allowed-values nil "fiboEffort"))
+
+(org-map-entries
+(lambda ()
+(setq fibo
+(setq scrum-fibonacci-effort-property-name "fiboEffort")
+(scrum-get-fibonacci-total)
+(scrum-get-fibonacci-max)
 #+END_SRC
 h
 #+PROPERTY: fiboEffort_ALL 1 2 3 5 8 13 21 34
@@ -15,7 +22,7 @@ h
      #+BEGIN: columnview :hlines 1 :id "alvar"
 
      #+END:
-(org-buffer-property-keys t)
+
 
 * Identificacion
 :PROPERTIES:
