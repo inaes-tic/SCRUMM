@@ -21,12 +21,15 @@
     ret))
 (let (a)
 (setq a 0)
-(org-map-entries (org-entry-properties) "Effort=.*")
+(org-map-entries  (message "v (buffer-substring (point) (line-end-position))) "Effort=.*")
 
 )
 
 (save-excursion
-(let (e
+(let (efforts)
+(org-map-entries (lambda () (setq efforts (point))) "Effort=.*")
+efforts
+))
 
 (let (times)
 (setq times 0)
