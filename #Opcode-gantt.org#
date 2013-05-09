@@ -9,6 +9,7 @@
 (org-map-entries
 (lambda ()
 (setq fibo
+(setq scrum-fibonacci-effort-property-name "fiboEffort")
 (scrum-get-fibonacci-total)
 #+END_SRC
 h
