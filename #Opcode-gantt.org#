@@ -9,7 +9,7 @@
 (org-map-entries
 (lambda ()
 (setq fibo
-
+(scrum-get-fibonacci-total)
 #+END_SRC
 h
 #+PROPERTY: fiboEffort_ALL 1 2 3 5 8 13 21 34
