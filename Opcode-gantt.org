@@ -2,11 +2,11 @@
 #+AUTHOR: Niv Sardi
 #+EMAIL: xaiki@inaes.gob.ar
 #+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
-#+TIME: 60d
+#+CONSTANTS: total_time=60d
 
 #+BEGIN_SRC emacs-lisp
 (last (org-property-get-allowed-values nil "fiboEffort"))
-
+(org-buffer-property-keys)
 (org-map-entries
 (lambda ()
 (setq fibo
