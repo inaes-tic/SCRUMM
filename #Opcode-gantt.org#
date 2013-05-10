@@ -25,6 +25,8 @@ time)
 
 (org-matcher-time "")
 
+(org-get-wdays "20392w")
+
 (lambda ()
 (setq fibo
 (setq scrum-fibonacci-effort-property-name "fiboEffort")
