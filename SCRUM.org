@@ -1,6 +1,13 @@
 #+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
+* <2013-05-13 Mon> todo: tests funcionales
+** Tom: meta test
+** Fabri: schedule
+** pato: sync
+** josx: play
+** jmrunge: fetch
+
 * Backlog
 ** REPORT paginación                                                    :sip:
 * <2013-04-10 Fri> status report
