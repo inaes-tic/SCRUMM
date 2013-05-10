@@ -25,6 +25,7 @@ time)
 
 (org-matcher-time "")
 
+(org-duration-string-to-minutes "20d")
 (org-get-wdays "20392w")
 
 (lambda ()
