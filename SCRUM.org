@@ -25,6 +25,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** TODO pato: sync
 ** TODO josx: play
 ** TODO jmrunge: fetch
+** TODO diego + adri: state of art de la interfaz, claro y estudiado cómo vas a trabajar las interfaces
 
 
 
