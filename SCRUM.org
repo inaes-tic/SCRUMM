@@ -1,31 +1,37 @@
 #+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-comunicación con otros hackers
+* comunicación con otros hackers
 - canales de tv pública noruega
 - hackers js
 
 
-tech talks > 
+* tech talks > 
 1) fabricio : vídeo y streaming > miércoles 15 de mayo
 2) adrián : backbone + backbone relational > miércoles 22 de mayo
 3) tom : nueva arquitectura de mosto 
 
-
-VIERNES
-- terminar los tests de mosto
-- prototipos de fetch y de sync con proof of concept con backbone > niv sube su ejemplo
-- tom > metatest mosto
-
 * <2013-05-13 Mon> todo: tests funcionales
-** Tom: meta test
-** Fabri: schedule
-** pato: sync
-** josx: play
-** jmrunge: fetch
+** TODO +terminar los tests de mosto
+<2013-05-10 Fri> not started
+** TODO +prototipos de fetch y de sync con proof of concept con backbone 
+> niv sube su ejemplo
+<2013-05-10 Fri> not started
+** STARTED +tom: metatest mosto
+<2013-05-10 Fri> started
+
+** TODO Tom: meta test
+** TODO Fabri: schedule
+** TODO pato: sync
+** TODO josx: play
+** TODO jmrunge: fetch
+
+
 
 * Backlog
 ** REPORT paginación                                                    :sip:
+* <2013-05-10 Fri> Objectivos
+
 * <2013-04-10 Fri> status report
 ** Niv (Temario)
 *** nombre de la cooperativa
