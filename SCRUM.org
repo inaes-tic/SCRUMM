@@ -1,5 +1,5 @@
 #+TODO: TODO(t) STARTED(s) REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f) DONE(d) WONTFIX(w)
-#+Category: Opcode/DAM
+#+Category: Opcode/SCRUM
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 * comunicación con otros hackers
