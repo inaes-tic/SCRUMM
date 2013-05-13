@@ -1,24 +1,19 @@
-#+TODO: TODO STARTED REPORT BUG KNOWNCAUSE | FIXED DONE WONTFIX
+#+TODO: TODO(t) STARTED(s) REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f) DONE(d) WONTFIX(w)
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 * comunicación con otros hackers
 - canales de tv pública noruega
 - hackers js
 
-(setq org-support-shift-select 'always)
-(shift-select-mode)
+
 * tech talks > 
 ** fabricio : vídeo y streaming > miércoles 15 de mayo
 ** adrián : backbone + backbone relational > miércoles 22 de mayo
 ** tom : nueva arquitectura de mosto
 
-
-
-* <2013-05-15 mié> todo: objetivos
-
 * <2013-05-13 Mon> todo: tests funcionales
 ** TODO +terminar los tests de mosto
-<2013-05-10 Fri> not startedv
+<2013-05-10 Fri> not started
 ** TODO +prototipos de fetch y de sync con proof of concept con backbone 
 > niv sube su ejemplo
 <2013-05-10 Fri> not started
