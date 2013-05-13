@@ -4,8 +4,36 @@
 #+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
 #+PROJECT_TIME: 60d
 
+<<<<<<< HEAD
 #+END_SRC
 
+=======
+#+BEGIN_SRC emacs-lisp
+(last (org-property-get-allowed-values nil "fiboEffort"))
+(org-buffer-property-keys)
+(org-entry-get nil "PROJECT_TIME")
+(org-map-entries
+
+  (let (time)
+    (save-excursion
+      (goto-char (point-min))
+      (while (re-search-forward "^[ \t]*#\\+PROJECT_TIME: \\(.*\\)" nil t)
+	(setq time (substring-no-properties (match-string 1)))))
+time)
+(scrum-get-project-time)
+(scrum-update-effort-from-fibonacci)
+
+(org-matcher-time "")
+
+(lambda ()
+(setq fibo
+(setq scrum-fibonacci-effort-property-name "fiboEffort")
+(scrum-get-fibonacci-total)
+(scrum-get-fibonacci-max)
+(org-table-formula-constants-l)
+#+END_SRC
+h
+>>>>>>> + ‘#Opcode-gantt.org#’
 #+PROPERTY: fiboEffort_ALL 1 2 3 5 8 13 21 34
 #+PROPERTY: priority_ALL Y N
 #+COLUMNS: %60ITEM(Task) %6fiboEffort{+} %effort_sum{:} %days_effort %allocate %priority
@@ -31,7 +59,11 @@
 *** Tecnica
 **** Applicaciones web reactivas
 **** precision, interoperacion y cooperacion de processos
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> + ‘#Opcode-gantt.org#’
 **** Metadata embedida en archivos de medios
 **** filesystems
 **** transcoding
