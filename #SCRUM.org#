@@ -6,6 +6,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 - hackers js
 
 (setq org-support-shift-select 'always)
+(shift-select-mode)
 * tech talks > 
 ** fabricio : vídeo y streaming > miércoles 15 de mayo
 ** adrián : backbone + backbone relational > miércoles 22 de mayo
