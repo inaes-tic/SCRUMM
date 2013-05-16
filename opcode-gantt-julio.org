@@ -1,0 +1,21 @@
+
+* playout view
+** backbone relational
+** knockback
+* reescribir mosto
+** reescribir driver melted
+** fetch - backbone
+*** POC por xaiki
+** sync - backbone
+** sched
+** play 
+* FFFS
+** diseno hecho
+** systema de plugins
+** leer sobre HSM (Hierarchical Storage Management)
++ DMAPI
++ inotify
++ dnotify
+** middleware model
+* Tetra
+** 2 implementaciones
