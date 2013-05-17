@@ -1,17 +1,17 @@
 
-* caspa
+* caspa                                                                :josx:
 ** playout view
 *** backbone relational
 *** knockback
-** detalles (Every Detail Matters)
-* reescribir mosto
-** reescribir driver melted
+** detalles (Every Detail Matters)                                    :mala:
+* reescribir mosto                                                     :pato:
+** reescribir driver melted                                          :fabri:
 ** fetch - backbone
 *** POC por xaiki
 ** sync - backbone
 ** sched
 ** play 
-* FFFS
+* FFFS                                                                  :tom:
 ** diseno hecho
 ** systema de plugins
 ** leer sobre HSM (Hierarchical Storage Management)
@@ -19,5 +19,5 @@
 + inotify
 + dnotify
 ** middleware model
-* Tetra
+* Tetra                                                                :adri:
 ** 2 implementaciones
