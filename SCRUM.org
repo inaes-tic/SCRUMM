@@ -2,8 +2,6 @@
 #+Category: Opcode/SCRUM
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-
-
 * comunicación con otros hackers
 - canales de tv pública noruega
 - hackers js
@@ -115,19 +113,16 @@ Tengo bastante por laburar sobre la busqueda y la páginación infinita ,
 voy a tratar de hacerlo lo más rápido posible. (voy a necesitar ayuda
 con la gráfica y algunos eventos dom, el miércoles consulto).
 
-
-* <2013-07-24 Wed> Objetivos
+** Ruth
+*** TODO cuentas
+*** TODO nic.ar, coop.ar
+*** TODO soporte agus
 ** Agus
-*** DONE concurso: 
-mandamos, confirmaron recepción, y sugirieron unos cambios en el plan de
-comercialización que ya aplicamos. vuelto a mandar.
-
 *** STARTED docs: 
 más allá de la documentación del concurso tengo en drive unos documentos de
 MBC, TETRA, FFFS, de los que había empezado a escribir documentación
 técnica. avancé hasta donde pude con la información que tenía. está para
 terminar.
-
 
 *** STARTED diseño: 
 ahora es prioridad terminar los logos. recién hoy me pude poner a probar
@@ -140,6 +135,12 @@ el diseño de la web..
 finalmente pienso en hacer unas tarjetas para que luego evaluemos la
 posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
 tarjeta.. se escabullen los contactos!
+
+* <2013-07-24 Wed> Objetivos
+** Agus
+*** DONE concurso: 
+mandamos, confirmaron recepción, y sugirieron unos cambios en el plan de
+comercialización que ya aplicamos. vuelto a mandar.
 
 ** Adri
 *** DONE Estabilidad
@@ -168,7 +169,6 @@ cierra. Todavía no probé hacer que melted escriba su salida a memoria
 compartida para leer desde varias fuentes. Hay que hacer pruebas con video
 FullHD ya que parece que mi máquina no se lo banca. Se puede investigar
 cómo hacer streaming desde el browser para agregar el preview a caspa.
-
 
 *** Misc:
  ~ Ayer estuve surfeando la ciudad en busca de talonarios de facturas,
