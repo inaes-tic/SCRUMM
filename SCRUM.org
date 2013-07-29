@@ -2,6 +2,120 @@
 #+Category: Opcode/SCRUM
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
+
+
+* comunicación con otros hackers
+- canales de tv pública noruega
+- hackers js
+
+
+
+* tech talks > 
+** fabricio : vídeo y streaming > miércoles 15 de mayo
+** adrián : backbone + backbone relational > miércoles 22 de mayo
+** tom : nueva arquitectura de mosto
+
+
+* <2013-07-31 Wed> Objetivos
+** jmr
+*** STARTED Estabilidad mosto: 
+En realidad es mosto + melted.  Anoche hice un fork de melted en nuestro
+repo y le meti un parche de un error que habia detectado haciendo pruebas
+con melted-node.  Se lo mande a ddennedy pero no se si me va a dar bola.
+Por lo pronto, sugiero que utilicemos nuestro fork asi podemos ir metiendo
+mano despacito.  Tambien saque una nueva version de melted-node, con el
+reconnect y timeout andando (creo) bien.  A lo que estoy apuntando es a que
+si melted se cae, mosto lo levante de vuelta.  No pude encontrar por que se
+cae todavia, lo unico que se me ocurre es que lo estemos cagando mucho a
+palos con los status y se le llene algun buffer que no libera.  O algo de
+concurrencia.  Pero necesito mirar un poco mas profundamente el tema.  Hoy
+por hoy lo que pasa es que mosto, en algun momento, mientras carga clips, lo
+voltea.  Y ahi queda todo clavado ya que mosto se queda esperando una
+promise desde melted-node que jamas vuelve.  Eso lockea el semaforo y por
+ende todo lo demas!  Por eso hice lo del timeout en melted-node, asi esa
+promise vuelve rechazada y mosto sigue funcionando.  Ahora me falta que
+mosto detecte la caida y lo levante nuevamente.  Igualmente, lo ideal seria
+que melted no se caiga nunca! :)
+
+*** BUG melted + mosto se caen
+*** TODO vp9: 
+Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
+Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
+tengo (gracias a ddennedy) pero no pude probarlo todavia.
+
+*** TODO ui de filtros: 
+ Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
+ parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
+ Me parece que va muy de la mano de playout view, ya que son filtros
+ dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
+ clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
+ meter un doc css completo dinamicamente, hacer un poco mas robusta la
+ implementacion y persistir de alguna forma los filtros.  Me gustaria si
+ pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
+ tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
+ parece que estan todos hasta las manos como para que lo haga otro, no?)
+
+** Adri
+*** STARTED migracion a VLC
+*** TODO tests
+*** TODO keybinds
+*** Resiliencia de Fallos
+resilencia a fallos o cortes de conexion con las camaras en general
+ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
+(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
+cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
+va la mano de eso.
+
+*** Desconexion de Camaras
+En el mismo orden de cosas tengo que hacer que si uno esta archivando
+la salida y desconecta todas las camaras, al volver a conectarla(s)
+abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
+
+** Mariana
+*** TODO Usar knockback para cargar las vistas.
+*** TODO Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
+
+*** TODO CSS overall
+** Pato
+*** Streamer melt:
+**** pruebas con jmr
+*** PlayoutView:
+**** STARTED Agregar al comportamiento de drag and drop un método de "push down".
+**** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
+**** TODO pushdown
+**** TODO Buscar una solución para problemas de performance.
+**** TODO Corregir un par de known-bugs.
+
+** josx
+*** TODO tags
+*** TODO ayuda jmr ui filtros.
+*** DONE Backbone-pageable
+CLOSED: [2013-07-29 Mon 11:48]
+Estoy usando backbone-pageable (termine de convencer con algunas
+artimañas para que el desarrollador tenga soporte de paginación infinita
+para backbone master ) y gratamente lo hizo.
+https://github.com/wyuenho/backbone-pageable/issues/96
+
+*** DONE visual search
+CLOSED: [2013-07-29 Mon 11:48]
+Estoy usando también VisualSearch, hoy me di cuenta de que no funciona
+con backbone master por lo que estuve investigando como arreglarlo.
+https://github.com/documentcloud/visualsearch/issues/112
+Mañana voy a estar haciendo un PR para este proyecto (igual es rápido)
+
+*** DONE autocompletado
+CLOSED: [2013-07-29 Mon 11:48]
+Tengo funcionando la busqueda y la páginación tradicional tengo que
+agregar la posibilidad de autocompletado y facetado para eso debo poder
+hacer unos fetchs sin popular la colecciónes o usar otros backends)
+
+*** DONE paginacion infinita
+CLOSED: [2013-07-29 Mon 11:48]
+Tengo bastante por laburar sobre la busqueda y la páginación infinita ,
+voy a tratar de hacerlo lo más rápido posible. (voy a necesitar ayuda
+con la gráfica y algunos eventos dom, el miércoles consulto).
+
+
 * <2013-07-24 Wed> Objetivos
 ** Agus
 *** DONE concurso: 
@@ -34,18 +148,6 @@ por la parte de estabilidad por un lado si bien el otro dia grabamos
 en baja calidad se bancó cinco horas seguidas con un consumo moderado
 de memoria no creciente.
 
-*** Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-
-*** Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-
 ** Pato
 *** Streamer melt:
 **** DONE Avances: 
@@ -67,17 +169,6 @@ compartida para leer desde varias fuentes. Hay que hacer pruebas con video
 FullHD ya que parece que mi máquina no se lo banca. Se puede investigar
 cómo hacer streaming desde el browser para agregar el preview a caspa.
 
-*** PlayoutView:
-
-Copio acá la lista de pendientes que escribimos en la otra cadena ya que el
-último tiempo no hubo avances considerables.
-
-**** TODO Buscar una solución para problemas de performance.
-**** TODO Corregir un par de known-bugs.
-**** TODO Mejorar la visualización y agregar unos datos que son necesarios.
-**** TODO Agregar al comportamiento de drag and drop un método de "push down".
-**** TODO Usar knockback para cargar las vistas.
-**** TODO Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
 
 *** Misc:
  ~ Ayer estuve surfeando la ciudad en busca de talonarios de facturas,
@@ -88,76 +179,7 @@ Copio acá la lista de pendientes que escribimos en la otra cadena ya que el
  quedamos a merced de ese intercambio.
 
 ** jmr
-*** STARTED Estabailidad mosto: 
-En realidad es mosto + melted.  Anoche hice un fork de melted en nuestro
-repo y le meti un parche de un error que habia detectado haciendo pruebas
-con melted-node.  Se lo mande a ddennedy pero no se si me va a dar bola.
-Por lo pronto, sugiero que utilicemos nuestro fork asi podemos ir metiendo
-mano despacito.  Tambien saque una nueva version de melted-node, con el
-reconnect y timeout andando (creo) bien.  A lo que estoy apuntando es a que
-si melted se cae, mosto lo levante de vuelta.  No pude encontrar por que se
-cae todavia, lo unico que se me ocurre es que lo estemos cagando mucho a
-palos con los status y se le llene algun buffer que no libera.  O algo de
-concurrencia.  Pero necesito mirar un poco mas profundamente el tema.  Hoy
-por hoy lo que pasa es que mosto, en algun momento, mientras carga clips, lo
-voltea.  Y ahi queda todo clavado ya que mosto se queda esperando una
-promise desde melted-node que jamas vuelve.  Eso lockea el semaforo y por
-ende todo lo demas!  Por eso hice lo del timeout en melted-node, asi esa
-promise vuelve rechazada y mosto sigue funcionando.  Ahora me falta que
-mosto detecte la caida y lo levante nuevamente.  Igualmente, lo ideal seria
-que melted no se caiga nunca! :)
-
-*** TODO vp9: 
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-*** TODO ui de filtros: 
- Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
- parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
- Me parece que va muy de la mano de playout view, ya que son filtros
- dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
- clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
- meter un doc css completo dinamicamente, hacer un poco mas robusta la
- implementacion y persistir de alguna forma los filtros.  Me gustaria si
- pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
- tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
- parece que estan todos hasta las manos como para que lo haga otro, no?)
-
 ** josx
-*** STARTED Backbone-pageable
-Estoy usando backbone-pageable (termine de convencer con algunas
-artimañas para que el desarrollador tenga soporte de paginación infinita
-para backbone master ) y gratamente lo hizo.
-https://github.com/wyuenho/backbone-pageable/issues/96
-
-*** STARTED visual search
-Estoy usando también VisualSearch, hoy me di cuenta de que no funciona
-con backbone master por lo que estuve investigando como arreglarlo.
-https://github.com/documentcloud/visualsearch/issues/112
-Mañana voy a estar haciendo un PR para este proyecto (igual es rápido)
-
-*** TODO autocompletado
-Tengo funcionando la busqueda y la páginación tradicional tengo que
-agregar la posibilidad de autocompletado y facetado para eso debo poder
-hacer unos fetchs sin popular la colecciónes o usar otros backends)
-
-*** TODO paginacion infinita
-Tengo bastante por laburar sobre la busqueda y la páginación infinita ,
-voy a tratar de hacerlo lo más rápido posible. (voy a necesitar ayuda
-con la gráfica y algunos eventos dom, el miércoles consulto).
-
-
-* comunicación con otros hackers
-- canales de tv pública noruega
-- hackers js
-
-
-
-* tech talks > 
-** fabricio : vídeo y streaming > miércoles 15 de mayo
-** adrián : backbone + backbone relational > miércoles 22 de mayo
-** tom : nueva arquitectura de mosto
 
 * <2013-05-13 Mon> todo: tests funcionales
 ** TODO +terminar los tests de mosto
