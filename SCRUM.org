@@ -1,5 +1,6 @@
 #+TODO: TODO(t) STARTED(s) REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f) DONE(d) WONTFIX(w)
 #+Category: Opcode/SCRUM
+#+SCRUM_MASTER: pato
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 * comunicación con otros hackers
@@ -13,18 +14,21 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** adrián : backbone + backbone relational > miércoles 22 de mayo
 ** tom : nueva arquitectura de mosto
 
-
-
-* <2013-08-14 Wed> Obejtivosx
+x
+* <2013-08-14 Wed> Obejtivos
 ** Niv (Temario)
-*** SCRUM : sanitización y futuro.
+*** SCRUM : sanitización y futuro. 
+*** punto sobre sources y publicación.
 *** brokenMOV: nuevos materiales y md5.
 *** Pitch : decisión y planificación.
+agus + josx
 *** Agosto: coop/cooperar ?
 *** dias de presencia/horarios/equipos.
 ahora que somos mucho mas
 *** suma de gente: alejo, mariana, ruth, leo.
+**** TODO mail bienvenida alejo + leo + mariana + ruth
 *** punto financiero (ruth).
+
 ** jmr
 *** TODO vp9: 
 Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
@@ -46,25 +50,40 @@ tengo (gracias a ddennedy) pero no pude probarlo todavia.
 
 *** TODO -> alejo ayuda jmr ui filtros.
 ** pato
-**** TODO algoritmo tiempos de espera
+*** TODO algoritmo tiempos de espera
 se puede mejorar el algoritmo que calcula los tiempos de
 espera para suministrar los frames en tiempo real. Hay 
-**** TODO thread bloqueado cuando se cierra melt
+
+*** TODO thread bloqueado cuando se cierra melt
 todavía algunos escenarios donde al intentar cerrar melt algún thread queda
 bloqueado y no cierra.
 
-**** DONE (jmr) melted posixshm
+*** DONE (jmr) melted posixshm
 CLOSED: [2013-08-12 Mon 04:57]
 Todavía no probé hacer que melted escriba su salida a
 memoria compartida para leer desde varias fuentes. Hay que hacer pruebas con
 video FullHD ya que parece que mi máquina no se lo banca. 
 
-**** TODO streaming a browser
+*** TODO streaming a browser
 Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
 caspa.
+*** BUG posixshm seek.
+*** BUG collection->get no pasa por io.
+*** BUG view collisiona con get.
+*** Backlog
+**** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
+**** TODO Buscar una solución para problemas de performance.
+**** TODO Corregir un par de known-bugs.
 
+** mariana
+*** STARTED tipos en config
+**** tipos estan
+**** falta renderizado distinto
+*** STARTED Presentation + adri + agus
+*** STARTED CSS overall
+*** TODO +Usar knockback para cargar las vistas.
+*** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
 ** josx
-*** TODO tipos en config
 *** STARTED testing de UI
 Hay un test hecho en phantom
 opciones:
@@ -76,42 +95,18 @@ otras opciones:
    quieras, graba videos de los testeos, se integra, pero puede
    ser overkill
 *** STARTED ver opciones de logging
-
 *** STARTED testing funcional: phantom
-
-* <2013-08-07 Wed> Objetivos
-** Mariana
-*** STARTED Presentation + adri + agus
-*** STARTED CSS overall
-*** TODO +Usar knockback para cargar las vistas.
-*** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-** Pato
-*** Streamer melt:
-**** STARTED pruebas con jmr
-**** BUG seek
-*** PlayoutView:
-**** DONE Agregar al comportamiento de drag and drop un método de "push down".
-CLOSED: [2013-08-05 Mon 11:44]
-**** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-**** TODO Buscar una solución para problemas de performance.
-**** TODO Corregir un par de known-bugs.
-
-** josx
 *** STARTED merge
 *** STARTED mongo fulltextsearch + index
 mongo 2.4 FTS beta.
 *** TODO tags
 
-** Ruth
-*** DONE cuentas
-CLOSED: [2013-08-05 Mon 11:47]
-*** DONE transferencia pato
+** ruth
 *** STARTED nic.ar, coop.ar
 *** TODO soporte agus
-
-** Agus
+** agus
 *** STARTED logos
-*** STARTED docs. 
+*** STARTED docs 
 más allá de la documentación del concurso tengo en drive unos documentos de
 MBC, TETRA, FFFS, de los que había empezado a escribir documentación
 técnica. avancé hasta donde pude con la información que tenía. está para
@@ -122,25 +117,49 @@ finalmente pienso en hacer unas tarjetas para que luego evaluemos la
 posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
 tarjeta.. se escabullen los contactos!
 
-*** DONE logo malbec
-*** DONE logo tetra
-** Adri
-*** DONE migracion a VLC
-CLOSED: [2013-08-05 Mon 11:52]
-*** STARTED demo
+** adri
+*** WONTFIX demo
+CLOSED: [2013-08-12 Mon 10:50]
 *** TODO tests
 *** TODO keybinds
-*** Resiliencia de Fallos
+*** STARTED Resiliencia de Fallos
 resilencia a fallos o cortes de conexion con las camaras en general
 ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
 (tomo el manojo de cables y le doy un tirón) se me dispara el uso de
 cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
 va la mano de eso.
-
-*** Desconexion de Camaras
+*** STARTED Desconexion de Camaras
 En el mismo orden de cosas tengo que hacer que si uno esta archivando
 la salida y desconecta todas las camaras, al volver a conectarla(s)
 abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
+*** STARTED refactoring
+*** REPORT bug gstreamer
+* <2013-08-07 Wed> Objetivos
+** Mariana
+*** DONE scroll interno
+*** DONE CSS cuadro
+** Pato
+*** Streamer melt:
+**** DONE pruebas con jmr
+CLOSED: [2013-08-12 Mon 10:39]
+
+*** PlayoutView:
+**** DONE Agregar al comportamiento de drag and drop un método de "push down".
+CLOSED: [2013-08-05 Mon 11:44]
+
+** josx
+*** DONE criterios de busqueda a mongo
+** Ruth
+*** DONE cuentas
+CLOSED: [2013-08-05 Mon 11:47]
+*** DONE transferencia pato
+
+** Agus
+*** DONE logo malbec
+*** DONE logo tetra
+** Adri
+*** DONE migracion a VLC
+CLOSED: [2013-08-05 Mon 11:52]
 
 * <2013-08-02 Fri> Objetivos
 * <2013-07-31 Wed> Objetivos
