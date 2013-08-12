@@ -14,6 +14,135 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** tom : nueva arquitectura de mosto
 
 
+
+* <2013-08-14 Wed> Obejtivosx
+** Niv (Temario)
+*** SCRUM : sanitización y futuro.
+*** brokenMOV: nuevos materiales y md5.
+*** Pitch : decisión y planificación.
+*** Agosto: coop/cooperar ?
+*** dias de presencia/horarios/equipos.
+ahora que somos mucho mas
+*** suma de gente: alejo, mariana, ruth, leo.
+*** punto financiero (ruth).
+** jmr
+*** TODO vp9: 
+Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
+Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
+tengo (gracias a ddennedy) pero no pude probarlo todavia.
+
+** alejo
+*** TODO jmr -> ui de filtros: 
+ Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
+ parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
+ Me parece que va muy de la mano de playout view, ya que son filtros
+ dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
+ clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
+ meter un doc css completo dinamicamente, hacer un poco mas robusta la
+ implementacion y persistir de alguna forma los filtros.  Me gustaria si
+ pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
+ tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
+ parece que estan todos hasta las manos como para que lo haga otro, no?)
+
+*** TODO -> alejo ayuda jmr ui filtros.
+** pato
+**** TODO algoritmo tiempos de espera
+se puede mejorar el algoritmo que calcula los tiempos de
+espera para suministrar los frames en tiempo real. Hay 
+**** TODO thread bloqueado cuando se cierra melt
+todavía algunos escenarios donde al intentar cerrar melt algún thread queda
+bloqueado y no cierra.
+
+**** DONE (jmr) melted posixshm
+CLOSED: [2013-08-12 Mon 04:57]
+Todavía no probé hacer que melted escriba su salida a
+memoria compartida para leer desde varias fuentes. Hay que hacer pruebas con
+video FullHD ya que parece que mi máquina no se lo banca. 
+
+**** TODO streaming a browser
+Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
+caspa.
+
+** josx
+*** TODO tipos en config
+*** STARTED testing de UI
+Hay un test hecho en phantom
+opciones:
+ - phantomjs (webkit) + mocha + phantom-node
+ - pahntomjs sin phantom-node
+otras opciones:
+ - selenium
+ - sauce labs: testing en la cloud contra la arquitectura que
+   quieras, graba videos de los testeos, se integra, pero puede
+   ser overkill
+*** STARTED ver opciones de logging
+
+*** STARTED testing funcional: phantom
+
+* <2013-08-07 Wed> Objetivos
+** Mariana
+*** STARTED Presentation + adri + agus
+*** STARTED CSS overall
+*** TODO +Usar knockback para cargar las vistas.
+*** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
+** Pato
+*** Streamer melt:
+**** STARTED pruebas con jmr
+**** BUG seek
+*** PlayoutView:
+**** DONE Agregar al comportamiento de drag and drop un método de "push down".
+CLOSED: [2013-08-05 Mon 11:44]
+**** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
+**** TODO Buscar una solución para problemas de performance.
+**** TODO Corregir un par de known-bugs.
+
+** josx
+*** STARTED merge
+*** STARTED mongo fulltextsearch + index
+mongo 2.4 FTS beta.
+*** TODO tags
+
+** Ruth
+*** DONE cuentas
+CLOSED: [2013-08-05 Mon 11:47]
+*** DONE transferencia pato
+*** STARTED nic.ar, coop.ar
+*** TODO soporte agus
+
+** Agus
+*** STARTED logos
+*** STARTED docs. 
+más allá de la documentación del concurso tengo en drive unos documentos de
+MBC, TETRA, FFFS, de los que había empezado a escribir documentación
+técnica. avancé hasta donde pude con la información que tenía. está para
+terminar.
+
+*** TODO tarjetas 
+finalmente pienso en hacer unas tarjetas para que luego evaluemos la
+posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
+tarjeta.. se escabullen los contactos!
+
+*** DONE logo malbec
+*** DONE logo tetra
+** Adri
+*** DONE migracion a VLC
+CLOSED: [2013-08-05 Mon 11:52]
+*** STARTED demo
+*** TODO tests
+*** TODO keybinds
+*** Resiliencia de Fallos
+resilencia a fallos o cortes de conexion con las camaras en general
+ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
+(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
+cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
+va la mano de eso.
+
+*** Desconexion de Camaras
+En el mismo orden de cosas tengo que hacer que si uno esta archivando
+la salida y desconecta todas las camaras, al volver a conectarla(s)
+abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
+
+* <2013-08-02 Fri> Objetivos
 * <2013-07-31 Wed> Objetivos
 ** jmr
 *** STARTED Estabilidad mosto: 
@@ -35,58 +164,11 @@ promise vuelve rechazada y mosto sigue funcionando.  Ahora me falta que
 mosto detecte la caida y lo levante nuevamente.  Igualmente, lo ideal seria
 que melted no se caiga nunca! :)
 
-*** BUG melted + mosto se caen
-*** TODO vp9: 
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-*** TODO ui de filtros: 
- Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
- parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
- Me parece que va muy de la mano de playout view, ya que son filtros
- dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
- clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
- meter un doc css completo dinamicamente, hacer un poco mas robusta la
- implementacion y persistir de alguna forma los filtros.  Me gustaria si
- pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
- tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
- parece que estan todos hasta las manos como para que lo haga otro, no?)
-
-** Adri
-*** STARTED migracion a VLC
-*** TODO tests
-*** TODO keybinds
-*** Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-
-*** Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-
+*** DONE melted + mosto se caen
+CLOSED: [2013-08-12 Mon 04:55]
 ** Mariana
-*** TODO Usar knockback para cargar las vistas.
-*** TODO Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-
-*** TODO CSS overall
 ** Pato
-*** Streamer melt:
-**** pruebas con jmr
-*** PlayoutView:
-**** STARTED Agregar al comportamiento de drag and drop un método de "push down".
-**** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-**** TODO pushdown
-**** TODO Buscar una solución para problemas de performance.
-**** TODO Corregir un par de known-bugs.
-
 ** josx
-*** TODO tags
-*** TODO ayuda jmr ui filtros.
 *** DONE Backbone-pageable
 CLOSED: [2013-07-29 Mon 11:48]
 Estoy usando backbone-pageable (termine de convencer con algunas
@@ -114,27 +196,8 @@ voy a tratar de hacerlo lo más rápido posible. (voy a necesitar ayuda
 con la gráfica y algunos eventos dom, el miércoles consulto).
 
 ** Ruth
-*** TODO cuentas
-*** TODO nic.ar, coop.ar
-*** TODO soporte agus
+
 ** Agus
-*** STARTED docs: 
-más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-
-*** STARTED diseño: 
-ahora es prioridad terminar los logos. recién hoy me pude poner a probar
-colores. Pienso que el miércoles quizás sea un buen día para dedicarme a
-conocer el inkscape, tendría mucho más sentido poder diseñar todo desde ahí.
-para mí que el miércoles podríamos cerrar los logos y ver en qué estado está
-el diseño de la web..
-
-*** TODO tarjetas: 
-finalmente pienso en hacer unas tarjetas para que luego evaluemos la
-posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
-tarjeta.. se escabullen los contactos!
 
 * <2013-07-24 Wed> Objetivos
 ** Agus
@@ -161,14 +224,6 @@ Por otra parte mejoré un poco las rutinas de cierre de procesos ya que la
 presencia de semáforos y locks hacen que los threads queden bloqueados y el
 proceso melt quede esperando su cierre indefinidamente.
 
-**** TODO Pendientes:
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay todavía algunos
-escenarios donde al intentar cerrar melt algún thread queda bloqueado y no
-cierra. Todavía no probé hacer que melted escriba su salida a memoria
-compartida para leer desde varias fuentes. Hay que hacer pruebas con video
-FullHD ya que parece que mi máquina no se lo banca. Se puede investigar
-cómo hacer streaming desde el browser para agregar el preview a caspa.
 
 *** Misc:
  ~ Ayer estuve surfeando la ciudad en busca de talonarios de facturas,
@@ -182,25 +237,35 @@ cómo hacer streaming desde el browser para agregar el preview a caspa.
 ** josx
 
 * <2013-05-13 Mon> todo: tests funcionales
-** TODO +terminar los tests de mosto
+** DONE +terminar los tests de mosto
+CLOSED: [2013-08-12 Mon 05:00]
 <2013-05-10 Fri> not started
-** TODO +prototipos de fetch y de sync con proof of concept con backbone 
+** DONE +prototipos de fetch y de sync con proof of concept con backbone 
+CLOSED: [2013-08-12 Mon 05:00]
 > niv sube su ejemplo
 <2013-05-10 Fri> not started
-** STARTED +tom: metatest mosto
+** DONE +tom: metatest mosto
+CLOSED: [2013-08-12 Mon 05:00]
 <2013-05-10 Fri> started
 
-** TODO Tom: meta test
-** TODO Fabri: schedule
-** TODO pato: sync
-** TODO josx: play
-** TODO jmrunge: fetch
-** TODO diego + adri: state of art de la interfaz, claro y estudiado cómo vamos a trabajar el testing las interfaces
+** DONE Tom: meta test
+CLOSED: [2013-08-12 Mon 05:00]
+** DONE Fabri: schedule
+CLOSED: [2013-08-12 Mon 05:00]
+** DONE pato: sync
+CLOSED: [2013-08-12 Mon 05:00]
+** DONE josx: play
+CLOSED: [2013-08-12 Mon 05:00]
+** DONE jmrunge: fetch
+CLOSED: [2013-08-12 Mon 05:00]
+** DONE diego + adri: state of art de la interfaz, claro y estudiado cómo vamos a trabajar el testing las interfaces
+CLOSED: [2013-08-12 Mon 05:00]
 
 
 
 * Backlog
-** REPORT paginación                                                    :sip:
+** DONE paginación                                                     :sip:
+CLOSED: [2013-08-12 Mon 05:01]
 * <2013-05-10 Fri> Objectivos
 
 * <2013-04-10 Fri> status report
@@ -224,37 +289,32 @@ cómo hacer streaming desde el browser para agregar el preview a caspa.
 no sabemos bien lo que implican los cargos
 
 ** cristian
-*** STARTED migrar tests a semaphores
+*** DONE migrar tests a semaphores
+CLOSED: [2013-08-12 Mon 05:01]
 mirar branch fabriciocosta/cleaning_and_testing
 ** tom
-*** TODO tests fallan porque cosas no mueren
+*** DONE tests fallan porque cosas no mueren
+CLOSED: [2013-08-12 Mon 05:01]
 lo habia agarrado cristian
 *** DONE migracion a redis
-*** TODO status
+*** DONE status
+CLOSED: [2013-08-12 Mon 05:01]
 - pasar el timecode c/100ms
 - pasar el status actual solo cuando hay un cambio de clip
-*** STARTED tests sobre getWindow() en playlist driver
+*** DONE tests sobre getWindow() en playlist driver
+CLOSED: [2013-08-12 Mon 05:01]
 ** diego
-*** STARTED playout view (was 'mediaview linear')
+*** DONE playout view (was 'mediaview linear')
+CLOSED: [2013-08-12 Mon 05:01]
 peleandose con knockback
 subida estructura base para agregar cosas al view
 no estaria listo para el lunes
-*** STARTED small-header
+*** DONE small-header
+CLOSED: [2013-08-12 Mon 05:01]
 funciona rudimentariamente: se encoge nada mas
 ** josx
 *** DONE conf: back to default
-*** TODO tipos en config
-*** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-*** STARTED ver opciones de logging
+
 ** fabricio
 *** DONE bugs mosto
 #93
@@ -263,21 +323,26 @@ otras opciones:
 branch fabriciocosta/cleaning_and_testing
 *** STARTED unit tests
 
-*** TODO status
+*** WONTFIX status
+CLOSED: [2013-08-12 Mon 05:02]
 - pasar el status actual solo cuando hay un cambio de clip
 
 ** patricio
-*** STARTED setup
+*** DONE setup
+CLOSED: [2013-08-12 Mon 05:03]
 debian
 entorno
-*** TODO actualizar README
+*** WONTFIX actualizar README
+CLOSED: [2013-08-12 Mon 05:03]
 hubo updates de repos y no anda como dice la documentacion actual
 
-*** TODO testing
+*** WONTFIX testing
+CLOSED: [2013-08-12 Mon 05:03]
 * estatus para el lunes (martes se persenta)
 * tests tests tests
 
-** STARTED +portar a FC 1.5
+** WONTFIX +portar a FC 1.5
+CLOSED: [2013-08-12 Mon 05:03]
 notificacion superpuestos
 <2013-04-10 Wed> andaba con FC 1.6
 :LOGBOOK:
@@ -293,11 +358,14 @@ anda en el branch de fabricio
 *** preparacion de la reunion de trabajo presencial del miercoles.
 
 ** cristian
-*** STARTED migrar tests a semaphores
+*** DONE migrar tests a semaphores
+CLOSED: [2013-08-12 Mon 05:03]
 #55
-*** TODO mosto coverity
+*** DONE mosto coverity
+CLOSED: [2013-08-12 Mon 05:03]
 ** tom
-*** STARTED tests fallan porque cosas no mueren
+*** DONE tests fallan porque cosas no mueren
+CLOSED: [2013-08-12 Mon 05:03]
 delete() no sirve
 destroy en mosto
 instancias fuera de before y after
@@ -305,17 +373,23 @@ instancias fuera de before y after
 *** FIXED migracion a redis
 CLOSED: [2013-04-24 Wed 15:03]
 
-*** STARTED tests set-windows
+*** DONE tests set-windows
+CLOSED: [2013-08-12 Mon 05:03]
 *** DONE event-emitter
 ** juan martin
 *** DONE con lo que tenia asignado en los SCRUMM
-*** STARTED Estuve haciendo Review y merge de PR de Mosto
-*** STARTED Estoy probando mosto+caspa (metaproyecto mbc-playout)
-*** TODO issues asignadas a mi de mosto
-*** TODO seguir probando mbc-playout y armar la demo
+*** DONE Estuve haciendo Review y merge de PR de Mosto
+CLOSED: [2013-08-12 Mon 05:03]
+*** DONE Estoy probando mosto+caspa (metaproyecto mbc-playout)
+CLOSED: [2013-08-12 Mon 05:03]
+*** DONE issues asignadas a mi de mosto
+CLOSED: [2013-08-12 Mon 05:03]
+*** DONE seguir probando mbc-playout y armar la demo
+CLOSED: [2013-08-12 Mon 05:03]
 
 ** adrian
-*** STARTED (almost DONE): port editview to kb #90. Podría hacerse mucho
+*** DONE (almost DONE): port editview to kb #90. Podría hacerse mucho
+CLOSED: [2013-08-12 Mon 05:03]
 mas knockout-toso pero me queda algo despelotado el código.
 
 *** STARTED save continuo + undo (afecta #76 y #110). Qué funciona por
@@ -329,10 +403,13 @@ update pero la vista no se actualiza.
 se puede
 
 ** diego
-*** REPORT fullcalendar
-*** STARTED mediaview linear
+*** DONE fullcalendar
+CLOSED: [2013-08-12 Mon 05:04]
+*** WONTFIX mediaview linear
+CLOSED: [2013-08-12 Mon 05:04]
 *** DONE bugfixs
-*** STARTED small-header
+*** WONTFIX small-header
+CLOSED: [2013-08-12 Mon 05:04]
 
 ** josx
 *** DONE conf -> mbc-common
@@ -340,83 +417,115 @@ se puede
 CLOSED: [2013-04-24 Wed 15:10]
 
 *** DONE merge back node-config
-*** STARTED conf types
-*** STARTED testing funcional: phantom
+*** WONTFIX conf types
+CLOSED: [2013-08-12 Mon 05:04]
 
 ** fabricio
-*** TODO test en mbc-playout
-*** TODO 20 tests
+*** WONTFIX test en mbc-playout
+CLOSED: [2013-08-12 Mon 05:05]
+*** WONTFIX 20 tests
+CLOSED: [2013-08-12 Mon 05:05]
 
 * <2013-04-17 Wed> Objetivos
-** [/] tom
-*** STARTED [#A] +++tests mocha
+** [4/4] tom
+*** WONTFIX [#A] +++tests mocha
+CLOSED: [2013-08-12 Mon 05:05]
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:34]
 :END:
 **** DONE <2013-04-10 Wed> algunos tests
 
-**** STARTED [#B] <2013-04-10 Wed> test CUD playlist
-CLOSED: [2013-04-12 Fri 14:33]
+**** WONTFIX [#B] <2013-04-10 Wed> test CUD playlist
+CLOSED: [2013-08-12 Mon 05:05]
 
-**** STARTED [#A] <2013-04-10 Wed> test status
-**** TODO [#C] <2013-04-10 Wed> test getplaylist
-*** STARTED [#B] ++mbc-common
+**** WONTFIX [#A] <2013-04-10 Wed> test status
+CLOSED: [2013-08-12 Mon 05:05]
+**** WONTFIX [#C] <2013-04-10 Wed> test getplaylist
+CLOSED: [2013-08-12 Mon 05:05]
+*** WONTFIX [#B] ++mbc-common
+CLOSED: [2013-08-12 Mon 05:05]
 **** DONE <2013-04-10 Wed> init db
-**** TODO driver de mosto recive json de conf                       :josx:
-**** TODO migrar codigo de caspa
-*** TODO +travis mbc-common
-*** REPORT +travis not failing
+**** WONTFIX driver de mosto recive json de conf                    :josx:
+CLOSED: [2013-08-12 Mon 05:05]
+**** WONTFIX migrar codigo de caspa
+CLOSED: [2013-08-12 Mon 05:05]
+*** WONTFIX +travis mbc-common
+CLOSED: [2013-08-12 Mon 05:05]
+*** WONTFIX +travis not failing
+CLOSED: [2013-08-12 Mon 05:05]
 * <2013-04-15 Mon> Objetivos
-** [0/4] tom
+** [1/1] tom
 *** DONE publishing de mosto->caspa: errores 
-** [0/3] jmrungec
-*** REPORT travis not failing
-*** TODO [#A] test for melted-node bug                  :fabricio:cristian:
-*** TODO [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
-** [0/4] cristian
-*** STARTED +test test test <-                                      :jmrunge:
+** [3/3] jmrungec
+*** WONTFIX travis not failing
+CLOSED: [2013-08-12 Mon 05:06]
+*** WONTFIX [#A] test for melted-node bug               :fabricio:cristian:
+CLOSED: [2013-08-12 Mon 05:05]
+*** WONTFIX [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
+CLOSED: [2013-08-12 Mon 05:05]
+** [4/4] cristian
+*** WONTFIX +test test test <-                                    :jmrunge:
+CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-10 Wed> started
 **** +test core, mocha
 **** lista de tests
-*** TODO +2 tests
+*** WONTFIX +2 tests
+CLOSED: [2013-08-12 Mon 05:06]
 
-*** TODO travis not failing
-*** TODO merge 4 pull requests
-** [0/4] fabricio
-*** TODO test bug melted-node
-*** STARTED ++resolviendo incoherencia playlist -> clips (falta testeo)
+*** WONTFIX travis not failing
+CLOSED: [2013-08-12 Mon 05:06]
+*** WONTFIX merge 4 pull requests
+CLOSED: [2013-08-12 Mon 05:06]
+** [4/4] fabricio
+*** WONTFIX test bug melted-node
+CLOSED: [2013-08-12 Mon 05:06]
+*** WONTFIX ++resolviendo incoherencia playlist -> clips (falta testeo)
+CLOSED: [2013-08-12 Mon 05:06]
 :LOGBOOK:
 - State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
 :END:
-*** STARTED ++tests mocha
+*** WONTFIX ++tests mocha
+CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-10 Wed> parte de la logica
 <2013-04-12 Fri> not started
-*** TODO +++integracion driver mubsub
+*** WONTFIX +++integracion driver mubsub
+CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-10 Wed> no se toco
 
-** [0/4] diego
-*** TODO undo
-*** TODO nunca empujar 
-*** TODO UI Configuracion                                            :josx:
-*** TODO estetica general
-** [0/3] adrian
-*** STARTED ++bug 'guardar o no los cambios'
+** [4/4] diego
+*** WONTFIX undo
+CLOSED: [2013-08-12 Mon 05:06]
+*** WONTFIX nunca empujar 
+CLOSED: [2013-08-12 Mon 05:06]
+*** WONTFIX UI Configuracion                                         :josx:
+CLOSED: [2013-08-12 Mon 05:06]
+*** WONTFIX estetica general
+CLOSED: [2013-08-12 Mon 05:06]
+** [3/3] adrian
+*** WONTFIX ++bug 'guardar o no los cambios'
+CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-10 Wed> +investigar librerias de undo
-*** REPORT +medios repetidos                                          :xaiki:
+*** WONTFIX +medios repetidos                                       :xaiki:
+CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-10 Wed> a hablar
 <2013-04-12 Fri> se hace save
-*** TODO [#A] migrar a kb: el header
+*** WONTFIX [#A] migrar a kb: el header
+CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-12 Fri> no progress
 
-** [0/4] josx
-*** STARTED node-config fork
+** [4/4] josx
+*** WONTFIX node-config fork
+CLOSED: [2013-08-12 Mon 05:06]
 to-merge
 
-*** STARTED migrate conf-view to kb
+*** WONTFIX migrate conf-view to kb
+CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-12 Fri> hard without backbone-relational
-*** TODO [#A] migrate to mbc-common
-*** TODO [#C] travis for backbone.io
+*** WONTFIX [#A] migrate to mbc-common
+CLOSED: [2013-08-12 Mon 05:06]
+*** WONTFIX [#C] travis for backbone.io
+CLOSED: [2013-08-12 Mon 05:06]
 * <2013-04-12 Fri> Objetivos
 ** [1/1] tom
 *** DONE [#B] +mosto -> caspa
