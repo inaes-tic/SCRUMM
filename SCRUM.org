@@ -15,6 +15,134 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** tom : nueva arquitectura de mosto
 
 x
+* <2013-08-16 Wed> Obejtivos
+** jmr
+*** TODO vp9:
+Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
+Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
+tengo (gracias a ddennedy) pero no pude probarlo todavia.
+
+** alejo
+*** STARTED jmr -> ui de filtros:
+ Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
+ parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
+ Me parece que va muy de la mano de playout view, ya que son filtros
+ dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
+ clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
+ meter un doc css completo dinamicamente, hacer un poco mas robusta la
+ implementacion y persistir de alguna forma los filtros.  Me gustaria si
+ pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
+ tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
+ parece que estan todos hasta las manos como para que lo haga otro, no?)
+
+*** TODO -> alejo ayuda jmr ui filtros.
+ Dificultad: Falta contacto con jmr
+*** TODO Widget de clima
+** pato
+*** STARTED Sprint CASPA
+*** STARTED Dominio COOP
+*** STARTED Mails bienvenida
+*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
+*** STARTED Playout View Paginacion basado en backbone paginator
+
+*** TODO algoritmo tiempos de espera
+se puede mejorar el algoritmo que calcula los tiempos de
+espera para suministrar los frames en tiempo real. Hay
+
+*** TODO thread bloqueado cuando se cierra melt
+todavía algunos escenarios donde al intentar cerrar melt algún thread queda
+bloqueado y no cierra.
+
+*** TODO streaming a browser
+Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
+caspa.
+*** BUG posixshm seek.
+*** BUG collection->get no pasa por io.
+*** BUG view collisiona con get.
+*** TODO Buscar solucion para Videos CN23
+*** Backlog
+**** TODO Buscar una solución para problemas de performance.
+**** TODO Corregir un par de known-bugs.
+
+** mariana
+*** WONTFIX Presentation + adri + agus
+*** STARTED Presupuesto sistema inaes
+*** STARTED CSS overall
+**** TODO Terminar layout
+**** TODO Paginate wait
+**** STARTED commitear
+**** TODO Hay bugs por arreglar
+*** Backlog:
+**** TODO +Usar knockback para cargar las vistas.
+**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
+**** TODO + tipos en config
+**** tipos estan
+**** falta renderizado distinto
+
+** josx
+*** TODO tags
+*** STARTED merge
+**** Corregir layers de backbone.io
+*** STARTED mongo fulltextsearch + index
+mongo 2.4 FTS beta.
+
+*** Backlog:
+**** STARTED testing de UI
+Hay un test hecho en phantom
+opciones:
+ - phantomjs (webkit) + mocha + phantom-node
+ - pahntomjs sin phantom-node
+otras opciones:
+ - selenium
+ - sauce labs: testing en la cloud contra la arquitectura que
+   quieras, graba videos de los testeos, se integra, pero puede
+   ser overkill
+**** STARTED ver opciones de logging
+**** STARTED testing funcional: phantom
+** ruth
+*** STARTED nic.ar, coop.ar
+*** STARTED Reunión Facttic
+*** STARTED Convenio de trama
+*** STARTED AFIP
+*** STARTED Presupuesto
+*** WONTFIX soporte agus
+** agus
+*** STARTED logos caspa mosto
+*** STARTED docs
+**** más allá de la documentación del concurso tengo en drive unos documentos de
+MBC, TETRA, FFFS, de los que había empezado a escribir documentación
+técnica. avancé hasta donde pude con la información que tenía. está para
+terminar.
+**** Hay que empezar documentación del DAM
+
+*** STARTED + tarjetas
+finalmente pienso en hacer unas tarjetas para que luego evaluemos la
+posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
+tarjeta.. se escabullen los contactos!
+
+*** TODO Subir CPD a private
+** adri
+*** TODO tests
+*** TODO keybinds
+*** STARTED + Resiliencia de Fallos
+resilencia a fallos o cortes de conexion con las camaras en general
+ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
+(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
+cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
+va la mano de eso.
+Dificultad para reproducir
+*** STARTED + Desconexion de Camaras
+En el mismo orden de cosas tengo que hacer que si uno esta archivando
+la salida y desconecta todas las camaras, al volver a conectarla(s)
+abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
+Dificultad para reproducir
+*** STARTED + refactoring
+*** Backlog:
+**** TODO Video view draggable
+**** TODO Overlay
+**** TODO Picture in picture
+**** TODO Cargar videos de disco
+*** DONE bug gstreamer
 * <2013-08-14 Wed> Obejtivos
 ** Niv (Temario)
 *** SCRUM : sanitización y futuro. 
