@@ -45,25 +45,25 @@ tengo (gracias a ddennedy) pero no pude probarlo todavia.
 *** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
 *** STARTED Playout View Paginacion basado en backbone paginator
 
-*** TODO algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-*** TODO thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-*** TODO streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
 *** BUG posixshm seek.
 *** BUG collection->get no pasa por io.
 *** BUG view collisiona con get.
 *** TODO Buscar solucion para Videos CN23
 *** Backlog
-**** TODO Buscar una solución para problemas de performance.
-**** TODO Corregir un par de known-bugs.
+**** TODO POV: Buscar una solución para problemas de performance.
+**** TODO POV: Corregir un par de known-bugs.
 
+**** TODO SHM: algoritmo tiempos de espera
+se puede mejorar el algoritmo que calcula los tiempos de
+espera para suministrar los frames en tiempo real. Hay
+
+**** TODO SHM: thread bloqueado cuando se cierra melt
+todavía algunos escenarios donde al intentar cerrar melt algún thread queda
+bloqueado y no cierra.
+
+**** TODO SHM: streaming a browser
+Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
+caspa.
 ** mariana
 *** WONTFIX Presentation + adri + agus
 *** STARTED Presupuesto sistema inaes
