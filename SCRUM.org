@@ -120,6 +120,7 @@ finalmente pienso en hacer unas tarjetas para que luego evaluemos la
 posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
 tarjeta.. se escabullen los contactos!
 
+*** STARTED Tríptico
 *** TODO Subir CPD a private
 ** adri
 *** TODO tests
