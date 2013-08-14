@@ -15,7 +15,43 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** tom : nueva arquitectura de mosto
 
 x
-* <2013-08-16 Wed> Obejtivos
+
+* <2013-08-23 Fri> Sprint CASPA
+** Mariana
+*** TODO Foldable Universe
+*** TODO Paginado basado en nuevo scroll interno
+*** TODO Animacion de espera al paginar
+*** TODO Bug de draggable
+*** TODO Logo Playout
+**** Ajustar paleta de colores
+**** Integrar al playout
+** Joxs
+** Adri
+** Pato
+** Sin asignar
+*** Revisar router backbone
+**** Los markers de config lo rompen
+*** Mover al servidor el read de backbone.io
+*** Backbone Model->get no busca en DB
+*** BUG Backbone.io save->create
+*** BUG Save no siempre guarda
+*** BUG Cambios en memoria #148
+*** Refactoring de modelos
+*** Backbone relational
+**** Actualizar
+**** Revisar
+*** Lazy load / Dynamic Views
+**** Ver Knockback para una vista genérica de contenido dinámico con animación de espera.
+*** Static Views
+**** Distinguir la parte estática de las vistas
+*** VisualSearch client side
+**** Usar el widget usando el motor de knockback?
+*** Playout view paginado
+*** Colecciones dedicadas
+**** Usar distintas colecciones para las funcionalidades que las necesiten
+**** Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
+*** Mongo Fulltext search
+* <2013-08-16 Fri> Obejtivos
 ** jmr
 *** TODO vp9:
 Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
