@@ -83,7 +83,9 @@ tengo (gracias a ddennedy) pero no pude probarlo todavia.
 *** TODO Widget de clima
 ** pato
 *** STARTED Dominio COOP
+**** Enviado email con copia digital de la matrícula
 *** STARTED Mails bienvenida
+**** Actualizado intro en private/mail-intro.
 *** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
 *** STARTED Playout View Paginacion basado en backbone paginator
 
