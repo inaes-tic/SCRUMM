@@ -22,6 +22,7 @@ x
 *** TODO Paginado basado en nuevo scroll interno
 *** TODO Animacion de espera al paginar
 *** TODO Bug de draggable
+*** TODO Arreglar layout de Add Media
 *** TODO Arreglar close de mensaje de error en new playlist
 *** TODO Logo Playout
 **** Ajustar paleta de colores
@@ -81,7 +82,6 @@ tengo (gracias a ddennedy) pero no pude probarlo todavia.
  Dificultad: Falta contacto con jmr
 *** TODO Widget de clima
 ** pato
-*** STARTED Sprint CASPA
 *** STARTED Dominio COOP
 *** STARTED Mails bienvenida
 *** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
@@ -91,6 +91,7 @@ tengo (gracias a ddennedy) pero no pude probarlo todavia.
 *** BUG collection->get no pasa por io.
 *** BUG view collisiona con get.
 *** TODO Buscar solucion para Videos CN23
+*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
 *** Backlog
 **** TODO POV: Buscar una solución para problemas de performance.
 **** TODO POV: Corregir un par de known-bugs.
