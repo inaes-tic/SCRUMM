@@ -82,9 +82,12 @@ tengo (gracias a ddennedy) pero no pude probarlo todavia.
  tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
  parece que estan todos hasta las manos como para que lo haga otro, no?)
 
-*** TODO -> alejo ayuda jmr ui filtros.
+*** TODO + -> alejo ayuda jmr ui filtros.
  Dificultad: Falta contacto con jmr
-*** TODO Widget de clima
+*** STARTED Widget de clima
+**** Estuvo evaluando los scripts de Demo de webfx
+**** Dificultad: todavía no pudo hacer andar los que tienen shaders / webgl / opengl
+**** TODO buscar un widget ya existente y hacerlo andar via webfx, sino buscar API de clima y hacer renderizado básico
 ** pato
 *** STARTED Dominio COOP
 **** Enviado email con copia digital de la matrícula
