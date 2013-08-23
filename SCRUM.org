@@ -31,13 +31,6 @@ x
 ** Adri
 ** Pato
 ** Sin asignar
-*** Revisar router backbone
-**** Los markers de config lo rompen
-*** Mover al servidor el read de backbone.io
-*** Backbone Model->get no busca en DB
-*** BUG Backbone.io save->create
-*** BUG Save no siempre guarda
-*** BUG Cambios en memoria #148
 *** Refactoring de modelos
 *** Backbone relational
 **** Actualizar
@@ -45,19 +38,35 @@ x
 guardar occurrences enviar por redis a mosto lo que
 mosto necesita en un solo JSON
 **** Evaluar qué hacer para desnormalizar
-**** Actualizar el mongo driver
+***** Evitar modificar pl que tiene occurrences
+***** Permitir duplicar pl para que no tenga que cargar todo de nuevo
+**** Actualizar el mongo driver (Mosto)
 **** Revisar
+*** Mover al servidor el read de backbone.io
+**** Adri lo sube, lo cerramos acá
+*** DONE Backbone Model->get no busca en DB
+**** Lo resuelve fetch related
+*** BUG Backbone.io save->create
+**** Probar qué pasa mandando CREATE de un elemento que ya está en la DB
+*** BUG Save no siempre guarda (?)
+*** BUG Cambios en memoria #148
+**** No permitir cambiar de vista sin guardar (usar memento para rollback)
+**** Tener en cuenta cambios simultáneos por distintos usuarios.
 *** Lazy load / Dynamic Views
 **** Ver Knockback para una vista genérica de contenido dinámico con animación de espera.
 *** Static Views
 **** Distinguir la parte estática de las vistas
-*** VisualSearch client side
-**** Usar el widget usando el motor de knockback?
-*** Playout view paginado
 *** Colecciones dedicadas
 **** Usar distintas colecciones para las funcionalidades que las necesiten
 **** Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
+**** Optimizar para no traer mil veces las mismas cosas
+*** Playout view paginado
+*** VisualSearch client side
+**** Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback
+**** Usar el widget usando el motor de knockback?
 *** Mongo Fulltext search
+*** Revisar router backbone
+**** Los markers de config lo rompen
 * <2013-08-26 Mon> Obejtivos
 ** jmr
 *** TODO ++ vp9:
