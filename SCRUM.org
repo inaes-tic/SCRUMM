@@ -18,54 +18,57 @@ x
 
 * <2013-08-23 Fri> Sprint CASPA
 ** Mariana
-*** TODO Foldable Universe
-*** TODO Paginado basado en nuevo scroll interno
-*** TODO Animacion de espera al paginar
-*** TODO Bug de draggable
+*** STARTED Foldable Universe
+*** DONE Paginado basado en nuevo scroll interno
+*** DONE Animacion de espera al paginar
+*** STARTED Bug de draggable
 *** DONE Arreglar layout de Add Media
 *** DONE Arreglar close de mensaje de error en new playlist
-*** STARTED Logo Playout
-**** Ajustar paleta de colores
-**** Integrar al playout
+*** DONE Logo Playout
+**** DONE Ajustar paleta de colores
+**** DONE Integrar al playout
 ** Joxs
 ** Adri
 ** Pato
 ** Sin asignar
-*** Refactoring de modelos
-*** Backbone relational
-**** Actualizar
-**** Considerar mantener relaciones por _id y a la hora de
-guardar occurrences enviar por redis a mosto lo que
-mosto necesita en un solo JSON
-**** Evaluar qué hacer para desnormalizar
-***** Evitar modificar pl que tiene occurrences
-***** Permitir duplicar pl para que no tenga que cargar todo de nuevo
-**** Actualizar el mongo driver (Mosto)
-**** Revisar
-*** Mover al servidor el read de backbone.io
-**** Adri lo sube, lo cerramos acá
-*** DONE Backbone Model->get no busca en DB
+*** STARTED Refactoring de modelos
+*** STARTED Backbone relational
+**** DONE Actualizar
+**** DONE Considerar mantener relaciones por _id
+**** STARTED Evaluar qué hacer para desnormalizar
+***** DONE Evitar modificar pl que tiene occurrences
+***** TODO Permitir duplicar pl para que no tenga que cargar todo de nuevo
+**** TODO Actualizar el mongo driver (Mosto)
+**** TODO Revisar
+*** DONE Mover al servidor el read de backbone.io
+**** (Tal vez se pueda rediseñar)
+*** FIXED Backbone Model->get no busca en DB
 **** Lo resuelve fetch related
-*** BUG Backbone.io save->create
-**** Probar qué pasa mandando CREATE de un elemento que ya está en la DB
+*** FIXED Backbone.io save->create
+**** DONE Probar qué pasa mandando CREATE de un elemento que ya está en la DB
 *** BUG Save no siempre guarda (?)
-*** BUG Cambios en memoria #148
-**** No permitir cambiar de vista sin guardar (usar memento para rollback)
+*** STARTED Cambios en memoria #148
+**** STARTED No permitir cambiar de vista sin guardar (usar memento para rollback)
 **** Tener en cuenta cambios simultáneos por distintos usuarios.
-*** Lazy load / Dynamic Views
+*** STARTED Lazy load / Dynamic Views
 **** Ver Knockback para una vista genérica de contenido dinámico con animación de espera.
-*** Static Views
+*** TODO Static Views
 **** Distinguir la parte estática de las vistas
-*** Colecciones dedicadas
+*** STARTED Colecciones dedicadas
 **** Usar distintas colecciones para las funcionalidades que las necesiten
 **** Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
 **** Optimizar para no traer mil veces las mismas cosas
-*** Playout view paginado
-*** VisualSearch client side
-**** Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback
+*** DONE Playout view paginado
+*** DONE Playout view no estaría eliminando elementos que salen de la vista
+*** DONE Playout view muestra mal los clips cuando se hace lazy load
+**** FIXED Corregido el scope de cambios a enter() y a update.
+**** TODO Agregar animación de wait para cuando se cargan los clips.
+*** BUG Plalist duration fails to update when lazy loading pieces
+*** STARTED VisualSearch client side
+**** DONE Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback (Guarda todo!)
 **** Usar el widget usando el motor de knockback?
-*** Mongo Fulltext search
-*** Revisar router backbone
+*** STARTED Mongo Fulltext search
+*** TODO Revisar router backbone
 **** Los markers de config lo rompen
 * <2013-08-26 Mon> Obejtivos
 ** jmr
