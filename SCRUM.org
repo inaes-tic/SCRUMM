@@ -19,6 +19,7 @@ x
 * <2013-08-23 Fri> Sprint CASPA
 ** Mariana
 *** STARTED Foldable Universe
+**** TODO Fix fold animation on schedule and playout (hint: use js animation instead of css transitions)
 *** DONE Paginado basado en nuevo scroll interno
 *** DONE Animacion de espera al paginar
 *** STARTED Bug de draggable
