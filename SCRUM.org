@@ -72,21 +72,23 @@ x
 **** Los markers de config lo rompen
 * <2013-08-26 Mon> Obejtivos
 ** jmr
-*** TODO ++ vp9:
+*** TODO +++ vp9:
 Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
 Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
 tengo (gracias a ddennedy) pero no pude probarlo todavia.
 
 *** STARTED Tests: esperando el equipo nuevo para mosto 24h
-**** STARTED Armando y formateando el equipo
-**** Pruebas saliendo posixshm a avformat para preview
-*** STARTED BUG en Wrapper de melted
+**** DONE Armando y formateando el equipo
+El i3 con 4gb se banca joya webvfx, así que podemos decir que esa sería la configuración mínima para mosto.
+**** TODO + Pruebas saliendo posixshm a avformat para preview: <2013-08-28 Wed>
+*** TODO ++ BUG en Wrapper de melted
+*** STARTED Cleanup de mosto: <2013-08-28 Wed>
+*** STARTED Review melted-node de Tom
+** tom
+*** STARTED Melted-node enhancements
 ** alejo
-*** DONE Widget de clima
-**** Estuvo evaluando los scripts de Demo de webfx
-**** Dificultad: todavía no pudo hacer andar los que tienen shaders / webgl / opengl
-**** TODO buscar un widget ya existente y hacerlo andar via webfx, sino buscar API de clima y hacer renderizado básico
-*** TODO Buscar estándares de widgets (iGoogle, MACOSX)
+*** STARTED Buscar estándares de widgets (iGoogle, MACOSX)
+**** Haciendo pruebas con los widgets de apple.
 *** Backlog:
 **** STARTED jmr -> ui de filtros:
   Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
@@ -238,7 +240,7 @@ tengo (gracias a ddennedy) pero no pude probarlo todavia.
 *** STARTED Tests: esperando el equipo nuevo para mosto 24h
 **** STARTED Armando y formateando el equipo
 **** Pruebas saliendo posixshm a avformat para preview
-*** STARTED BUG en Wrapper de melted
+*** TODO + BUG en Wrapper de melted
 ** alejo
 *** DONE Widget de clima
 **** Estuvo evaluando los scripts de Demo de webfx
