@@ -22,7 +22,7 @@ x
 **** TODO Fix fold animation on schedule and playout (hint: use js animation instead of css transitions)
 *** DONE Paginado basado en nuevo scroll interno
 *** DONE Animacion de espera al paginar
-*** STARTED Bug de draggable
+*** FIXED Bug de draggable
 *** DONE Arreglar layout de Add Media
 *** DONE Arreglar close de mensaje de error en new playlist
 *** DONE Logo Playout
@@ -47,10 +47,8 @@ x
 **** Lo resuelve fetch related
 *** FIXED Backbone.io save->create
 **** DONE Probar qué pasa mandando CREATE de un elemento que ya está en la DB
-*** BUG Save no siempre guarda (?)
-*** STARTED Cambios en memoria #148
-**** STARTED No permitir cambiar de vista sin guardar (usar memento para rollback)
-**** Tener en cuenta cambios simultáneos por distintos usuarios.
+*** DONE Cambios en memoria #148
+**** DONE No permitir cambiar de vista sin guardar (mandar alert)
 *** STARTED Lazy load / Dynamic Views
 **** Ver Knockback para una vista genérica de contenido dinámico con animación de espera.
 *** TODO Static Views
@@ -64,13 +62,16 @@ x
 *** DONE Playout view muestra mal los clips cuando se hace lazy load
 **** FIXED Corregido el scope de cambios a enter() y a update.
 **** TODO Agregar animación de wait para cuando se cargan los clips.
-*** BUG Plalist duration fails to update when lazy loading pieces
+*** FIXED Plalist duration fails to update when lazy loading pieces
 *** STARTED VisualSearch client side
 **** DONE Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback (Guarda todo!)
 **** Usar el widget usando el motor de knockback?
-*** STARTED Mongo Fulltext search
+*** DONE Mongo Fulltext search
 *** TODO Revisar router backbone
 **** Los markers de config lo rompen
+*** TODO No paginar Scheds en ScheduleView y PlayoutView
+*** TODO Pasar alert de cambio de vista a modal
+*** TODO Configurar nombres de las colecciones en la base de datos
 * <2013-08-28 Wed> Obejtivos
 ** jmr
 *** TODO +++ vp9:
