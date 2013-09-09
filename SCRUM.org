@@ -32,15 +32,15 @@ x
 ** Adri
 ** Pato
 ** Sin asignar
-*** STARTED Refactoring de modelos
+*** DONE Refactoring de modelos
 *** STARTED Backbone relational
 **** DONE Actualizar
 **** DONE Considerar mantener relaciones por _id
 **** STARTED Evaluar qué hacer para desnormalizar
 ***** DONE Evitar modificar pl que tiene occurrences
 ***** TODO Permitir duplicar pl para que no tenga que cargar todo de nuevo
-**** TODO Actualizar el mongo driver (Mosto)
-**** TODO Revisar
+**** DONE Actualizar el mongo driver (Mosto)
+**** DONE Revisar
 *** DONE Mover al servidor el read de backbone.io
 **** (Tal vez se pueda rediseñar)
 *** FIXED Backbone Model->get no busca en DB
@@ -54,9 +54,9 @@ x
 *** TODO Static Views
 **** Distinguir la parte estática de las vistas
 *** STARTED Colecciones dedicadas
-**** Usar distintas colecciones para las funcionalidades que las necesiten
-**** Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
-**** Optimizar para no traer mil veces las mismas cosas
+**** DONE Usar distintas colecciones para las funcionalidades que las necesiten
+**** WONTFIX Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
+**** TODO Optimizar para no traer mil veces las mismas cosas
 *** DONE Playout view paginado
 *** DONE Playout view no estaría eliminando elementos que salen de la vista
 *** DONE Playout view muestra mal los clips cuando se hace lazy load
@@ -65,13 +65,20 @@ x
 *** FIXED Plalist duration fails to update when lazy loading pieces
 *** STARTED VisualSearch client side
 **** DONE Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback (Guarda todo!)
+**** TODO Remove playlist filter when dragging medias
 **** Usar el widget usando el motor de knockback?
 *** DONE Mongo Fulltext search
 *** TODO Revisar router backbone
 **** Los markers de config lo rompen
-*** TODO No paginar Scheds en ScheduleView y PlayoutView
-*** TODO Pasar alert de cambio de vista a modal
-*** TODO Configurar nombres de las colecciones en la base de datos
+*** DONE No paginar Scheds en ScheduleView y PlayoutView
+*** DONE Pasar alert de cambio de vista a modal
+*** DONE Configurar nombres de las colecciones en la base de datos
+*** TODO mediaedit: Eliminar filtro en medialist al dragear piece
+*** TODO terminar los unbinds de todas las vistas
+*** TODO no descargar las vistas, detachearlas
+*** TODO mediaedit: lazy fetch de medias!
+*** TODO mediaedit: killEditList: evitar borrar la vista para volver a crearla
+*** TODO searchview: el relojito de paginacion se muestra siempre en el mismo objeto!
 * <2013-08-28 Wed> Obejtivos
 ** jmr
 *** TODO +++ vp9:
