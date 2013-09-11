@@ -128,7 +128,6 @@ Dificultad: configuración de mac para correr los widgets
 *** Backlog
 **** TODO POV: Buscar una solución para problemas de performance.
 **** TODO POV: Corregir un par de known-bugs.
-
 **** TODO SHM: algoritmo tiempos de espera
 se puede mejorar el algoritmo que calcula los tiempos de
 espera para suministrar los frames en tiempo real. Hay
@@ -141,12 +140,17 @@ bloqueado y no cierra.
 Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
 caspa.
 ** mariana
+*** TODO Seguimiento convenio UNTREF
+*** TODO Finalizar tramitación de cuenta credicoop
+*** TODO Finalizar convenio de Trama
+*** TODO Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
+*** TODO Animacion logos para webfx
 *** STARTED CSS overall
-**** TODO Terminar layout
-**** TODO Paginate wait
-**** STARTED commitear
+**** DONE Terminar layout
+**** STARTED Paginate wait
+**** DONE commitear
 **** TODO Hay bugs por arreglar
-*** TODO <2013-08-27 Tue> Actualizar sitio web de la coop
+*** DONE <2013-08-27 Tue> Actualizar sitio web de la coop
 **** Necesita data
 **** Necesita datos de conexion al server
 *** Backlog:
@@ -155,14 +159,13 @@ caspa.
 **** TODO + tipos en config
 **** tipos estan
 **** falta renderizado distinto
-
 ** josx
 *** TODO +tags
-*** STARTED merge
+*** DONE merge
 **** Corregir layers de backbone.io
-*** STARTED mongo fulltextsearch + index
+*** DONE mongo fulltextsearch + index
 mongo 2.4 FTS beta.
-*** STARTED Pitching con Agus
+*** DONE Pitching con Agus
 *** TODO Script para subir lo último a Heroku
 *** Backlog:
 **** STARTED testing de UI
@@ -178,19 +181,19 @@ otras opciones:
 **** STARTED ver opciones de logging
 **** STARTED testing funcional: phantom
 ** ruth
-*** TODO Hablar con el banco por una reunión
+*** DONE Hablar con el banco por una reunión
 *** DONE Tramites Afip Agip
 *** STARTED nic.ar, coop.ar
 **** Todavía esperando la firma de Leo
 **** TODO Mandar mail a facttic para ver si lo movemos por cooperar
-*** STARTED ++ Convenio de trama
+*** WONTFIX ++ Convenio de trama
 **** Escribiendo el texto del subsidio c agus
 **** "Viendo números, adueñándome del proyecto."
-*** STARTED Reunión Facttic
+*** DONE Reunión Facttic
 **** DONE Minuta disponible por mail
 **** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
 **** Se nombró a niv y la coop para tecnópolis
-**** TODO Completar planilla de datos previsionales
+**** DONE Completar planilla de datos previsionales
 *** STARTED Reunión con Contador
 **** Evaluar relación, tipo de contratación
 **** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
