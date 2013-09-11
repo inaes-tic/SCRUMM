@@ -81,6 +81,157 @@ x
 *** DONE mediaedit: killEditList: evitar borrar la vista para volver a crearla
 *** TODO mediaedit: lazy fetch al mostrar la playlist (se está haciendo fetch antes de new MediaListView)
 *** TODO searchview: el relojito de paginacion se muestra siempre en el mismo objeto!
+* <2013-09-13 Fri> Obejtivos
+** jmr
+*** TODO +++ vp9:
+Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
+Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
+tengo (gracias a ddennedy) pero no pude probarlo todavia.
+
+*** STARTED Tests: esperando el equipo nuevo para mosto 24h
+**** DONE Armando y formateando el equipo
+El i3 con 4gb se banca joya webvfx, así que podemos decir que esa sería la configuración mínima para mosto.
+**** TODO + Pruebas saliendo posixshm a avformat para preview: <2013-08-28 Wed>
+*** WONTFIX ++ BUG en Wrapper de melted
+**** Lo va a hacer a TOM
+*** STARTED Cleanup de mosto: <2013-08-28 Wed>
+*** STARTED Review melted-node de Tom
+** tom
+*** DONE Melted-node enhancements
+**** DONE Feature done
+**** DONE Falta arreglar los tests
+**** DONE Falta ajustar mosto para esto
+**** DONE Ver que ande
+*** TODO Mensajes para caspa
+*** STARTED Mosto coverage
+**** DONE Implementado
+**** TODO Chequear con JMR que falla en mosto (Confiabilidad de tests)
+*** TODO Control de proceso melted (mbc-waitpid o tal vez systemd)
+** alejo
+*** DONE Buscar estándares de widgets (iGoogle, MACOSX)
+**** Haciendo pruebas con los widgets de apple.
+Dificultad: configuración de mac para correr los widgets
+*** STARTED Cludget para correr widgets
+**** TODO Integrar el código de c++
+** leo
+*** STARTED UI de WebFX
+**** DONE Aplicar los filtros desde la UI
+**** TODO Integración a caspa
+** pato
+*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
+*** DONE Playout View Paginacion basado en backbone paginator
+*** BUG posixshm seek.
+*** BUG collection->get no pasa por io.
+*** BUG view collisiona con get.
+*** TODO + Buscar solucion para Videos CN23
+*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
+*** Backlog
+**** TODO POV: Buscar una solución para problemas de performance.
+**** TODO POV: Corregir un par de known-bugs.
+
+**** TODO SHM: algoritmo tiempos de espera
+se puede mejorar el algoritmo que calcula los tiempos de
+espera para suministrar los frames en tiempo real. Hay
+
+**** TODO SHM: thread bloqueado cuando se cierra melt
+todavía algunos escenarios donde al intentar cerrar melt algún thread queda
+bloqueado y no cierra.
+
+**** TODO SHM: streaming a browser
+Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
+caspa.
+** mariana
+*** STARTED CSS overall
+**** TODO Terminar layout
+**** TODO Paginate wait
+**** STARTED commitear
+**** TODO Hay bugs por arreglar
+*** TODO <2013-08-27 Tue> Actualizar sitio web de la coop
+**** Necesita data
+**** Necesita datos de conexion al server
+*** Backlog:
+**** TODO +Usar knockback para cargar las vistas.
+**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
+**** TODO + tipos en config
+**** tipos estan
+**** falta renderizado distinto
+
+** josx
+*** TODO +tags
+*** STARTED merge
+**** Corregir layers de backbone.io
+*** STARTED mongo fulltextsearch + index
+mongo 2.4 FTS beta.
+*** STARTED Pitching con Agus
+*** TODO Script para subir lo último a Heroku
+*** Backlog:
+**** STARTED testing de UI
+Hay un test hecho en phantom
+opciones:
+ - phantomjs (webkit) + mocha + phantom-node
+ - pahntomjs sin phantom-node
+otras opciones:
+ - selenium
+ - sauce labs: testing en la cloud contra la arquitectura que
+   quieras, graba videos de los testeos, se integra, pero puede
+   ser overkill
+**** STARTED ver opciones de logging
+**** STARTED testing funcional: phantom
+** ruth
+*** TODO Hablar con el banco por una reunión
+*** DONE Tramites Afip Agip
+*** STARTED nic.ar, coop.ar
+**** Todavía esperando la firma de Leo
+**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
+*** STARTED ++ Convenio de trama
+**** Escribiendo el texto del subsidio c agus
+**** "Viendo números, adueñándome del proyecto."
+*** STARTED Reunión Facttic
+**** DONE Minuta disponible por mail
+**** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
+**** Se nombró a niv y la coop para tecnópolis
+**** TODO Completar planilla de datos previsionales
+*** STARTED Reunión con Contador
+**** Evaluar relación, tipo de contratación
+**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
+*** WONTFIX Poder de Mala
+*** TODO Datos de la cooperativa para prensa facttic.
+** agus
+*** DONE + Preparación de Pitch
+*** STARTED docs
+**** más allá de la documentación del concurso tengo en drive unos documentos de
+MBC, TETRA, FFFS, de los que había empezado a escribir documentación
+técnica. avancé hasta donde pude con la información que tenía. está para
+terminar.
+**** STARTED Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
+***** STARTED Leer documentación de Kaltura, hacer extracto para mejorar.
+*** STARTED ++ Tríptico
+**** Necesita feedback
+**** TODO seguir ajustándolo
+**** WONTFIX Apuntar a que esté para misiones
+*** TODO +Interfaz de Zumo
+** adri
+*** TODO tests
+*** TODO keybinds
+*** Tetra pausado por Caspa Sprint:
+**** STARTED + Resiliencia de Fallos
+resilencia a fallos o cortes de conexion con las camaras en general
+ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
+(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
+cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
+va la mano de eso.
+Dificultad para reproducir
+**** STARTED + Desconexion de Camaras
+En el mismo orden de cosas tengo que hacer que si uno esta archivando
+la salida y desconecta todas las camaras, al volver a conectarla(s)
+abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
+Dificultad para reproducir
+**** STARTED + refactoring
+*** Backlog:
+**** TODO Video view draggable
+**** TODO Overlay
+**** TODO Picture in picture
+**** TODO Cargar videos de disco
 * <2013-08-28 Wed> Obejtivos
 ** jmr
 *** TODO +++ vp9:
