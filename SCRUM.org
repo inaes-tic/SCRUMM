@@ -78,7 +78,8 @@ x
 *** DONE terminar los unbinds de todas las vistas
 *** TODO no descargar las vistas, detachearlas
 *** DONE mediaedit: lazy fetch de medias!
-*** TODO mediaedit: killEditList: evitar borrar la vista para volver a crearla
+*** DONE mediaedit: killEditList: evitar borrar la vista para volver a crearla
+*** TODO mediaedit: lazy fetch al mostrar la playlist (se está haciendo fetch antes de new MediaListView)
 *** TODO searchview: el relojito de paginacion se muestra siempre en el mismo objeto!
 * <2013-08-28 Wed> Obejtivos
 ** jmr
