@@ -20,6 +20,7 @@ x
 ** Mariana
 *** STARTED Foldable Universe
 **** TODO Fix fold animation on schedule and playout (hint: use js animation instead of css transitions)
+*** TODO Corregir los textos de busqueda (se ven muy abajo)
 *** DONE Paginado basado en nuevo scroll interno
 *** DONE Animacion de espera al paginar
 *** FIXED Bug de draggable
@@ -31,16 +32,8 @@ x
 ** Joxs
 ** Adri
 ** Pato
-** Sin asignar
+** Terminadas
 *** DONE Refactoring de modelos
-*** STARTED Backbone relational
-**** DONE Actualizar
-**** DONE Considerar mantener relaciones por _id
-**** STARTED Evaluar qué hacer para desnormalizar
-***** DONE Evitar modificar pl que tiene occurrences
-***** TODO Permitir duplicar pl para que no tenga que cargar todo de nuevo
-**** DONE Actualizar el mongo driver (Mosto)
-**** DONE Revisar
 *** DONE Mover al servidor el read de backbone.io
 **** (Tal vez se pueda rediseñar)
 *** FIXED Backbone Model->get no busca en DB
@@ -49,6 +42,29 @@ x
 **** DONE Probar qué pasa mandando CREATE de un elemento que ya está en la DB
 *** DONE Cambios en memoria #148
 **** DONE No permitir cambiar de vista sin guardar (mandar alert)
+*** DONE Playout view paginado
+*** DONE Playout view no estaría eliminando elementos que salen de la vista
+*** DONE Playout view muestra mal los clips cuando se hace lazy load
+**** FIXED Corregido el scope de cambios a enter() y a update.
+**** TODO Agregar animación de wait para cuando se cargan los clips.
+*** FIXED Plalist duration fails to update when lazy loading pieces
+*** DONE Mongo Fulltext search
+*** DONE No paginar Scheds en ScheduleView y PlayoutView
+*** DONE Pasar alert de cambio de vista a modal
+*** DONE Configurar nombres de las colecciones en la base de datos
+*** DONE terminar los unbinds de todas las vistas
+*** DONE mediaedit: lazy fetch de medias!
+*** DONE mediaedit: killEditList: evitar borrar la vista para volver a crearla
+*** DONE mediaedit: lazy fetch al mostrar la playlist (se está haciendo fetch antes de new MediaListView)
+** Sin asignar
+*** STARTED Backbone relational
+**** DONE Actualizar
+**** DONE Considerar mantener relaciones por _id
+**** STARTED Evaluar qué hacer para desnormalizar
+***** DONE Evitar modificar pl que tiene occurrences
+***** TODO Permitir duplicar pl para que no tenga que cargar todo de nuevo
+**** DONE Actualizar el mongo driver (Mosto)
+**** DONE Revisar
 *** STARTED Lazy load / Dynamic Views
 **** Ver Knockback para una vista genérica de contenido dinámico con animación de espera.
 *** TODO Static Views
@@ -57,30 +73,25 @@ x
 **** DONE Usar distintas colecciones para las funcionalidades que las necesiten
 **** WONTFIX Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
 **** TODO Optimizar para no traer mil veces las mismas cosas
-*** DONE Playout view paginado
-*** DONE Playout view no estaría eliminando elementos que salen de la vista
-*** DONE Playout view muestra mal los clips cuando se hace lazy load
-**** FIXED Corregido el scope de cambios a enter() y a update.
-**** TODO Agregar animación de wait para cuando se cargan los clips.
-*** FIXED Plalist duration fails to update when lazy loading pieces
 *** STARTED VisualSearch client side
 **** DONE Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback (Guarda todo!)
 **** TODO Remove playlist filter when dragging medias
 **** Usar el widget usando el motor de knockback?
-*** DONE Mongo Fulltext search
 *** TODO Revisar router backbone
 **** Los markers de config lo rompen
 **** De hecho creo que ahora ni se puede salir de config :S
-*** DONE No paginar Scheds en ScheduleView y PlayoutView
-*** DONE Pasar alert de cambio de vista a modal
-*** DONE Configurar nombres de las colecciones en la base de datos
 *** TODO mediaedit: Eliminar filtro en medialist al dragear piece
-*** DONE terminar los unbinds de todas las vistas
 *** TODO no descargar las vistas, detachearlas
-*** DONE mediaedit: lazy fetch de medias!
-*** DONE mediaedit: killEditList: evitar borrar la vista para volver a crearla
-*** DONE mediaedit: lazy fetch al mostrar la playlist (se está haciendo fetch antes de new MediaListView)
 *** TODO searchview: el relojito de paginacion se muestra siempre en el mismo objeto!
+*** TODO Occurrence id a uuid
+*** TODO Corregir funcionamiento de dummyRow
+*** TODO Mensaje de resultado vacío para la búsqueda
+*** TODO showPlaylist en EditView hace 1 render SearchView por Piece
+*** TODO switchPlaylistEvent tiene bindeada una EditView vieja (?)
+*** TODO POV: cada tanto las sombras de pieces están mal distribuidas
+*** TODO Unbind en vistas PanelView y MasterView
+*** TODO Cambiar color de Occurrences basado en id de Playlist
+*** TODO POV: anular la animación en el Unbind
 * <2013-09-13 Fri> Obejtivos
 ** jmr
 *** TODO +++ vp9:
