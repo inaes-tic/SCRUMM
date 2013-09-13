@@ -21,6 +21,7 @@ x
 *** STARTED Foldable Universe
 **** TODO Fix fold animation on schedule and playout (hint: use js animation instead of css transitions)
 *** TODO Corregir los textos de busqueda (se ven muy abajo)
+*** TODO Cuando search box crece queda detrás del scrollable
 *** DONE Paginado basado en nuevo scroll interno
 *** DONE Animacion de espera al paginar
 *** FIXED Bug de draggable
@@ -87,11 +88,15 @@ x
 *** TODO Corregir funcionamiento de dummyRow
 *** TODO Mensaje de resultado vacío para la búsqueda
 *** TODO showPlaylist en EditView hace 1 render SearchView por Piece
-*** TODO switchPlaylistEvent tiene bindeada una EditView vieja (?)
+*** DONE switchPlaylistEvent tiene bindeada una EditView vieja (?)
 *** TODO POV: cada tanto las sombras de pieces están mal distribuidas
-*** TODO Unbind en vistas PanelView y MasterView
+**** Ocurre cuando se da de alta una nueva playlist a la que se le insertaron
+los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
+*** DONE Unbind en vistas PanelView y MasterView
+*** DONE Cambiar Unbind por undelegateEvents en todas las Backbone.View's
+*** DONE POV: anular la animación en el Unbind
 *** TODO Cambiar color de Occurrences basado en id de Playlist
-*** TODO POV: anular la animación en el Unbind
+*** TODO Lazy load App.framestatus
 * <2013-09-13 Fri> Obejtivos
 ** jmr
 *** TODO +++ vp9:
