@@ -97,6 +97,161 @@ los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
 *** DONE POV: anular la animación en el Unbind
 *** TODO Cambiar color de Occurrences basado en id de Playlist
 *** TODO Lazy load App.framestatus
+* <2013-09-20 Fri> Obejtivos
+** jmr
+*** STARTED Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
+Primero con AVForamt no pudo (no saca nada que no sea udp)
+FFserver
+Convertir del UDP de Avformat a algo que VLC pueda recibir y retransmitir sin reencodear.
+*** TODO +++ vp9:
+Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
+Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
+tengo (gracias a ddennedy) pero no pude probarlo todavia.
+
+*** STARTED Tests: esperando el equipo nuevo para mosto 24h
+**** DONE Armando y formateando el equipo
+El i3 con 4gb se banca joya webvfx, así que podemos decir que esa sería la configuración mínima para mosto.
+**** TODO + Pruebas saliendo posixshm a avformat para preview: <2013-08-28 Wed>
+**** TODO Merge código de Tom
+*** STARTED Cleanup de mosto: <2013-08-28 Wed>
+*** STARTED Review melted-node de Tom
+** tom
+*** STARTED Mensajes para caspa
+*** STARTED Mosto coverage
+**** DONE Implementado
+**** TODO Agregar test que falle cuando el coverage sea menor a 90%
+**** STARTED Chequear con JMR que falla en mosto (Confiabilidad de tests)
+*** TODO + Control de proceso melted (mbc-waitpid o tal vez systemd)
+** alejo
+*** DONE FrameFreak
+**** Sabado + Domingo + Lunes + Martes (un par de horas)
+*** STARTED + Cludget para correr widgets
+**** TODO Integrar el código de c++
+** leo
+*** STARTED UI de WebFX
+**** DONE Aplicar los filtros desde la UI
+**** DONE Agregado safe area
+**** DONE Guardar y recuperar los cambios (ahora usa LocalStorage)
+**** TODO Cambio de resolución sin perder el contenido
+**** TODO Integración a caspa
+** pato
+*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
+*** BUG posixshm seek.
+*** BUG collection->get no pasa por io.
+*** BUG view collisiona con get.
+*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
+*** Backlog
+**** TODO POV: Buscar una solución para problemas de performance.
+**** TODO POV: Corregir un par de known-bugs.
+**** TODO SHM: algoritmo tiempos de espera
+se puede mejorar el algoritmo que calcula los tiempos de
+espera para suministrar los frames en tiempo real. Hay
+
+**** TODO SHM: thread bloqueado cuando se cierra melt
+todavía algunos escenarios donde al intentar cerrar melt algún thread queda
+bloqueado y no cierra.
+
+**** TODO SHM: streaming a browser
+Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
+caspa.
+** mariana
+*** FrameFreak
+**** Viernes + Domingo + 1/2 Lunes
+*** STARTED Seguimiento convenio UNTREF
+**** TODO Mandar status el viernes <2013-09-20 Fri>
+*** STARTED Finalizar tramitación de cuenta credicoop
+**** Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
+*** TODO + Finalizar convenio de Trama
+*** TODO + Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
+*** TODO + Animacion logos para webfx
+*** STARTED CSS overall
+**** DONE Terminar layout
+**** STARTED Paginate wait
+**** DONE commitear
+**** TODO Hay bugs por arreglar
+*** Backlog:
+**** TODO +Usar knockback para cargar las vistas.
+**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
+**** TODO + tipos en config
+**** tipos estan
+**** falta renderizado distinto
+** josx
+*** TODO ++ tags
+*** DONE Script para subir lo último a Heroku
+*** TODO Planear con Adri Tetra en UNQUI
+*** STARTED Investigación Closed Captions
+*** Backlog:
+**** TODO Sharding en Mongo
+**** STARTED testing de UI
+Hay un test hecho en phantom
+opciones:
+ - phantomjs (webkit) + mocha + phantom-node
+ - pahntomjs sin phantom-node
+otras opciones:
+ - selenium
+ - sauce labs: testing en la cloud contra la arquitectura que
+   quieras, graba videos de los testeos, se integra, pero puede
+   ser overkill
+**** STARTED ver opciones de logging
+**** STARTED testing funcional: phantom
+** ruth
+*** DONE Hablar con el banco por una reunión
+*** DONE Tramites Afip Agip
+*** STARTED nic.ar, coop.ar
+**** Todavía esperando la firma de Leo
+**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
+*** WONTFIX ++ Convenio de trama
+**** Escribiendo el texto del subsidio c agus
+**** "Viendo números, adueñándome del proyecto."
+*** DONE Reunión Facttic
+**** DONE Minuta disponible por mail
+**** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
+**** Se nombró a niv y la coop para tecnópolis
+**** DONE Completar planilla de datos previsionales
+*** STARTED Reunión con Contador
+**** Evaluar relación, tipo de contratación
+**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
+*** WONTFIX Poder de Mala
+*** TODO Datos de la cooperativa para prensa facttic.
+** agus
+*** FrameFreak
+**** Dos semanas de trabajo
+*** STARTED + docs
+**** más allá de la documentación del concurso tengo en drive unos documentos de
+MBC, TETRA, FFFS, de los que había empezado a escribir documentación
+técnica. avancé hasta donde pude con la información que tenía. está para
+terminar.
+**** STARTED Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
+***** STARTED Leer documentación de Kaltura, hacer extracto para mejorar.
+*** STARTED +++ Tríptico
+**** Necesita feedback
+**** TODO seguir ajustándolo
+**** WONTFIX Apuntar a que esté para misiones
+*** TODO ++ Interfaz de Zumo
+*** STARTED + Convenio Trama
+** adri
+*** STARTED Picture in Picture
+*** STARTED Guardar salidas + EDL (Lista de cambios)
+*** TODO tests
+*** TODO keybinds
+*** Tetra pausado por Caspa Sprint:
+**** STARTED + Resiliencia de Fallos
+resilencia a fallos o cortes de conexion con las camaras en general
+ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
+(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
+cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
+va la mano de eso.
+Dificultad para reproducir
+**** STARTED + Desconexion de Camaras
+En el mismo orden de cosas tengo que hacer que si uno esta archivando
+la salida y desconecta todas las camaras, al volver a conectarla(s)
+abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
+Dificultad para reproducir
+**** STARTED + refactoring
+*** Backlog:
+**** TODO Video view draggable
+**** TODO Overlay
+**** TODO Cargar videos de disco
 * <2013-09-13 Fri> Obejtivos
 ** jmr
 *** TODO +++ vp9:
