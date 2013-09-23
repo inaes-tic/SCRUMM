@@ -29,8 +29,7 @@ Opciones:
 *** TODO showPlaylist en EditView hace 1 render SearchView por Piece (NO COMPROBADO)
 *** TODO Colecciones dedicadas: Optimizar para no traer mil veces las mismas cosas
 **** TODO Chequear si se toca mucho la DB (tener en cuenta que Relational tiene su LocalStore que funciona como Cahce)
-*** TODO En caso que se esté yendo mucho a la DB, hacer un caché a nivel global que se consulte antes de la DB ya que en muchas pantallas pedimos las mismas cosas.
-
+**** TODO En caso que se esté yendo mucho a la DB, hacer un caché a nivel global que se consulte antes de la DB ya que en muchas pantallas pedimos las mismas cosas.
 *** TODO Router: no descargar las vistas al cambiar de pantalla, detachearlas (ver jQuery Detach)
 *** TODO POV + Schedule: hacer coherente el color de las playlists.
 *** TODO Lazy load App.framestatus (no carga cuando levanta el cliente)
@@ -39,6 +38,9 @@ Opciones:
     Crear una vista genérica que distinga cuándo el resultado está vacío y cuándo
     todavía se está cargando para no mostrar el mensaje de "Oops" la primera vez
     y para tener relojito en todas las partes del sistema que hacen lazy load.
+*** TODO Hacer que las playlist y pieces se muestren siempre respetando el orden de insersión.
+Ejemplo: cargar una playlist en EditView, eliminar el primer elemento, recargarla: el elemento eliminado se carga al final.
+*** TODO Corregir el cartel de "Push Down" en Schedule (o reemplazar toda la vista por algo que ande :P)
 * <2013-08-23 Fri> Sprint CASPA
 ** Mariana
 *** DONE Paginado basado en nuevo scroll interno
