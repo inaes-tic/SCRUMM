@@ -76,6 +76,7 @@ caspa.
 *** TODO +++ tags
 *** TODO Sharding en Mongo
 *** STARTED testing funcional: phantom
+*** TODO Investigación Closed Captions
 ** Adri:
 *** STARTED + Resiliencia de Fallos
 resilencia a fallos o cortes de conexion con las camaras en general
@@ -95,6 +96,82 @@ Dificultad para reproducir
 **** falta renderizado distinto
 ** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
+* <2013-10-07 Mon> Obejtivos
+** jmr
+*** STARTED Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
+NOTA: usamos esto porque vp9 está muy experimental
+Funciona muy bien: melted -> vlc -> Chrome
+Funciona parcial: melted (webm) -> tcp -> Chrome
+**** STARTED Portar servidor webm de Java a Node
+**** STARTED Hacer pruebas con IceCast
+Dificultad para publicar webm desde melt a IceCast
+*** STARTED Tests: esperando el equipo nuevo para mosto 24h
+**** TODO + Pruebas saliendo posixshm a avformat para preview: <2013-08-28 Wed>
+**** DONE Merge código de Tom
+**** DONE Review melted-node de Tom
+**** TODO Merge istambul
+Esperando el merge del PR relacionado con Caspa para hacer las pruebas
+** tom
+*** STARTED ++ Tests
+**** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
+**** TODO Agregar test que falle cuando el coverage sea menor a 90%
+*** STARTED ++ Mensajes para caspa
+*** TODO +++ Control de proceso melted (mbc-waitpid o tal vez systemd)
+** alejo
+*** DONE Armar manual para los diseñadores para CN23
+*** STARTED Clasificar diseñadores
+** leo
+*** STARTED Filmstrip into PlayoutView Timeline
+**** STARTED Ajustes de performance y visualización.
+*** STARTED + UI de WebFX
+**** DONE Chequear Backbone.io para guardar en DB
+**** TODO Cambio de resolución sin perder el contenido
+**** TODO Integración a caspa
+*** STARTED ++  Kludget para correr widgets (Herencia de Alejo)
+**** TODO Integrar el código de c++
+*** TODO Coordinar con Josx para integrar UI WebFX a Caspa
+** pato
+*** TODO Algoritmo de generación de Frames
+**** TODO Armar matriz para precalcular varias estrategias
+*** STARTED StandAlone Timeline
+*** TODO Subir cambios de posixshm
+*** BUG collection->get no pasa por io.
+*** BUG view collisiona con get.
+** mariana
+*** STARTED Seguimiento convenio UNTREF
+**** Esperando reunión
+*** TODO Armar disertación y diapos para la UNQUI
+*** TODO ++ Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
+*** TODO ++ Animacion logos para webfx
+** josx
+*** STARTED ++ Planear con Adri Tetra en UNQUI
+**** DONE Reunión en UNQUI
+*** STARTED testing de UI
+**** STARTED Hablar con Tom para integrar Istambul
+Dificultad para aplicar a los tests del lado del cliente
+*** STARTED Integración UI WebFX a Caspa
+**** Cambios necesarios para que se adapte a los estándares de Caspa
+**** Mantenerlo independiente para que pueda correr fuera de Caspa
+** ruth
+*** STARTED Convenio de Trama
+*** STARTED Reestructuración de la Cooperativa
+**** STARTED Renuncia de Mala
+**** TODO Actualizar Socios
+**** TODO Cambio de domicilio
+*** STARTED nic.ar, coop.ar
+**** TODO Averiguar status
+*** STARTED Reunión con Contador
+**** Evaluar relación, tipo de contratación
+**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
+*** TODO Datos de la cooperativa para prensa facttic.
+** adri
+*** DONE Picture in Picture
+*** STARTED Cargar videos de disco
+*** STARTED + Guardar salidas + EDL (Lista de cambios)
+*** STARTED keybinds
+*** STARTED Overlay
+*** STARTED + Desconexion de Camaras
+**** Mover las cosas para 
 * <2013-10-04 Fri> Obejtivos
 ** jmr
 *** STARTED Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
@@ -110,9 +187,8 @@ Funciona parcial: melted (webm) -> tcp -> Chrome
 **** TODO Merge istambul
 Esperando el merge del PR relacionado con Caspa para hacer las pruebas
 ** tom
-*** STARTED + Mosto coverage
-**** DONE Implementado
-**** TODO Merge
+*** DONE + Mosto coverage
+**** DONE Merge
 *** STARTED ++ Tests
 **** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
 **** TODO Agregar test que falle cuando el coverage sea menor a 90%
@@ -149,7 +225,6 @@ Esperando el merge del PR relacionado con Caspa para hacer las pruebas
 *** TODO ++ Planear con Adri Tetra en UNQUI
 *** DONE ver opciones de logging
 *** DONE Correcciones de conexión a DB en Caspa
-*** STARTED Investigación Closed Captions
 *** STARTED testing de UI
 **** DONE PhantomJS integrado, hay PR y un par de tests.
 **** TODO Hablar con Tom para integrar Istambul
@@ -186,7 +261,6 @@ Funciona parcial: melted (webm) -> tcp -> Chrome
 **** TODO Merge istambul
 ** tom
 *** STARTED + Mosto coverage
-**** DONE Implementado
 **** TODO Merge
 *** STARTED Tests
 **** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
@@ -219,7 +293,6 @@ Funciona parcial: melted (webm) -> tcp -> Chrome
 ** josx
 *** TODO + Planear con Adri Tetra en UNQUI
 *** STARTED ver opciones de logging
-*** STARTED Investigación Closed Captions
 *** STARTED testing de UI
 Hay un test hecho en phantom
 opciones:
@@ -274,7 +347,6 @@ El i3 con 4gb se banca joya webvfx, así que podemos decir que esa sería la con
 ** tom
 *** STARTED Mensajes para caspa
 *** STARTED Mosto coverage
-**** DONE Implementado
 **** TODO Agregar test que falle cuando el coverage sea menor a 90%
 **** STARTED Chequear con JMR que falla en mosto (Confiabilidad de tests)
 *** TODO + Control de proceso melted (mbc-waitpid o tal vez systemd)
