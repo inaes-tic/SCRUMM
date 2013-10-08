@@ -1,6 +1,7 @@
-#+TODO: TODO(t) STARTED(s) REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f) DONE(d) WONTFIX(w)
+#+TODO: TODO(t!) STARTED(s!) REPORT(r!) BUG(b!) KNOWNCAUSE(k!) | FIXED(f!) DONE(d!) WONTFIX(w!)
 #+Category: Opcode/SCRUM
 #+SCRUM_MASTER: pato
+#+PROPERTY: LOG_INTO_DRAWER t
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 * comunicación con otros hackers
@@ -56,6 +57,8 @@ Opciones:
 *** TODO Hacer que las playlist y pieces se muestren siempre respetando el orden de insersión.
 Ejemplo: cargar una playlist en EditView, eliminar el primer elemento, recargarla: el elemento eliminado se carga al final.
 *** TODO Corregir el cartel de "Push Down" en Schedule (o reemplazar toda la vista por algo que ande :P)
+*** BUG collection->get no pasa por io.
+*** BUG view collisiona con get.
 ** Pato
 *** TODO POV: Mejorar la visualización y agregar unos datos que son necesarios.
 *** TODO POV: Buscar una solución para problemas de performance.
@@ -72,12 +75,21 @@ bloqueado y no cierra.
 Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
 caspa.
 *** BUG SHM: seek.
+*** TODO Subir cambios de posixshm
 ** Josx
 *** TODO +++ tags
 *** TODO Sharding en Mongo
 *** STARTED testing funcional: phantom
 *** TODO Investigación Closed Captions
-** Adri:
+*** STARTED Caspa: testing de UI
+**** STARTED Hablar con Tom para integrar Istambul
+Dificultad para aplicar a los tests del lado del cliente
+** Leo
+*** STARTED + UI de WebFX
+**** DONE Chequear Backbone.io para guardar en DB
+**** TODO Cambio de resolución sin perder el contenido
+**** TODO Integración a caspa (ver con Josx)
+** Adri
 *** STARTED + Resiliencia de Fallos
 resilencia a fallos o cortes de conexion con las camaras en general
 ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
@@ -88,97 +100,91 @@ Dificultad para reproducir
 *** STARTED + refactoring
 *** TODO tests
 *** TODO Video view draggable
-** Mariana:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
-** Ruth
-*** Proyecto Opcode Summer of Code
-** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
-** TODO Kludget para correr widgets (Herencia de Alejo)
-**** TODO Integrar el código de c++
-* <2013-10-09 Wed> Obejtivos
-** jmr
-*** STARTED ++++ Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
-NOTA: usamos esto porque vp9 está muy experimental
-Funciona muy bien: melted -> vlc -> Chrome
-Funciona parcial: melted (webm) -> tcp -> Chrome
-**** STARTED Portar servidor webm de Java a Node
-**** STARTED Hacer pruebas con IceCast
-Dificultad para publicar webm desde melt a IceCast
-Probado para el Lunes <2013-10-07 Mon>   
-*** STARTED +++++++++ Tests: esperando el equipo nuevo para mosto 24h
-**** TODO +++ Merge istambul
-Esperando el merge del PR relacionado con Caspa para hacer las pruebas
-**** TODO Pruebas saliendo posixshm a avformat para preview
-** tom
-*** STARTED ++ Tests
-**** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
-**** TODO Agregar test que falle cuando el coverage sea menor a 90%
-*** STARTED ++ Mensajes para caspa
-*** TODO +++ Control de proceso melted (mbc-waitpid o tal vez systemd)
-** alejo
-*** STARTED Clasificar diseñadores
-** leo
-*** STARTED Filmstrip into PlayoutView Timeline <2013-10-11 Fri>
-**** TODO Refactoring
-**** STARTED Ajustes de performance y visualización.
-*** STARTED + UI de WebFX
-**** DONE Chequear Backbone.io para guardar en DB
-**** TODO Cambio de resolución sin perder el contenido
-**** TODO Integración a caspa
-*** TODO Coordinar con Josx para integrar UI WebFX a Caspa
-** pato
-*** STARTED + StandAlone Timeline <2013-10-18 Fri>
-*** TODO + Algoritmo de generación de Frames
-**** TODO Armar matriz para precalcular varias estrategias
-*** TODO Subir cambios de posixshm
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-** mariana
-*** STARTED Seguimiento convenio UNTREF
-**** Esperando reunión
-*** TODO Armar disertación y diapos para la UNQUI
+** Mariana
 *** TODO ++ Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
 *** TODO ++ Animacion logos para webfx
-** josx
-*** TechTalk Geoman
-*** STARTED ++ Planear con Adri Tetra en UNQUI
-*** STARTED testing de UI
-**** STARTED Hablar con Tom para integrar Istambul
-Dificultad para aplicar a los tests del lado del cliente
-*** STARTED Integración UI WebFX a Caspa
-**** Cambios necesarios para que se adapte a los estándares de Caspa
-**** Mantenerlo independiente para que pueda correr fuera de Caspa
-** ruth
-*** STARTED Convenio de Trama
-*** STARTED Reestructuración de la Cooperativa
-**** STARTED Renuncia de Mala
-**** TODO Actualizar Socios
-**** TODO Cambio de domicilio
+*** TODO + Usar knockback para cargar las vistas.
+*** TODO + Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
+*** TODO + tipos en config
+*** tipos estan
+*** falta renderizado distinto
+** Ruth
+*** Proyect Opcode Summer of Code
 *** STARTED nic.ar, coop.ar
 **** TODO Averiguar status
 *** STARTED Reunión con Contador
 **** Evaluar relación, tipo de contratación
 **** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
 *** TODO Datos de la cooperativa para prensa facttic.
+*** STARTED Reestructuración de la Cooperativa
+**** TODO Cambio de domicilio
+** Alejo
+** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
+** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
+** TODO Kludget para correr widgets (Herencia de Alejo)
+**** TODO Integrar el código de c++
+* <2013-10-18 Fri> Objetivos
+** pato
+*** TODO StandAlone Timeline
+** leo
+*** TODO Filmstrip with KnockBack
+* <2013-10-16 Wed> Objetivos
+** josx
+*** STARTED Tetra en UNQUI (asistir a Adri)
+** adri
+*** TODO Tetra en UNQUI (Fin de ajustes)
+** mariana
+*** TODO Armar disertación y diapos para la UNQUI
+** pato
+*** TODO Feria del Palo
+** leo
+*** TODO Feria del Palo
+* <2013-10-11 Fri> Objetivos
+** jmr
+*** TODO Stream Melt via IceCast
+    :LOGBOOK:
+    - State "TODO"       from ""           [2013-10-07 Mon 17:46]
+    :END:
+** tom
+*** TODO Get rid of all .skip in mosto tests
+*** STARTED Mosto messages to Caspa
+** josx
+*** STARTED Integración UI WebFX a Caspa
+**** Cambios necesarios para que se adapte a los estándares de Caspa
+**** Mantenerlo independiente para que pueda correr fuera de Caspa   
+** pato
+*** STARTED Ajustes visuales de Filmstrip en PlayoutView
+*** TODO + Algoritmo de generación de Frames
+**** TODO Armar matriz para precalcular varias estrategias
+** leo
+*** STARTED Filmstrip new API Refactoring
 ** adri
 *** STARTED Cargar videos de disco
 **** Salta la posición, hay que ajustar
 *** STARTED + Guardar salidas + EDL (Lista de cambios)
 **** Falta EDL
 *** STARTED keybinds
-**** DONE Implementación
 **** TODO Mejorar y hacer configurable
 *** STARTED Overlay
 *** STARTED + Desconexion de Camaras
-**** DONE Implementar una solución
 **** TODO Refactoring + Hacerlo genérico
 **** TODO Probar más para intentar que falle
 **** TODO Ver que al desconectar se guarde bien el archivo de video
+*** TODO Demo Tetra
+** mariana
+*** STARTED Seguimiento convenio UNTREF
+** ruth
+*** STARTED Reestructuración de la Cooperativa
+**** TODO Renuncia de Mala
+**** TODO Actualizar Socios
+* <2013-10-09 Wed> Obejtivos
+** alejo
+*** STARTED Entrega CN23
+** mariana
+*** STARTED Entrega CN23
+*** TODO Discuss with Pato UI Mosto Messages 
+** josx
+*** TODO TechTalk Geoman
 * <2013-10-07 Mon> Obejtivos
 ** jmr
 *** STARTED +++ Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
@@ -234,17 +240,10 @@ Dificultad para aplicar a los tests del lado del cliente
 **** Cambios necesarios para que se adapte a los estándares de Caspa
 **** Mantenerlo independiente para que pueda correr fuera de Caspa
 ** ruth
-*** STARTED Convenio de Trama
-*** STARTED Reestructuración de la Cooperativa
-**** STARTED Renuncia de Mala
-**** TODO Actualizar Socios
-**** TODO Cambio de domicilio
-*** STARTED nic.ar, coop.ar
-**** TODO Averiguar status
-*** STARTED Reunión con Contador
-**** Evaluar relación, tipo de contratación
-**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-*** TODO Datos de la cooperativa para prensa facttic.
+*** DONE Convenio de Trama
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-10-07 Mon 18:01]
+    :END:
 ** adri
 *** STARTED Cargar videos de disco
 *** STARTED + Guardar salidas + EDL (Lista de cambios)
