@@ -90,6 +90,8 @@ Dificultad para aplicar a los tests del lado del cliente
 **** TODO Cambio de resolución sin perder el contenido
 **** TODO Integración a caspa (ver con Josx)
 ** Adri
+*** STARTED + Guardar salidas + EDL (Lista de cambios)
+**** Falta EDL
 *** STARTED + Resiliencia de Fallos
 resilencia a fallos o cortes de conexion con las camaras en general
 ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
@@ -118,6 +120,8 @@ Dificultad para reproducir
 *** TODO Datos de la cooperativa para prensa facttic.
 *** STARTED Reestructuración de la Cooperativa
 **** TODO Cambio de domicilio
+** Tom
+*** Istambul logs from travis to express server
 ** Alejo
 ** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
@@ -139,6 +143,10 @@ Dificultad para reproducir
 *** TODO Feria del Palo
 ** leo
 *** TODO Feria del Palo
+* <2013-10-14 Mon> Objetivos
+** josx
+*** STARTED Integración UI WebFX a Caspa
+**** TODO Integration into Caspa
 * <2013-10-11 Fri> Objetivos
 ** jmr
 *** TODO Stream Melt via IceCast
@@ -150,26 +158,35 @@ Dificultad para reproducir
 *** STARTED Mosto messages to Caspa
 ** josx
 *** STARTED Integración UI WebFX a Caspa
-**** Cambios necesarios para que se adapte a los estándares de Caspa
-**** Mantenerlo independiente para que pueda correr fuera de Caspa   
+**** STARTED Stand-alone version with Caspa flavor
+     :LOGBOOK:
+     - State "STARTED"    from ""           [2013-10-09 Wed 11:42]
+     :END:
 ** pato
 *** STARTED Ajustes visuales de Filmstrip en PlayoutView
-*** TODO + Algoritmo de generación de Frames
+*** STARTED + Algoritmo de generación de Frames
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-10-09 Wed 11:42]
+    :END:
 **** TODO Armar matriz para precalcular varias estrategias
 ** leo
 *** STARTED Filmstrip new API Refactoring
 ** adri
 *** STARTED Cargar videos de disco
 **** Salta la posición, hay que ajustar
-*** STARTED + Guardar salidas + EDL (Lista de cambios)
-**** Falta EDL
 *** STARTED keybinds
 **** TODO Mejorar y hacer configurable
 *** STARTED Overlay
 *** STARTED + Desconexion de Camaras
-**** TODO Refactoring + Hacerlo genérico
-**** TODO Probar más para intentar que falle
 **** TODO Ver que al desconectar se guarde bien el archivo de video
+**** DONE Refactoring + Hacerlo genérico
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-10-09 Wed 11:39]
+     :END:
+**** DONE Probar más para intentar que falle
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-10-09 Wed 11:39]
+     :END:
 *** TODO Demo Tetra
 ** mariana
 *** STARTED Seguimiento convenio UNTREF
