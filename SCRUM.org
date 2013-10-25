@@ -136,17 +136,39 @@ Dificultad para reproducir
 ** ruth
 *** STARTED Reestructuración de la Cooperativa
 **** TODO Actualizar Socios
+Trabado porque alejo está leyendo el estatuto
 *** TODO Chequera
-*** TODO Permiso de facturación AFIP
+Mala no pudo juntarse en la semana
+*** DONE Permiso de facturación AFIP
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-25 Fri 12:02]
+    :END:
+*** TODO Convenio COOPERAR
+Enviado a Nahum para corroborar, el lunes lo entregamos
 ** mariana
-*** STARTED Seguimiento convenio UNTREF
-*** TODO CAPER
+*** DONE Seguimiento convenio UNTREF
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-10-25 Fri 17:12]
+    :END:
+*** DONE CAPER
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
+    :END:
 ** josx
 *** TODO Investigacion Avahi/XMPP para Config distribuida
 *** TODO Release WebFX stand-alone
-*** TODO Integrate WebFX UI into Caspa
+Falta el video, corregir los mensajes, ver si hacemos el sitio de demo.
+*** STARTED Integrate WebFX UI into Caspa
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-10-25 Fri 12:25]
+    :END:
+**** DONE Integración
+**** TODO Acompañar a Alejo en cerrar los detalles
+*** DONE EMERGED: Resolver conflictos de Backbone para Tom en Mosto
 ** leo
 *** TODO Filmstrip with KnockBack
+*** DONE Filmstrip to NPM
+*** DONE FFmpeg conversion for Filmstrip
 ** adri
 *** TODO Tetra stabilization
 *** TODO Install Tetra in HP for Demo
@@ -154,14 +176,25 @@ Dificultad para reproducir
 **** TODO Working OS and Lib versions for Demo
 ** pato
 *** TODO Investigar tecnologias para Timeline
-*** TODO CAPER
+Ajustes en filmstrip con Leo, no pude investigar
+*** DONE CAPER
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
+    :END:
 ** alejo
-*** TODO Resumen pago diseñadores
+*** DONE Resumen pago diseñadores
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-25 Fri 14:58]
+    :END:
+*** TODO Ajustes de diseño a WebFX
 *** TODO Tests de Caspa
 **** TODO Hablar con Josx para entender la estructura
 **** TODO Tests para las funcionalidades de los modelos
 ** tom
 *** STARTED Mosto messages to Caspa
+**** DONE Deploy in Caspa
+**** DONE Deploy in Mosto
+**** STARTED Place messages in Mosto
 ** jmr
 *** TODO Mosto stabilization and bugfixes
 * <2013-10-18 Fri> Objetivos
