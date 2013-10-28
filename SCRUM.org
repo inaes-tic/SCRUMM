@@ -90,7 +90,7 @@ Dificultad para aplicar a los tests del lado del cliente
 *** STARTED + UI de WebFX
 **** DONE Chequear Backbone.io para guardar en DB
 **** TODO Cambio de resolución sin perder el contenido
-**** TODO Integración a caspa (ver con Josx)
+**** TODO Full feature set de JMR
 ** Adri
 *** TODO Overlay: optimizar performance
 *** TODO Keybindings: mejorar y hacer configurable
@@ -123,8 +123,6 @@ Dificultad para reproducir
 **** Evaluar relación, tipo de contratación
 **** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
 *** TODO Datos de la cooperativa para prensa facttic.
-*** STARTED Reestructuración de la Cooperativa
-**** TODO Cambio de domicilio
 ** Tom
 *** Istambul logs from travis to express server
 ** Alejo
@@ -132,19 +130,40 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
+* <2013-11-01 Fri> Objetivos
+** ruth
+*** STARTED Reestructuración de la Cooperativa
+**** TODO Copiar libros
+**** TODO Cambio de domicilio
+*** TODO Chequera
+Heredado de la semana pasada porque Mala no pudo juntarse entonces.
+** alejo
+*** TODO Tests de Caspa
+**** TODO Hablar con Josx para entender la estructura
+**** TODO Testear EditView completo
+** mariana
+*** TODO Caspa UI for Mosto Messages
+*** TODO PlayoutView Rendering
+** leo
+*** TODO Transforms into Caspa
+** josx
+*** TODO Investigacion Avahi/XMPP para Config distribuida
+** pato
 * <2013-10-25 Fri> Objetivos
 ** ruth
 *** STARTED Reestructuración de la Cooperativa
-**** TODO Actualizar Socios
-Trabado porque alejo está leyendo el estatuto
-*** TODO Chequera
-Mala no pudo juntarse en la semana
+**** STARTED Actualizar Socios
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2013-10-28 Mon 12:25]
+     :END:
+Trabado porque alejo está leyendo el estatuto (DONE)
 *** DONE Permiso de facturación AFIP
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-25 Fri 12:02]
     :END:
-*** TODO Convenio COOPERAR
+*** STARTED Convenio COOPERAR
 Enviado a Nahum para corroborar, el lunes lo entregamos
+**** TODO Entregar el Lunes
 ** mariana
 *** DONE Seguimiento convenio UNTREF
     :LOGBOOK:
@@ -155,9 +174,8 @@ Enviado a Nahum para corroborar, el lunes lo entregamos
     - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
     :END:
 ** josx
-*** TODO Investigacion Avahi/XMPP para Config distribuida
 *** TODO Release WebFX stand-alone
-Falta el video, corregir los mensajes, ver si hacemos el sitio de demo.
+Falta el video, corregir los mensajes, el readme, el sitio de demo.
 *** STARTED Integrate WebFX UI into Caspa
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-10-25 Fri 12:25]
@@ -170,7 +188,13 @@ Falta el video, corregir los mensajes, ver si hacemos el sitio de demo.
 *** DONE Filmstrip to NPM
 *** DONE FFmpeg conversion for Filmstrip
 ** adri
-*** TODO Tetra stabilization
+*** STARTED Tetra stabilization
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-10-28 Mon 12:36]
+    :END:
+**** DONE Implementada arquitectura más estable basada en procesos
+Está más estable, pero tiene más latencia
+**** TODO Resolver el problema de latencia por transferencia de audio entre procesos
 *** TODO Install Tetra in HP for Demo
 **** TODO Cammeras disconnection in HP
 **** TODO Working OS and Lib versions for Demo
@@ -186,10 +210,10 @@ Ajustes en filmstrip con Leo, no pude investigar
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-25 Fri 14:58]
     :END:
-*** TODO Ajustes de diseño a WebFX
-*** TODO Tests de Caspa
-**** TODO Hablar con Josx para entender la estructura
-**** TODO Tests para las funcionalidades de los modelos
+*** STARTED Ajustes de diseño a WebFX
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-10-28 Mon 11:59]
+    :END:
 ** tom
 *** STARTED Mosto messages to Caspa
 **** DONE Deploy in Caspa
