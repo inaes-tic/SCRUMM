@@ -87,6 +87,8 @@ caspa.
 **** STARTED Hablar con Tom para integrar Istambul
 Dificultad para aplicar a los tests del lado del cliente
 ** Leo
+*** TODO Filmstrip with KnockBack
+*** TODO Transforms into Caspa
 *** STARTED + UI de WebFX
 **** DONE Chequear Backbone.io para guardar en DB
 **** TODO Cambio de resolución sin perder el contenido
@@ -130,6 +132,22 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
+* <2013-11-08 Fri> Objetivos
+** tom
+*** TODO Mosto explained
+** adri
+*** TODO (mlt) PosixSHM vs SHMSync (gstreamer)
+** leo
+*** TODO Filmstrip en POV
+*** TODO FilmstripCapture en MediaView
+** pato
+*** TODO Mosto with Tom
+** mariana
+*** TODO Seguimiento Conadis
+*** TODO Docs a contactos
+*** TODO Camara de exportacion
+** jmr
+*** TODO Mosto non-passing test
 * <2013-11-01 Fri> Objetivos
 ** ruth
 *** STARTED Reestructuración de la Cooperativa
@@ -145,10 +163,25 @@ Heredado de la semana pasada porque Mala no pudo juntarse entonces.
 *** TODO Caspa UI for Mosto Messages
 *** TODO PlayoutView Rendering
 ** leo
-*** TODO Transforms into Caspa
+*** DONE Filmstrip Capture
+*** STARTED Videos
+**** TODO Ajustes en los scripts
+**** DONE Script para descarga de videos
+**** DONE Logos en el repo design-artwork
 ** josx
-*** TODO Investigacion Avahi/XMPP para Config distribuida
+*** DONE Investigacion Avahi/XMPP para Config distribuida
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-06 Wed 11:14]
+    :END:
+Apache zookeeper
+Heroku userd
+etcd (GoogleOS fork)
+dconf (over dbus pipable to TCP)
 ** pato
+** jmr
+*** STARTED Mosto 24hs
+** tom
+*** TODO Handle file not found error
 * <2013-10-25 Fri> Objetivos
 ** ruth
 *** STARTED Reestructuración de la Cooperativa
@@ -184,20 +217,30 @@ Falta el video, corregir los mensajes, el readme, el sitio de demo.
 **** TODO Acompañar a Alejo en cerrar los detalles
 *** DONE EMERGED: Resolver conflictos de Backbone para Tom en Mosto
 ** leo
-*** TODO Filmstrip with KnockBack
 *** DONE Filmstrip to NPM
 *** DONE FFmpeg conversion for Filmstrip
 ** adri
-*** STARTED Tetra stabilization
+*** DONE Tetra stabilization
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-06 Wed 11:01]
     - State "STARTED"    from "TODO"       [2013-10-28 Mon 12:36]
     :END:
 **** DONE Implementada arquitectura más estable basada en procesos
 Está más estable, pero tiene más latencia
-**** TODO Resolver el problema de latencia por transferencia de audio entre procesos
+**** DONE Resolver el problema de latencia por transferencia de audio entre procesos
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-11-06 Wed 10:59]
+     :END:
 *** TODO Install Tetra in HP for Demo
-**** TODO Cammeras disconnection in HP
-**** TODO Working OS and Lib versions for Demo
+**** DONE Cammeras disconnection in HP
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-11-06 Wed 11:01]
+     :END:
+**** DONE Working OS and Lib versions for Demo
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-11-06 Wed 11:01]
+     :END:
+**** TODO Document for other cases
 ** pato
 *** TODO Investigar tecnologias para Timeline
 Ajustes en filmstrip con Leo, no pude investigar
@@ -220,7 +263,11 @@ Ajustes en filmstrip con Leo, no pude investigar
 **** DONE Deploy in Mosto
 **** STARTED Place messages in Mosto
 ** jmr
-*** TODO Mosto stabilization and bugfixes
+*** STARTED Mosto stabilization and bugfixes
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-06 Wed 12:01]
+    :END:
+Seems stable, waiting for more 24h results
 * <2013-10-18 Fri> Objetivos
 ** jmr
 *** DONE Streamer melt with Java
