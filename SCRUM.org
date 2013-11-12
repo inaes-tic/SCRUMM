@@ -132,20 +132,51 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
+* <2013-11-15 Fri> Objetivos
 * <2013-11-08 Fri> Objetivos
 ** tom
-*** TODO Mosto explained
+*** STARTED Mosto explained
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:11]
+    :END:
 ** adri
-*** TODO (mlt) PosixSHM vs SHMSync (gstreamer)
+*** STARTED (mlt) PosixSHM vs SHMSync (gstreamer)
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:21]
+    :END:
+Falta que del lado de gstreamer entienda el formato de memoria de posixshm
 ** leo
-*** TODO Filmstrip en POV
-*** TODO FilmstripCapture en MediaView
+*** STARTED Filmstrip en POV
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:35]
+    :END:
+*** STARTED FilmstripCapture en MediaView
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:35]
+    :END:
+*** STARTED Widgets for WebFX
 ** pato
-*** TODO Mosto with Tom
+*** STARTED Mosto with Tom
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:33]
+    :END:
+*** STARTED Timeline StandAlone
 ** mariana
-*** TODO Seguimiento Conadis
-*** TODO Docs a contactos
-*** TODO Camara de exportacion
+*** STARTED Seguimiento Conadis
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:41]
+    :END:
+Sin respuesta de conadis
+*** STARTED Docs a contactos
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:39]
+    :END:
+**** DONE MCyT
+**** TODO CAPER
+*** DONE Camara de exportacion
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-11 Mon 11:39]
+    :END:
 ** jmr
 *** TODO Mosto non-passing test
 * <2013-11-01 Fri> Objetivos
@@ -179,9 +210,15 @@ etcd (GoogleOS fork)
 dconf (over dbus pipable to TCP)
 ** pato
 ** jmr
-*** STARTED Mosto 24hs
+*** DONE Mosto 24hs
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:06]
+    :END:
 ** tom
-*** TODO Handle file not found error
+*** DONE Handle file not found error
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-11 Mon 11:11]
+    :END:
 * <2013-10-25 Fri> Objetivos
 ** ruth
 *** STARTED Reestructuración de la Cooperativa
@@ -209,12 +246,16 @@ Enviado a Nahum para corroborar, el lunes lo entregamos
 ** josx
 *** TODO Release WebFX stand-alone
 Falta el video, corregir los mensajes, el readme, el sitio de demo.
-*** STARTED Integrate WebFX UI into Caspa
+*** DONE Integrate WebFX UI into Caspa
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:33]
     - State "STARTED"    from "TODO"       [2013-10-25 Fri 12:25]
     :END:
 **** DONE Integración
-**** TODO Acompañar a Alejo en cerrar los detalles
+**** DONE Acompañar a Alejo en cerrar los detalles
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:33]
+     :END:
 *** DONE EMERGED: Resolver conflictos de Backbone para Tom en Mosto
 ** leo
 *** DONE Filmstrip to NPM
@@ -253,18 +294,24 @@ Ajustes en filmstrip con Leo, no pude investigar
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-25 Fri 14:58]
     :END:
-*** STARTED Ajustes de diseño a WebFX
+*** DONE Ajustes de diseño a WebFX
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:18]
     - State "STARTED"    from "TODO"       [2013-10-28 Mon 11:59]
     :END:
 ** tom
 *** STARTED Mosto messages to Caspa
 **** DONE Deploy in Caspa
 **** DONE Deploy in Mosto
-**** STARTED Place messages in Mosto
+**** DONE Place messages in Mosto
+     :LOGBOOK:
+     - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:10]
+     :END:
+**** TODO PullRequest
 ** jmr
-*** STARTED Mosto stabilization and bugfixes
+*** DONE Mosto stabilization and bugfixes
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:06]
     - State "STARTED"    from "TODO"       [2013-11-06 Wed 12:01]
     :END:
 Seems stable, waiting for more 24h results
