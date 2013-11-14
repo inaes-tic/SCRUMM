@@ -1,36 +1,76 @@
 #+TITLE: OpCode Malbec BroadCast Playout Project: Mars
 #+AUTHOR: Niv Sardi, Patricio Reboratti
 #+EMAIL: xaiki@inaes.gob.ar, patricio@opcode.coop
-#+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
+#+COLUMNS: %125ITEM %TASKID %OWNER %3PRIORITY %TODO %9ESTIMATED{:} %3ACTUAL{+}
+#+PROPERTY: ESTIMATED_ALL 1d 2d 3d 4d 1w 2w 3w 1m 2m
 #+PROJECT_TIME: 60d
 
-* Caspa
+* Caspa 
 ** Ingesta
 *** Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
 **** inotify con script python de zumo (zumo/lib/Melt.py) y api endpoint en caspa o redis
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+**** alta en DB
 *** Generación de Thumbnail y video para filmstrip
-*** Notificación via Mosto Messages (usar checksum de archivos para actualizar entry si notificamos porcentaje)
-*** TODO Alta en la db y actualización en cliente como hace el Scraper (o tal vez scraper escuchando siempre el directorio de transcodeados)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** Pantalla de ingesta en caspa
+**** progress de ingesta
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+**** reaccion al add
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** handeling/notificacion de errores
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
 ** MediaEdit
 *** Tags (UI, Backend)
-*** In/out (UI, Backend: Mosto ya saber que hacer si está si mongo driver lo lee) (Edita Media o edita Pieces?)
-**** TODO Mirar popcorn.js
+**** UI: creacion de tags, muestra los anteriores
+**** Backend: optim de busqueda de tags
+
+*** migracion Media -> Piece
+**** listas apuntan a pices
+**** edit playlist ofrece pieces en vez de medias
 ** MediaDetails
+*** In/out
+**** UI
+***** Mirar popcorn.js/otros                                           :xleo:
+**** Backend:
+verificar que mosto interprete IN OUT
+
 *** Rediseño respentando formas actual de caspa (botones, layout, scroll, etc)
 *** TODO Layout de panel o de diálogo modal
 ** MediaSearch
 *** Busqueda por tags
+** Playlist View
+*** marcador de schedule
 ** EditPlaylist
 *** Tags (UI, Backend)
 *** TODO Autogenerador de playlist con tiempo, sin tiempo, ¿bulk? (ver UI de Airtime)
 *** Mejorar Drop area en Playlist
-*** Analizar si es conveniente usar atajos de teclado, click, doblea click para agregar media a los playlist
+*** doble click agrega
 *** Funcionalidad para Duplicar playlist
 *** Playlists de tiempo fijo: marcar cuando se paso del tiempo que queria rellenar
+*** Handeling de playlist scheduleada
+**** al aire ahora
+link a playout view
+**** scheduleada (a futuro)
+***** cartel: por defecto te voy a duplicar la playlist,
+***** opcion para modificar las ocurrences ya escheduleadas.
+****** pull up/pull down
+****** info de consequencias
 ** Playout view
 *** Mover playlist ya programadas
-*** Programar no ajustado a la grilla (ofrecer ponerlo a mano)
+*** Programar no ajustado a la grilla (ofrecer ponerlo a mano) (pixel perfect)
 *** Problema del drag and drop / click
+*** drag from top
 *** Render de clips - tiempo exacto de inicio, fin
 *** Now indicator: faltante para próximo evento
 *** PushDown de data no cargada
@@ -52,7 +92,7 @@
 ** Config
 *** Widgets para config (tipos ahora solo soporta texto)
 *** TODO ¿Configuración distribuida?
-* Mosto
+* Mosto 
 ** In/Out
 *** Evaluar cuánto falta para que todo dentro de mosto entienda In/Out.
 ** Formato
