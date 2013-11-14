@@ -1,0 +1,59 @@
+
+* Caspa
+** Ingesta
+*** Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
+**** inotify con script python de zumo (zumo/lib/Melt.py) y api endpoint en caspa o redis
+*** Generación de Thumbnail y video para filmstrip
+*** Notificación via Mosto Messages (usar checksum de archivos para actualizar entry si notificamos porcentaje)
+*** TODO Alta en la db y actualización en cliente como hace el Scraper (o tal vez scraper escuchando siempre el directorio de transcodeados)
+** MediaEdit
+*** Tags (UI, Backend)
+*** In/out (UI, Backend: Mosto ya saber que hacer si está si mongo driver lo lee) (Edita Media o edita Pieces?)
+**** TODO Mirar popcorn.js
+** MediaDetails
+*** Rediseño respentando formas actual de caspa (botones, layout, scroll, etc)
+*** TODO Layout de panel o de diálogo modal
+** MediaSearch
+*** Busqueda por tags
+** EditPlaylist
+*** Tags (UI, Backend)
+*** TODO Autogenerador de playlist con tiempo, sin tiempo, ¿bulk? (ver UI de Airtime)
+*** Mejorar Drop area en Playlist
+*** Analizar si es conveniente usar atajos de teclado, click, doblea click para agregar media a los playlist
+*** Funcionalidad para Duplicar playlist
+*** Playlists de tiempo fijo: marcar cuando se paso del tiempo que queria rellenar
+** Playout view
+*** Mover playlist ya programadas
+*** Programar no ajustado a la grilla (ofrecer ponerlo a mano)
+*** Problema del drag and drop / click
+*** Render de clips - tiempo exacto de inicio, fin
+*** Now indicator: faltante para próximo evento
+*** PushDown de data no cargada
+*** Colores
+*** TODO Performance?
+** Schedule view
+*** Asegurar que funcionen Pushdown y revert
+*** Ui del pushdown debe ser modal
+*** Migrar a playoutview solo con vista semanal
+** Editor
+*** TODO No debe expandirse
+*** TODO Botón de compact queda asociado a edit
+*** Volver a cargar objetos luego de resize
+*** Editar text no funciona
+*** Aviso si el webvfx server no esta funcionando
+*** Animación/loop de imaganes  desde carpeta con duración
+*** Focalizar en logo, hora y tiempo
+*** TODO Infraestrucutra para widgets, hooks como kludget
+** Config
+*** Widgets para config (tipos ahora solo soporta texto)
+*** TODO ¿Configuración distribuida?
+* Mosto
+** In/Out
+*** Evaluar cuánto falta para que todo dentro de mosto entienda In/Out.
+** Formato
+*** Definir los formatos en los que seguro reproduce sin problemas (principalmente FPS)
+** PosixSHM
+*** Distinguir las cadenas por nombre o similar
+* Otros
+Cosas que seguro no vamos hacer: Vivo, Tetra hasta marzo
+A todo esto hay que agregar Mosto, Webvfx, server/test/deploy/blackmagic
