@@ -1,3 +1,8 @@
+#+TITLE: OpCode Malbec BroadCast Playout Project: Mars
+#+AUTHOR: Niv Sardi, Patricio Reboratti
+#+EMAIL: xaiki@inaes.gob.ar, patricio@opcode.coop
+#+COLUMNS: %35ITEM %TASKID %OWNER %3PRIORITY %TODO %5ESTIMATED{+} %3ACTUAL{+}
+#+PROJECT_TIME: 60d
 
 * Caspa
 ** Ingesta
