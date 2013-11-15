@@ -1,104 +1,282 @@
 #+TITLE: OpCode Malbec BroadCast Playout Project: Mars
 #+AUTHOR: Niv Sardi, Patricio Reboratti
 #+EMAIL: xaiki@inaes.gob.ar, patricio@opcode.coop
-#+COLUMNS: %125ITEM %TASKID %OWNER %3PRIORITY %TODO %9ESTIMATED{:} %3ACTUAL{+}
-#+PROPERTY: ESTIMATED_ALL 1d 2d 3d 4d 1w 2w 3w 1m 2m
+#+COLUMNS: %125ITEM %TASKID %OWNER %3PRIORITY %TODO %15ESTIMATED{:} %3ACTUAL{+}
+#+PROPERTY: ESTIMATED_ALL 4h 1d 2d 3d 4d 1w 2w 3w 1m 2m
 #+PROJECT_TIME: 60d
 
-* Caspa 
-** Ingesta
-*** Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
-**** inotify con script python de zumo (zumo/lib/Melt.py) y api endpoint en caspa o redis
+* Total 
+** Caspa 
+*** system wide
+**** transforms
+widget con popup
+*** Messages
+**** Implementar UI para MOSTO-MSG
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+*** Ingesta
+**** Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
+***** inotify con script python de zumo (zumo/lib/Melt.py) y api endpoint en caspa o redis
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-**** alta en DB
-*** Generación de Thumbnail y video para filmstrip
+***** alta en DB
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-*** Pantalla de ingesta en caspa
-**** progress de ingesta
+**** Generación de Thumbnail y video para filmstrip
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** Pantalla de ingesta en caspa
+***** progress de ingesta
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-**** reaccion al add
+***** reaccion al add
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-**** handeling/notificacion de errores
+***** handeling/notificacion de errores
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-** MediaEdit
-*** Tags (UI, Backend)
-**** UI: creacion de tags, muestra los anteriores
-**** Backend: optim de busqueda de tags
+*** MediaEdit
+**** Tags (UI, Backend)
+***** UI: creacion de tags, muestra los anteriores
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+***** Backend: optim de busqueda de tags
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
 
-*** migracion Media -> Piece
-**** listas apuntan a pices
-**** edit playlist ofrece pieces en vez de medias
-** MediaDetails
-*** In/out
-**** UI
-***** Mirar popcorn.js/otros                                           :xleo:
-**** Backend:
+**** migracion Media -> Piece
+***** listas apuntan a pices
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** edit playlist ofrece pieces en vez de medias
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** MediaDetails
+**** In/out
+***** UI
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+****** Mirar popcorn.js/otros                                     :xleo:
+****** Implementación
+***** Backend:
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
 verificar que mosto interprete IN OUT
 
-*** Rediseño respentando formas actual de caspa (botones, layout, scroll, etc)
-*** TODO Layout de panel o de diálogo modal
-** MediaSearch
-*** Busqueda por tags
-** Playlist View
-*** marcador de schedule
-** EditPlaylist
-*** Tags (UI, Backend)
-*** TODO Autogenerador de playlist con tiempo, sin tiempo, ¿bulk? (ver UI de Airtime)
-*** Mejorar Drop area en Playlist
-*** doble click agrega
-*** Funcionalidad para Duplicar playlist
-*** Playlists de tiempo fijo: marcar cuando se paso del tiempo que queria rellenar
-*** Handeling de playlist scheduleada
-**** al aire ahora
+**** Rediseño respentando formas actual de caspa (botones, layout, scroll, etc)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO Layout de panel o de diálogo modal
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** MediaSearch
+**** Busqueda por tags
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+*** Playlist View
+**** marcador de schedule
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** EditPlaylist
+**** Tags (UI, Backend)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO Autogenerador de playlist con tiempo, sin tiempo, ¿bulk? (ver UI de Airtime)
+:PROPERTIES:
+:ESTIMATED: 3d
+:END:
+**** Mejorar Drop area en Playlist
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** doble click agrega
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** Funcionalidad para Duplicar playlist
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+no se puede modificar la playlist si esta sched -> duplicarla.
+el aviso se tiene que mostrar antes de que se intente editar
+**** Playlists de tiempo fijo: marcar cuando se paso del tiempo que queria rellenar
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** Handeling de playlist scheduleada
+***** al aire ahora
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
 link a playout view
-**** scheduleada (a futuro)
-***** cartel: por defecto te voy a duplicar la playlist,
-***** opcion para modificar las ocurrences ya escheduleadas.
-****** pull up/pull down
-****** info de consequencias
-** Playout view
-*** Mover playlist ya programadas
-*** Programar no ajustado a la grilla (ofrecer ponerlo a mano) (pixel perfect)
-*** Problema del drag and drop / click
-*** drag from top
-*** Render de clips - tiempo exacto de inicio, fin
-*** Now indicator: faltante para próximo evento
-*** PushDown de data no cargada
-*** Colores
-*** TODO Performance?
-** Schedule view
-*** Asegurar que funcionen Pushdown y revert
-*** Ui del pushdown debe ser modal
-*** Migrar a playoutview solo con vista semanal
-** Editor
-*** TODO No debe expandirse
-*** TODO Botón de compact queda asociado a edit
-*** Volver a cargar objetos luego de resize
-*** Editar text no funciona
-*** Aviso si el webvfx server no esta funcionando
-*** Animación/loop de imaganes  desde carpeta con duración
-*** Focalizar en logo, hora y tiempo
-*** TODO Infraestrucutra para widgets, hooks como kludget
-** Config
-*** Widgets para config (tipos ahora solo soporta texto)
-*** TODO ¿Configuración distribuida?
-* Mosto 
-** In/Out
-*** Evaluar cuánto falta para que todo dentro de mosto entienda In/Out.
-** Formato
-*** Definir los formatos en los que seguro reproduce sin problemas (principalmente FPS)
-** PosixSHM
-*** Distinguir las cadenas por nombre o similar
-* Otros
+***** scheduleada (a futuro)
+****** cartel: por defecto te voy a duplicar la playlist,
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+****** opcion para modificar las ocurrences ya escheduleadas.
+:PROPERTIES:
+:ESTIMATED: 3d
+:END:
+******* pull up/pull down
+******* info de consequencias
+*** Playout view
+**** mostrar los agujeros en la programación
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** Mover playlist ya programadas
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** Programar no ajustado a la grilla (ofrecer ponerlo a mano) (pixel perfect)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** Problema del drag and drop / click
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** drag from top
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** Render de clips - tiempo exacto de inicio, fin
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** Now indicator: faltante para próximo evento
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** PushDown de data no cargada
+:PROPERTIES:
+:ESTIMATED: 4d
+:END:
+**** Colores
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Performance?
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+*** Schedule view
+**** Migrar a playoutview solo con vista semanal
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+*** Editor WebVFX
+Focalizar en logo, hora y tiempo
+**** no contraer header
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+*****  TODO Botón de contraccion queda asociado a edit
+**** Volver a cargar objetos luego de resize
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** Editar text no funciona
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** Aviso si el webvfx server no esta funcionando
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+Mosto messages
+**** Animación/loop de imaganes desde carpeta
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+***** subir zip
+***** animar a config.fps (fps global del playout)
+**** Infraestrucutra para widgets, hooks como kludget
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+*** Config
+**** Widgets para config
+(tipos ahora solo soporta texto)
+***** switch (on/off)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+***** path selector
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** combo box
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** spin button (Up/Down ?)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** Configuración distribuida
+** Mosto
+*** In/Out
+**** tests
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+*** PosixSHM
+**** poder nombrar producers (en el consumer)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+** Playout
+*** Sysadmin
+**** servidor de instalacion.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** FAI
+***** PUPPET
+**** installar desde la red y salir andando.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** tests con instalación.
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+**** maquinas de tests con BM a dentro.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** Monitoreo
+**** Munin/Monit o otro
+:PROPERTIES:
+:ESTIMATED: 3d
+:END:
+** WebFX
+*** Server
+**** Process mosto-status
+***** levantar transforms & sketchs
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+** Otros
 Cosas que seguro no vamos hacer: Vivo, Tetra hasta marzo
 A todo esto hay que agregar Mosto, Webvfx, server/test/deploy/blackmagic
