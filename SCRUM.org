@@ -137,6 +137,11 @@ Dificultad para reproducir
 *** TODO Update: convenio cooperar
 ** adri
 *** TODO Ingestor script
+** alejo
+*** TODO WebFxUI: do not hide header
+*** TODO WebFxUI: center editor screen
+*** TODO WebFxUI: ask before leaving view and losing content
+*** TODO WebFxUI: do not lose content when changing resolution
 * <2013-11-15 Fri> Objetivos
 ** josx
 *** STARTED Tags y Transforms en Caspa
