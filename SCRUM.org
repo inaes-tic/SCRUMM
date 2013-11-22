@@ -138,8 +138,14 @@ Dificultad para reproducir
 ** adri
 *** TODO Ingestor script
 ** alejo
-*** TODO WebFxUI: do not hide header
-*** TODO WebFxUI: center editor screen
+*** DONE WebFxUI: do not hide header
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-22 Fri 15:56]
+    :END:
+*** DONE WebFxUI: center editor screen
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-22 Fri 15:55]
+    :END:
 *** TODO WebFxUI: ask before leaving view and losing content
 *** TODO WebFxUI: do not lose content when changing resolution
 * <2013-11-15 Fri> Objetivos
