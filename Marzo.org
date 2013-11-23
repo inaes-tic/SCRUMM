@@ -1,48 +1,48 @@
 #+TITLE: OpCode Malbec BroadCast Playout Project: Mars
 #+AUTHOR: Niv Sardi, Patricio Reboratti
 #+EMAIL: xaiki@inaes.gob.ar, patricio@opcode.coop
-#+COLUMNS: %125ITEM %TASKID %OWNER %3PRIORITY %TODO %15ESTIMATED{:} %3ACTUAL{+}
+#+COLUMNS: %29ITEM %TASKID %OWNER %3PRIORITY %TODO %15ESTIMATED{:} %3ACTUAL{+}
 #+PROPERTY: ESTIMATED_ALL 4h 1d 2d 3d 4d 1w 2w 3w 1m 2m
 #+PROJECT_TIME: 60d
 
 * Total 
-** Caspa 
-*** system wide
+** [0/3] Ingesta
+*** TODO Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
+**** inotify con script python de zumo (zumo/lib/Melt.py) y api endpoint en caspa o redis
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+**** alta en DB
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** TODO Generación de Thumbnail y video para filmstrip
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** TODO Pantalla de ingesta en caspa
+**** progress de ingesta
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+**** reaccion al add
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** handeling/notificacion de errores
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+** [0/10] Caspa
+*** TODO system wide
 **** transforms
 widget con popup
-*** Messages
+*** TODO Messages
 **** Implementar UI para MOSTO-MSG
 :PROPERTIES:
 :ESTIMATED: 2d
 :END:
-*** Ingesta
-**** Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
-***** inotify con script python de zumo (zumo/lib/Melt.py) y api endpoint en caspa o redis
-:PROPERTIES:
-:ESTIMATED: 1w
-:END:
-***** alta en DB
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-**** Generación de Thumbnail y video para filmstrip
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-**** Pantalla de ingesta en caspa
-***** progress de ingesta
-:PROPERTIES:
-:ESTIMATED: 1w
-:END:
-***** reaccion al add
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-***** handeling/notificacion de errores
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-*** MediaEdit
+*** TODO MediaEdit
 **** Tags (UI, Backend)
 ***** UI: creacion de tags, muestra los anteriores
 :PROPERTIES:
@@ -62,7 +62,7 @@ widget con popup
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-*** MediaDetails
+*** TODO MediaDetails
 **** In/out
 ***** UI
 :PROPERTIES:
@@ -84,17 +84,17 @@ verificar que mosto interprete IN OUT
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-*** MediaSearch
+*** TODO MediaSearch
 **** Busqueda por tags
 :PROPERTIES:
 :ESTIMATED: 2d
 :END:
-*** Playlist View
+*** TODO Playlist View
 **** marcador de schedule
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-*** EditPlaylist
+*** TODO EditPlaylist
 **** Tags (UI, Backend)
 :PROPERTIES:
 :ESTIMATED: 1d
@@ -138,7 +138,7 @@ link a playout view
 :END:
 ******* pull up/pull down
 ******* info de consequencias
-*** Playout view
+*** TODO Playout view
 **** mostrar los agujeros en la programación
 :PROPERTIES:
 :ESTIMATED: 4h
@@ -179,12 +179,79 @@ link a playout view
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-*** Schedule view
+*** TODO Schedule view
 **** Migrar a playoutview solo con vista semanal
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-*** Editor WebVFX
+
+*** TODO Config
+**** Widgets para config
+(tipos ahora solo soporta texto)
+***** switch (on/off)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+***** path selector
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** combo box
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** spin button (Up/Down ?)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** Configuración distribuida
+*** Auth
+**** ABM de Usuarios
+**** Pantalla de login
+** Mosto
+*** In/Out
+**** tests
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+*** TODO PosixSHM
+**** poder nombrar producers (en el consumer)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+** [0/2] Playout
+*** TODO Sysadmin
+**** servidor de instalacion.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** FAI
+***** PUPPET
+**** installar desde la red y salir andando.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** tests con instalación.
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+**** maquinas de tests con BM a dentro.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** TODO Monitoreo
+**** Munin/Monit o otro
+:PROPERTIES:
+:ESTIMATED: 3d
+:END:
+** [0/2] WebFX
+*** TODO Server
+**** Process mosto-status
+***** levantar transforms & sketchs
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+*** TODO Editor
 Focalizar en logo, hora y tiempo
 **** no contraer header
 :PROPERTIES:
@@ -214,72 +281,6 @@ Mosto messages
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-*** Config
-**** Widgets para config
-(tipos ahora solo soporta texto)
-***** switch (on/off)
-:PROPERTIES:
-:ESTIMATED: 4h
-:END:
-***** path selector
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-***** combo box
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-***** spin button (Up/Down ?)
-:PROPERTIES:
-:ESTIMATED: 4h
-:END:
-**** Configuración distribuida
-*** Auth
-**** ABM de Usuarios
-**** Pantalla de login
-** Mosto
-*** In/Out
-**** tests
-:PROPERTIES:
-:ESTIMATED: 2d
-:END:
-*** PosixSHM
-**** poder nombrar producers (en el consumer)
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-** Playout
-*** Sysadmin
-**** servidor de instalacion.
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-***** FAI
-***** PUPPET
-**** installar desde la red y salir andando.
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-**** tests con instalación.
-:PROPERTIES:
-:ESTIMATED: 2d
-:END:
-**** maquinas de tests con BM a dentro.
-:PROPERTIES:
-:ESTIMATED: 1d
-:END:
-*** Monitoreo
-**** Munin/Monit o otro
-:PROPERTIES:
-:ESTIMATED: 3d
-:END:
-** WebFX
-*** Server
-**** Process mosto-status
-***** levantar transforms & sketchs
-:PROPERTIES:
-:ESTIMATED: 1w
-:END:
-** Otros
+** [0/0] Otros
 Cosas que seguro no vamos hacer: Vivo, Tetra hasta marzo
 A todo esto hay que agregar Mosto, Webvfx, server/test/deploy/blackmagic
