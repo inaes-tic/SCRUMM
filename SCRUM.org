@@ -109,6 +109,7 @@ Dificultad para reproducir
 *** TODO tests
 *** TODO Video view draggable
 ** Mariana
+*** TODO Docs al BAC y a la profesora de la universidad de Perú
 *** TODO Tarjetas en Offset
 *** TODO ++ Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
 *** TODO ++ Animacion logos para webfx
@@ -132,9 +133,36 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
+* Obj
+** unasigned
+*** TODO Estilos del ingestor
+** mariana
+*** TODO Mapa de malbec
+*** TODO Logo de playout
+** adri
+*** TODO Filmstrip from Ingestor
+*** TODO App: stateful views
+** josx
+*** TODO Fix fetchRelated
+*** TODO Search by Tags
+** leo
+*** TODO Finish WebFX UI
+** tom
+*** TODO Ideal Mosto report
+*** TODO Allow video for blank clip
+** alejo
+*** TODO Metadata editor purposes
+** pato
+*** TODO Calendar from POV
+*** TODO Mosto issues
+** jmr
+*** TODO WebFX reads MostoStatus
 * <2013-11-22 Fri> Objetivos
 ** mariana
-*** TODO Update: convenio cooperar
+*** DONE Update: convenio cooperar
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-25 Mon 15:36]
+    :END:
 ** adri
 *** TODO Ingestor script
 ** alejo
@@ -152,11 +180,15 @@ Dificultad para reproducir
 ** josx
 *** STARTED Tags y Transforms en Caspa
 ** tom
-*** TODO mosto bug not passing travis
+*** DONE mosto bug not passing travis
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-25 Mon 16:22]
+    :END:
 * <2013-11-08 Fri> Objetivos
 ** tom
-*** STARTED Mosto explained
+*** DONE Mosto explained
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-25 Mon 16:51]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:11]
     :END:
 ** adri
@@ -184,17 +216,22 @@ Falta que del lado de gstreamer entienda el formato de memoria de posixshm
     :END:
 *** STARTED Timeline StandAlone
 ** mariana
-*** STARTED Seguimiento Conadis
+*** DONE Seguimiento Conadis
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-25 Mon 15:36]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:41]
     :END:
 Sin respuesta de conadis
-*** STARTED Docs a contactos
+*** DONE Docs a contactos
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-25 Mon 15:35]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:39]
     :END:
 **** DONE MCyT
-**** TODO CAPER
+**** WONTFIX CAPER
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-11-25 Mon 15:35]
+     :END:
 *** DONE Camara de exportacion
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:39]
