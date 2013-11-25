@@ -234,6 +234,9 @@ Mosto messages
 :ESTIMATED: 4h
 :END:
 **** Configuración distribuida
+*** Auth
+**** ABM de Usuarios
+**** Pantalla de login
 ** Mosto
 *** In/Out
 **** tests
