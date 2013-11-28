@@ -133,7 +133,7 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
-* Obj
+* <2013-12-02 Mon> Objetivos
 ** unasigned
 *** TODO Estilos del ingestor
 ** mariana
