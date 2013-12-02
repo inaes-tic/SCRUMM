@@ -94,6 +94,7 @@ Dificultad para aplicar a los tests del lado del cliente
 **** TODO Cambio de resolución sin perder el contenido
 **** TODO Full feature set de JMR
 ** Adri
+*** TODO Unify ingestor script pipeline
 *** TODO Overlay: optimizar performance
 *** TODO Keybindings: mejorar y hacer configurable
 *** STARTED + Guardar salidas + EDL (Lista de cambios)
@@ -133,20 +134,51 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
+* <2013-12-09 Mon> Objetivos
+** jmr
+*** TODO travis conf to 0.10 0.12
+** josx
+*** TODO Widgets Config
+** leo
+*** TODO Investigar Edicion In/Out (ver NovaCut)
+** niv
+*** TODO Auth
+*** TODO Backbone.io sync en server
 * <2013-12-02 Mon> Objetivos
-** unasigned
-*** TODO Estilos del ingestor
 ** mariana
-*** TODO Mapa de malbec
+*** STARTED Mapa de malbec
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:08]
+    :END:
+*** STARTED Estilos del ingestor
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:10]
+    :END:
 *** TODO Logo de playout
 ** adri
-*** TODO Filmstrip from Ingestor
-*** TODO App: stateful views
+*** DONE Filmstrip from Ingestor
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-02 Mon 10:53]
+    :END:
+*** STARTED App: stateful views
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:55]
+    :END:
 ** josx
-*** TODO Fix fetchRelated
-*** TODO Search by Tags
+*** DONE Fix fetchRelated
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-02 Mon 11:03]
+    :END:
+*** STARTED Search by Tags
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:05]
+    :END:
 ** leo
-*** TODO Finish WebFX UI
+*** STARTED Finish WebFX UI
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
+    :END:
+Falta animacion de PNG
 ** tom
 *** TODO Ideal Mosto report
 *** TODO Allow video for blank clip
@@ -164,7 +196,10 @@ Dificultad para reproducir
     - State "DONE"       from "TODO"       [2013-11-25 Mon 15:36]
     :END:
 ** adri
-*** TODO Ingestor script
+*** DONE Ingestor script
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-02 Mon 10:52]
+    :END:
 ** alejo
 *** DONE WebFxUI: do not hide header
     :LOGBOOK:
@@ -174,8 +209,14 @@ Dificultad para reproducir
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-22 Fri 15:55]
     :END:
-*** TODO WebFxUI: ask before leaving view and losing content
-*** TODO WebFxUI: do not lose content when changing resolution
+*** STARTED WebFxUI: ask before leaving view and losing content
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:52]
+    :END:
+*** STARTED WebFxUI: do not lose content when changing resolution
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:52]
+    :END:
 * <2013-11-15 Fri> Objetivos
 ** josx
 *** STARTED Tags y Transforms en Caspa
@@ -237,7 +278,10 @@ Sin respuesta de conadis
     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:39]
     :END:
 ** jmr
-*** TODO Mosto non-passing test
+*** DONE Mosto non-passing test
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-02 Mon 10:58]
+    :END:
 * <2013-11-01 Fri> Objetivos
 ** ruth
 *** WONTFIX Reestructuración de la Cooperativa
