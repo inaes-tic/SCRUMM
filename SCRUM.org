@@ -136,7 +136,10 @@ Dificultad para reproducir
 **** TODO Integrar el código de c++
 * <2013-12-09 Mon> Objetivos
 ** jmr
-*** TODO travis conf to 0.10 0.12
+*** DONE travis conf to 0.10 0.12
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-06 Fri 12:10]
+    :END:
 ** josx
 *** TODO Widgets Config
 ** leo
@@ -173,12 +176,14 @@ Dificultad para reproducir
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:05]
     :END:
+Mergeando e incluyendo Backbone.Join
 ** leo
 *** STARTED Finish WebFX UI
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
     :END:
 Falta animacion de PNG
+Se agregó un problema con los layers, a resolver con el z-index
 ** tom
 *** TODO Ideal Mosto report
 *** TODO Allow video for blank clip
