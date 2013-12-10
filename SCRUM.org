@@ -134,6 +134,15 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
+* <2013-12-16 Mon> Objetivos
+** alejo
+*** TODO Mapa de Malbec (terminar)
+** adri
+*** TODO Caspa: navigator-like view switching
+** jmr
+*** TODO Cleanup Scheduled Sketchs in WebvFx
+*** TODO WebvFx Status to UI
+*** TODO Discuss with Niv: WebvFx dynamic filters architecture
 * <2013-12-09 Mon> Objetivos
 ** jmr
 *** DONE travis conf to 0.10 0.12
@@ -141,7 +150,10 @@ Dificultad para reproducir
     - State "DONE"       from "TODO"       [2013-12-06 Fri 12:10]
     :END:
 ** josx
-*** TODO Widgets Config
+*** STARTED Widgets Config
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-09 Mon 10:26]
+    :END:
 ** leo
 *** TODO Investigar Edicion In/Out (ver NovaCut)
 ** niv
@@ -149,10 +161,12 @@ Dificultad para reproducir
 *** TODO Backbone.io sync en server
 * <2013-12-02 Mon> Objetivos
 ** mariana
-*** STARTED Mapa de malbec
+*** DONE Mapa de malbec
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:11]
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:08]
     :END:
+Primera etapa OK, pasa a Alejo
 *** STARTED Estilos del ingestor
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:10]
@@ -167,6 +181,7 @@ Dificultad para reproducir
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:55]
     :END:
+Falta lograr que EditView ande bien al borrarle los objetos desde otro lado
 ** josx
 *** DONE Fix fetchRelated
     :LOGBOOK:
@@ -176,7 +191,7 @@ Dificultad para reproducir
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:05]
     :END:
-Mergeando e incluyendo Backbone.Join
+Mergeando e incluyendo Mongo.Join
 ** leo
 *** STARTED Finish WebFX UI
     :LOGBOOK:
@@ -193,7 +208,11 @@ Se agregó un problema con los layers, a resolver con el z-index
 *** TODO Calendar from POV
 *** TODO Mosto issues
 ** jmr
-*** TODO WebFX reads MostoStatus
+*** WONTFIX WebFX reads MostoStatus
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:51]
+    :END:
+*** DONE Schedule sketchs in WebvFx
 * <2013-11-22 Fri> Objetivos
 ** mariana
 *** DONE Update: convenio cooperar
@@ -254,10 +273,14 @@ Falta que del lado de gstreamer entienda el formato de memoria de posixshm
     - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 12:31]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:35]
     :END:
-*** STARTED Widgets for WebFX
-** pato
-*** STARTED Mosto with Tom
+*** DONE Investigación Widgets for WebFX
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:23]
+    :END:
+** pato
+*** DONE Mosto with Tom
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:17]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:33]
     :END:
 *** STARTED Timeline StandAlone
@@ -315,8 +338,14 @@ Heredado de la semana pasada porque Mala no pudo juntarse entonces.
 *** TODO PlayoutView Rendering
 ** leo
 *** DONE Filmstrip Capture
-*** STARTED Videos
-**** TODO Ajustes en los scripts
+*** DONE Videos
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:21]
+    :END:
+**** WONTFIX Ajustes en los scripts
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:21]
+     :END:
 **** DONE Script para descarga de videos
 **** DONE Logos en el repo design-artwork
 ** josx
@@ -431,14 +460,20 @@ Ajustes en filmstrip con Leo, no pude investigar
     - State "STARTED"    from "TODO"       [2013-10-28 Mon 11:59]
     :END:
 ** tom
-*** STARTED Mosto messages to Caspa
+*** DONE Mosto messages to Caspa
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
+    :END:
 **** DONE Deploy in Caspa
 **** DONE Deploy in Mosto
 **** DONE Place messages in Mosto
      :LOGBOOK:
      - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:10]
      :END:
-**** TODO PullRequest
+**** DONE PullRequest
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-12-09 Mon 16:01]
+     :END:
 ** jmr
 *** DONE Mosto stabilization and bugfixes
     :LOGBOOK:
@@ -492,8 +527,15 @@ Seems stable, waiting for more 24h results
     - State "TODO"       from ""           [2013-10-07 Mon 17:46]
     :END:
 ** tom
-*** TODO Get rid of all .skip in mosto tests
-*** STARTED Mosto messages to Caspa
+*** WONTFIX Get rid of all .skip in mosto tests
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:04]
+    :END:
+Pasó a JMR
+*** DONE Mosto messages to Caspa
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
+    :END:
 ** josx
 *** STARTED Integración UI WebFX a Caspa
 **** STARTED Stand-alone version with Caspa flavor
@@ -579,7 +621,10 @@ Seems stable, waiting for more 24h results
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:27]
     :END:
-*** TODO Discuss with Pato UI Mosto Messages 
+*** WONTFIX Discuss with Pato UI Mosto Messages 
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:13]
+    :END:
 ** josx
 *** WONTFIX TechTalk Geoman
     :LOGBOOK:
@@ -606,7 +651,10 @@ Esperando el merge del PR relacionado con Caspa para hacer las pruebas
 *** TODO +++ Control de proceso melted (mbc-waitpid o tal vez systemd)
 ** alejo
 *** DONE Armar manual para los diseñadores para CN23
-*** STARTED Clasificar diseñadores
+*** DONE Clasificar diseñadores
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:31]
+    :END:
 ** leo
 *** STARTED Filmstrip into PlayoutView Timeline
 **** STARTED Ajustes de performance y visualización.
@@ -677,7 +725,10 @@ Esperando el merge del PR relacionado con Caspa para hacer las pruebas
 *** TODO +++ Control de proceso melted (mbc-waitpid o tal vez systemd)
 ** alejo
 *** DONE Armar manual para los diseñadores para CN23
-*** STARTED Clasificar diseñadores
+*** DONE Clasificar diseñadores
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:31]
+    :END:
 ** leo
 *** STARTED Filmstrip into PlayoutView Timeline
 *** STARTED UI de WebFX
@@ -748,8 +799,14 @@ Funciona parcial: melted (webm) -> tcp -> Chrome
 *** STARTED + Mensajes para caspa
 *** TODO ++ Control de proceso melted (mbc-waitpid o tal vez systemd)
 ** alejo
-*** TODO Armar manual para los diseñadores para CN23
-*** TODO Clasificar diseñadores
+*** DONE Armar manual para los diseñadores para CN23
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-09 Mon 16:31]
+    :END:
+*** DONE Clasificar diseñadores
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-09 Mon 16:31]
+    :END:
 ** leo
 *** STARTED UI de WebFX
 **** DONE Chequear Backbone.io para guardar en DB
