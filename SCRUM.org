@@ -134,15 +134,36 @@ Dificultad para reproducir
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
 ** TODO Kludget para correr widgets (Herencia de Alejo)
 **** TODO Integrar el código de c++
+* <2013-12-30 Mon> Objetivos
+** mariana
+*** TODO Hablar con Ana Paula de Cooperar
+** pato
+*** TODO Filmstrip en POV: show on load
 * <2013-12-16 Mon> Objetivos
 ** alejo
-*** TODO Mapa de Malbec (terminar)
+*** STARTED Mapa de Malbec (terminar)
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-20 Fri 13:30]
+    :END:
 ** adri
 *** TODO Caspa: navigator-like view switching
 ** jmr
 *** TODO Cleanup Scheduled Sketchs in WebvFx
 *** TODO WebvFx Status to UI
 *** TODO Discuss with Niv: WebvFx dynamic filters architecture
+** mariana
+*** DONE Tramites cooperar
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
+    :END:
+**** DONE Buscar convenio firmado
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
+     :END:
+**** DONE Preparar y llevar facturas de Diciembre
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
+     :END:
 * <2013-12-09 Mon> Objetivos
 ** jmr
 *** DONE travis conf to 0.10 0.12
@@ -171,7 +192,10 @@ Primera etapa OK, pasa a Alejo
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:10]
     :END:
-*** TODO Logo de playout
+*** STARTED Logo de playout
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-20 Fri 10:41]
+    :END:
 ** adri
 *** DONE Filmstrip from Ingestor
     :LOGBOOK:
@@ -181,14 +205,16 @@ Primera etapa OK, pasa a Alejo
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:55]
     :END:
-Falta lograr que EditView ande bien al borrarle los objetos desde otro lado
+**** DONE EditView eliminar desde otro browser cuando se está editando una playlist
+**** TODO Corregir backends y channels
 ** josx
 *** DONE Fix fetchRelated
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 11:03]
     :END:
-*** STARTED Search by Tags
+*** DONE Search by Tags
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-20 Fri 13:29]
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:05]
     :END:
 Mergeando e incluyendo Mongo.Join
@@ -197,13 +223,16 @@ Mergeando e incluyendo Mongo.Join
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
     :END:
-Falta animacion de PNG
+Falta animacion de PNG (DONE)
 Se agregó un problema con los layers, a resolver con el z-index
 ** tom
 *** TODO Ideal Mosto report
 *** TODO Allow video for blank clip
 ** alejo
-*** TODO Metadata editor purposes
+*** DONE Metadata editor purposes
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-20 Fri 13:30]
+    :END:
 ** pato
 *** TODO Calendar from POV
 *** TODO Mosto issues
@@ -264,8 +293,9 @@ Se agregó un problema con los layers, a resolver con el z-index
     :END:
 Falta que del lado de gstreamer entienda el formato de memoria de posixshm
 ** leo
-*** STARTED Filmstrip en POV
+*** DONE Filmstrip en POV
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-20 Fri 11:08]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:35]
     :END:
 *** WONTFIX FilmstripCapture en MediaView
