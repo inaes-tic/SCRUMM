@@ -26,8 +26,8 @@ terminar.
 **** TODO seguir ajustándolo
 **** WONTFIX Apuntar a que esté para misiones
 *** TODO ++ Interfaz de Zumo
-** Mosto
-*** TODO Cleanup de mosto (Lo hace el primero que termina sus cosas entre Tom y JMR
+** JMR
+*** TODO +++ Cleanup de mosto: <2013-08-28 Wed>
 ** Caspa
 *** Diseño
 **** TODO Foldable Universe
@@ -59,27 +59,30 @@ Ejemplo: cargar una playlist en EditView, eliminar el primer elemento, recargarl
 *** TODO Corregir el cartel de "Push Down" en Schedule (o reemplazar toda la vista por algo que ande :P)
 *** BUG collection->get no pasa por io.
 *** BUG view collisiona con get.
+** WebvFx
+*** TODO Kludget para correr widgets (Herencia de Alejo)
+**** TODO Integrar el código de c++
 ** Pato
 *** TODO StandAlone Timeline
 *** TODO Ajustes visuales de Filmstrip en PlayoutView
-*** TODO POV: Mejorar la visualización y agregar unos datos que son necesarios.
+*** TODO ++++++ POV: Mejorar la visualización y agregar unos datos que son necesarios.
 *** TODO POV: Buscar una solución para problemas de performance.
 *** TODO POV: Corregir un par de known-bugs.
-*** TODO SHM: algoritmo tiempos de espera
+*** TODO + SHM: algoritmo tiempos de espera
 se puede mejorar el algoritmo que calcula los tiempos de
 espera para suministrar los frames en tiempo real. Hay
-
-*** TODO SHM: thread bloqueado cuando se cierra melt
+*** TODO + SHM: thread bloqueado cuando se cierra melt
 todavía algunos escenarios donde al intentar cerrar melt algún thread queda
 bloqueado y no cierra.
-
-*** TODO SHM: streaming a browser
+*** TODO + SHM: streaming a browser
 Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
 caspa.
-*** BUG SHM: seek.
-*** TODO Subir cambios de posixshm
+*** BUG +++++++ posixshm seek.
+*** BUG ++++++++++ collection->get no pasa por io.
+*** BUG ++++++++++ view collisiona con get.
+*** TODO ++ Subir cambios de posixshm
 ** Josx
-*** TODO +++ tags
+*** TODO ++++++ tags
 *** TODO Sharding en Mongo
 *** STARTED testing funcional: phantom
 *** TODO Investigación Closed Captions
@@ -89,10 +92,9 @@ Dificultad para aplicar a los tests del lado del cliente
 ** Leo
 *** TODO Filmstrip with KnockBack
 *** TODO Transforms into Caspa
-*** STARTED + UI de WebFX
-**** DONE Chequear Backbone.io para guardar en DB
-**** TODO Cambio de resolución sin perder el contenido
-**** TODO Full feature set de JMR
+*** [0/2] UI de WebFX
+**** TODO +++ Cambio de resolución sin perder el contenido
+**** TODO ++++ Integración a caspa
 ** Adri
 *** TODO Unify ingestor script pipeline
 *** TODO Overlay: optimizar performance
@@ -117,8 +119,8 @@ Dificultad para reproducir
 *** TODO + Usar knockback para cargar las vistas.
 *** TODO + Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
 *** TODO + tipos en config
-*** tipos estan
-*** falta renderizado distinto
+**** tipos estan
+**** falta renderizado distinto
 ** Ruth
 *** Proyect Opcode Summer of Code
 *** STARTED nic.ar, coop.ar
@@ -130,10 +132,21 @@ Dificultad para reproducir
 ** Tom
 *** Istambul logs from travis to express server
 ** Alejo
-** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
+*** STARTED +++ jmr -> ui de filtros:
+ Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
+ parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
+ Me parece que va muy de la mano de playout view, ya que son filtros
+ dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
+ clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
+ meter un doc css completo dinamicamente, hacer un poco mas robusta la
+ implementacion y persistir de alguna forma los filtros.  Me gustaria si
+ pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
+ tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
+ parece que estan todos hasta las manos como para que lo haga otro, no?)
+*** TODO +++ -> alejo ayuda jmr ui filtros.
+ Dificultad: Falta contacto con jmr
+** TODO ++++++ Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
-** TODO Kludget para correr widgets (Herencia de Alejo)
-**** TODO Integrar el código de c++
 * <2013-12-30 Mon> Objetivos
 ** mariana
 *** DONE Hablar con Ana Paula de Cooperar
@@ -334,7 +347,7 @@ Falta que del lado de gstreamer entienda el formato de memoria de posixshm
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:17]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:33]
     :END:
-*** STARTED Timeline StandAlone
+*** STARTED ++ StandAlone Timeline
 ** mariana
 *** DONE Seguimiento Conadis
     :LOGBOOK:
@@ -375,6 +388,16 @@ Sin respuesta de conadis
      :LOGBOOK:
      - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 12:01]
      :END:
+**** WONTFIX Actualizar Socios
+     :LOGBOOK:
+     - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 12:00]
+     - State "STARTED"    from "TODO"       [2013-10-28 Mon 12:25]
+     :END:
+Trabado porque alejo está leyendo el estatuto (DONE)
+**** DONE Renuncia de Mala
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-10-21 Mon 11:02]
+     :END:
 *** WONTFIX Chequera
     :LOGBOOK:
     - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 12:01]
@@ -408,7 +431,6 @@ Apache zookeeper
 Heroku userd
 etcd (GoogleOS fork)
 dconf (over dbus pipable to TCP)
-** pato
 ** jmr
 *** DONE Mosto 24hs
     :LOGBOOK:
@@ -421,16 +443,6 @@ dconf (over dbus pipable to TCP)
     :END:
 * <2013-10-25 Fri> Objetivos
 ** ruth
-*** WONTFIX Reestructuración de la Cooperativa
-    :LOGBOOK:
-    - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 12:00]
-    :END:
-**** WONTFIX Actualizar Socios
-     :LOGBOOK:
-     - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 12:00]
-     - State "STARTED"    from "TODO"       [2013-10-28 Mon 12:25]
-     :END:
-Trabado porque alejo está leyendo el estatuto (DONE)
 *** DONE Permiso de facturación AFIP
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-25 Fri 12:02]
@@ -457,7 +469,7 @@ Enviado a Nahum para corroborar, el lunes lo entregamos
 ** josx
 *** TODO Release WebFX stand-alone
 Falta el video, corregir los mensajes, el readme, el sitio de demo.
-*** DONE Integrate WebFX UI into Caspa
+*** DONE +++ Integrate WebFX UI into Caspa
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:33]
     - State "STARTED"    from "TODO"       [2013-10-25 Fri 12:25]
@@ -511,7 +523,7 @@ Ajustes en filmstrip con Leo, no pude investigar
     - State "STARTED"    from "TODO"       [2013-10-28 Mon 11:59]
     :END:
 ** tom
-*** DONE Mosto messages to Caspa
+*** [4/4] ++++ Mosto messages to Caspa
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
     :END:
@@ -534,6 +546,26 @@ Ajustes en filmstrip con Leo, no pude investigar
 Seems stable, waiting for more 24h results
 * <2013-10-18 Fri> Objetivos
 ** jmr
+*** DONE +++ Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 15:28]
+    :END:
+Primero con AVForamt no pudo (no saca nada que no sea udp)
+FFserver
+Convertir del UDP de Avformat a algo que VLC pueda recibir y retransmitir sin reencodear.
+--
+NOTA: usamos esto porque vp9 está muy experimental
+Funciona muy bien: melted -> vlc -> Chrome
+Funciona parcial: melted (webm) -> tcp -> Chrome
+**** WONTFIX Portar servidor webm de Java a Node
+     :LOGBOOK:
+     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 15:28]
+     :END:
+**** DONE Hacer pruebas con IceCast
+     :LOGBOOK:
+     - State "DONE"       from "STARTED"    [2013-12-27 Fri 15:28]
+     :END:
+Dificultad para publicar webm desde melt a IceCast
 *** DONE Streamer melt with Java
     :LOGBOOK:
     - State "DONE"       from ""           [2013-10-21 Mon 12:46]
@@ -564,10 +596,6 @@ Seems stable, waiting for more 24h results
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-21 Mon 10:43]
     :END:
-* <2013-10-14 Mon> Objetivos
-** josx
-*** STARTED Integración UI WebFX a Caspa
-**** TODO Integration into Caspa
 * <2013-10-11 Fri> Objetivos
 ** jmr
 *** DONE Stream Melt via IceCast
@@ -583,16 +611,10 @@ Seems stable, waiting for more 24h results
     - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:04]
     :END:
 Pasó a JMR
-*** DONE Mosto messages to Caspa
+*** DONE ++++ Mosto messages to Caspa
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
     :END:
-** josx
-*** STARTED Integración UI WebFX a Caspa
-**** STARTED Stand-alone version with Caspa flavor
-     :LOGBOOK:
-     - State "STARTED"    from ""           [2013-10-09 Wed 11:42]
-     :END:
 ** pato
 *** DONE + Algoritmo de generación de Frames
     :LOGBOOK:
@@ -609,12 +631,12 @@ Pasó a JMR
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 10:44]
     :END:
 ** adri
-*** DONE Cargar videos de disco
+*** DONE ++ Cargar videos de disco
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 11:45]
     :END:
 **** Salta la posición, hay que ajustar
-*** DONE keybinds
+*** DONE + keybinds
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 11:46]
     :END:
@@ -648,19 +670,6 @@ Pasó a JMR
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:29]
     :END:
-** ruth
-*** WONTFIX Reestructuración de la Cooperativa
-    :LOGBOOK:
-    - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 11:51]
-    :END:
-**** WONTFIX Actualizar Socios
-     :LOGBOOK:
-     - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 11:51]
-     :END:
-**** DONE Renuncia de Mala
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2013-10-21 Mon 11:02]
-     :END:
 * <2013-10-09 Wed> Obejtivos
 ** alejo
 *** DONE Entrega CN23
@@ -672,7 +681,7 @@ Pasó a JMR
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:27]
     :END:
-*** WONTFIX Discuss with Pato UI Mosto Messages 
+*** WONTFIX Discuss with Pato UI Mosto Messages
     :LOGBOOK:
     - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:13]
     :END:
@@ -683,862 +692,217 @@ Pasó a JMR
     :END:
 * <2013-10-07 Mon> Obejtivos
 ** jmr
-*** STARTED +++ Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
-NOTA: usamos esto porque vp9 está muy experimental
-Funciona muy bien: melted -> vlc -> Chrome
-Funciona parcial: melted (webm) -> tcp -> Chrome
-**** STARTED Portar servidor webm de Java a Node
-**** STARTED Hacer pruebas con IceCast
-Dificultad para publicar webm desde melt a IceCast
 *** STARTED ++++++++ Tests: esperando el equipo nuevo para mosto 24h
 **** TODO ++ Merge istambul
 Esperando el merge del PR relacionado con Caspa para hacer las pruebas
 **** TODO Pruebas saliendo posixshm a avformat para preview
 ** tom
-*** STARTED ++ Tests
+*** STARTED +++ Tests
 **** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
 **** TODO Agregar test que falle cuando el coverage sea menor a 90%
-*** STARTED ++ Mensajes para caspa
-*** TODO +++ Control de proceso melted (mbc-waitpid o tal vez systemd)
+*** TODO ++++ Control de proceso melted (mbc-waitpid o tal vez systemd)
 ** alejo
-*** DONE Armar manual para los diseñadores para CN23
-*** DONE Clasificar diseñadores
+*** DONE + Armar manual para los diseñadores para CN23
+*** DONE + Clasificar diseñadores
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:31]
     :END:
 ** leo
-*** STARTED Filmstrip into PlayoutView Timeline
-**** STARTED Ajustes de performance y visualización.
-*** STARTED + UI de WebFX
-**** DONE Chequear Backbone.io para guardar en DB
-**** TODO Cambio de resolución sin perder el contenido
-**** TODO Integración a caspa
-*** STARTED ++  Kludget para correr widgets (Herencia de Alejo)
-**** TODO Integrar el código de c++
-*** TODO Coordinar con Josx para integrar UI WebFX a Caspa
-** pato
-*** TODO Algoritmo de generación de Frames
-**** TODO Armar matriz para precalcular varias estrategias
-*** STARTED StandAlone Timeline
-*** TODO Subir cambios de posixshm
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
+*** [1/1] Filmstrip into PlayoutView Timeline
+**** DONE Ajustes de performance y visualización.
+     :LOGBOOK:
+     - State "DONE"       from "STARTED"    [2013-12-27 Fri 16:21]
+     :END:
+*** DONE + Coordinar con Josx para integrar UI WebFX a Caspa
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-27 Fri 16:13]
+    :END:
 ** mariana
-*** STARTED Seguimiento convenio UNTREF
+*** DONE ++++ Seguimiento convenio UNTREF
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 14:10]
+    :END:
 **** Esperando reunión
-*** TODO Armar disertación y diapos para la UNQUI
-*** TODO ++ Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
-*** TODO ++ Animacion logos para webfx
 ** josx
-*** STARTED ++ Planear con Adri Tetra en UNQUI
+*** DONE +++ Planear con Adri Tetra en UNQUI
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 13:51]
+    :END:
 **** DONE Reunión en UNQUI
-*** STARTED testing de UI
-**** STARTED Hablar con Tom para integrar Istambul
-Dificultad para aplicar a los tests del lado del cliente
-*** STARTED Integración UI WebFX a Caspa
-**** Cambios necesarios para que se adapte a los estándares de Caspa
-**** Mantenerlo independiente para que pueda correr fuera de Caspa
 ** ruth
 *** DONE Convenio de Trama
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-07 Mon 18:01]
     :END:
 ** adri
-*** STARTED Cargar videos de disco
-*** STARTED + Guardar salidas + EDL (Lista de cambios)
+*** STARTED +++ Guardar salidas + EDL (Lista de cambios)
 **** Roto por solución de Desconexión de cámaras + Problema de syncro A/V
-*** STARTED keybinds
-**** DONE Implementación
-**** TODO Mejorar y hacer configurable
-*** STARTED Overlay
-*** STARTED + Desconexion de Camaras
-**** DONE Implementar una solución
-**** TODO Refactoring + Hacerlo genérico
 * <2013-10-04 Fri> Obejtivos
-** jmr
-*** STARTED ++ Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
-NOTA: usamos esto porque vp9 está muy experimental
-Funciona muy bien: melted -> vlc -> Chrome
-Funciona parcial: melted (webm) -> tcp -> Chrome
-**** STARTED Portar servidor webm de Java a Node
-**** TODO Hacer pruebas con IceCast
-*** STARTED +++++++ Tests: esperando el equipo nuevo para mosto 24h
-**** TODO + Merge istambul
-Esperando el merge del PR relacionado con Caspa para hacer las pruebas
-**** TODO Pruebas saliendo posixshm a avformat para preview
 ** tom
-*** DONE + Mosto coverage
+*** [1/1] ++ Mosto coverage
 **** DONE Merge
-*** STARTED ++ Tests
-**** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
-**** TODO Agregar test que falle cuando el coverage sea menor a 90%
-*** STARTED ++ Mensajes para caspa
-*** TODO +++ Control de proceso melted (mbc-waitpid o tal vez systemd)
-** alejo
-*** DONE Armar manual para los diseñadores para CN23
-*** DONE Clasificar diseñadores
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:31]
-    :END:
-** leo
-*** STARTED Filmstrip into PlayoutView Timeline
-*** STARTED UI de WebFX
-**** DONE Chequear Backbone.io para guardar en DB
-**** TODO Cambio de resolución sin perder el contenido
-**** TODO Integración a caspa
-*** STARTED + Kludget para correr widgets (Herencia de Alejo)
-**** TODO Integrar el código de c++
-*** TODO Coordinar con Josx para integrar UI WebFX a Caspa
-** pato
-*** TODO Algoritmo de generación de Frames
-**** TODO Armar matriz para precalcular varias estrategias
-*** STARTED StandAlone Timeline
-*** TODO Subir cambios de posixshm
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
 ** mariana
-*** STARTED Seguimiento convenio UNTREF
-**** DONE Redacción de convenio + presupuesto
-**** WONTFIX Mandar status el viernes <2013-09-20 Fri>
-**** Esperando reunión del Jueves <2013-09-26 Thu>   
 *** WONTFIX ++ Finalizar convenio de Trama (Delegado a Ruth)
-*** TODO ++ Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
-*** TODO ++ Animacion logos para webfx
 ** josx
-*** TODO ++ Planear con Adri Tetra en UNQUI
 *** DONE ver opciones de logging
 *** DONE Correcciones de conexión a DB en Caspa
-*** STARTED testing de UI
-**** DONE PhantomJS integrado, hay PR y un par de tests.
-**** TODO Hablar con Tom para integrar Istambul
-*** STARTED Integración UI WebFX a Caspa
-**** Cambios necesarios para que se adapte a los estándares de Caspa
-**** Mantenerlo independiente para que pueda correr fuera de Caspa
 ** ruth
-*** TODO Convenio de Trama
-*** STARTED nic.ar, coop.ar
+*** WONTFIX +++++++++ nic.ar, coop.ar
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:35]
+    :END:
 **** Todavía esperando la firma de Leo
-**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
-*** STARTED Reunión con Contador
+**** WONTFIX Mandar mail a facttic para ver si lo movemos por cooperar
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:35]
+     :END:
+*** WONTFIX +++++++ Reunión con Contador
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:35]
+    :END:
 **** Evaluar relación, tipo de contratación
 **** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-*** TODO Datos de la cooperativa para prensa facttic.
+*** WONTFIX ++++++ Datos de la cooperativa para prensa facttic.
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:35]
+    :END:
+
 ** adri
-*** DONE Picture in Picture
-*** STARTED Cargar videos de disco
-*** STARTED + Guardar salidas + EDL (Lista de cambios)
-*** STARTED keybinds
-*** STARTED Overlay
-*** STARTED + Desconexion de Camaras
+*** DONE ++ Picture in Picture
 * <2013-09-27 Fri> Obejtivos
-** jmr
-*** STARTED + Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
-NOTA: usamos esto porque vp9 está muy experimental
-Funciona muy bien: melted -> vlc -> Chrome
-Funciona parcial: melted (webm) -> tcp -> Chrome
-*** STARTED ++++++ Tests: esperando el equipo nuevo para mosto 24h
-**** DONE Merge código de Tom
-**** DONE Review melted-node de Tom
-**** TODO Merge istambul
-**** TODO Pruebas saliendo posixshm a avformat para preview
-** tom
-*** STARTED + Mosto coverage
-**** TODO Merge
-*** STARTED Tests
-**** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
-**** TODO Agregar test que falle cuando el coverage sea menor a 90%
-*** STARTED + Mensajes para caspa
-*** TODO ++ Control de proceso melted (mbc-waitpid o tal vez systemd)
-** alejo
-*** DONE Armar manual para los diseñadores para CN23
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-12-09 Mon 16:31]
-    :END:
-*** DONE Clasificar diseñadores
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-12-09 Mon 16:31]
-    :END:
 ** leo
-*** STARTED UI de WebFX
+*** [1/1] UI de WebFX
 **** DONE Chequear Backbone.io para guardar en DB
-**** TODO Cambio de resolución sin perder el contenido
-**** TODO Integración a caspa
-*** STARTED + Kludget para correr widgets (Herencia de Alejo)
-**** TODO Integrar el código de c++
-** pato
-*** TODO Subir cambios de posixshm
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
 ** mariana
-*** STARTED Seguimiento convenio UNTREF
-**** DONE Redacción de convenio + presupuesto
-**** WONTFIX Mandar status el viernes <2013-09-20 Fri>
-**** Esperando reunión del Jueves <2013-09-26 Thu>   
-*** WONTFIX Finalizar tramitación de cuenta credicoop (lo hacen pato y josx)
-*** STARTED ++ Finalizar convenio de Trama
-*** TODO ++ Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
-*** TODO ++ Animacion logos para webfx
-** josx
-*** TODO + Planear con Adri Tetra en UNQUI
-*** STARTED ver opciones de logging
-*** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-** ruth
-*** DONE Hablar con el banco por una reunión
-*** DONE Tramites Afip Agip
-*** STARTED nic.ar, coop.ar
-**** Todavía esperando la firma de Leo
-**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
-*** WONTFIX ++ Convenio de trama
-**** Escribiendo el texto del subsidio c agus
-**** "Viendo números, adueñándome del proyecto."
-*** DONE Reunión Facttic
-**** DONE Minuta disponible por mail
-**** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
-**** Se nombró a niv y la coop para tecnópolis
-**** DONE Completar planilla de datos previsionales
-*** STARTED Reunión con Contador
-**** Evaluar relación, tipo de contratación
-**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-*** WONTFIX Poder de Mala
-*** TODO Datos de la cooperativa para prensa facttic.
-** adri
-*** STARTED Picture in Picture
-*** STARTED Cargar videos de disco
-*** TODO + Guardar salidas + EDL (Lista de cambios)
+*** WONTFIX + Finalizar tramitación de cuenta credicoop (lo hacen pato y josx)
 * <2013-09-20 Fri> Obejtivos
 ** jmr
-*** STARTED Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
-Primero con AVForamt no pudo (no saca nada que no sea udp)
-FFserver
-Convertir del UDP de Avformat a algo que VLC pueda recibir y retransmitir sin reencodear.
-*** TODO +++ vp9:
+*** TODO ++++++ vp9:
 Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
 Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
 tengo (gracias a ddennedy) pero no pude probarlo todavia.
 
-*** STARTED +++++ Tests: esperando el equipo nuevo para mosto 24h
-**** TODO Merge código de Tom
-**** TODO Pruebas saliendo posixshm a avformat para preview
-*** STARTED Cleanup de mosto: <2013-08-28 Wed>
-*** STARTED Review melted-node de Tom
+*** STARTED +++ Review melted-node de Tom
 ** tom
-*** STARTED Mensajes para caspa
-*** STARTED Mosto coverage
-**** TODO Agregar test que falle cuando el coverage sea menor a 90%
-**** STARTED Chequear con JMR que falla en mosto (Confiabilidad de tests)
-*** TODO + Control de proceso melted (mbc-waitpid o tal vez systemd)
+*** STARTED + Chequear con JMR que falla en mosto (Confiabilidad de tests)
 ** alejo
 *** DONE FrameFreak
 **** Sabado + Domingo + Lunes + Martes (un par de horas)
-*** STARTED + Cludget para correr widgets
-**** TODO Integrar el código de c++
 ** leo
-*** STARTED UI de WebFX
-**** DONE Aplicar los filtros desde la UI
+*** [2/2] UI de WebFX
 **** DONE Agregado safe area
 **** DONE Guardar y recuperar los cambios (ahora usa LocalStorage)
-**** TODO Cambio de resolución sin perder el contenido
-**** TODO Integración a caspa
-** pato
-*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-*** Backlog
-**** TODO POV: Buscar una solución para problemas de performance.
-**** TODO POV: Corregir un par de known-bugs.
-**** TODO SHM: algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-**** TODO SHM: thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-**** TODO SHM: streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
 ** mariana
 *** DONE FrameFreak
 **** Viernes + Domingo + 1/2 Lunes
-*** STARTED Seguimiento convenio UNTREF
-**** TODO Mandar status el viernes <2013-09-20 Fri>
-*** STARTED Finalizar tramitación de cuenta credicoop
-**** Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
-*** TODO + Finalizar convenio de Trama
-*** TODO + Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
-*** TODO + Animacion logos para webfx
-*** STARTED CSS overall
+*** STARTED +++++++ CSS overall
 **** DONE Terminar layout
 **** STARTED Paginate wait
 **** DONE commitear
 **** TODO Hay bugs por arreglar
-*** Backlog:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
 ** josx
-*** TODO ++ tags
-*** DONE Script para subir lo último a Heroku
-*** TODO Planear con Adri Tetra en UNQUI
-*** STARTED Investigación Closed Captions
-*** Backlog:
-**** TODO Sharding en Mongo
-**** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-**** STARTED ver opciones de logging
-**** STARTED testing funcional: phantom
-** ruth
-*** DONE Hablar con el banco por una reunión
-*** DONE Tramites Afip Agip
-*** STARTED nic.ar, coop.ar
-**** Todavía esperando la firma de Leo
-**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
-*** WONTFIX ++ Convenio de trama
-**** Escribiendo el texto del subsidio c agus
-**** "Viendo números, adueñándome del proyecto."
-*** DONE Reunión Facttic
-**** DONE Minuta disponible por mail
-**** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
-**** Se nombró a niv y la coop para tecnópolis
-**** DONE Completar planilla de datos previsionales
-*** STARTED Reunión con Contador
-**** Evaluar relación, tipo de contratación
-**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-*** WONTFIX Poder de Mala
-*** TODO Datos de la cooperativa para prensa facttic.
+*** WONTFIX ++++++ tags
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:48]
+    :END:
+Moved to Backlog
+*** DONE +++ Script para subir lo último a Heroku
 ** agus
 *** FrameFreak
 **** Dos semanas de trabajo
-*** STARTED + docs
+*** WONTFIX ++++++ docs
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:18]
+    :END:
 **** más allá de la documentación del concurso tengo en drive unos documentos de
 MBC, TETRA, FFFS, de los que había empezado a escribir documentación
 técnica. avancé hasta donde pude con la información que tenía. está para
 terminar.
 **** STARTED Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
 ***** STARTED Leer documentación de Kaltura, hacer extracto para mejorar.
-*** STARTED +++ Tríptico
+*** WONTFIX ++++++ Tríptico
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:18]
+    :END:
 **** Necesita feedback
 **** TODO seguir ajustándolo
 **** WONTFIX Apuntar a que esté para misiones
-*** TODO ++ Interfaz de Zumo
-*** STARTED + Convenio Trama
-** adri
-*** STARTED Picture in Picture
-*** STARTED Guardar salidas + EDL (Lista de cambios)
-*** TODO tests
-*** TODO keybinds
-*** Tetra pausado por Caspa Sprint:
-**** STARTED + Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-Dificultad para reproducir
-**** STARTED + Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-Dificultad para reproducir
-**** STARTED + refactoring
-*** Backlog:
-**** TODO Video view draggable
-**** TODO Overlay
-**** TODO Cargar videos de disco
+*** WONTFIX ++ Interfaz de Zumo
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:18]
+    :END:
+*** WONTFIX Convenio Trama
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:18]
+    :END:
 * <2013-09-13 Fri> Obejtivos
-** jmr
-*** TODO +++ vp9:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-*** STARTED ++++ Tests: esperando el equipo nuevo para mosto 24h
-**** TODO Pruebas saliendo posixshm a avformat para preview
-*** WONTFIX ++ BUG en Wrapper de melted
-**** Lo va a hacer a TOM
-*** STARTED Cleanup de mosto: <2013-08-28 Wed>
-*** STARTED Review melted-node de Tom
 ** tom
-*** DONE Melted-node enhancements
-**** DONE Feature done
-**** DONE Falta arreglar los tests
-**** DONE Falta ajustar mosto para esto
+*** [3/3] ++ Melted-node enhancements
+**** DONE Arreglar los tests
+**** DONE Ajustar mosto para esto
 **** DONE Ver que ande
-*** TODO Mensajes para caspa
-*** STARTED Mosto coverage
+*** [1/1] Mosto coverage
 **** DONE Implementado
-**** TODO Chequear con JMR que falla en mosto (Confiabilidad de tests)
-*** TODO Control de proceso melted (mbc-waitpid o tal vez systemd)
 ** alejo
-*** DONE Buscar estándares de widgets (iGoogle, MACOSX)
+*** DONE ++ Buscar estándares de widgets (iGoogle, MACOSX)
 **** Haciendo pruebas con los widgets de apple.
 Dificultad: configuración de mac para correr los widgets
-*** STARTED Cludget para correr widgets
-**** TODO Integrar el código de c++
 ** leo
-*** STARTED UI de WebFX
+*** [1/1] UI de WebFX
 **** DONE Aplicar los filtros desde la UI
-**** TODO Integración a caspa
 ** pato
-*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-*** DONE Playout View Paginacion basado en backbone paginator
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** TODO + Buscar solucion para Videos CN23
-*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-*** Backlog
-**** TODO POV: Buscar una solución para problemas de performance.
-**** TODO POV: Corregir un par de known-bugs.
-**** TODO SHM: algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-**** TODO SHM: thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-**** TODO SHM: streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
+*** DONE ++++ Playout View Paginacion basado en backbone paginator
+*** WONTFIX +++++ Buscar solucion para Videos CN23
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 14:29]
+    :END:
 ** mariana
-*** TODO Seguimiento convenio UNTREF
-*** TODO Finalizar tramitación de cuenta credicoop
-*** TODO Finalizar convenio de Trama
-*** TODO Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
-*** TODO Animacion logos para webfx
-*** STARTED CSS overall
-**** DONE Terminar layout
-**** STARTED Paginate wait
-**** DONE commitear
-**** TODO Hay bugs por arreglar
-*** DONE <2013-08-27 Tue> Actualizar sitio web de la coop
+*** DONE + <2013-08-27 Tue> Actualizar sitio web de la coop
 **** Necesita data
 **** Necesita datos de conexion al server
-*** Backlog:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
 ** josx
-*** TODO +tags
-*** DONE merge
+*** DONE ++++ merge
 **** Corregir layers de backbone.io
-*** DONE mongo fulltextsearch + index
+*** DONE ++++ mongo fulltextsearch + index
 mongo 2.4 FTS beta.
-*** DONE Pitching con Agus
-*** TODO Script para subir lo último a Heroku
-*** Backlog:
-**** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-**** STARTED ver opciones de logging
-**** STARTED testing funcional: phantom
+*** DONE ++ Pitching con Agus
 ** ruth
-*** DONE Hablar con el banco por una reunión
-*** DONE Tramites Afip Agip
-*** STARTED nic.ar, coop.ar
-**** Todavía esperando la firma de Leo
-**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
-*** WONTFIX ++ Convenio de trama
+*** DONE + Hablar con el banco por una reunión
+*** WONTFIX ++++ Convenio de trama
 **** Escribiendo el texto del subsidio c agus
 **** "Viendo números, adueñándome del proyecto."
-*** DONE Reunión Facttic
+*** DONE ++++ Reunión Facttic
 **** DONE Minuta disponible por mail
 **** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
 **** Se nombró a niv y la coop para tecnópolis
 **** DONE Completar planilla de datos previsionales
-*** STARTED Reunión con Contador
-**** Evaluar relación, tipo de contratación
-**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-*** WONTFIX Poder de Mala
-*** TODO Datos de la cooperativa para prensa facttic.
 ** agus
-*** DONE + Preparación de Pitch
-*** STARTED docs
-**** más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-**** STARTED Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
-***** STARTED Leer documentación de Kaltura, hacer extracto para mejorar.
-*** STARTED ++ Tríptico
-**** Necesita feedback
-**** TODO seguir ajustándolo
-**** WONTFIX Apuntar a que esté para misiones
-*** TODO +Interfaz de Zumo
-** adri
-*** TODO tests
-*** TODO keybinds
-*** Tetra pausado por Caspa Sprint:
-**** STARTED + Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-Dificultad para reproducir
-**** STARTED + Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-Dificultad para reproducir
-**** STARTED + refactoring
-*** Backlog:
-**** TODO Video view draggable
-**** TODO Overlay
-**** TODO Picture in picture
-**** TODO Cargar videos de disco
+*** DONE +++ Preparación de Pitch
 * <2013-08-28 Wed> Obejtivos
 ** jmr
-*** TODO +++ vp9:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-*** STARTED +++ Tests: esperando el equipo nuevo para mosto 24h
-**** TODO Pruebas saliendo posixshm a avformat para preview: <2013-08-28 Wed>
 *** WONTFIX ++ BUG en Wrapper de melted
 **** Lo va a hacer a TOM
-*** STARTED Cleanup de mosto: <2013-08-28 Wed>
-*** STARTED Review melted-node de Tom
 ** tom
-*** STARTED Melted-node enhancements
+*** [1/1] + Melted-node enhancements
 **** DONE Feature done
-**** Falta arreglar los tests
-**** Falta ajustar mosto para esto
-**** Ver que ande
-*** TODO Chequear con JMR que falla en mosto (Confiabilidad de tests)
-*** TODO Control de proceso melted (mbc-waitpid o tal vez systemd)
-** alejo
-*** STARTED Buscar estándares de widgets (iGoogle, MACOSX)
-**** Haciendo pruebas con los widgets de apple.
-Dificultad: configuración de mac para correr los widgets
-*** Backlog:
-**** STARTED jmr -> ui de filtros:
-  Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
-  parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
-  Me parece que va muy de la mano de playout view, ya que son filtros
-  dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
-  clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
-  meter un doc css completo dinamicamente, hacer un poco mas robusta la
-  implementacion y persistir de alguna forma los filtros.  Me gustaria si
-  pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
-  tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
-  parece que estan todos hasta las manos como para que lo haga otro, no?)
-
-**** TODO + -> alejo ayuda jmr ui filtros.
-  Dificultad: Falta contacto con jmr
-
-** pato
-*** DONE Mails bienvenida
-**** Actualizado intro en private/mail-intro.
-**** Hablar con leo de FFFS
-**** Terminar de enviar a los demás
-*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-*** STARTED Playout View Paginacion basado en backbone paginator
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** TODO + Buscar solucion para Videos CN23
-*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-*** Backlog
-**** TODO POV: Buscar una solución para problemas de performance.
-**** TODO POV: Corregir un par de known-bugs.
-
-**** TODO SHM: algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-**** TODO SHM: thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-**** TODO SHM: streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
-** mariana
-*** STARTED CSS overall
-**** TODO Terminar layout
-**** TODO Paginate wait
-**** STARTED commitear
-**** TODO Hay bugs por arreglar
-*** TODO <2013-08-27 Tue> Actualizar sitio web de la coop
-**** Necesita data
-**** Necesita datos de conexion al server
-*** Backlog:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
-
-** josx
-*** TODO +tags
-*** STARTED merge
-**** Corregir layers de backbone.io
-*** STARTED mongo fulltextsearch + index
-mongo 2.4 FTS beta.
-*** STARTED Pitching con Agus
-*** TODO Script para subir lo último a Heroku
-*** Backlog:
-**** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-**** STARTED ver opciones de logging
-**** STARTED testing funcional: phantom
-** ruth
-*** TODO Hablar con el banco por una reunión
-*** DONE Tramites Afip Agip
-*** STARTED nic.ar, coop.ar
-**** Todavía esperando la firma de Leo
-**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
-*** STARTED ++ Convenio de trama
-**** Escribiendo el texto del subsidio c agus
-**** "Viendo números, adueñándome del proyecto."
-*** STARTED Reunión Facttic
-**** DONE Minuta disponible por mail
-**** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
-**** Se nombró a niv y la coop para tecnópolis
-**** TODO Completar planilla de datos previsionales
-*** STARTED Reunión con Contador
-**** Evaluar relación, tipo de contratación
-**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-*** WONTFIX Poder de Mala
-*** TODO Datos de la cooperativa para prensa facttic.
 ** agus
-*** DONE + logos caspa mosto
+*** DONE +++ logos caspa mosto
 **** Subiendo a Git primera versión, no está conforme, podríamos darle opiniones (NOS GUSTAAAAA)
-*** STARTED docs
-**** más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-**** TODO Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
-*** STARTED + Tríptico
-**** Necesita feedback
-**** TODO seguir ajustándolo
-**** WONTFIX evaluar si merece tenerlo listo para CPD
-**** Apuntar a que esté para misiones
-*** STARTED + Preparación de Pitch
-*** TODO Interfaz de Sumo
-** adri
-*** TODO tests
-*** TODO keybinds
-*** Tetra pausado por Caspa Sprint:
-**** STARTED + Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-Dificultad para reproducir
-**** STARTED + Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-Dificultad para reproducir
-**** STARTED + refactoring
-*** Backlog:
-**** TODO Video view draggable
-**** TODO Overlay
-**** TODO Picture in picture
-**** TODO Cargar videos de disco
 * <2013-08-26 Mon> Obejtivos
-** jmr
-*** TODO +++ vp9:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-*** STARTED ++ Tests: esperando el equipo nuevo para mosto 24h
-**** DONE Armando y formateando el equipo
-El i3 con 4gb se banca joya webvfx, así que podemos decir que esa sería la configuración mínima para mosto.
-**** TODO Pruebas saliendo posixshm a avformat para preview: <2013-08-28 Wed>
-*** TODO ++ BUG en Wrapper de melted
-*** STARTED Cleanup de mosto: <2013-08-28 Wed>
-*** STARTED Review melted-node de Tom
-** tom
-*** STARTED Melted-node enhancements
-** alejo
-*** STARTED Buscar estándares de widgets (iGoogle, MACOSX)
-**** Haciendo pruebas con los widgets de apple.
-*** Backlog:
-**** STARTED jmr -> ui de filtros:
-  Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
-  parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
-  Me parece que va muy de la mano de playout view, ya que son filtros
-  dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
-  clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
-  meter un doc css completo dinamicamente, hacer un poco mas robusta la
-  implementacion y persistir de alguna forma los filtros.  Me gustaria si
-  pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
-  tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
-  parece que estan todos hasta las manos como para que lo haga otro, no?)
-
-**** TODO + -> alejo ayuda jmr ui filtros.
-  Dificultad: Falta contacto con jmr
-
 ** pato
-*** DONE Mails bienvenida
+*** DONE ++ Mails bienvenida
 **** Actualizado intro en private/mail-intro.
 **** Hablar con leo de FFFS
 **** Terminar de enviar a los demás
-*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-*** STARTED Playout View Paginacion basado en backbone paginator
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** TODO + Buscar solucion para Videos CN23
-*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-*** Backlog
-**** TODO POV: Buscar una solución para problemas de performance.
-**** TODO POV: Corregir un par de known-bugs.
-
-**** TODO SHM: algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-**** TODO SHM: thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-**** TODO SHM: streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
-** mariana
-*** STARTED CSS overall
-**** TODO Terminar layout
-**** TODO Paginate wait
-**** STARTED commitear
-**** TODO Hay bugs por arreglar
-*** TODO <2013-08-27 Tue> Actualizar sitio web de la coop
-**** Necesita data
-**** Necesita datos de conexion al server
-*** Backlog:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
-
-** josx
-*** TODO +tags
-*** STARTED merge
-**** Corregir layers de backbone.io
-*** STARTED mongo fulltextsearch + index
-mongo 2.4 FTS beta.
-*** STARTED Pitching con Agus
-*** TODO Script para subir lo último a Heroku
-*** Backlog:
-**** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-**** STARTED ver opciones de logging
-**** STARTED testing funcional: phantom
 ** ruth
-*** TODO Hablar con el banco por una reunión
 *** DONE Tramites Afip Agip
-*** STARTED nic.ar, coop.ar
-**** Todavía esperando la firma de Leo
-**** TODO Mandar mail a facttic para ver si lo movemos por cooperar
-*** STARTED ++ Convenio de trama
-**** Escribiendo el texto del subsidio c agus
-**** "Viendo números, adueñándome del proyecto."
-*** STARTED Reunión Facttic
-**** DONE Minuta disponible por mail
-**** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
-**** Se nombró a niv y la coop para tecnópolis
-**** TODO Completar planilla de datos previsionales
-*** STARTED Reunión con Contador
-**** Evaluar relación, tipo de contratación
-**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
 *** WONTFIX Poder de Mala
-*** TODO Datos de la cooperativa para prensa facttic.
 ** agus
-*** STARTED + logos caspa mosto
-**** Subiendo a Git primera versión, no está conforme, podríamos darle opiniones (NOS GUSTAAAAA)
-*** STARTED docs
-**** más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-**** TODO Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
-*** DONE ++ tarjetas
+*** DONE +++ tarjetas
 finalmente pienso en hacer unas tarjetas para que luego evaluemos la
 posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
 tarjeta.. se escabullen los contactos!
 **** DONE Subir SVG separado
-*** STARTED + Tríptico
-**** Necesita feedback
-**** TODO seguir ajustándolo
-**** TODO evaluar si merece tenerlo listo para CPD
-**** Apuntar a que esté para misiones
-*** STARTED + Preparación de Pitch
-** adri
-*** TODO tests
-*** TODO keybinds
-*** Tetra pausado por Caspa Sprint:
-**** STARTED + Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-Dificultad para reproducir
-**** STARTED + Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-Dificultad para reproducir
-**** STARTED + refactoring
-*** Backlog:
-**** TODO Video view draggable
-**** TODO Overlay
-**** TODO Picture in picture
-**** TODO Cargar videos de disco
 * <2013-08-23 Fri> Sprint CASPA
 ** Mariana
 *** DONE Paginado basado en nuevo scroll interno
@@ -1549,9 +913,6 @@ Dificultad para reproducir
 *** DONE Logo Playout
 **** DONE Ajustar paleta de colores
 **** DONE Integrar al playout
-** Joxs
-** Adri
-** Pato
 ** Terminadas
 *** DONE Refactoring de modelos
 *** DONE Mover al servidor el read de backbone.io
@@ -1601,438 +962,39 @@ los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
 *** DONE Cambiar Unbind por undelegateEvents en todas las Backbone.View's
 *** DONE POV: anular la animación en el Unbind
 * <2013-08-23 Fri> Obejtivos
-** jmr
-*** TODO ++ vp9:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-*** STARTED + Tests: esperando el equipo nuevo para mosto 24h
-**** STARTED Armando y formateando el equipo
-**** Pruebas saliendo posixshm a avformat para preview
-*** TODO + BUG en Wrapper de melted
 ** alejo
-*** DONE Widget de clima
+*** DONE + Widget de clima
 **** Estuvo evaluando los scripts de Demo de webfx
 **** Dificultad: todavía no pudo hacer andar los que tienen shaders / webgl / opengl
-**** TODO buscar un widget ya existente y hacerlo andar via webfx, sino buscar API de clima y hacer renderizado básico
-*** TODO Buscar estándares de widgets (iGoogle, MACOSX)
-*** Backlog:
-**** STARTED jmr -> ui de filtros:
-  Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
-  parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
-  Me parece que va muy de la mano de playout view, ya que son filtros
-  dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
-  clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
-  meter un doc css completo dinamicamente, hacer un poco mas robusta la
-  implementacion y persistir de alguna forma los filtros.  Me gustaria si
-  pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
-  tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
-  parece que estan todos hasta las manos como para que lo haga otro, no?)
-
-**** TODO + -> alejo ayuda jmr ui filtros.
-  Dificultad: Falta contacto con jmr
-
+**** DONE buscar un widget ya existente y hacerlo andar via webfx, sino buscar API de clima y hacer renderizado básico
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-12-27 Fri 15:48]
+     :END:
 ** pato
-*** DONE Dominio COOP
+*** DONE + Dominio COOP
 **** Enviado email con copia digital de la matrícula
-*** STARTED Mails bienvenida
-**** Actualizado intro en private/mail-intro.
-**** Hablar con leo de FFFS
-**** Terminar de enviar a los demás
-*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-*** STARTED Playout View Paginacion basado en backbone paginator
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** TODO + Buscar solucion para Videos CN23
-*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-*** Backlog
-**** TODO POV: Buscar una solución para problemas de performance.
-**** TODO POV: Corregir un par de known-bugs.
-
-**** TODO SHM: algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-**** TODO SHM: thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-**** TODO SHM: streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
 ** mariana
-*** DONE Presupuesto sistema inaes
+*** DONE + Presupuesto sistema inaes
 **** Cuando vea lo que subio niv podrá decir si está terminado o si hay más para agregar
-*** STARTED CSS overall
-**** TODO Terminar layout
-**** TODO Paginate wait
-**** STARTED commitear
-**** TODO Hay bugs por arreglar
-*** Backlog:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
-
-** josx
-*** TODO +tags
-*** STARTED merge
-**** Corregir layers de backbone.io
-*** STARTED mongo fulltextsearch + index
-mongo 2.4 FTS beta.
-*** STARTED Pitching con Agus
-*** TODO Script para subir lo último a Heroku
-*** Backlog:
-**** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-**** STARTED ver opciones de logging
-**** STARTED testing funcional: phantom
 ** ruth
-*** STARTED nic.ar, coop.ar
-**** Todavía esperando la firma de Leo
-*** STARTED + Convenio de trama
-**** Escribiendo el texto del subsidio c agus
-**** "Viendo números, adueñándome del proyecto."
-*** DONE Presupuesto
+*** DONE + Presupuesto
 **** Necesita ayuda para acceder a private
-*** STARTED Reunión Facttic
-**** DONE Minuta disponible por mail
-**** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
-**** Se nombró a niv y la coop para tecnópolis
-**** TODO Completar planilla de datos previsionales
-*** STARTED Reunión con Contador
-**** Evaluar relación, tipo de contratación
-**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-*** TODO Poder de Mala
-*** TODO Datos de la cooperativa para prensa facttic.
-** agus
-*** STARTED + logos caspa mosto
-**** Subiendo a Git primera versión, no está conforme, podríamos darle opiniones (NOS GUSTAAAAA)
-*** STARTED docs
-**** más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-**** TODO Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
-*** STARTED ++ tarjetas
-finalmente pienso en hacer unas tarjetas para que luego evaluemos la
-posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
-tarjeta.. se escabullen los contactos!
-**** TODO Subir SVG separado
-*** STARTED Tríptico
-**** TODO seguir ajustándolo
-**** TODO evaluar si merece tenerlo listo para CPD
-*** STARTED + Preparación de Pitch
-** adri
-*** TODO tests
-*** TODO keybinds
-*** Tetra pausado por Caspa Sprint:
-**** STARTED + Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-Dificultad para reproducir
-**** STARTED + Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-Dificultad para reproducir
-**** STARTED + refactoring
-*** Backlog:
-**** TODO Video view draggable
-**** TODO Overlay
-**** TODO Picture in picture
-**** TODO Cargar videos de disco
 * <2013-08-21 Wed> Obejtivos
 ** jmr
-*** TODO + vp9:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-*** TODO Tests: esperando el equipo nuevo para mosto 24h
-**** Pruebas saliendo posixshm a avformat para preview
-*** TODO BUG en Wrapper de melted
 *** DONE Travis
-** alejo
-*** STARTED jmr -> ui de filtros:
- Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
- parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
- Me parece que va muy de la mano de playout view, ya que son filtros
- dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
- clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
- meter un doc css completo dinamicamente, hacer un poco mas robusta la
- implementacion y persistir de alguna forma los filtros.  Me gustaria si
- pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
- tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
- parece que estan todos hasta las manos como para que lo haga otro, no?)
-
-*** TODO + -> alejo ayuda jmr ui filtros.
- Dificultad: Falta contacto con jmr
-*** STARTED Widget de clima
-**** Estuvo evaluando los scripts de Demo de webfx
-**** Dificultad: todavía no pudo hacer andar los que tienen shaders / webgl / opengl
-**** TODO buscar un widget ya existente y hacerlo andar via webfx, sino buscar API de clima y hacer renderizado básico
-** pato
-*** STARTED Dominio COOP
-**** Enviado email con copia digital de la matrícula
-*** STARTED Mails bienvenida
-**** Actualizado intro en private/mail-intro.
-**** Hablar con leo de FFFS
-**** Terminar de enviar a los demás
-*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-*** STARTED Playout View Paginacion basado en backbone paginator
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** TODO Buscar solucion para Videos CN23
-*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-*** Backlog
-**** TODO POV: Buscar una solución para problemas de performance.
-**** TODO POV: Corregir un par de known-bugs.
-
-**** TODO SHM: algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-**** TODO SHM: thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-**** TODO SHM: streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
-** mariana
-*** STARTED Presupuesto sistema inaes
-**** Cuando vea lo que subio niv podrá decir si está terminado o si hay más para agregar
-*** STARTED CSS overall
-**** TODO Terminar layout
-**** TODO Paginate wait
-**** STARTED commitear
-**** TODO Hay bugs por arreglar
-*** Backlog:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
-
-** josx
-*** TODO +tags
-*** STARTED merge
-**** Corregir layers de backbone.io
-*** STARTED mongo fulltextsearch + index
-mongo 2.4 FTS beta.
-*** Backlog:
-**** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-**** STARTED ver opciones de logging
-**** STARTED testing funcional: phantom
 ** ruth
-*** STARTED nic.ar, coop.ar
-**** Esperando la firma de Leo
-*** STARTED Convenio de trama
-**** Escribiendo el texto del subsidio c agus
-*** STARTED Presupuesto
-**** Necesita ayuda para acceder a private
-*** STARTED Reunión Facttic
-**** Minuta disponible por mail
-**** Evaluar Conferencia de telecomunicaciones en Gesell
-**** Completar planilla de datos previsionales
 *** STARTED Reunión con Contador
 *** DONE AFIP
-*** Backlog:
-**** Datos de la cooperativa para prensa facttic.
 ** agus
-*** STARTED logos caspa mosto
-**** Subiendo a Git primera versión, no está conforme, podríamos darle opiniones
-*** STARTED docs
-**** más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-**** Hay que empezar documentación del DAM -- NECESITA INFO
-*** STARTED + tarjetas
-finalmente pienso en hacer unas tarjetas para que luego evaluemos la
-posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
-tarjeta.. se escabullen los contactos!
-**** TODO Subir SVG separado
-*** STARTED Tríptico
-*** STARTED Preparación de Pitch
 *** DONE Subir CPD a private
-** adri
-*** TODO tests
-*** TODO keybinds
-*** Tetra pausado por Caspa Sprint:
-**** STARTED + Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-Dificultad para reproducir
-**** STARTED + Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-Dificultad para reproducir
-**** STARTED + refactoring
-*** Backlog:
-**** TODO Video view draggable
-**** TODO Overlay
-**** TODO Picture in picture
-**** TODO Cargar videos de disco
 * <2013-08-16 Fri> Obejtivos
-** jmr
-*** TODO vp9:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-** alejo
-*** STARTED jmr -> ui de filtros:
- Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
- parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
- Me parece que va muy de la mano de playout view, ya que son filtros
- dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
- clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
- meter un doc css completo dinamicamente, hacer un poco mas robusta la
- implementacion y persistir de alguna forma los filtros.  Me gustaria si
- pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
- tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
- parece que estan todos hasta las manos como para que lo haga otro, no?)
-
-*** TODO -> alejo ayuda jmr ui filtros.
- Dificultad: Falta contacto con jmr
-*** TODO Widget de clima
-** pato
-*** STARTED Dominio COOP
-**** Enviado email con copia digital de la matrícula
-*** STARTED Mails bienvenida
-**** Actualizado intro en private/mail-intro.
-*** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-*** STARTED Playout View Paginacion basado en backbone paginator
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** TODO Buscar solucion para Videos CN23
-*** TODO Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
-*** Backlog
-**** TODO POV: Buscar una solución para problemas de performance.
-**** TODO POV: Corregir un par de known-bugs.
-
-**** TODO SHM: algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-**** TODO SHM: thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
-**** TODO SHM: streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
 ** mariana
 *** WONTFIX Presentation + adri + agus
-*** STARTED Presupuesto sistema inaes
-*** STARTED CSS overall
-**** TODO Terminar layout
-**** TODO Paginate wait
-**** STARTED commitear
-**** TODO Hay bugs por arreglar
-*** Backlog:
-**** TODO +Usar knockback para cargar las vistas.
-**** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
-**** TODO + tipos en config
-**** tipos estan
-**** falta renderizado distinto
-
-** josx
-*** TODO tags
-*** STARTED merge
-**** Corregir layers de backbone.io
-*** STARTED mongo fulltextsearch + index
-mongo 2.4 FTS beta.
-
-*** Backlog:
-**** STARTED testing de UI
-Hay un test hecho en phantom
-opciones:
- - phantomjs (webkit) + mocha + phantom-node
- - pahntomjs sin phantom-node
-otras opciones:
- - selenium
- - sauce labs: testing en la cloud contra la arquitectura que
-   quieras, graba videos de los testeos, se integra, pero puede
-   ser overkill
-**** STARTED ver opciones de logging
-**** STARTED testing funcional: phantom
 ** ruth
-*** STARTED nic.ar, coop.ar
-*** STARTED Reunión Facttic
-*** STARTED Convenio de trama
-*** STARTED AFIP
-*** STARTED Presupuesto
 *** WONTFIX soporte agus
-** agus
-*** STARTED logos caspa mosto
-*** STARTED docs
-**** más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-**** Hay que empezar documentación del DAM
-
-*** STARTED + tarjetas
-finalmente pienso en hacer unas tarjetas para que luego evaluemos la
-posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
-tarjeta.. se escabullen los contactos!
-
-*** STARTED Tríptico
-*** TODO Subir CPD a private
 ** adri
-*** TODO tests
-*** TODO keybinds
-*** STARTED + Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-Dificultad para reproducir
-*** STARTED + Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-Dificultad para reproducir
-*** STARTED + refactoring
-*** Backlog:
-**** TODO Video view draggable
-**** TODO Overlay
-**** TODO Picture in picture
-**** TODO Cargar videos de disco
-*** DONE bug gstreamer
+*** DONE + bug gstreamer
+* --DONE--
 * <2013-08-14 Wed> Obejtivos
 ** Niv (Temario)
 *** SCRUM : sanitización y futuro.
@@ -2044,65 +1006,32 @@ agus + josx
 *** dias de presencia/horarios/equipos.
 ahora que somos mucho mas
 *** suma de gente: alejo, mariana, ruth, leo.
-**** TODO mail bienvenida alejo + leo + mariana + ruth
+**** DONE mail bienvenida alejo + leo + mariana + ruth
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-12-27 Fri 11:25]
+     :END:
 *** punto financiero (ruth).
-
 ** jmr
-*** TODO vp9:
+*** DONE vp9:
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-27 Fri 11:25]
+    :END:
 Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
 Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
 tengo (gracias a ddennedy) pero no pude probarlo todavia.
 
-** alejo
-*** TODO jmr -> ui de filtros:
- Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
- parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
- Me parece que va muy de la mano de playout view, ya que son filtros
- dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
- clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
- meter un doc css completo dinamicamente, hacer un poco mas robusta la
- implementacion y persistir de alguna forma los filtros.  Me gustaria si
- pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
- tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
- parece que estan todos hasta las manos como para que lo haga otro, no?)
-
-*** TODO -> alejo ayuda jmr ui filtros.
 ** pato
-*** TODO algoritmo tiempos de espera
-se puede mejorar el algoritmo que calcula los tiempos de
-espera para suministrar los frames en tiempo real. Hay
-
-*** TODO thread bloqueado cuando se cierra melt
-todavía algunos escenarios donde al intentar cerrar melt algún thread queda
-bloqueado y no cierra.
-
 *** DONE (jmr) melted posixshm
 CLOSED: [2013-08-12 Mon 04:57]
 Todavía no probé hacer que melted escriba su salida a
 memoria compartida para leer desde varias fuentes. Hay que hacer pruebas con
 video FullHD ya que parece que mi máquina no se lo banca.
 
-*** TODO streaming a browser
-Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
-caspa.
-*** BUG posixshm seek.
-*** BUG collection->get no pasa por io.
-*** BUG view collisiona con get.
-*** Backlog
-**** STARTED Mejorar la visualización y agregar unos datos que son necesarios.
-**** TODO Buscar una solución para problemas de performance.
-**** TODO Corregir un par de known-bugs.
-
-** mariana
-*** STARTED tipos en config
-**** tipos estan
-**** falta renderizado distinto
-*** STARTED Presentation + adri + agus
-*** STARTED CSS overall
-*** TODO +Usar knockback para cargar las vistas.
-*** TODO +Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
 ** josx
-*** STARTED testing de UI
+*** DONE testing de UI
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
 Hay un test hecho en phantom
 opciones:
  - phantomjs (webkit) + mocha + phantom-node
@@ -2112,25 +1041,46 @@ otras opciones:
  - sauce labs: testing en la cloud contra la arquitectura que
    quieras, graba videos de los testeos, se integra, pero puede
    ser overkill
-*** STARTED ver opciones de logging
-*** STARTED testing funcional: phantom
-*** STARTED merge
-*** STARTED mongo fulltextsearch + index
+*** DONE ver opciones de logging
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
+*** DONE testing funcional: phantom
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
+*** DONE merge
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
+*** DONE mongo fulltextsearch + index
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
 mongo 2.4 FTS beta.
-*** TODO tags
+*** DONE tags
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-27 Fri 11:29]
+    :END:
 
-** ruth
-*** STARTED nic.ar, coop.ar
-*** TODO soporte agus
 ** agus
-*** STARTED logos
-*** STARTED docs
+*** DONE logos
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
+*** DONE docs
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
 más allá de la documentación del concurso tengo en drive unos documentos de
 MBC, TETRA, FFFS, de los que había empezado a escribir documentación
 técnica. avancé hasta donde pude con la información que tenía. está para
 terminar.
 
-*** TODO tarjetas
+*** DONE tarjetas
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-27 Fri 11:29]
+    :END:
 finalmente pienso en hacer unas tarjetas para que luego evaluemos la
 posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
 tarjeta.. se escabullen los contactos!
@@ -2138,20 +1088,6 @@ tarjeta.. se escabullen los contactos!
 ** adri
 *** WONTFIX demo
 CLOSED: [2013-08-12 Mon 10:50]
-*** TODO tests
-*** TODO keybinds
-*** STARTED Resiliencia de Fallos
-resilencia a fallos o cortes de conexion con las camaras en general
-ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
-(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
-cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
-va la mano de eso.
-*** STARTED Desconexion de Camaras
-En el mismo orden de cosas tengo que hacer que si uno esta archivando
-la salida y desconecta todas las camaras, al volver a conectarla(s)
-abra un archivo nuevo en lugar de anexar. Pero es un detalle menor.
-*** STARTED refactoring
-*** REPORT bug gstreamer
 * <2013-08-07 Wed> Objetivos
 ** Mariana
 *** DONE scroll interno
@@ -2179,10 +1115,12 @@ CLOSED: [2013-08-05 Mon 11:47]
 *** DONE migracion a VLC
 CLOSED: [2013-08-05 Mon 11:52]
 
-* <2013-08-02 Fri> Objetivos
 * <2013-07-31 Wed> Objetivos
 ** jmr
-*** STARTED Estabilidad mosto:
+*** DONE Estabilidad mosto:
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:22]
+    :END:
 En realidad es mosto + melted.  Anoche hice un fork de melted en nuestro
 repo y le meti un parche de un error que habia detectado haciendo pruebas
 con melted-node.  Se lo mande a ddennedy pero no se si me va a dar bola.
@@ -2203,8 +1141,6 @@ que melted no se caiga nunca! :)
 
 *** DONE melted + mosto se caen
 CLOSED: [2013-08-12 Mon 04:55]
-** Mariana
-** Pato
 ** josx
 *** DONE Backbone-pageable
 CLOSED: [2013-07-29 Mon 11:48]
@@ -2270,7 +1206,6 @@ proceso melt quede esperando su cierre indefinidamente.
  facturas. Me dijo que hoy le entrega todo a Nahum para que lo firme así que
  quedamos a merced de ese intercambio.
 
-** jmr
 ** josx
 
 * <2013-05-13 Mon> todo: tests funcionales
@@ -2298,13 +1233,10 @@ CLOSED: [2013-08-12 Mon 05:00]
 ** DONE diego + adri: state of art de la interfaz, claro y estudiado cómo vamos a trabajar el testing las interfaces
 CLOSED: [2013-08-12 Mon 05:00]
 
-
-
 * Backlog
 ** DONE paginación                                                     :sip:
-CLOSED: [2013-08-12 Mon 05:01]
+   CLOSED: [2013-08-12 Mon 05:01]
 * <2013-05-10 Fri> Objectivos
-
 * <2013-04-10 Fri> status report
 ** Niv (Temario)
 *** nombre de la cooperativa
@@ -2356,9 +1288,15 @@ funciona rudimentariamente: se encoge nada mas
 *** DONE bugs mosto
 #93
 
-*** STARTED limpieza código
+*** DONE limpieza código
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:24]
+    :END:
 branch fabriciocosta/cleaning_and_testing
-*** STARTED unit tests
+*** DONE unit tests
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:24]
+    :END:
 
 *** WONTFIX status
 CLOSED: [2013-08-12 Mon 05:02]
@@ -2436,7 +1374,10 @@ distinto del default se graba). No funciona aún: los cambios
 siguientes me generan en todos los browser eventos Universe backend y
 update pero la vista no se actualiza.
 
-*** STARTED roll-back / memento
+*** WONTFIX roll-back / memento
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 11:23]
+    :END:
 se puede
 
 ** diego
