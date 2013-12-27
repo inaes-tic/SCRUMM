@@ -136,9 +136,14 @@ Dificultad para reproducir
 **** TODO Integrar el código de c++
 * <2013-12-30 Mon> Objetivos
 ** mariana
-*** TODO Hablar con Ana Paula de Cooperar
+*** DONE Hablar con Ana Paula de Cooperar
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-23 Mon 13:39]
+    :END:
+*** TODO Arreglar reunión con Conadis primera semana de enero
 ** pato
 *** TODO Filmstrip en POV: show on load
+*** TODO Conseguir presupuestos sitio OpCode
 * <2013-12-16 Mon> Objetivos
 ** alejo
 *** STARTED Mapa de Malbec (terminar)
@@ -146,7 +151,10 @@ Dificultad para reproducir
     - State "STARTED"    from "TODO"       [2013-12-20 Fri 13:30]
     :END:
 ** adri
-*** TODO Caspa: navigator-like view switching
+*** DONE Caspa: navigator-like view switching
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-23 Mon 13:28]
+    :END:
 ** jmr
 *** TODO Cleanup Scheduled Sketchs in WebvFx
 *** TODO WebvFx Status to UI
@@ -209,12 +217,16 @@ Primera etapa OK, pasa a Alejo
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 10:53]
     :END:
-*** STARTED App: stateful views
+*** DONE App: stateful views
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-23 Mon 13:25]
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:55]
     :END:
 **** DONE EditView eliminar desde otro browser cuando se está editando una playlist
-**** TODO Corregir backends y channels
+**** DONE Corregir backends y channels
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-12-23 Mon 13:25]
+     :END:
 ** josx
 *** DONE Fix fetchRelated
     :LOGBOOK:
@@ -232,7 +244,8 @@ Mergeando e incluyendo Mongo.Join
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
     :END:
 Falta animacion de PNG (DONE)
-Se agregó un problema con los layers, a resolver con el z-index
+Se agregó un problema con los layers, a resolver con el z-index (DONE)
+Subir zip con PNG's y generar el png con todos los frames
 ** tom
 *** TODO Ideal Mosto report
 *** TODO Allow video for blank clip
