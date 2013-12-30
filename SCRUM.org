@@ -147,22 +147,41 @@ Dificultad para reproducir
  Dificultad: Falta contacto con jmr
 ** TODO ++++++ Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
 ** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
+* <2014-01-06 Mon> Objetivos
+** leo
+*** [0/3] Etiquette Fixes
+**** TODO Use uploaded images (#7)
+**** TODO Weather widget localization (#16)
+**** TODO Do not lose content on resize (#20)
+** josx
+*** TODO IO Backends to Etiquette
+*** TODO ConfView to Knockout
+** adri
+*** TODO Navigators animation
+** mariana
+*** TODO Terminar Mapa MinCyT (again)
 * <2013-12-30 Mon> Objetivos
 ** mariana
 *** DONE Hablar con Ana Paula de Cooperar
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-23 Mon 13:39]
     :END:
-*** TODO Arreglar reunión con Conadis primera semana de enero
+*** STARTED Arreglar reunión con Conadis primera semana de enero
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-30 Mon 11:34]
+    :END:
+**** Esperando respuesta
 ** pato
 *** TODO Filmstrip en POV: show on load
 *** TODO Conseguir presupuestos sitio OpCode
 * <2013-12-16 Mon> Objetivos
 ** alejo
-*** STARTED Mapa de Malbec (terminar)
+*** WONTFIX Mapa de Malbec (terminar)
     :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-30 Mon 11:43]
     - State "STARTED"    from "TODO"       [2013-12-20 Fri 13:30]
     :END:
+Se encarga Mariana, alejo hace logos y escenas
 ** adri
 *** DONE Caspa: navigator-like view switching
     :LOGBOOK:
@@ -192,8 +211,9 @@ Dificultad para reproducir
     - State "DONE"       from "TODO"       [2013-12-06 Fri 12:10]
     :END:
 ** josx
-*** STARTED Widgets Config
+*** DONE Widgets Config
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-30 Mon 14:10]
     - State "STARTED"    from "TODO"       [2013-12-09 Mon 10:26]
     :END:
 ** leo
@@ -230,7 +250,7 @@ Primera etapa OK, pasa a Alejo
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 10:53]
     :END:
-*** DONE App: stateful views
+*** [2/2] App: stateful views
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-23 Mon 13:25]
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:55]
@@ -252,13 +272,13 @@ Primera etapa OK, pasa a Alejo
     :END:
 Mergeando e incluyendo Mongo.Join
 ** leo
-*** STARTED Finish WebFX UI
+*** [3/3] Finish WebFX UI
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
     :END:
-Falta animacion de PNG (DONE)
-Se agregó un problema con los layers, a resolver con el z-index (DONE)
-Subir zip con PNG's y generar el png con todos los frames
+**** DONE Animacion de PNG
+**** DONE Resolver problema con los layers (z-index)
+**** DONE Subir zip con PNG's y generar el png con todos los frames
 ** tom
 *** TODO Ideal Mosto report
 *** TODO Allow video for blank clip
