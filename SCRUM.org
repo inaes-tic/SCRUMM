@@ -27,7 +27,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** [0/1] Mariana
 *** TODO Terminar Mapa MinCyT (again)
 * <2013-12-30 Mon> [1/4]
-** [1/2] mariana
+** [1/2] Mariana
 *** DONE Hablar con Ana Paula de Cooperar
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-23 Mon 13:39]
@@ -37,27 +37,27 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     - State "STARTED"    from "TODO"       [2013-12-30 Mon 11:34]
     :END:
 **** Esperando respuesta
-** [0/2] pato
+** [0/2] Pato
 *** TODO Filmstrip en POV: show on load
 *** TODO Conseguir presupuestos sitio OpCode
 * <2013-12-16 Mon> [5/8]
-** [1/1] alejo
+** [1/1] Adri
+*** DONE Caspa: navigator-like view switching
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-23 Mon 13:28]
+    :END:
+** [1/1] Alejo
 *** WONTFIX Mapa de Malbec (terminar)
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-12-30 Mon 11:43]
     - State "STARTED"    from "TODO"       [2013-12-20 Fri 13:30]
     :END:
 Se encarga Mariana, alejo hace logos y escenas
-** [1/1] adri
-*** DONE Caspa: navigator-like view switching
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-12-23 Mon 13:28]
-    :END:
-** [0/3] jmr
+** [0/3] JMR
 *** TODO Cleanup Scheduled Sketchs in WebvFx
 *** TODO WebvFx Status to UI
 *** TODO Discuss with Niv: WebvFx dynamic filters architecture
-** [3/3] mariana
+** [3/3] Mariana
 *** DONE Tramites cooperar
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
@@ -71,20 +71,20 @@ Se encarga Mariana, alejo hace logos y escenas
      - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
      :END:
 * <2013-12-09 Mon> [4/5]
-** [1/1] jmr
+** [1/1] JMR
 *** DONE travis conf to 0.10 0.12
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-06 Fri 12:10]
     :END:
-** [1/1] josx
+** [1/1] Josx
 *** DONE Widgets Config
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-30 Mon 14:10]
     - State "STARTED"    from "TODO"       [2013-12-09 Mon 10:26]
     :END:
-** [0/1] leo
+** [0/1] Leo
 *** TODO Investigar Edicion In/Out (ver NovaCut)
-** [2/2] niv
+** [2/2] Niv
 *** DONE Auth
 CLOSED: [2013-12-27 Fri 12:21]
 :LOGBOOK:
@@ -96,22 +96,7 @@ CLOSED: [2013-12-27 Fri 12:21]
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
 * <2013-12-02 Mon> [12/18]
-** [1/3] mariana
-*** DONE Mapa de malbec
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:11]
-    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:08]
-    :END:
-Primera etapa OK, pasa a Alejo
-*** STARTED Estilos del ingestor
-    :LOGBOOK:
-    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:10]
-    :END:
-*** STARTED Logo de playout
-    :LOGBOOK:
-    - State "STARTED"    from "TODO"       [2013-12-20 Fri 10:41]
-    :END:
-** [3/3] adri
+** [3/3] Adri
 *** DONE Filmstrip from Ingestor
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 10:53]
@@ -126,7 +111,18 @@ Primera etapa OK, pasa a Alejo
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-23 Mon 13:25]
      :END:
-** [2/2] josx
+** [1/1] Alejo
+*** DONE Metadata editor purposes
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-20 Fri 13:30]
+    :END:
+** [2/2] JMR
+*** WONTFIX WebFX reads MostoStatus
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:51]
+    :END:
+*** DONE Schedule sketchs in WebvFx
+** [2/2] Josx
 *** DONE Fix fetchRelated
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 11:03]
@@ -137,7 +133,7 @@ Primera etapa OK, pasa a Alejo
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:05]
     :END:
 Mergeando e incluyendo Mongo.Join
-** [3/3] leo
+** [3/3] Leo
 *** [3/3] Finish WebFX UI
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
@@ -145,35 +141,34 @@ Mergeando e incluyendo Mongo.Join
 **** DONE Animacion de PNG
 **** DONE Resolver problema con los layers (z-index)
 **** DONE Subir zip con PNG's y generar el png con todos los frames
-** [0/2] tom
-*** TODO Ideal Mosto report
-*** TODO Allow video for blank clip
-** [1/1] alejo
-*** DONE Metadata editor purposes
+** [1/3] Mariana
+*** DONE Mapa de malbec
     :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-12-20 Fri 13:30]
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:11]
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:08]
     :END:
-** [0/2] pato
+Primera etapa OK, pasa a Alejo
+*** STARTED Estilos del ingestor
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:10]
+    :END:
+*** STARTED Logo de playout
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2013-12-20 Fri 10:41]
+    :END:
+** [0/2] Pato
 *** TODO Calendar from POV
 *** TODO Mosto issues
-** [2/2] jmr
-*** WONTFIX WebFX reads MostoStatus
-    :LOGBOOK:
-    - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:51]
-    :END:
-*** DONE Schedule sketchs in WebvFx
+** [0/2] Tom
+*** TODO Ideal Mosto report
+*** TODO Allow video for blank clip
 * <2013-11-22 Fri> [6/6]
-** [1/1] mariana
-*** DONE Update: convenio cooperar
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-11-25 Mon 15:36]
-    :END:
-** [1/1] adri
+** [1/1] Adri
 *** DONE Ingestor script
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 10:52]
     :END:
-** [4/4] alejo
+** [4/4] Alejo
 *** DONE WebFxUI: do not hide header
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-22 Fri 15:56]
@@ -192,29 +187,33 @@ Mergeando e incluyendo Mongo.Join
     - State "WONTFIX"    from "STARTED"    [2013-12-30 Mon 17:02]
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:52]
     :END:
+** [1/1] Mariana
+*** DONE Update: convenio cooperar
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-25 Mon 15:36]
+    :END:
 * <2013-11-15 Fri> [1/2]
-** [0/1] josx
+** [0/1] Josx
 *** STARTED Tags y Transforms en Caspa
-** [1/1] tom
+** [1/1] Tom
 *** DONE mosto bug not passing travis
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-25 Mon 16:22]
     :END:
 * <2013-11-08 Fri> [12/13]
-** [1/1] tom
-*** DONE Mosto explained
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-11-25 Mon 16:51]
-    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:11]
-    :END:
-** [1/1] adri
+** [1/1] Adri
 *** DONE (mlt) PosixSHM vs SHMSync (gstreamer)
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-11-18 Mon 11:58]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:21]
     :END:
 Falta que del lado de gstreamer entienda el formato de memoria de posixshm
-** [3/3] leo
+** [1/1] JMR
+*** DONE Mosto non-passing test
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-02 Mon 10:58]
+    :END:
+** [3/3] Leo
 *** DONE Filmstrip en POV
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-20 Fri 11:08]
@@ -229,14 +228,7 @@ Falta que del lado de gstreamer entienda el formato de memoria de posixshm
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:23]
     :END:
-** [1/2] pato
-*** DONE Mosto with Tom
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:17]
-    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:33]
-    :END:
-*** STARTED ++ StandAlone Timeline
-** [5/5] mariana
+** [5/5] Mariana
 *** DONE Seguimiento Conadis
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-11-25 Mon 15:36]
@@ -257,13 +249,63 @@ Sin respuesta de conadis
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:39]
     :END:
-** [1/1] jmr
-*** DONE Mosto non-passing test
+** [1/2] Pato
+*** DONE Mosto with Tom
     :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-12-02 Mon 10:58]
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:17]
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:33]
+    :END:
+*** STARTED ++ StandAlone Timeline
+** [1/1] Tom
+*** DONE Mosto explained
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-25 Mon 16:51]
+    - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:11]
     :END:
 * <2013-11-01 Fri> [17/19]
-** [6/6] ruth
+** [3/3] Alejo
+*** WONTFIX Tests de Caspa
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
+    :END:
+**** WONTFIX Hablar con Josx para entender la estructura
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
+     :END:
+**** WONTFIX Testear EditView completo
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
+     :END:
+** [1/1] JMR
+*** DONE Mosto 24hs
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:06]
+    :END:
+** [1/1] Josx
+*** DONE Investigacion Avahi/XMPP para Config distribuida
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-11-06 Wed 11:14]
+    :END:
+Apache zookeeper
+Heroku userd
+etcd (GoogleOS fork)
+dconf (over dbus pipable to TCP)
+** [5/5] Leo
+*** DONE Filmstrip Capture
+*** DONE Videos
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:21]
+    :END:
+**** WONTFIX Ajustes en los scripts
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:21]
+     :END:
+**** DONE Script para descarga de videos
+**** DONE Logos en el repo design-artwork
+** [0/2] Mariana
+*** TODO Caspa UI for Mosto Messages
+*** TODO PlayoutView Rendering
+** [6/6] Ruth
 *** WONTFIX Reestructuración de la Cooperativa
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 12:01]
@@ -291,96 +333,13 @@ Trabado porque alejo está leyendo el estatuto (DONE)
     - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 12:01]
     :END:
 Heredado de la semana pasada porque Mala no pudo juntarse entonces.
-** [3/3] alejo
-*** WONTFIX Tests de Caspa
-    :LOGBOOK:
-    - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
-    :END:
-**** WONTFIX Hablar con Josx para entender la estructura
-     :LOGBOOK:
-     - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
-     :END:
-**** WONTFIX Testear EditView completo
-     :LOGBOOK:
-     - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
-     :END:
-** [0/2] mariana
-*** TODO Caspa UI for Mosto Messages
-*** TODO PlayoutView Rendering
-** [5/5] leo
-*** DONE Filmstrip Capture
-*** DONE Videos
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:21]
-    :END:
-**** WONTFIX Ajustes en los scripts
-     :LOGBOOK:
-     - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:21]
-     :END:
-**** DONE Script para descarga de videos
-**** DONE Logos en el repo design-artwork
-** [1/1] josx
-*** DONE Investigacion Avahi/XMPP para Config distribuida
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-11-06 Wed 11:14]
-    :END:
-Apache zookeeper
-Heroku userd
-etcd (GoogleOS fork)
-dconf (over dbus pipable to TCP)
-** [1/1] jmr
-*** DONE Mosto 24hs
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:06]
-    :END:
-** [1/1] tom
+** [1/1] Tom
 *** DONE Handle file not found error
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:11]
     :END:
 * <2013-10-25 Fri> [24/28]
-** [3/3] ruth
-*** DONE Permiso de facturación AFIP
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-10-25 Fri 12:02]
-    :END:
-*** DONE Convenio COOPERAR
-    :LOGBOOK:
-    - State "DONE"       from "WONTFIX"    [2013-11-18 Mon 12:00]
-    - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 12:00]
-    :END:
-Enviado a Nahum para corroborar, el lunes lo entregamos
-**** DONE Entregar el Lunes
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2013-11-18 Mon 12:00]
-     :END:
-** [2/2] mariana
-*** DONE Seguimiento convenio UNTREF
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-10-25 Fri 17:12]
-    :END:
-*** DONE CAPER
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
-    :END:
-** [4/5] josx
-*** TODO Release WebFX stand-alone
-Falta el video, corregir los mensajes, el readme, el sitio de demo.
-*** DONE +++ Integrate WebFX UI into Caspa
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:33]
-    - State "STARTED"    from "TODO"       [2013-10-25 Fri 12:25]
-    :END:
-**** DONE Integración
-**** DONE Acompañar a Alejo en cerrar los detalles
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:33]
-     :END:
-*** DONE EMERGED: Resolver conflictos de Backbone para Tom en Mosto
-** [2/2] leo
-*** DONE Filmstrip to NPM
-*** DONE FFmpeg conversion for Filmstrip
-** [5/7] adri
+** [5/7] Adri
 *** DONE Tetra stabilization
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-11-06 Wed 11:01]
@@ -402,14 +361,7 @@ Está más estable, pero tiene más latencia
      - State "DONE"       from "TODO"       [2013-11-06 Wed 11:01]
      :END:
 **** TODO Document for other cases
-** [1/2] pato
-*** TODO Investigar tecnologias para Timeline
-Ajustes en filmstrip con Leo, no pude investigar
-*** DONE CAPER
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
-    :END:
-** [2/2] alejo
+** [2/2] Alejo
 *** DONE Resumen pago diseñadores
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-25 Fri 14:58]
@@ -419,7 +371,62 @@ Ajustes en filmstrip con Leo, no pude investigar
     - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:18]
     - State "STARTED"    from "TODO"       [2013-10-28 Mon 11:59]
     :END:
-** [4/4] tom
+** [1/1] JMR
+*** DONE Mosto stabilization and bugfixes
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:06]
+    - State "STARTED"    from "TODO"       [2013-11-06 Wed 12:01]
+    :END:
+Seems stable, waiting for more 24h results
+** [4/5] Josx
+*** TODO Release WebFX stand-alone
+Falta el video, corregir los mensajes, el readme, el sitio de demo.
+*** DONE +++ Integrate WebFX UI into Caspa
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:33]
+    - State "STARTED"    from "TODO"       [2013-10-25 Fri 12:25]
+    :END:
+**** DONE Integración
+**** DONE Acompañar a Alejo en cerrar los detalles
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:33]
+     :END:
+*** DONE EMERGED: Resolver conflictos de Backbone para Tom en Mosto
+** [2/2] Leo
+*** DONE Filmstrip to NPM
+*** DONE FFmpeg conversion for Filmstrip
+** [2/2] Mariana
+*** DONE Seguimiento convenio UNTREF
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-10-25 Fri 17:12]
+    :END:
+*** DONE CAPER
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
+    :END:
+** [1/2] Pato
+*** TODO Investigar tecnologias para Timeline
+Ajustes en filmstrip con Leo, no pude investigar
+*** DONE CAPER
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
+    :END:
+** [3/3] Ruth
+*** DONE Permiso de facturación AFIP
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-25 Fri 12:02]
+    :END:
+*** DONE Convenio COOPERAR
+    :LOGBOOK:
+    - State "DONE"       from "WONTFIX"    [2013-11-18 Mon 12:00]
+    - State "WONTFIX"    from "STARTED"    [2013-11-18 Mon 12:00]
+    :END:
+Enviado a Nahum para corroborar, el lunes lo entregamos
+**** DONE Entregar el Lunes
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-11-18 Mon 12:00]
+     :END:
+** [4/4] Tom
 *** [4/4] ++++ Mosto messages to Caspa
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
@@ -434,15 +441,8 @@ Ajustes en filmstrip con Leo, no pude investigar
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-09 Mon 16:01]
      :END:
-** [1/1] jmr
-*** DONE Mosto stabilization and bugfixes
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-11-11 Mon 11:06]
-    - State "STARTED"    from "TODO"       [2013-11-06 Wed 12:01]
-    :END:
-Seems stable, waiting for more 24h results
 * <2013-10-18 Fri> [4/4]
-** [4/4] jmr
+** [4/4] JMR
 *** DONE +++ Stream de Melt (via consumer avformat) para leer desde stack video de HTML5
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-27 Fri 15:28]
@@ -468,66 +468,33 @@ Dificultad para publicar webm desde melt a IceCast
     - State "DONE"       from ""           [2013-10-21 Mon 12:46]
     :END:
 * <2013-10-16 Wed> [5/5]
-** [1/1] josx
-*** DONE Tetra en UNQUI (asistir a Adri)
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-10-21 Mon 10:43]
-    :END:
-** [1/1] adri
+** [1/1] Adri
 *** DONE Tetra en UNQUI (Fin de ajustes)
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-21 Mon 10:43]
     :END:
-** [1/1] mariana
-*** DONE Armar disertación y diapos para la UNQUI
+** [1/1] Josx
+*** DONE Tetra en UNQUI (asistir a Adri)
     :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-10-21 Mon 10:43]
+    - State "DONE"       from "STARTED"    [2013-10-21 Mon 10:43]
     :END:
-** [1/1] pato
+** [1/1] Leo
 *** DONE Feria del Palo
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-21 Mon 10:43]
     :END:
-** [1/1] leo
+** [1/1] Mariana
+*** DONE Armar disertación y diapos para la UNQUI
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-10-21 Mon 10:43]
+    :END:
+** [1/1] Pato
 *** DONE Feria del Palo
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-21 Mon 10:43]
     :END:
 * <2013-10-11 Fri> [15/15]
-** [1/1] jmr
-*** DONE Stream Melt via IceCast
-    :LOGBOOK:
-    - State "DONE"       from "WONTFIX"    [2013-10-21 Mon 12:46]
-    - State "WONTFIX"    from "DONE"       [2013-10-21 Mon 12:45]
-    - State "DONE"       from "TODO"       [2013-10-21 Mon 12:45]
-    - State "TODO"       from ""           [2013-10-07 Mon 17:46]
-    :END:
-** [2/2] tom
-*** WONTFIX Get rid of all .skip in mosto tests
-    :LOGBOOK:
-    - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:04]
-    :END:
-Pasó a JMR
-*** DONE ++++ Mosto messages to Caspa
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
-    :END:
-** [2/2] pato
-*** DONE + Algoritmo de generación de Frames
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:41]
-    - State "STARTED"    from "TODO"       [2013-10-09 Wed 11:42]
-    :END:
-**** WONTFIX Armar matriz para precalcular varias estrategias
-     :LOGBOOK:
-     - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 11:51]
-     :END:
-** [1/1] leo
-*** DONE Filmstrip new API Refactoring
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-10-21 Mon 10:44]
-    :END:
-** [8/8] adri
+** [8/8] Adri
 *** DONE ++ Cargar videos de disco
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 11:45]
@@ -562,18 +529,56 @@ Pasó a JMR
     :LOGBOOK:
     - State "WONTFIX"    from "TODO"       [2013-10-21 Mon 11:48]
     :END:
-** [1/1] mariana
+** [1/1] JMR
+*** DONE Stream Melt via IceCast
+    :LOGBOOK:
+    - State "DONE"       from "WONTFIX"    [2013-10-21 Mon 12:46]
+    - State "WONTFIX"    from "DONE"       [2013-10-21 Mon 12:45]
+    - State "DONE"       from "TODO"       [2013-10-21 Mon 12:45]
+    - State "TODO"       from ""           [2013-10-07 Mon 17:46]
+    :END:
+** [1/1] Leo
+*** DONE Filmstrip new API Refactoring
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-10-21 Mon 10:44]
+    :END:
+** [1/1] Mariana
 *** DONE Seguimiento convenio UNTREF
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:29]
     :END:
+** [2/2] Pato
+*** DONE + Algoritmo de generación de Frames
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:41]
+    - State "STARTED"    from "TODO"       [2013-10-09 Wed 11:42]
+    :END:
+**** WONTFIX Armar matriz para precalcular varias estrategias
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 11:51]
+     :END:
+** [2/2] Tom
+*** WONTFIX Get rid of all .skip in mosto tests
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:04]
+    :END:
+Pasó a JMR
+*** DONE ++++ Mosto messages to Caspa
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
+    :END:
 * <2013-10-09 Wed> [4/4]
-** [1/1] alejo
+** [1/1] Alejo
 *** DONE Entrega CN23
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:27]
     :END:
-** [2/2] mariana
+** [1/1] Josx
+*** WONTFIX TechTalk Geoman
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 11:52]
+    :END:
+** [2/2] Mariana
 *** DONE Entrega CN23
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 12:27]
@@ -582,29 +587,28 @@ Pasó a JMR
     :LOGBOOK:
     - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:13]
     :END:
-** [1/1] josx
-*** WONTFIX TechTalk Geoman
-    :LOGBOOK:
-    - State "WONTFIX"    from "TODO"       [2013-11-18 Mon 11:52]
-    :END:
 * <2013-10-07 Mon> [8/16]
-** [0/3] jmr
-*** STARTED ++++++++ Tests: esperando el equipo nuevo para mosto 24h
-**** TODO ++ Merge istambul
-Esperando el merge del PR relacionado con Caspa para hacer las pruebas
-**** TODO Pruebas saliendo posixshm a avformat para preview
-** [0/4] tom
-*** STARTED +++ Tests
-**** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
-**** TODO Agregar test que falle cuando el coverage sea menor a 90%
-*** TODO ++++ Control de proceso melted (mbc-waitpid o tal vez systemd)
-** [2/2] alejo
+** [0/1] Adri
+*** STARTED +++ Guardar salidas + EDL (Lista de cambios)
+**** Roto por solución de Desconexión de cámaras + Problema de syncro A/V
+** [2/2] Alejo
 *** DONE + Armar manual para los diseñadores para CN23
 *** DONE + Clasificar diseñadores
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:31]
     :END:
-** [2/2] leo
+** [0/3] JMR
+*** STARTED ++++++++ Tests: esperando el equipo nuevo para mosto 24h
+**** TODO ++ Merge istambul
+Esperando el merge del PR relacionado con Caspa para hacer las pruebas
+**** TODO Pruebas saliendo posixshm a avformat para preview
+** [2/2] Josx
+*** DONE +++ Planear con Adri Tetra en UNQUI
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 13:51]
+    :END:
+**** DONE Reunión en UNQUI
+** [2/2] Leo
 *** [1/1] Filmstrip into PlayoutView Timeline
 **** DONE Ajustes de performance y visualización.
      :LOGBOOK:
@@ -614,36 +618,31 @@ Esperando el merge del PR relacionado con Caspa para hacer las pruebas
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-27 Fri 16:13]
     :END:
-** [1/1] mariana
+** [1/1] Mariana
 *** DONE ++++ Seguimiento convenio UNTREF
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-27 Fri 14:10]
     :END:
 **** Esperando reunión
-** [2/2] josx
-*** DONE +++ Planear con Adri Tetra en UNQUI
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-27 Fri 13:51]
-    :END:
-**** DONE Reunión en UNQUI
-** [1/1] ruth
+** [1/1] Ruth
 *** DONE Convenio de Trama
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-07 Mon 18:01]
     :END:
-** [0/1] adri
-*** STARTED +++ Guardar salidas + EDL (Lista de cambios)
-**** Roto por solución de Desconexión de cámaras + Problema de syncro A/V
+** [0/4] Tom
+*** STARTED +++ Tests
+**** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
+**** TODO Agregar test que falle cuando el coverage sea menor a 90%
+*** TODO ++++ Control de proceso melted (mbc-waitpid o tal vez systemd)
 * <2013-10-04 Fri> [9/9]
-** [1/1] tom
-*** [1/1] ++ Mosto coverage
-**** DONE Merge
-** [1/1] mariana
-*** WONTFIX ++ Finalizar convenio de Trama (Delegado a Ruth)
-** [2/2] josx
+** [1/1] Adri
+*** DONE ++ Picture in Picture
+** [2/2] Josx
 *** DONE ver opciones de logging
 *** DONE Correcciones de conexión a DB en Caspa
-** [4/4] ruth
+** [1/1] Mariana
+*** WONTFIX ++ Finalizar convenio de Trama (Delegado a Ruth)
+** [4/4] Ruth
 *** WONTFIX +++++++++ nic.ar, coop.ar
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:35]
@@ -663,48 +662,17 @@ Esperando el merge del PR relacionado con Caspa para hacer las pruebas
     :LOGBOOK:
     - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:35]
     :END:
-
-** [1/1] adri
-*** DONE ++ Picture in Picture
+** [1/1] Tom
+*** [1/1] ++ Mosto coverage
+**** DONE Merge
 * <2013-09-27 Fri> [2/2]
-** [1/1] leo
+** [1/1] Leo
 *** [1/1] UI de WebFX
 **** DONE Chequear Backbone.io para guardar en DB
-** [1/1] mariana
+** [1/1] Mariana
 *** WONTFIX + Finalizar tramitación de cuenta credicoop (lo hacen pato y josx)
 * <2013-09-20 Fri> [13/19]
-** [0/2] jmr
-*** TODO ++++++ vp9:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
-
-*** STARTED +++ Review melted-node de Tom
-** [0/1] tom
-*** STARTED + Chequear con JMR que falla en mosto (Confiabilidad de tests)
-** [1/1] alejo
-*** DONE FrameFreak
-**** Sabado + Domingo + Lunes + Martes (un par de horas)
-** [2/2] leo
-*** [2/2] UI de WebFX
-**** DONE Agregado safe area
-**** DONE Guardar y recuperar los cambios (ahora usa LocalStorage)
-** [3/6] mariana
-*** DONE FrameFreak
-**** Viernes + Domingo + 1/2 Lunes
-*** STARTED +++++++ CSS overall
-**** DONE Terminar layout
-**** STARTED Paginate wait
-**** DONE commitear
-**** TODO Hay bugs por arreglar
-** [2/2] josx
-*** WONTFIX ++++++ tags
-    :LOGBOOK:
-    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:48]
-    :END:
-Moved to Backlog
-*** DONE +++ Script para subir lo último a Heroku
-** [5/5] agus
+** [5/5] Agus
 *** DONE FrameFreak
 **** Dos semanas de trabajo
 *** WONTFIX ++++++ docs
@@ -732,38 +700,64 @@ terminar.
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:18]
     :END:
+** [1/1] Alejo
+*** DONE FrameFreak
+**** Sabado + Domingo + Lunes + Martes (un par de horas)
+** [0/2] JMR
+*** TODO ++++++ vp9:
+Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
+Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
+tengo (gracias a ddennedy) pero no pude probarlo todavia.
+
+*** STARTED +++ Review melted-node de Tom
+** [2/2] Josx
+*** WONTFIX ++++++ tags
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:48]
+    :END:
+Moved to Backlog
+*** DONE +++ Script para subir lo último a Heroku
+** [2/2] Leo
+*** [2/2] UI de WebFX
+**** DONE Agregado safe area
+**** DONE Guardar y recuperar los cambios (ahora usa LocalStorage)
+** [3/6] Mariana
+*** DONE FrameFreak
+**** Viernes + Domingo + 1/2 Lunes
+*** STARTED +++++++ CSS overall
+**** DONE Terminar layout
+**** STARTED Paginate wait
+**** DONE commitear
+**** TODO Hay bugs por arreglar
+** [0/1] Tom
+*** STARTED + Chequear con JMR que falla en mosto (Confiabilidad de tests)
 * <2013-09-13 Fri> [19/19]
-** [4/4] tom
-*** [3/3] ++ Melted-node enhancements
-**** DONE Arreglar los tests
-**** DONE Ajustar mosto para esto
-**** DONE Ver que ande
-*** [1/1] Mosto coverage
-**** DONE Implementado
-** [1/1] alejo
+** [1/1] Agus
+*** DONE +++ Preparación de Pitch
+** [1/1] Alejo
 *** DONE ++ Buscar estándares de widgets (iGoogle, MACOSX)
 **** Haciendo pruebas con los widgets de apple.
 Dificultad: configuración de mac para correr los widgets
-** [1/1] leo
-*** [1/1] UI de WebFX
-**** DONE Aplicar los filtros desde la UI
-** [2/2] pato
-*** DONE ++++ Playout View Paginacion basado en backbone paginator
-*** WONTFIX +++++ Buscar solucion para Videos CN23
-    :LOGBOOK:
-    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 14:29]
-    :END:
-** [1/1] mariana
-*** DONE + <2013-08-27 Tue> Actualizar sitio web de la coop
-**** Necesita data
-**** Necesita datos de conexion al server
-** [3/3] josx
+** [3/3] Josx
 *** DONE ++++ merge
 **** Corregir layers de backbone.io
 *** DONE ++++ mongo fulltextsearch + index
 mongo 2.4 FTS beta.
 *** DONE ++ Pitching con Agus
-** [6/6] ruth
+** [1/1] Leo
+*** [1/1] UI de WebFX
+**** DONE Aplicar los filtros desde la UI
+** [1/1] Mariana
+*** DONE + <2013-08-27 Tue> Actualizar sitio web de la coop
+**** Necesita data
+**** Necesita datos de conexion al server
+** [2/2] Pato
+*** DONE ++++ Playout View Paginacion basado en backbone paginator
+*** WONTFIX +++++ Buscar solucion para Videos CN23
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 14:29]
+    :END:
+** [6/6] Ruth
 *** DONE + Hablar con el banco por una reunión
 *** WONTFIX ++++ Convenio de trama
 **** Escribiendo el texto del subsidio c agus
@@ -773,33 +767,38 @@ mongo 2.4 FTS beta.
 **** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
 **** Se nombró a niv y la coop para tecnópolis
 **** DONE Completar planilla de datos previsionales
-** [1/1] agus
-*** DONE +++ Preparación de Pitch
+** [4/4] Tom
+*** [3/3] ++ Melted-node enhancements
+**** DONE Arreglar los tests
+**** DONE Ajustar mosto para esto
+**** DONE Ver que ande
+*** [1/1] Mosto coverage
+**** DONE Implementado
 * <2013-08-28 Wed> [3/3]
-** [1/1] jmr
-*** WONTFIX ++ BUG en Wrapper de melted
-**** Lo va a hacer a TOM
-** [1/1] tom
-*** [1/1] + Melted-node enhancements
-**** DONE Feature done
-** [1/1] agus
+** [1/1] Agus
 *** DONE +++ logos caspa mosto
 **** Subiendo a Git primera versión, no está conforme, podríamos darle opiniones (NOS GUSTAAAAA)
+** [1/1] JMR
+*** WONTFIX ++ BUG en Wrapper de melted
+**** Lo va a hacer a TOM
+** [1/1] Tom
+*** [1/1] + Melted-node enhancements
+**** DONE Feature done
 * <2013-08-26 Mon> [5/5]
-** [1/1] pato
-*** DONE ++ Mails bienvenida
-**** Actualizado intro en private/mail-intro.
-**** Hablar con leo de FFFS
-**** Terminar de enviar a los demás
-** [2/2] ruth
-*** DONE Tramites Afip Agip
-*** WONTFIX Poder de Mala
-** [2/2] agus
+** [2/2] Agus
 *** DONE +++ tarjetas
 finalmente pienso en hacer unas tarjetas para que luego evaluemos la
 posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
 tarjeta.. se escabullen los contactos!
 **** DONE Subir SVG separado
+** [1/1] Pato
+*** DONE ++ Mails bienvenida
+**** Actualizado intro en private/mail-intro.
+**** Hablar con leo de FFFS
+**** Terminar de enviar a los demás
+** [2/2] Ruth
+*** DONE Tramites Afip Agip
+*** WONTFIX Poder de Mala
 * <2013-08-23 Fri> [49/49] Sprint CASPA
 ** [8/8] Mariana
 *** DONE Paginado basado en nuevo scroll interno
@@ -859,7 +858,7 @@ los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
 *** DONE Cambiar Unbind por undelegateEvents en todas las Backbone.View's
 *** DONE POV: anular la animación en el Unbind
 * <2013-08-23 Fri> [5/5]
-** [2/2] alejo
+** [2/2] Alejo
 *** DONE + Widget de clima
 **** Estuvo evaluando los scripts de Demo de webfx
 **** Dificultad: todavía no pudo hacer andar los que tienen shaders / webgl / opengl
@@ -867,66 +866,59 @@ los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-27 Fri 15:48]
      :END:
-** [1/1] pato
-*** DONE + Dominio COOP
-**** Enviado email con copia digital de la matrícula
-** [1/1] mariana
+** [1/1] Mariana
 *** DONE + Presupuesto sistema inaes
 **** Cuando vea lo que subio niv podrá decir si está terminado o si hay más para agregar
-** [1/1] ruth
+** [1/1] Pato
+*** DONE + Dominio COOP
+**** Enviado email con copia digital de la matrícula
+** [1/1] Ruth
 *** DONE + Presupuesto
 **** Necesita ayuda para acceder a private
 * <2013-08-21 Wed> [4/4]
-** [1/1] jmr
+** [1/1] Agus
+*** DONE Subir CPD a private
+** [1/1] JMR
 *** DONE Travis
-** [2/2] ruth
+** [2/2] Ruth
 *** WONTFIX Reunión con Contador
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-12-30 Mon 17:04]
     :END:
 *** DONE AFIP
-** [1/1] agus
-*** DONE Subir CPD a private
 * <2013-08-16 Fri> [3/3]
-** [1/1] mariana
-*** WONTFIX Presentation + adri + agus
-** [1/1] ruth
-*** WONTFIX soporte agus
-** [1/1] adri
+** [1/1] Adri
 *** DONE + bug gstreamer
+** [1/1] Mariana
+*** WONTFIX Presentation + adri + agus
+** [1/1] Ruth
+*** WONTFIX soporte agus
 * <2013-08-14 Wed> [13/13]
-** [1/1] Niv (Temario)
-*** SCRUM : sanitización y futuro.
-*** punto sobre sources y publicación.
-*** brokenMOV: nuevos materiales y md5.
-*** Pitch : decisión y planificación.
-agus + josx
-*** Agosto: coop/cooperar ?
-*** dias de presencia/horarios/equipos.
-ahora que somos mucho mas
-*** suma de gente: alejo, mariana, ruth, leo.
-**** DONE mail bienvenida alejo + leo + mariana + ruth
-     :LOGBOOK:
-     - State "DONE"       from "TODO"       [2013-12-27 Fri 11:25]
-     :END:
-*** punto financiero (ruth).
-** [1/1] jmr
-*** DONE vp9:
+** [1/1] Adri
+*** WONTFIX demo
+CLOSED: [2013-08-12 Mon 10:50]
+** [3/3] Agus
+*** DONE logos
     :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-12-27 Fri 11:25]
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
     :END:
-Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
-Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
-tengo (gracias a ddennedy) pero no pude probarlo todavia.
+*** DONE docs
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    :END:
+más allá de la documentación del concurso tengo en drive unos documentos de
+MBC, TETRA, FFFS, de los que había empezado a escribir documentación
+técnica. avancé hasta donde pude con la información que tenía. está para
+terminar.
 
-** [1/1] pato
-*** DONE (jmr) melted posixshm
-CLOSED: [2013-08-12 Mon 04:57]
-Todavía no probé hacer que melted escriba su salida a
-memoria compartida para leer desde varias fuentes. Hay que hacer pruebas con
-video FullHD ya que parece que mi máquina no se lo banca.
-
-** [6/6] josx
+*** DONE tarjetas
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2013-12-27 Fri 11:29]
+    :END:
+finalmente pienso en hacer unas tarjetas para que luego evaluemos la
+posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
+tarjeta.. se escabullen los contactos!
+** [6/6] Josx
 *** DONE testing de UI
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
@@ -961,33 +953,44 @@ mongo 2.4 FTS beta.
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-27 Fri 11:29]
     :END:
-
-** [3/3] agus
-*** DONE logos
+** [1/1] JMR
+*** DONE vp9:
     :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
+    - State "DONE"       from "TODO"       [2013-12-27 Fri 11:25]
     :END:
-*** DONE docs
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:29]
-    :END:
-más allá de la documentación del concurso tengo en drive unos documentos de
-MBC, TETRA, FFFS, de los que había empezado a escribir documentación
-técnica. avancé hasta donde pude con la información que tenía. está para
-terminar.
-
-*** DONE tarjetas
-    :LOGBOOK:
-    - State "DONE"       from "TODO"       [2013-12-27 Fri 11:29]
-    :END:
-finalmente pienso en hacer unas tarjetas para que luego evaluemos la
-posibilidad de mandarlas a hacer, posta que no da caer a ningún lado sin
-tarjeta.. se escabullen los contactos!
-
-** [1/1] adri
-*** WONTFIX demo
-CLOSED: [2013-08-12 Mon 10:50]
+Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
+Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
+tengo (gracias a ddennedy) pero no pude probarlo todavia.
+** [1/1] Niv (Temario)
+*** SCRUM : sanitización y futuro.
+*** punto sobre sources y publicación.
+*** brokenMOV: nuevos materiales y md5.
+*** Pitch : decisión y planificación.
+agus + josx
+*** Agosto: coop/cooperar ?
+*** dias de presencia/horarios/equipos.
+ahora que somos mucho mas
+*** suma de gente: alejo, mariana, ruth, leo.
+**** DONE mail bienvenida alejo + leo + mariana + ruth
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2013-12-27 Fri 11:25]
+     :END:
+*** punto financiero (ruth).
+** [1/1] Pato
+*** DONE (jmr) melted posixshm
+CLOSED: [2013-08-12 Mon 04:57]
+Todavía no probé hacer que melted escriba su salida a
+memoria compartida para leer desde varias fuentes. Hay que hacer pruebas con
+video FullHD ya que parece que mi máquina no se lo banca.
 * <2013-08-07 Wed> [10/10]
+** [1/1] Adri
+*** DONE migracion a VLC
+CLOSED: [2013-08-05 Mon 11:52]
+** [2/2] Agus
+*** DONE logo malbec
+*** DONE logo tetra
+** [1/1] Josx
+*** DONE criterios de busqueda a mongo
 ** [2/2] Mariana
 *** DONE scroll interno
 *** DONE CSS cuadro
@@ -999,48 +1002,12 @@ CLOSED: [2013-08-12 Mon 10:39]
 *** PlayoutView:
 **** DONE Agregar al comportamiento de drag and drop un método de "push down".
 CLOSED: [2013-08-05 Mon 11:44]
-
-** [1/1] josx
-*** DONE criterios de busqueda a mongo
 ** [2/2] Ruth
 *** DONE cuentas
 CLOSED: [2013-08-05 Mon 11:47]
 *** DONE transferencia pato
-
-** [2/2] Agus
-*** DONE logo malbec
-*** DONE logo tetra
-** [1/1] Adri
-*** DONE migracion a VLC
-CLOSED: [2013-08-05 Mon 11:52]
-
 * <2013-07-31 Wed> [6/6]
-** [2/2] jmr
-*** DONE Estabilidad mosto:
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:22]
-    :END:
-En realidad es mosto + melted.  Anoche hice un fork de melted en nuestro
-repo y le meti un parche de un error que habia detectado haciendo pruebas
-con melted-node.  Se lo mande a ddennedy pero no se si me va a dar bola.
-Por lo pronto, sugiero que utilicemos nuestro fork asi podemos ir metiendo
-mano despacito.  Tambien saque una nueva version de melted-node, con el
-reconnect y timeout andando (creo) bien.  A lo que estoy apuntando es a que
-si melted se cae, mosto lo levante de vuelta.  No pude encontrar por que se
-cae todavia, lo unico que se me ocurre es que lo estemos cagando mucho a
-palos con los status y se le llene algun buffer que no libera.  O algo de
-concurrencia.  Pero necesito mirar un poco mas profundamente el tema.  Hoy
-por hoy lo que pasa es que mosto, en algun momento, mientras carga clips, lo
-voltea.  Y ahi queda todo clavado ya que mosto se queda esperando una
-promise desde melted-node que jamas vuelve.  Eso lockea el semaforo y por
-ende todo lo demas!  Por eso hice lo del timeout en melted-node, asi esa
-promise vuelve rechazada y mosto sigue funcionando.  Ahora me falta que
-mosto detecte la caida y lo levante nuevamente.  Igualmente, lo ideal seria
-que melted no se caiga nunca! :)
-
-*** DONE melted + mosto se caen
-CLOSED: [2013-08-12 Mon 04:55]
-** [4/4] josx
+** [4/4] Josx
 *** DONE Backbone-pageable
 CLOSED: [2013-07-29 Mon 11:48]
 Estoy usando backbone-pageable (termine de convencer con algunas
@@ -1066,20 +1033,42 @@ CLOSED: [2013-07-29 Mon 11:48]
 Tengo bastante por laburar sobre la busqueda y la páginación infinita ,
 voy a tratar de hacerlo lo más rápido posible. (voy a necesitar ayuda
 con la gráfica y algunos eventos dom, el miércoles consulto).
+** [2/2] JMR
+*** DONE Estabilidad mosto:
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:22]
+    :END:
+En realidad es mosto + melted.  Anoche hice un fork de melted en nuestro
+repo y le meti un parche de un error que habia detectado haciendo pruebas
+con melted-node.  Se lo mande a ddennedy pero no se si me va a dar bola.
+Por lo pronto, sugiero que utilicemos nuestro fork asi podemos ir metiendo
+mano despacito.  Tambien saque una nueva version de melted-node, con el
+reconnect y timeout andando (creo) bien.  A lo que estoy apuntando es a que
+si melted se cae, mosto lo levante de vuelta.  No pude encontrar por que se
+cae todavia, lo unico que se me ocurre es que lo estemos cagando mucho a
+palos con los status y se le llene algun buffer que no libera.  O algo de
+concurrencia.  Pero necesito mirar un poco mas profundamente el tema.  Hoy
+por hoy lo que pasa es que mosto, en algun momento, mientras carga clips, lo
+voltea.  Y ahi queda todo clavado ya que mosto se queda esperando una
+promise desde melted-node que jamas vuelve.  Eso lockea el semaforo y por
+ende todo lo demas!  Por eso hice lo del timeout en melted-node, asi esa
+promise vuelve rechazada y mosto sigue funcionando.  Ahora me falta que
+mosto detecte la caida y lo levante nuevamente.  Igualmente, lo ideal seria
+que melted no se caiga nunca! :)
 
+*** DONE melted + mosto se caen
+CLOSED: [2013-08-12 Mon 04:55]
 * <2013-07-24 Wed> [3/3]
-** [1/1] Agus
-*** DONE concurso:
-mandamos, confirmaron recepción, y sugirieron unos cambios en el plan de
-comercialización que ya aplicamos. vuelto a mandar.
-
 ** [1/1] Adri
 *** DONE Estabilidad
 CLOSED: [2013-07-23 Tue 16:19]
 por la parte de estabilidad por un lado si bien el otro dia grabamos
 en baja calidad se bancó cinco horas seguidas con un consumo moderado
 de memoria no creciente.
-
+** [1/1] Agus
+*** DONE concurso:
+mandamos, confirmaron recepción, y sugirieron unos cambios en el plan de
+comercialización que ya aplicamos. vuelto a mandar.
 ** [1/1] Pato
 *** Streamer melt:
 **** DONE Avances:
@@ -1128,6 +1117,38 @@ CLOSED: [2013-08-12 Mon 05:00]
 ** DONE paginación                                                     :sip:
    CLOSED: [2013-08-12 Mon 05:01]
 * <2013-04-10 Fri> [15/15] status report
+** [1/1] Cristian
+*** DONE migrar tests a semaphores
+CLOSED: [2013-08-12 Mon 05:01]
+mirar branch fabriciocosta/cleaning_and_testing
+** [2/2] Diego
+*** DONE playout view (was 'mediaview linear')
+CLOSED: [2013-08-12 Mon 05:01]
+peleandose con knockback
+subida estructura base para agregar cosas al view
+no estaria listo para el lunes
+*** DONE small-header
+CLOSED: [2013-08-12 Mon 05:01]
+funciona rudimentariamente: se encoge nada mas
+** [4/4] Fabricio
+*** DONE bugs mosto
+#93
+
+*** DONE limpieza código
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:24]
+    :END:
+branch fabriciocosta/cleaning_and_testing
+*** DONE unit tests
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:24]
+    :END:
+
+*** WONTFIX status
+CLOSED: [2013-08-12 Mon 05:02]
+- pasar el status actual solo cuando hay un cambio de clip
+** [1/1] Josx
+*** DONE conf: back to default
 ** [0/0] Niv (Temario)
 *** nombre de la cooperativa
 - OpCode[.coop?] gana por goleada
@@ -1146,53 +1167,7 @@ CLOSED: [2013-08-12 Mon 05:00]
   'Sindico Titular',
 ]
 no sabemos bien lo que implican los cargos
-
-** [1/1] cristian
-*** DONE migrar tests a semaphores
-CLOSED: [2013-08-12 Mon 05:01]
-mirar branch fabriciocosta/cleaning_and_testing
-** [4/4] tom
-*** DONE tests fallan porque cosas no mueren
-CLOSED: [2013-08-12 Mon 05:01]
-lo habia agarrado cristian
-*** DONE migracion a redis
-*** DONE status
-CLOSED: [2013-08-12 Mon 05:01]
-- pasar el timecode c/100ms
-- pasar el status actual solo cuando hay un cambio de clip
-*** DONE tests sobre getWindow() en playlist driver
-CLOSED: [2013-08-12 Mon 05:01]
-** [2/2] diego
-*** DONE playout view (was 'mediaview linear')
-CLOSED: [2013-08-12 Mon 05:01]
-peleandose con knockback
-subida estructura base para agregar cosas al view
-no estaria listo para el lunes
-*** DONE small-header
-CLOSED: [2013-08-12 Mon 05:01]
-funciona rudimentariamente: se encoge nada mas
-** [1/1] josx
-*** DONE conf: back to default
-
-** [4/4] fabricio
-*** DONE bugs mosto
-#93
-
-*** DONE limpieza código
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:24]
-    :END:
-branch fabriciocosta/cleaning_and_testing
-*** DONE unit tests
-    :LOGBOOK:
-    - State "DONE"       from "STARTED"    [2013-12-27 Fri 11:24]
-    :END:
-
-*** WONTFIX status
-CLOSED: [2013-08-12 Mon 05:02]
-- pasar el status actual solo cuando hay un cambio de clip
-
-** [3/3] patricio
+** [3/3] Patricio
 *** DONE setup
 CLOSED: [2013-08-12 Mon 05:03]
 debian
@@ -1203,6 +1178,17 @@ hubo updates de repos y no anda como dice la documentacion actual
 
 *** WONTFIX testing
 CLOSED: [2013-08-12 Mon 05:03]
+** [4/4] Tom
+*** DONE tests fallan porque cosas no mueren
+CLOSED: [2013-08-12 Mon 05:01]
+lo habia agarrado cristian
+*** DONE migracion a redis
+*** DONE status
+CLOSED: [2013-08-12 Mon 05:01]
+- pasar el timecode c/100ms
+- pasar el status actual solo cuando hay un cambio de clip
+*** DONE tests sobre getWindow() en playlist driver
+CLOSED: [2013-08-12 Mon 05:01]
 * estatus para el lunes (martes se persenta)
 * tests tests tests
 ** WONTFIX + portar a FC 1.5
@@ -1213,45 +1199,7 @@ notificacion superpuestos
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
 * <2013-04-22 Mon> [23/24]
-** [0/0] Niv (Temario)
-*** avance compra de material
-llamadas telefonicas
-*** avance mosto
-anda en el branch de fabricio
-*** lineas de trabajo caspa
-*** preparacion de la reunion de trabajo presencial del miercoles.
-
-** [2/2] cristian
-*** DONE migrar tests a semaphores
-CLOSED: [2013-08-12 Mon 05:03]
-#55
-*** DONE mosto coverity
-CLOSED: [2013-08-12 Mon 05:03]
-** [4/4] tom
-*** DONE tests fallan porque cosas no mueren
-CLOSED: [2013-08-12 Mon 05:03]
-delete() no sirve
-destroy en mosto
-instancias fuera de before y after
-
-*** FIXED migracion a redis
-CLOSED: [2013-04-24 Wed 15:03]
-
-*** DONE tests set-windows
-CLOSED: [2013-08-12 Mon 05:03]
-*** DONE event-emitter
-** [5/5] juan martin
-*** DONE con lo que tenia asignado en los SCRUMM
-*** DONE Estuve haciendo Review y merge de PR de Mosto
-CLOSED: [2013-08-12 Mon 05:03]
-*** DONE Estoy probando mosto+caspa (metaproyecto mbc-playout)
-CLOSED: [2013-08-12 Mon 05:03]
-*** DONE issues asignadas a mi de mosto
-CLOSED: [2013-08-12 Mon 05:03]
-*** DONE seguir probando mbc-playout y armar la demo
-CLOSED: [2013-08-12 Mon 05:03]
-
-** [2/3] adrian
+** [2/3] Adri
 *** DONE (almost DONE): port editview to kb #90. Podría hacerse mucho
 CLOSED: [2013-08-12 Mon 05:03]
 mas knockout-toso pero me queda algo despelotado el código.
@@ -1268,8 +1216,13 @@ update pero la vista no se actualiza.
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 11:23]
     :END:
 se puede
-
-** [4/4] diego
+** [2/2] Cristian
+*** DONE migrar tests a semaphores
+CLOSED: [2013-08-12 Mon 05:03]
+#55
+*** DONE mosto coverity
+CLOSED: [2013-08-12 Mon 05:03]
+** [4/4] Diego
 *** DONE fullcalendar
 CLOSED: [2013-08-12 Mon 05:04]
 *** WONTFIX mediaview linear
@@ -1277,8 +1230,12 @@ CLOSED: [2013-08-12 Mon 05:04]
 *** DONE bugfixs
 *** WONTFIX small-header
 CLOSED: [2013-08-12 Mon 05:04]
-
-** [4/4] josx
+** [2/2] Fabricio
+*** WONTFIX test en mbc-playout
+CLOSED: [2013-08-12 Mon 05:05]
+*** WONTFIX 20 tests
+CLOSED: [2013-08-12 Mon 05:05]
+** [4/4] Josx
 *** DONE conf -> mbc-common
 *** DONE conf: back to default
 CLOSED: [2013-04-24 Wed 15:10]
@@ -1286,15 +1243,38 @@ CLOSED: [2013-04-24 Wed 15:10]
 *** DONE merge back node-config
 *** WONTFIX conf types
 CLOSED: [2013-08-12 Mon 05:04]
+** [5/5] JMR
+*** DONE con lo que tenia asignado en los SCRUMM
+*** DONE Estuve haciendo Review y merge de PR de Mosto
+CLOSED: [2013-08-12 Mon 05:03]
+*** DONE Estoy probando mosto+caspa (metaproyecto mbc-playout)
+CLOSED: [2013-08-12 Mon 05:03]
+*** DONE issues asignadas a mi de mosto
+CLOSED: [2013-08-12 Mon 05:03]
+*** DONE seguir probando mbc-playout y armar la demo
+CLOSED: [2013-08-12 Mon 05:03]
+** [0/0] Niv (Temario)
+*** avance compra de material
+llamadas telefonicas
+*** avance mosto
+anda en el branch de fabricio
+*** lineas de trabajo caspa
+*** preparacion de la reunion de trabajo presencial del miercoles.
+** [4/4] Tom
+*** DONE tests fallan porque cosas no mueren
+CLOSED: [2013-08-12 Mon 05:03]
+delete() no sirve
+destroy en mosto
+instancias fuera de before y after
 
-** [2/2] fabricio
-*** WONTFIX test en mbc-playout
-CLOSED: [2013-08-12 Mon 05:05]
-*** WONTFIX 20 tests
-CLOSED: [2013-08-12 Mon 05:05]
+*** FIXED migracion a redis
+CLOSED: [2013-04-24 Wed 15:03]
 
+*** DONE tests set-windows
+CLOSED: [2013-08-12 Mon 05:03]
+*** DONE event-emitter
 * <2013-04-17 Wed> [11/11]
-** [11/11] tom
+** [11/11] Tom
 *** WONTFIX [#A] +++tests mocha
 CLOSED: [2013-08-12 Mon 05:05]
 :LOGBOOK:
@@ -1319,16 +1299,25 @@ CLOSED: [2013-08-12 Mon 05:05]
 *** WONTFIX +travis not failing
 CLOSED: [2013-08-12 Mon 05:05]
 * <2013-04-15 Mon> [23/23]
-** [1/1] tom
-*** DONE publishing de mosto->caspa: errores
-** [3/3] jmrungec
+** [3/3] Adri
+*** WONTFIX ++bug 'guardar o no los cambios'
+CLOSED: [2013-08-12 Mon 05:06]
+<2013-04-10 Wed> +investigar librerias de undo
+*** WONTFIX +medios repetidos                                       :xaiki:
+CLOSED: [2013-08-12 Mon 05:06]
+<2013-04-10 Wed> a hablar
+<2013-04-12 Fri> se hace save
+*** WONTFIX [#A] migrar a kb: el header
+CLOSED: [2013-08-12 Mon 05:06]
+<2013-04-12 Fri> no progress
+** [3/3] JMR
 *** WONTFIX travis not failing
 CLOSED: [2013-08-12 Mon 05:06]
 *** WONTFIX [#A] test for melted-node bug               :fabricio:cristian:
 CLOSED: [2013-08-12 Mon 05:05]
 *** WONTFIX [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
 CLOSED: [2013-08-12 Mon 05:05]
-** [4/4] cristian
+** [4/4] Cristian
 *** WONTFIX +test test test <-                                    :jmrunge:
 CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-10 Wed> started
@@ -1341,7 +1330,7 @@ CLOSED: [2013-08-12 Mon 05:06]
 CLOSED: [2013-08-12 Mon 05:06]
 *** WONTFIX merge 4 pull requests
 CLOSED: [2013-08-12 Mon 05:06]
-** [4/4] fabricio
+** [4/4] Fabricio
 *** WONTFIX test bug melted-node
 CLOSED: [2013-08-12 Mon 05:06]
 *** WONTFIX ++resolviendo incoherencia playlist -> clips (falta testeo)
@@ -1358,7 +1347,7 @@ CLOSED: [2013-08-12 Mon 05:06]
 CLOSED: [2013-08-12 Mon 05:06]
 <2013-04-10 Wed> no se toco
 
-** [4/4] diego
+** [4/4] Diego
 *** WONTFIX undo
 CLOSED: [2013-08-12 Mon 05:06]
 *** WONTFIX nunca empujar
@@ -1367,19 +1356,8 @@ CLOSED: [2013-08-12 Mon 05:06]
 CLOSED: [2013-08-12 Mon 05:06]
 *** WONTFIX estetica general
 CLOSED: [2013-08-12 Mon 05:06]
-** [3/3] adrian
-*** WONTFIX ++bug 'guardar o no los cambios'
-CLOSED: [2013-08-12 Mon 05:06]
-<2013-04-10 Wed> +investigar librerias de undo
-*** WONTFIX +medios repetidos                                       :xaiki:
-CLOSED: [2013-08-12 Mon 05:06]
-<2013-04-10 Wed> a hablar
-<2013-04-12 Fri> se hace save
-*** WONTFIX [#A] migrar a kb: el header
-CLOSED: [2013-08-12 Mon 05:06]
-<2013-04-12 Fri> no progress
 
-** [4/4] josx
+** [4/4] Josx
 *** WONTFIX node-config fork
 CLOSED: [2013-08-12 Mon 05:06]
 to-merge
@@ -1391,36 +1369,23 @@ CLOSED: [2013-08-12 Mon 05:06]
 CLOSED: [2013-08-12 Mon 05:06]
 *** WONTFIX [#C] travis for backbone.io
 CLOSED: [2013-08-12 Mon 05:06]
+** [1/1] Tom
+*** DONE publishing de mosto->caspa: errores
 * <2013-04-12 Fri> [21/21]
-** [5/5] tom
-*** DONE [#B] +mosto -> caspa
-CLOSED: [2013-04-12 Fri 14:34]
-depiende de mbc-common
-**** WONTFIX <2013-04-08 Mon> blockeado por driver redis
-**** DONE <2013-04-10 Wed> publica el estatus
-**** DONE <2013-04-10 Wed> pasa solo lo que cambio.
-**** DONE <2013-04-10 Wed> falta definir lo que sube
-CLOSED: [2013-04-12 Fri 14:34]
-
-** [2/2] jmrunge
-*** DONE [#A] +melted clips: have usefull names.
-CLOSED: [2013-04-12 Fri 14:39]
-*** DONE [#B] bug melted-node                                      :fabricio:
-CLOSED: [2013-04-12 Fri 14:39]
-** [3/3] cristian
+** [0/0] Adri
+*** DONE i18n-abide bug                                            :hatsch:
+** [3/3] Cristian
 *** WONTFIX integracion continua: jenkins o otro.
 **** DONE <2013-04-12 Fri> jenkins funciona
 **** DONE jenkins VS travis
-** [2/2] diego
+** [2/2] Diego
 *** DONE bug: borrar un evento no siempre se ve
 *** DONE reinstalar su systema operativo.
 CLOSED: [2013-04-12 Fri 14:53]
-** [1/1] fabricio
+** [1/1] Fabricio
 *** DONE bug melted-node
 <2013-04-12 Fri> not started
-** [0/0] adrian
-*** DONE i18n-abide bug                                            :hatsch:
-** [8/8] josx
+** [8/8] Josx
 CLOSED: [2013-04-12 Fri 14:19]
 en-US BCP47 (HTML5)
 -> follow up con hatsch
@@ -1437,9 +1402,43 @@ CLOSED: [2013-04-12 Fri 14:24]
 CLOSED: [2013-04-12 Fri 14:24]
 **** DONE configuracion de caspa
 CLOSED: [2013-04-12 Fri 14:24]
-
+** [2/2] JMR
+*** DONE [#A] +melted clips: have usefull names.
+CLOSED: [2013-04-12 Fri 14:39]
+*** DONE [#B] bug melted-node                                      :fabricio:
+CLOSED: [2013-04-12 Fri 14:39]
+** [5/5] Tom
+*** DONE [#B] +mosto -> caspa
+CLOSED: [2013-04-12 Fri 14:34]
+depiende de mbc-common
+**** WONTFIX <2013-04-08 Mon> blockeado por driver redis
+**** DONE <2013-04-10 Wed> publica el estatus
+**** DONE <2013-04-10 Wed> pasa solo lo que cambio.
+**** DONE <2013-04-10 Wed> falta definir lo que sube
+CLOSED: [2013-04-12 Fri 14:34]
 * <2013-04-10 Wed> [10/10]
-** [3/3] tom
+** [1/1] Cristian
+*** DONE +Eliminar directorios absolutos a mosto.
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
+:END:
+** [1/1] Diego
+*** DONE UI de conflictos
+** [1/1] Fabricio
+*** DONE +debugeando tema de timecodes
+:LOGBOOK:
+- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
+:END:
+** [2/2] Josx
+*** WONTFIX merge node-config
+CLOSED: [2013-04-10 Wed 15:05]
+<2013-04-10 Wed> se resolvio.
+*** DONE middleware backbone.io
+** [2/2] JMR
+*** DONE async events for drivers
+*** DONE queue for drivers.
+** [3/3] Tom
 *** WONTFIX driver redis
 CLOSED: [2013-04-10 Wed 14:42]
  Empecé a escribir el driver de pub/sub para redis en mbc-common. La
@@ -1455,50 +1454,36 @@ CLOSED: [2013-04-10 Wed 14:42]
 al driver de playlists de mongodb: permitirle a mosto pollear las playlists
 que necesita
 *** DONE driver pub-sub
-** [2/2] jmrunge
-*** DONE async events for drivers
-*** DONE queue for drivers.
-** [1/1] cristian
-*** DONE +Eliminar directorios absolutos a mosto.
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:49]
-:END:
-
-** [1/1] fabricio
-*** DONE +debugeando tema de timecodes
-:LOGBOOK:
-- State "STARTED"    from "DONE"       [2013-04-05 Fri 14:37]
-- State "DONE"       from "TODO"       [2013-04-05 Fri 14:36]
-:END:
-** [1/1] diego
-*** DONE UI de conflictos
-** [0/0] adrian
-
-** [2/2] josx
-*** WONTFIX merge node-config
-CLOSED: [2013-04-10 Wed 15:05]
-<2013-04-10 Wed> se resolvio.
-*** DONE middleware backbone.io
 
 * <2013-04-08 Mon> [6/6]
-** [1/1] diego
-*** DONE merge pull requests
-** [2/2] adrian
+** [2/2] Adri
 *** DONE fila vacia
 *** DONE merge kb
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:53]
 :END:
-** [2/2] josx
+** [0/0] Cristian
+** [1/1] Diego
+*** DONE merge pull requests
+** [0/0] Fabricio
+** [2/2] Josx
 *** DONE Conf module en backbone.io
 CLOSED: [2013-04-08 Mon 14:14]
 *** DONE i18n-abide: language string
-** [0/0] tom
-** [1/1] juan martin
+** [1/1] JMR
 *** DONE bugfix:
-** [0/0] fabricio
-** [0/0] cristian
+** [0/0] Tom
 * <2013-04-05 Fri> [15/15]
+** [1/1] Cristian
+*** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+** [1/1] Diego
+*** DONE port a 0.10
+CLOSED: [2013-04-05 Fri 14:19]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:19]
+:END:
+Bug en less, reporteado fixeado.
+mergeado.
 ** [5/5] Fabricio
 *** DONE mosto.js: fetch funciona.
 *** DONE mosto.js: funcion de validacion
@@ -1513,14 +1498,7 @@ CLOSED: [2013-04-05 Fri 14:40]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:40]
 :END:
-
-** [1/1] Tom
-*** DONE Driver pub/sub
-CLOSED: [2013-04-05 Fri 14:33]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2013-04-05 Fri 14:33]
-:END:
-** [4/4] josx & adrian
+** [4/4] Josx & Adri
 *** DONE borrar archivos de node-cellar
 *** DONE revert checksum changes
 *** DONE in-tree fonts
@@ -1531,18 +1509,7 @@ CLOSED: [2013-04-05 Fri 14:27]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-04-05 Fri 14:27]
 :END:
-
-** [0/0] adrian
-** [1/1] diego
-*** DONE port a 0.10
-CLOSED: [2013-04-05 Fri 14:19]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2013-04-05 Fri 14:19]
-:END:
-Bug en less, reporteado fixeado.
-mergeado.
-
-** [3/3] Juan Martin
+** [3/3] JMR
 *** DONE driver melted
 CLOSED: [2013-04-05 Fri 12:51]
 :LOGBOOK:
@@ -1562,7 +1529,11 @@ INSERT
 REMOVE
 GOTO
 …
-** [1/1] Cristian
-*** DONE Agregué (sin permiso) dependencias que no que me faltaban para ejecutar mosto.
+** [1/1] Tom
+*** DONE Driver pub/sub
+CLOSED: [2013-04-05 Fri 14:33]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-04-05 Fri 14:33]
+:END:
 
 
