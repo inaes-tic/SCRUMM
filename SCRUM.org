@@ -849,14 +849,14 @@ Moved to Backlog
 MBC, TETRA, FFFS, de los que había empezado a escribir documentación
 técnica. avancé hasta donde pude con la información que tenía. está para
 terminar.
-**** STARTED Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
+**** Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
 ***** STARTED Leer documentación de Kaltura, hacer extracto para mejorar.
 *** WONTFIX ++++++ Tríptico
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:18]
     :END:
 **** Necesita feedback
-**** TODO seguir ajustándolo
+**** seguir ajustándolo
 **** WONTFIX Apuntar a que esté para misiones
 *** WONTFIX ++ Interfaz de Zumo
     :LOGBOOK:
@@ -1014,7 +1014,10 @@ los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
 ** jmr
 *** DONE Travis
 ** ruth
-*** STARTED Reunión con Contador
+*** WONTFIX Reunión con Contador
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-30 Mon 17:04]
+    :END:
 *** DONE AFIP
 ** agus
 *** DONE Subir CPD a private
