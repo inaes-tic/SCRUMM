@@ -4,14 +4,6 @@
 #+PROPERTY: LOG_INTO_DRAWER t
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* comunicación con otros hackers
-- canales de tv pública noruega
-- hackers js
-
-* tech talks >
-** fabricio : vídeo y streaming > miércoles 15 de mayo
-** adrián : backbone + backbone relational > miércoles 22 de mayo
-** tom : nueva arquitectura de mosto
 * <2014-01-06 Mon> Objetivos
 ** leo
 *** [0/3] Etiquette Fixes

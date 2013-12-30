@@ -1,0 +1,15 @@
+#+TODO: TODO(t!) STARTED(s!) REPORT(r!) BUG(b!) KNOWNCAUSE(k!) | FIXED(f!) DONE(d!) WONTFIX(w!)
+#+Category: Opcode/SCRUM
+#+SCRUM_MASTER: pato
+#+PROPERTY: LOG_INTO_DRAWER t
+#+PROPERTY: COOKIE_DATA todo recursive
+https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
+
+* comunicación con otros hackers
+- canales de tv pública noruega
+- hackers js
+
+* tech talks >
+** fabricio : vídeo y streaming > miércoles 15 de mayo
+** adrián : backbone + backbone relational > miércoles 22 de mayo
+** tom : nueva arquitectura de mosto
