@@ -316,12 +316,14 @@ Mergeando e incluyendo Mongo.Join
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-22 Fri 15:55]
     :END:
-*** STARTED WebFxUI: ask before leaving view and losing content
+*** WONTFIX WebFxUI: ask before leaving view and losing content
     :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-30 Mon 17:02]
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:52]
     :END:
-*** STARTED WebFxUI: do not lose content when changing resolution
+*** WONTFIX WebFxUI: do not lose content when changing resolution
     :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2013-12-30 Mon 17:02]
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 10:52]
     :END:
 * <2013-11-15 Fri> Objetivos
@@ -424,9 +426,18 @@ Trabado porque alejo está leyendo el estatuto (DONE)
     :END:
 Heredado de la semana pasada porque Mala no pudo juntarse entonces.
 ** alejo
-*** TODO Tests de Caspa
-**** TODO Hablar con Josx para entender la estructura
-**** TODO Testear EditView completo
+*** WONTFIX Tests de Caspa
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
+    :END:
+**** WONTFIX Hablar con Josx para entender la estructura
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
+     :END:
+**** WONTFIX Testear EditView completo
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2013-12-30 Mon 17:03]
+     :END:
 ** mariana
 *** TODO Caspa UI for Mosto Messages
 *** TODO PlayoutView Rendering
