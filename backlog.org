@@ -1,0 +1,141 @@
+#+TODO: TODO(t!) STARTED(s!) REPORT(r!) BUG(b!) KNOWNCAUSE(k!) | FIXED(f!) DONE(d!) WONTFIX(w!)
+#+Category: Opcode/SCRUM
+#+SCRUM_MASTER: pato
+#+PROPERTY: LOG_INTO_DRAWER t
+https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
+
+* Backlog
+** Pendientes Agus
+*** STARTED + docs
+**** más allá de la documentación del concurso tengo en drive unos documentos de
+MBC, TETRA, FFFS, de los que había empezado a escribir documentación
+técnica. avancé hasta donde pude con la información que tenía. está para
+terminar.
+**** STARTED Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
+***** STARTED Leer documentación de Kaltura, hacer extracto para mejorar.
+*** STARTED +++ Tríptico
+**** Necesita feedback
+**** TODO seguir ajustándolo
+**** WONTFIX Apuntar a que esté para misiones
+*** TODO ++ Interfaz de Zumo
+** JMR
+*** TODO +++ Cleanup de mosto: <2013-08-28 Wed>
+** Caspa
+*** Diseño
+**** TODO Foldable Universe
+***** TODO Fix fold animation on schedule and playout (hint: use js animation instead of css transitions)
+**** TODO VisualSearch: Corregir los textos de busqueda (se ven muy abajo)
+**** TODO Cuando search box crece queda detrás del scrollable
+**** TODO Drag de media a new Playlist no scrollea automáticamente, hay que scrollear a mano.
+*** TODO Relational: Evaluar qué hacer para desnormalizar instancias.
+**** TODO OccurrenceView
+Opciones:
+ * Al modificar una occurrence, se clona la playlist original y se referencia la occurrence a la nueva playlist.
+ * No se permite modificar la occurrence pero se permite clonar playlists para no tener que armarla toda de nuevo para modificarla.
+ * Otra?
+*** TODO POV: Agregar animación de wait para cuando se cargan los clips.
+*** TODO showPlaylist en EditView hace 1 render SearchView por Piece (NO COMPROBADO)
+*** TODO Colecciones dedicadas: Optimizar para no traer mil veces las mismas cosas
+**** TODO Chequear si se toca mucho la DB (tener en cuenta que Relational tiene su LocalStore que funciona como Cahce)
+**** TODO En caso que se esté yendo mucho a la DB, hacer un caché a nivel global que se consulte antes de la DB ya que en muchas pantallas pedimos las mismas cosas.
+*** TODO Router: no descargar las vistas al cambiar de pantalla, detachearlas (ver jQuery Detach)
+*** TODO POV + Schedule: hacer coherente el color de las playlists.
+*** TODO Lazy load App.framestatus (no carga cuando levanta el cliente)
+*** TODO searchview: el relojito de paginacion se muestra siempre en el mismo objeto!
+*** TODO DynamicView
+    Crear una vista genérica que distinga cuándo el resultado está vacío y cuándo
+    todavía se está cargando para no mostrar el mensaje de "Oops" la primera vez
+    y para tener relojito en todas las partes del sistema que hacen lazy load.
+*** TODO Hacer que las playlist y pieces se muestren siempre respetando el orden de insersión.
+Ejemplo: cargar una playlist en EditView, eliminar el primer elemento, recargarla: el elemento eliminado se carga al final.
+*** TODO Corregir el cartel de "Push Down" en Schedule (o reemplazar toda la vista por algo que ande :P)
+*** BUG collection->get no pasa por io.
+*** BUG view collisiona con get.
+** WebvFx
+*** TODO Kludget para correr widgets (Herencia de Alejo)
+**** TODO Integrar el código de c++
+** Pato
+*** TODO StandAlone Timeline
+*** TODO Ajustes visuales de Filmstrip en PlayoutView
+*** TODO ++++++ POV: Mejorar la visualización y agregar unos datos que son necesarios.
+*** TODO POV: Buscar una solución para problemas de performance.
+*** TODO POV: Corregir un par de known-bugs.
+*** TODO + SHM: algoritmo tiempos de espera
+se puede mejorar el algoritmo que calcula los tiempos de
+espera para suministrar los frames en tiempo real. Hay
+*** TODO + SHM: thread bloqueado cuando se cierra melt
+todavía algunos escenarios donde al intentar cerrar melt algún thread queda
+bloqueado y no cierra.
+*** TODO + SHM: streaming a browser
+Se puede investigar cómo hacer streaming desde el browser para agregar el preview a
+caspa.
+*** BUG +++++++ posixshm seek.
+*** BUG ++++++++++ collection->get no pasa por io.
+*** BUG ++++++++++ view collisiona con get.
+*** TODO ++ Subir cambios de posixshm
+** Josx
+*** TODO ++++++ tags
+*** TODO Sharding en Mongo
+*** STARTED testing funcional: phantom
+*** TODO Investigación Closed Captions
+*** STARTED Caspa: testing de UI
+**** STARTED Hablar con Tom para integrar Istambul
+Dificultad para aplicar a los tests del lado del cliente
+** Leo
+*** TODO Filmstrip with KnockBack
+*** TODO Transforms into Caspa
+*** [0/2] UI de WebFX
+**** TODO +++ Cambio de resolución sin perder el contenido
+**** TODO ++++ Integración a caspa
+** Adri
+*** TODO Unify ingestor script pipeline
+*** TODO Overlay: optimizar performance
+*** TODO Keybindings: mejorar y hacer configurable
+*** STARTED + Guardar salidas + EDL (Lista de cambios)
+**** Falta EDL
+*** STARTED + Resiliencia de Fallos
+resilencia a fallos o cortes de conexion con las camaras en general
+ok, lo que ahora me pasa que si desconecto mas de una al mismo tiempo
+(tomo el manojo de cables y le doy un tirón) se me dispara el uso de
+cpu y memoria y tengo que matarlo por ssh. Pero creo que se por donde
+va la mano de eso.
+Dificultad para reproducir
+*** STARTED + refactoring
+*** TODO tests
+*** TODO Video view draggable
+** Mariana
+*** TODO Docs al BAC y a la profesora de la universidad de Perú
+*** TODO Tarjetas en Offset
+*** TODO ++ Averiguar presupuesto Tarjetas (Daprint y Diseñobar)
+*** TODO ++ Animacion logos para webfx
+*** TODO + Usar knockback para cargar las vistas.
+*** TODO + Intentar extender el código para armar un calendar view (más bien opcional y recién después de lograr optimizar performance).
+*** TODO + tipos en config
+**** tipos estan
+**** falta renderizado distinto
+** Ruth
+*** Proyect Opcode Summer of Code
+*** STARTED nic.ar, coop.ar
+**** TODO Averiguar status
+*** STARTED Reunión con Contador
+**** Evaluar relación, tipo de contratación
+**** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
+*** TODO Datos de la cooperativa para prensa facttic.
+** Tom
+*** Istambul logs from travis to express server
+** Alejo
+*** STARTED +++ jmr -> ui de filtros:
+ Pueden ver el proyecto que subi de esto a nuestro repo.  Estaria bueno me
+ parece integrarlo en algun lado de Caspa (con una gran vuelta de tuerca!).
+ Me parece que va muy de la mano de playout view, ya que son filtros
+ dinamicos.  Ahora la estoy trabajando para ver de hacerlos al inicio del
+ clip (o sea, que levanten junto con el clip, tipo predefinidos), poder
+ meter un doc css completo dinamicamente, hacer un poco mas robusta la
+ implementacion y persistir de alguna forma los filtros.  Me gustaria si
+ pueden mirar un poco lo que esta hecho, critircarlo, hacerle aportes y
+ tirarme un centro de por donde empezar a mirar en Caspa para meterlo (me
+ parece que estan todos hasta las manos como para que lo haga otro, no?)
+*** TODO +++ -> alejo ayuda jmr ui filtros.
+ Dificultad: Falta contacto con jmr
+** TODO ++++++ Sobre las cooperativas de Facttic (hablar en scrum para armar info para mandar)
+** TODO Hay que rastrear los documentos que nos enviaron y no fuimos a buscar
