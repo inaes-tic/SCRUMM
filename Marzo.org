@@ -3,13 +3,11 @@
 #+EMAIL: xaiki@inaes.gob.ar, patricio@opcode.coop
 #+COLUMNS: %29ITEM %TASKID %OWNER %3PRIORITY %TODO %15ESTIMATED{:} %3ACTUAL{+}
 #+PROPERTY: ESTIMATED_ALL 4h 1d 2d 3d 4d 1w 2w 3w 1m 2m
+#+PROPERTY: COOKIE_DATA todo recursive
 #+PROJECT_TIME: 60d
 
 * Total 
 ** [3/6] Ingesta
-:PROPERTIES:
-:COOKIE_DATA: todo recursive
-:END:
 *** DONE Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
 CLOSED: [2013-12-27 Fri 12:01]
 :LOGBOOK:
@@ -31,7 +29,7 @@ CLOSED: [2013-12-27 Fri 12:01]
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-*** TODO [1/3] Pantalla de ingesta en caspa
+*** [1/3] Pantalla de ingesta en caspa
 **** TODO progress de ingesta
 :PROPERTIES:
 :ESTIMATED: 1w
@@ -53,9 +51,6 @@ CLOSED: [2013-12-27 Fri 12:02]
 :ESTIMATED: 1d
 :END:
 ** [4/37] Caspa
-:PROPERTIES:
-:COOKIE_DATA: todo recursive
-:END:
 *** [/] Tests
 *** [/] MultiUser
 *** [0/1] system wide
@@ -232,26 +227,21 @@ link a playout view
 *** [1/2] Auth
 **** TODO ABM de Usuarios
 **** DONE Pantalla de login
-*** [/] PosixSHM/Mosto
-**** UI para configurar consumers SHM.
+*** [0/1] PosixSHM/Mosto
+**** TODO UI para configurar consumers SHM.
 ** [2/3] Mosto
-:PROPERTIES:
-:COOKIE_DATA: todo recursive
-:END:
 *** [1/1] In/Out
 **** DONE tests
 :PROPERTIES:
 :ESTIMATED: 2d
 :END:
-*** TODO PosixSHM
+*** [1/1] PosixSHM
 **** DONE poder nombrar producers (en el consumer)
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
+*** TODO Issues
 ** [0/6] Playout
-:PROPERTIES:
-:COOKIE_DATA: todo recursive
-:END:
 *** [0/3] Sysadmin
 **** [0/2] servidor de instalacion.
 :PROPERTIES:
@@ -276,24 +266,21 @@ link a playout view
 :PROPERTIES:
 :ESTIMATED: 3d
 :END:
-** [3/11] WebFX
-:PROPERTIES:
-:COOKIE_DATA: todo recursive
-:END:
+** [4/10] WebFX
 *** TODO Server
 **** STARTED Automatization (driver en mosto)
 ***** levantar transforms & sketchs
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-*** [2/6] Editor
+*** [4/9] Editor
 Focalizar en logo, hora y tiempo
 **** TODO no contraer header
 :PROPERTIES:
 :ESTIMATED: 4h
 :END:
 ***** TODO  TODO Botón de contraccion queda asociado a edit
-**** TODO Volver a cargar objetos luego de resize
+**** DONE Volver a cargar objetos luego de resize
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
