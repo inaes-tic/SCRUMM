@@ -214,7 +214,7 @@ DEADLINE: <2013-12-02 Mon>
     :END:
 Mergeando e incluyendo Mongo.Join
 ** [3/3] Leo
-*** [3/3] Finish WebFX UI
+*** STARTED [3/3] Finish WebFX UI
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
@@ -475,7 +475,7 @@ DEADLINE: <2013-11-01 Fri>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:11]
     :END:
-* <2013-10-25 Fri> [26/27]
+* <2013-10-25 Fri> [27/28]
 ** [6/6] Adri
 *** DONE Tetra stabilization
 DEADLINE: <2013-10-25 Fri>
@@ -491,7 +491,7 @@ DEADLINE: <2013-10-25 Fri>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-11-06 Wed 10:59]
      :END:
-*** [3/3] Install Tetra in HP for Demo
+*** DONE [3/3] Install Tetra in HP for Demo
 DEADLINE: <2013-10-25 Fri>
 **** DONE Cammeras disconnection in HP
 DEADLINE: <2013-10-25 Fri>
@@ -566,9 +566,13 @@ DEADLINE: <2013-10-25 Fri>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-10-25 Fri 17:12]
     :END:
-** [1/2] Pato
-*** TODO Investigar tecnologias para Timeline
-DEADLINE: <2013-10-25 Fri>
+** [2/2] Pato
+*** WONTFIX Investigar tecnologias para Timeline
+CLOSED: [2014-01-07 Tue 13:09] DEADLINE: <2013-10-25 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from "TODO"       [2014-01-07 Tue 13:09]
+- State "TODO"       from "TODO"       [2014-01-07 Tue 13:07]
+:END:
 Ajustes en filmstrip con Leo, no pude investigar
 *** DONE CAPER
 DEADLINE: <2013-10-25 Fri>
@@ -594,7 +598,7 @@ DEADLINE: <2013-10-25 Fri>
      - State "DONE"       from "TODO"       [2013-11-18 Mon 12:00]
      :END:
 ** [4/4] Tom
-*** [4/4] ++++ Mosto messages to Caspa
+*** STARTED [4/4] ++++ Mosto messages to Caspa
 DEADLINE: <2013-10-25 Fri>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-09 Mon 16:04]
@@ -682,7 +686,6 @@ DEADLINE: <2013-10-11 Fri>
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 11:45]
     :END:
 **** Salta la posición, hay que ajustar
-DEADLINE: <2013-10-11 Fri>
 *** DONE + keybinds
 DEADLINE: <2013-10-11 Fri>
     :LOGBOOK:
@@ -694,7 +697,6 @@ DEADLINE: <2013-10-11 Fri>
     - State "DONE"       from "STARTED"    [2013-10-21 Mon 11:45]
     :END:
 **** Implementado
-DEADLINE: <2013-10-11 Fri>
 *** DONE + Desconexion de Camaras
 DEADLINE: <2013-10-11 Fri>
     :LOGBOOK:
@@ -793,7 +795,7 @@ DEADLINE: <2013-10-09 Wed>
 ** [0/1] Adri
 *** STARTED +++ Guardar salidas + EDL (Lista de cambios)
 DEADLINE: <2013-10-07 Mon>
-**** Roto por solución de Desconexión de cámaras + Problema de syncro A/V
+**** DONE Roto por solución de Desconexión de cámaras + Problema de syncro A/V
 DEADLINE: <2013-10-07 Mon>
 ** [2/2] Alejo
 *** DONE + Armar manual para los diseñadores para CN23
@@ -820,7 +822,7 @@ DEADLINE: <2013-10-07 Mon>
 **** DONE Reunión en UNQUI
 DEADLINE: <2013-10-07 Mon>
 ** [2/2] Leo
-*** [1/1] Filmstrip into PlayoutView Timeline
+*** DONE [1/1] Filmstrip into PlayoutView Timeline
 DEADLINE: <2013-10-07 Mon>
 **** DONE Ajustes de performance y visualización.
 DEADLINE: <2013-10-07 Mon>
@@ -838,7 +840,7 @@ DEADLINE: <2013-10-07 Mon>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-27 Fri 14:10]
     :END:
-**** Esperando reunión
+**** WONTFIX Esperando reunión
 DEADLINE: <2013-10-07 Mon>
 ** [1/1] Ruth
 *** DONE Convenio de Trama
@@ -874,7 +876,6 @@ DEADLINE: <2013-10-04 Fri>
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:35]
     :END:
 **** Todavía esperando la firma de Leo
-DEADLINE: <2013-10-04 Fri>
 **** WONTFIX Mandar mail a facttic para ver si lo movemos por cooperar
 DEADLINE: <2013-10-04 Fri>
      :LOGBOOK:
@@ -886,59 +887,55 @@ DEADLINE: <2013-10-04 Fri>
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:35]
     :END:
 **** Evaluar relación, tipo de contratación
-DEADLINE: <2013-10-04 Fri>
 **** Ver la posibilidad de mover para que sea contador de Facttic y obtener sus servicios por ese lado.
-DEADLINE: <2013-10-04 Fri>
+
 *** WONTFIX ++++++ Datos de la cooperativa para prensa facttic.
 DEADLINE: <2013-10-04 Fri>
     :LOGBOOK:
     - State "WONTFIX"    from "TODO"       [2013-12-27 Fri 13:35]
     :END:
 ** [1/1] Tom
-*** [1/1] ++ Mosto coverage
+*** DONE [1/1] ++ Mosto coverage
 DEADLINE: <2013-10-04 Fri>
 **** DONE Merge
 DEADLINE: <2013-10-04 Fri>
 * <2013-09-27 Fri> [2/2]
 ** [1/1] Leo
 *** [1/1] UI de WebFX
-DEADLINE: <2013-09-27 Fri>
 **** DONE Chequear Backbone.io para guardar en DB
 DEADLINE: <2013-09-27 Fri>
 ** [1/1] Mariana
 *** WONTFIX + Finalizar tramitación de cuenta credicoop (lo hacen pato y josx)
 DEADLINE: <2013-09-27 Fri>
-* <2013-09-20 Fri> [13/19]
+* <2013-09-20 Fri> [14/19]
 ** [5/5] Agus
 *** DONE FrameFreak
 DEADLINE: <2013-09-20 Fri>
 **** Dos semanas de trabajo
-DEADLINE: <2013-09-20 Fri>
 *** WONTFIX ++++++ docs
 DEADLINE: <2013-09-20 Fri>
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:18]
     :END:
 **** más allá de la documentación del concurso tengo en drive unos documentos de
-DEADLINE: <2013-09-20 Fri>
 MBC, TETRA, FFFS, de los que había empezado a escribir documentación
 técnica. avancé hasta donde pude con la información que tenía. está para
 terminar.
 **** Hay que empezar documentación del DAM -- + NECESITA INFO (empieza <28-08-2013 Wed>)
-DEADLINE: <2013-09-20 Fri>
+
 **** Leer documentación de Kaltura, hacer extracto para mejorar.
-DEADLINE: <2013-09-20 Fri>
+
 *** WONTFIX ++++++ Tríptico
 DEADLINE: <2013-09-20 Fri>
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2013-12-27 Fri 13:18]
     :END:
 **** Necesita feedback
-DEADLINE: <2013-09-20 Fri>
+
 **** seguir ajustándolo
-DEADLINE: <2013-09-20 Fri>
+
 **** Apuntar a que esté para misiones
-DEADLINE: <2013-09-20 Fri>
+
 *** WONTFIX ++ Interfaz de Zumo
 DEADLINE: <2013-09-20 Fri>
     :LOGBOOK:
@@ -952,7 +949,7 @@ DEADLINE: <2013-09-20 Fri>
 ** [1/1] Alejo
 *** DONE FrameFreak
 DEADLINE: <2013-09-20 Fri>
-**** Sabado + Domingo + Lunes + Martes (un par de horas)
+**** WONTFIX Sabado + Domingo + Lunes + Martes (un par de horas)
 DEADLINE: <2013-09-20 Fri>
 ** [0/2] JMR
 *** TODO ++++++ vp9:
@@ -973,7 +970,7 @@ Moved to Backlog
 *** DONE +++ Script para subir lo último a Heroku
 DEADLINE: <2013-09-20 Fri>
 ** [2/2] Leo
-*** [2/2] UI de WebFX
+*** DONE [2/2] UI de WebFX
 DEADLINE: <2013-09-20 Fri>
 **** DONE Agregado safe area
 DEADLINE: <2013-09-20 Fri>
@@ -982,7 +979,7 @@ DEADLINE: <2013-09-20 Fri>
 ** [3/6] Mariana
 *** DONE FrameFreak
 DEADLINE: <2013-09-20 Fri>
-**** Viernes + Domingo + 1/2 Lunes
+**** DONE Viernes + Domingo + 1/2 Lunes
 DEADLINE: <2013-09-20 Fri>
 *** STARTED +++++++ CSS overall
 DEADLINE: <2013-09-20 Fri>
@@ -994,9 +991,12 @@ DEADLINE: <2013-09-20 Fri>
 DEADLINE: <2013-09-20 Fri>
 **** TODO Hay bugs por arreglar
 DEADLINE: <2013-09-20 Fri>
-** [0/1] Tom
-*** STARTED + Chequear con JMR que falla en mosto (Confiabilidad de tests)
-DEADLINE: <2013-09-20 Fri>
+** [1/1] Tom
+*** WONTFIX + Chequear con JMR que falla en mosto (Confiabilidad de tests)
+CLOSED: [2014-01-07 Tue 13:03] DEADLINE: <2013-09-20 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from "STARTED"    [2014-01-07 Tue 13:03]
+:END:
 * <2013-09-13 Fri> [19/19]
 ** [1/1] Agus
 *** DONE +++ Preparación de Pitch
@@ -1004,13 +1004,13 @@ DEADLINE: <2013-09-13 Fri>
 ** [1/1] Alejo
 *** DONE ++ Buscar estándares de widgets (iGoogle, MACOSX)
 DEADLINE: <2013-09-13 Fri>
-**** Haciendo pruebas con los widgets de apple.
+**** WONTFIX Haciendo pruebas con los widgets de apple.
 DEADLINE: <2013-09-13 Fri>
 Dificultad: configuración de mac para correr los widgets
 ** [3/3] Josx
 *** DONE ++++ merge
 DEADLINE: <2013-09-13 Fri>
-**** Corregir layers de backbone.io
+**** DONE Corregir layers de backbone.io
 DEADLINE: <2013-09-13 Fri>
 *** DONE ++++ mongo fulltextsearch + index
 DEADLINE: <2013-09-13 Fri>
@@ -1018,16 +1018,16 @@ mongo 2.4 FTS beta.
 *** DONE ++ Pitching con Agus
 DEADLINE: <2013-09-13 Fri>
 ** [1/1] Leo
-*** [1/1] UI de WebFX
+*** DONE [1/1] UI de WebFX
 DEADLINE: <2013-09-13 Fri>
 **** DONE Aplicar los filtros desde la UI
 DEADLINE: <2013-09-13 Fri>
 ** [1/1] Mariana
 *** DONE + <2013-08-27 Tue> Actualizar sitio web de la coop
 DEADLINE: <2013-09-13 Fri>
-**** Necesita data
+**** DONE Necesita data
 DEADLINE: <2013-09-13 Fri>
-**** Necesita datos de conexion al server
+**** DONE Necesita datos de conexion al server
 DEADLINE: <2013-09-13 Fri>
 ** [2/2] Pato
 *** DONE ++++ Playout View Paginacion basado en backbone paginator
@@ -1042,9 +1042,9 @@ DEADLINE: <2013-09-13 Fri>
 DEADLINE: <2013-09-13 Fri>
 *** WONTFIX ++++ Convenio de trama
 DEADLINE: <2013-09-13 Fri>
-**** Escribiendo el texto del subsidio c agus
+**** DONE Escribiendo el texto del subsidio c agus
 DEADLINE: <2013-09-13 Fri>
-**** "Viendo números, adueñándome del proyecto."
+**** DONE "Viendo números, adueñándome del proyecto."
 DEADLINE: <2013-09-13 Fri>
 *** DONE ++++ Reunión Facttic
 DEADLINE: <2013-09-13 Fri>
@@ -1052,12 +1052,12 @@ DEADLINE: <2013-09-13 Fri>
 DEADLINE: <2013-09-13 Fri>
 **** WONTFIX Evaluar Conferencia de telecomunicaciones en Gesell
 DEADLINE: <2013-09-13 Fri>
-**** Se nombró a niv y la coop para tecnópolis
+**** DONE Se nombró a niv y la coop para tecnópolis
 DEADLINE: <2013-09-13 Fri>
 **** DONE Completar planilla de datos previsionales
 DEADLINE: <2013-09-13 Fri>
 ** [4/4] Tom
-*** [3/3] ++ Melted-node enhancements
+*** DONE [3/3] ++ Melted-node enhancements
 DEADLINE: <2013-09-13 Fri>
 **** DONE Arreglar los tests
 DEADLINE: <2013-09-13 Fri>
@@ -1065,7 +1065,7 @@ DEADLINE: <2013-09-13 Fri>
 DEADLINE: <2013-09-13 Fri>
 **** DONE Ver que ande
 DEADLINE: <2013-09-13 Fri>
-*** [1/1] Mosto coverage
+*** DONE [1/1] Mosto coverage
 DEADLINE: <2013-09-13 Fri>
 **** DONE Implementado
 DEADLINE: <2013-09-13 Fri>
@@ -1073,15 +1073,15 @@ DEADLINE: <2013-09-13 Fri>
 ** [1/1] Agus
 *** DONE +++ logos caspa mosto
 DEADLINE: <2013-08-28 Wed>
-**** Subiendo a Git primera versión, no está conforme, podríamos darle opiniones (NOS GUSTAAAAA)
+**** DONE Subiendo a Git primera versión, no está conforme, podríamos darle opiniones (NOS GUSTAAAAA)
 DEADLINE: <2013-08-28 Wed>
 ** [1/1] JMR
 *** WONTFIX ++ BUG en Wrapper de melted
 DEADLINE: <2013-08-28 Wed>
-**** Lo va a hacer a TOM
+**** WONTFIX Lo va a hacer a TOM
 DEADLINE: <2013-08-28 Wed>
 ** [1/1] Tom
-*** [1/1] + Melted-node enhancements
+*** DONE [1/1] + Melted-node enhancements
 DEADLINE: <2013-08-28 Wed>
 **** DONE Feature done
 DEADLINE: <2013-08-28 Wed>
@@ -1097,18 +1097,18 @@ DEADLINE: <2013-08-26 Mon>
 ** [1/1] Pato
 *** DONE ++ Mails bienvenida
 DEADLINE: <2013-08-26 Mon>
-**** Actualizado intro en private/mail-intro.
+**** DONE Actualizado intro en private/mail-intro.
 DEADLINE: <2013-08-26 Mon>
-**** Hablar con leo de FFFS
+**** DONE Hablar con leo de FFFS
 DEADLINE: <2013-08-26 Mon>
-**** Terminar de enviar a los demás
+**** DONE Terminar de enviar a los demás
 DEADLINE: <2013-08-26 Mon>
 ** [2/2] Ruth
 *** DONE Tramites Afip Agip
 DEADLINE: <2013-08-26 Mon>
 *** WONTFIX Poder de Mala
 DEADLINE: <2013-08-26 Mon>
-* <2013-08-23 Fri> [49/49] Sprint CASPA
+* <2013-08-23 Fri> [50/50] Sprint CASPA
 ** [8/8] Mariana
 *** DONE Paginado basado en nuevo scroll interno
 DEADLINE: <2013-08-23 Fri>
@@ -1126,7 +1126,7 @@ DEADLINE: <2013-08-23 Fri>
 DEADLINE: <2013-08-23 Fri>
 **** DONE Integrar al playout
 DEADLINE: <2013-08-23 Fri>
-** [41/41] Terminadas
+** [42/42] Terminadas
 *** DONE Refactoring de modelos
 DEADLINE: <2013-08-23 Fri>
 *** DONE Mover al servidor el read de backbone.io
@@ -1135,8 +1135,11 @@ DEADLINE: <2013-08-23 Fri>
 DEADLINE: <2013-08-23 Fri>
 *** FIXED Backbone Model->get no busca en DB
 DEADLINE: <2013-08-23 Fri>
-**** Lo resuelve fetch related
-DEADLINE: <2013-08-23 Fri>
+**** FIXED Lo resuelve fetch related
+CLOSED: [2014-01-07 Tue 13:01] DEADLINE: <2013-08-23 Fri>
+:LOGBOOK:
+- State "FIXED"      from ""           [2014-01-07 Tue 13:01]
+:END:
 *** FIXED Backbone.io save->create
 DEADLINE: <2013-08-23 Fri>
 **** DONE Probar qué pasa mandando CREATE de un elemento que ya está en la DB
@@ -1220,34 +1223,49 @@ DEADLINE: <2013-08-23 Fri>
 DEADLINE: <2013-08-23 Fri>
 *** DONE POV: anular la animación en el Unbind
 DEADLINE: <2013-08-23 Fri>
-* <2013-08-23 Fri> [5/5]
-** [2/2] Alejo
+* <2013-08-23 Fri> [10/10]
+** [4/4] Alejo
 *** DONE + Widget de clima
 DEADLINE: <2013-08-23 Fri>
-**** Estuvo evaluando los scripts de Demo de webfx
-DEADLINE: <2013-08-23 Fri>
-**** Dificultad: todavía no pudo hacer andar los que tienen shaders / webgl / opengl
-DEADLINE: <2013-08-23 Fri>
+**** WONTFIX Estuvo evaluando los scripts de Demo de webfx
+CLOSED: [2014-01-07 Tue 13:00] DEADLINE: <2013-08-23 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from ""           [2014-01-07 Tue 13:00]
+:END:
+**** WONTFIX Dificultad: todavía no pudo hacer andar los que tienen shaders / webgl / opengl
+CLOSED: [2014-01-07 Tue 13:00] DEADLINE: <2013-08-23 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from ""           [2014-01-07 Tue 13:00]
+:END:
 **** DONE buscar un widget ya existente y hacerlo andar via webfx, sino buscar API de clima y hacer renderizado básico
 DEADLINE: <2013-08-23 Fri>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-27 Fri 15:48]
      :END:
-** [1/1] Mariana
+** [2/2] Mariana
 *** DONE + Presupuesto sistema inaes
 DEADLINE: <2013-08-23 Fri>
-**** Cuando vea lo que subio niv podrá decir si está terminado o si hay más para agregar
-DEADLINE: <2013-08-23 Fri>
-** [1/1] Pato
+**** WONTFIX Cuando vea lo que subio niv podrá decir si está terminado o si hay más para agregar
+CLOSED: [2014-01-07 Tue 13:00] DEADLINE: <2013-08-23 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from ""           [2014-01-07 Tue 13:00]
+:END:
+** [2/2] Pato
 *** DONE + Dominio COOP
 DEADLINE: <2013-08-23 Fri>
-**** Enviado email con copia digital de la matrícula
-DEADLINE: <2013-08-23 Fri>
-** [1/1] Ruth
+**** DONE Enviado email con copia digital de la matrícula
+CLOSED: [2014-01-07 Tue 12:59] DEADLINE: <2013-08-23 Fri>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:59]
+:END:
+** [2/2] Ruth
 *** DONE + Presupuesto
 DEADLINE: <2013-08-23 Fri>
-**** Necesita ayuda para acceder a private
-DEADLINE: <2013-08-23 Fri>
+**** WONTFIX Necesita ayuda para acceder a private
+CLOSED: [2014-01-07 Tue 12:58] DEADLINE: <2013-08-23 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from ""           [2014-01-07 Tue 12:58]
+:END:
 * <2013-08-21 Wed> [4/4]
 ** [1/1] Agus
 *** DONE Subir CPD a private
@@ -1273,7 +1291,7 @@ DEADLINE: <2013-08-16 Fri>
 ** [1/1] Ruth
 *** WONTFIX soporte agus
 DEADLINE: <2013-08-16 Fri>
-* <2013-08-14 Wed> [13/13]
+* <2013-08-14 Wed> [21/21]
 ** [1/1] Adri
 *** WONTFIX demo
 DEADLINE: <2013-08-14 Wed>
@@ -1351,37 +1369,60 @@ DEADLINE: <2013-08-14 Wed>
 Por lo que lei, en ffmpeg no hace falta hacer nada para codificar con vp9.
 Lo que hay que compilar es libvpx para que lo soporte.  En mi maquina lo
 tengo (gracias a ddennedy) pero no pude probarlo todavia.
-** [1/1] Niv (Temario)
-*** SCRUM : sanitización y futuro.
-DEADLINE: <2013-08-14 Wed>
-*** punto sobre sources y publicación.
-DEADLINE: <2013-08-14 Wed>
-*** brokenMOV: nuevos materiales y md5.
-DEADLINE: <2013-08-14 Wed>
-*** Pitch : decisión y planificación.
-DEADLINE: <2013-08-14 Wed>
+** [9/9] Niv (Temario)
+*** DONE SCRUM : sanitización y futuro.
+CLOSED: [2014-01-07 Tue 12:58] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:58]
+:END:
+*** DONE punto sobre sources y publicación.
+CLOSED: [2014-01-07 Tue 12:57] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:57]
+:END:
+*** DONE brokenMOV: nuevos materiales y md5.
+CLOSED: [2014-01-07 Tue 12:56] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:56]
+:END:
+*** DONE Pitch : decisión y planificación.
+CLOSED: [2014-01-07 Tue 12:56] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:56]
+:END:
 agus + josx
-*** Agosto: coop/cooperar ?
-DEADLINE: <2013-08-14 Wed>
-*** dias de presencia/horarios/equipos.
-DEADLINE: <2013-08-14 Wed>
+*** DONE Agosto: coop/cooperar ?
+CLOSED: [2014-01-07 Tue 12:55] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:55]
+:END:
+*** DONE dias de presencia/horarios/equipos.
+CLOSED: [2014-01-07 Tue 12:55] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:55]
+:END:
 ahora que somos mucho mas
-*** suma de gente: alejo, mariana, ruth, leo.
-DEADLINE: <2013-08-14 Wed>
+*** DONE suma de gente: alejo, mariana, ruth, leo.
+CLOSED: [2014-01-07 Tue 12:55] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+:END:
 **** DONE mail bienvenida alejo + leo + mariana + ruth
 DEADLINE: <2013-08-14 Wed>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-27 Fri 11:25]
      :END:
-*** punto financiero (ruth).
-DEADLINE: <2013-08-14 Wed>
+*** DONE punto financiero (ruth).
+CLOSED: [2014-01-07 Tue 12:54] DEADLINE: <2013-08-14 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:54]
+:END:
 ** [1/1] Pato
 *** DONE (jmr) melted posixshm
 DEADLINE: <2013-08-14 Wed>
 Todavía no probé hacer que melted escriba su salida a
 memoria compartida para leer desde varias fuentes. Hay que hacer pruebas con
 video FullHD ya que parece que mi máquina no se lo banca.
-* <2013-08-07 Wed> [10/10]
+* <2013-08-07 Wed> [12/12]
 ** [1/1] Adri
 *** DONE migracion a VLC
 DEADLINE: <2013-08-07 Wed>
@@ -1398,14 +1439,19 @@ DEADLINE: <2013-08-07 Wed>
 DEADLINE: <2013-08-07 Wed>
 *** DONE CSS cuadro
 DEADLINE: <2013-08-07 Wed>
-** [2/2] Pato
-*** Streamer melt:
-DEADLINE: <2013-08-07 Wed>
+** [4/4] Pato
+*** DONE Streamer melt:
+CLOSED: [2014-01-07 Tue 12:53] DEADLINE: <2013-08-07 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:53]
+:END:
 **** DONE pruebas con jmr
 DEADLINE: <2013-08-07 Wed>
 
-*** PlayoutView:
-DEADLINE: <2013-08-07 Wed>
+*** DONE [1/1] PlayoutView:
+CLOSED: [2014-01-07 Tue 12:54] DEADLINE: <2013-08-07 Wed>
+:LOGBOOK:
+:END:
 **** DONE Agregar al comportamiento de drag and drop un método de "push down".
 DEADLINE: <2013-08-07 Wed>
 ** [2/2] Ruth
@@ -1466,7 +1512,7 @@ que melted no se caiga nunca! :)
 
 *** DONE melted + mosto se caen
 DEADLINE: <2013-07-31 Wed>
-* <2013-07-24 Wed> [3/3]
+* <2013-07-24 Wed> [5/5]
 ** [1/1] Adri
 *** DONE Estabilidad
 DEADLINE: <2013-07-24 Wed>
@@ -1478,9 +1524,12 @@ de memoria no creciente.
 DEADLINE: <2013-07-24 Wed>
 mandamos, confirmaron recepción, y sugirieron unos cambios en el plan de
 comercialización que ya aplicamos. vuelto a mandar.
-** [1/1] Pato
-*** Streamer melt:
-DEADLINE: <2013-07-24 Wed>
+** [3/3] Pato
+*** DONE Streamer melt:
+CLOSED: [2014-01-07 Tue 12:53] DEADLINE: <2013-07-24 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:53]
+:END:
 **** DONE Avances:
 DEADLINE: <2013-07-24 Wed>
 estuve haciendo muchas pruebas para ordenar lo más posible la
@@ -1492,8 +1541,11 @@ Por otra parte mejoré un poco las rutinas de cierre de procesos ya que la
 presencia de semáforos y locks hacen que los threads queden bloqueados y el
 proceso melt quede esperando su cierre indefinidamente.
 
-*** Misc:
-DEADLINE: <2013-07-24 Wed>
+*** DONE Misc:
+CLOSED: [2014-01-07 Tue 12:53] DEADLINE: <2013-07-24 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:53]
+:END:
  ~ Ayer estuve surfeando la ciudad en busca de talonarios de facturas,
  impresiones, fotocopias y una vasta artillería burocrático/administrativa
  que dio como resultado un papel firmado por Noelia (ya disponible en la
@@ -1528,7 +1580,7 @@ CLOSED: [2013-08-12 Mon 05:00]
 * Backlog
 ** DONE paginación                                                     :sip:
    CLOSED: [2013-08-12 Mon 05:01]
-* <2013-04-10 Fri> [15/15] status report
+* <2013-04-10 Fri> [18/18] status report
 ** [1/1] Cristian
 *** DONE migrar tests a semaphores
 DEADLINE: <2013-04-10 Wed>
@@ -1565,20 +1617,29 @@ DEADLINE: <2013-04-10 Wed>
 ** [1/1] Josx
 *** DONE conf: back to default
 DEADLINE: <2013-04-10 Wed>
-** [0/0] Niv (Temario)
-*** nombre de la cooperativa
-DEADLINE: <2013-04-10 Wed>
+** [3/3] Niv (Temario)
+*** DONE nombre de la cooperativa
+CLOSED: [2014-01-07 Tue 12:53] DEADLINE: <2013-04-10 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:53]
+:END:
 - OpCode[.coop?] gana por goleada
 - Habría que poner algo más relacionado con A/V?
 
-*** direccion en capital federal
-DEADLINE: <2013-04-10 Wed>
+*** DONE direccion en capital federal
+CLOSED: [2014-01-07 Tue 12:53] DEADLINE: <2013-04-10 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:53]
+:END:
 - diego tiene dirección en la casa de los padres
 - tomás no confía en la estabilidad de su domicilio
 - pato no está en la misma situación que diego
 
-*** cargos:
-DEADLINE: <2013-04-10 Wed>
+*** DONE cargos:
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-10 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:52]
+:END:
 [
   'Presidente',
   'Tesorero',
@@ -1618,7 +1679,7 @@ notificacion superpuestos
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
-* <2013-04-22 Mon> [24/24]
+* <2013-04-22 Mon> [28/28]
 ** [3/3] Adri
 *** DONE (almost DONE): port editview to kb #90. Podría hacerse mucho
 DEADLINE: <2013-04-22 Mon>
@@ -1682,17 +1743,29 @@ DEADLINE: <2013-04-22 Mon>
 DEADLINE: <2013-04-22 Mon>
 *** DONE seguir probando mbc-playout y armar la demo
 DEADLINE: <2013-04-22 Mon>
-** [0/0] Niv (Temario)
-*** avance compra de material
-DEADLINE: <2013-04-22 Mon>
+** [4/4] Niv (Temario)
+*** WONTFIX avance compra de material
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-22 Mon>
+:LOGBOOK:
+- State "WONTFIX"    from ""           [2014-01-07 Tue 12:52]
+:END:
 llamadas telefonicas
-*** avance mosto
-DEADLINE: <2013-04-22 Mon>
+*** DONE avance mosto
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-22 Mon>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:52]
+:END:
 anda en el branch de fabricio
-*** lineas de trabajo caspa
-DEADLINE: <2013-04-22 Mon>
-*** preparacion de la reunion de trabajo presencial del miercoles.
-DEADLINE: <2013-04-22 Mon>
+*** DONE lineas de trabajo caspa
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-22 Mon>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:52]
+:END:
+*** DONE preparacion de la reunion de trabajo presencial del miercoles.
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-22 Mon>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:52]
+:END:
 ** [4/4] Tom
 *** DONE tests fallan porque cosas no mueren
 DEADLINE: <2013-04-22 Mon>
@@ -1734,7 +1807,7 @@ DEADLINE: <2013-04-17 Wed>
 DEADLINE: <2013-04-17 Wed>
 *** WONTFIX +travis not failing
 DEADLINE: <2013-04-17 Wed>
-* <2013-04-15 Mon> [23/23]
+* <2013-04-15 Mon> [25/25]
 ** [3/3] Adri
 *** WONTFIX ++bug 'guardar o no los cambios'
 DEADLINE: <2013-04-15 Mon>
@@ -1753,14 +1826,20 @@ DEADLINE: <2013-04-15 Mon>
 DEADLINE: <2013-04-15 Mon>
 *** WONTFIX [#B] getStatus, getPlaylist (driver MVCP): JSON -> Obj Mosto
 DEADLINE: <2013-04-15 Mon>
-** [4/4] Cristian
+** [6/6] Cristian
 *** WONTFIX +test test test <-                                    :jmrunge:
 DEADLINE: <2013-04-15 Mon>
 <2013-04-10 Wed> started
-**** +test core, mocha
-DEADLINE: <2013-04-15 Mon>
-**** lista de tests
-DEADLINE: <2013-04-15 Mon>
+**** WONTFIX +test core, mocha
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-15 Mon>
+:LOGBOOK:
+- State "WONTFIX"    from ""           [2014-01-07 Tue 12:52]
+:END:
+**** WONTFIX lista de tests
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-15 Mon>
+:LOGBOOK:
+- State "WONTFIX"    from ""           [2014-01-07 Tue 12:52]
+:END:
 *** WONTFIX +2 tests
 DEADLINE: <2013-04-15 Mon>
 
@@ -1867,7 +1946,7 @@ DEADLINE: <2013-04-12 Fri>
 DEADLINE: <2013-04-12 Fri>
 **** DONE <2013-04-10 Wed> falta definir lo que sube
 DEADLINE: <2013-04-12 Fri>
-* <2013-04-10 Wed> [10/10]
+* <2013-04-10 Wed> [11/11]
 ** [1/1] Cristian
 *** DONE +Eliminar directorios absolutos a mosto.
 DEADLINE: <2013-04-10 Wed>
@@ -1895,7 +1974,7 @@ DEADLINE: <2013-04-10 Wed>
 DEADLINE: <2013-04-10 Wed>
 *** DONE queue for drivers.
 DEADLINE: <2013-04-10 Wed>
-** [3/3] Tom
+** [4/4] Tom
 *** WONTFIX driver redis
 DEADLINE: <2013-04-10 Wed>
  Empecé a escribir el driver de pub/sub para redis en mbc-common. La
@@ -1908,8 +1987,11 @@ DEADLINE: <2013-04-10 Wed>
 
 *** DONE +driver mubsub: pull playlist
 DEADLINE: <2013-04-10 Wed>
-**** <2013-04-08 Mon> Empecé con los arreglos que hablamos en la mailing list
-DEADLINE: <2013-04-10 Wed>
+**** DONE <2013-04-08 Mon> Empecé con los arreglos que hablamos en la mailing list
+CLOSED: [2014-01-07 Tue 12:52] DEADLINE: <2013-04-10 Wed>
+:LOGBOOK:
+- State "DONE"       from ""           [2014-01-07 Tue 12:52]
+:END:
 al driver de playlists de mongodb: permitirle a mosto pollear las playlists
 que necesita
 *** DONE driver pub-sub
