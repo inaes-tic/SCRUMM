@@ -25,47 +25,68 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
               (org-deadline nil time)))))))
 #+end_src
 
-* <2014-01-06 Mon> [4/9]
-** [1/1] Adri
+* <2014-01-13 Mon> [0/3]
+** [0/3] Mariana
+*** [0/3] Animate MinCyT Map
+**** TODO Tech research
+**** TODO Script
+**** TODO Animate
+* <2014-01-06 Mon> [7/11]
+** [2/4] Adri
 *** DONE Navigators animation
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-03 Fri 11:34]
     :END:
 *** DONE Playlist: add click on double click
 *** TODO Ayuda a Josx en "ConfView to Knockout"
-*** TODO Stateful views review
+*** STARTED Stateful views review
     SCHEDULED: <2014-01-03 Fri>
-** [1/2] Josx
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-01-06 Mon 10:22]
+    :END:
+** [2/2] Josx
 *** DONE IO Backends to Etiquette
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-03 Fri 11:36]
     :END:
-*** TODO ConfView to Knockout
+*** DONE ConfView to Knockout
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-01-06 Mon 10:29]
+    :END:
 ** [1/3] Leo
 *** [1/3] Etiquette Fixes
 **** TODO Use uploaded images (#7)
-**** TODO Weather widget localization (#16)
+**** STARTED Weather widget localization (#16)
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-01-06 Mon 10:34]
+     :END:
 **** DONE Do not lose content on resize (#20)
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-03 Fri 11:33]
      :END:
-** [0/1] Mariana
-*** TODO Terminar Mapa MinCyT (again)
-* <2013-12-30 Mon> [1/4]
-** [1/2] Mariana
+** [2/2] Mariana
+*** DONE Terminar Mapa MinCyT (again)
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-01-06 Mon 10:29]
+    :END:
+*** DONE Llevar factura a Cooperar
+* <2013-12-30 Mon> [2/4]
+** [2/2] Mariana
 *** DONE Hablar con Ana Paula de Cooperar
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-23 Mon 13:39]
     :END:
-*** STARTED Arreglar reunión con Conadis primera semana de enero
+*** DONE Arreglar reunión con Conadis primera semana de enero
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-01-06 Mon 17:46]
     - State "STARTED"    from "TODO"       [2013-12-30 Mon 11:34]
     :END:
 **** Esperando respuesta
+**** Agendado para la primera semana de Febrero
 ** [0/2] Pato
 *** TODO Filmstrip en POV: show on load
 *** TODO Conseguir presupuestos sitio OpCode
-* <2013-12-16 Mon> [7/8]
+* <2013-12-16 Mon> [6/7]
 ** [1/1] Adri
 *** DONE Caspa: navigator-like view switching
     :LOGBOOK:
@@ -91,8 +112,8 @@ Se encarga Mariana, alejo hace logos y escenas
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-03 Fri 11:50]
     :END:
-** [3/3] Mariana
-*** DONE Tramites cooperar
+** [2/2] Mariana
+*** [2/2] Tramites cooperar
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
     :END:
@@ -226,9 +247,12 @@ Primera etapa OK, pasa a Alejo
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-25 Mon 15:36]
     :END:
-* <2013-11-15 Fri> [1/2]
-** [0/1] Josx
-*** STARTED Tags y Transforms en Caspa
+* <2013-11-15 Fri> [4/4]
+** [3/3] Josx
+*** [3/3] Tags in Caspa
+**** DONE Backend for Tagging
+**** DONE Backend for Search by Tags
+**** DONE Search by Tags with VisualSearch (Frontend)
 ** [1/1] Tom
 *** DONE mosto bug not passing travis
     :LOGBOOK:
@@ -372,8 +396,8 @@ Heredado de la semana pasada porque Mala no pudo juntarse entonces.
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:11]
     :END:
-* <2013-10-25 Fri> [24/28]
-** [5/7] Adri
+* <2013-10-25 Fri> [26/27]
+** [6/6] Adri
 *** DONE Tetra stabilization
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-11-06 Wed 11:01]
@@ -385,7 +409,7 @@ Está más estable, pero tiene más latencia
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-11-06 Wed 10:59]
      :END:
-*** TODO Install Tetra in HP for Demo
+*** [3/3] Install Tetra in HP for Demo
 **** DONE Cammeras disconnection in HP
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-11-06 Wed 11:01]
@@ -394,7 +418,10 @@ Está más estable, pero tiene más latencia
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-11-06 Wed 11:01]
      :END:
-**** TODO Document for other cases
+**** DONE Document for other cases
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-06 Mon 10:21]
+     :END:
 ** [2/2] Alejo
 *** DONE Resumen pago diseñadores
     :LOGBOOK:
@@ -412,8 +439,11 @@ Está más estable, pero tiene más latencia
     - State "STARTED"    from "TODO"       [2013-11-06 Wed 12:01]
     :END:
 Seems stable, waiting for more 24h results
-** [4/5] Josx
-*** TODO Release WebFX stand-alone
+** [5/5] Josx
+*** WONTFIX Release WebFX stand-alone
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2014-01-06 Mon 10:58]
+    :END:
 Falta el video, corregir los mensajes, el readme, el sitio de demo.
 *** DONE +++ Integrate WebFX UI into Caspa
     :LOGBOOK:
@@ -1232,13 +1262,16 @@ notificacion superpuestos
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2013-04-05 Fri 14:19]
 :END:
-* <2013-04-22 Mon> [23/24]
-** [2/3] Adri
+* <2013-04-22 Mon> [24/24]
+** [3/3] Adri
 *** DONE (almost DONE): port editview to kb #90. Podría hacerse mucho
 CLOSED: [2013-08-12 Mon 05:03]
 mas knockout-toso pero me queda algo despelotado el código.
 
-*** STARTED save continuo + undo (afecta #76 y #110). Qué funciona por
+*** WONTFIX save continuo + undo (afecta #76 y #110). Qué funciona por
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2014-01-06 Mon 10:19]
+    :END:
 ahora: creo una playlist nueva, se persiste y aparece en todos los
 browser abiertos (esto es: agrego medias, cuando pongo un nombre
 distinto del default se graba). No funciona aún: los cambios
@@ -1406,7 +1439,7 @@ CLOSED: [2013-08-12 Mon 05:06]
 ** [1/1] Tom
 *** DONE publishing de mosto->caspa: errores
 * <2013-04-12 Fri> [21/21]
-** [0/0] Adri
+** [1/1] Adri
 *** DONE i18n-abide bug                                            :hatsch:
 ** [3/3] Cristian
 *** WONTFIX integracion continua: jenkins o otro.
@@ -1419,7 +1452,7 @@ CLOSED: [2013-04-12 Fri 14:53]
 ** [1/1] Fabricio
 *** DONE bug melted-node
 <2013-04-12 Fri> not started
-** [8/8] Josx
+** [7/7] Josx
 CLOSED: [2013-04-12 Fri 14:19]
 en-US BCP47 (HTML5)
 -> follow up con hatsch
