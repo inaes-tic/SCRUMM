@@ -29,3 +29,14 @@
             (if (and (< 2 (org-current-level))
                      (not (org-get-deadline-time (point))))
                 (org-deadline nil time))))))))
+
+
+;;   If you would like a TODO entry to automatically change to DONE when
+;;   all children are done, you can use the following setup:
+
+     (defun org-summary-todo (n-done n-not-done)
+       "Switch entry to DONE when all subentries are done, to TODO otherwise."
+       (let (org-log-done org-log-states)   ; turn off logging
+         (org-todo (if (= n-not-done 0) "DONE" "TODO"))))
+
+     (add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
