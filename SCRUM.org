@@ -5,25 +5,6 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-#+begin_src lisp
-(defun org-re-timestamp &optional ignore () 
-"\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\(?: +[^]+0-9>
- -]+\)?\(?: +[0-9]\{1,2\}:[0-9]\{2\}\)?\)")
-
-(defun opc:deadlinize ()
-  (interactive)
-  (save-excursion
-    (unless (= 1 (org-current-level))
-      (search-backward-regexp "^* " nil t))
-    (beginning-of-line)
-    (re-search-forward (org-re-timestamp 'all) nil t)
-    (let ((time (match-string 1)))
-      (org-map-tree
-       '(lambda ()
-          (if (and (< 2 (org-current-level))
-                   (not (org-get-deadline-time (point))))
-              (org-deadline nil time)))))))
-#+end_src
 
 * <2014-01-13 Mon> [0/3]
 ** [0/3] Mariana
