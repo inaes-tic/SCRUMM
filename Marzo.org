@@ -7,7 +7,7 @@
 #+PROJECT_TIME: 60d
 
 * Total 
-** [3/6] Ingesta
+** [3/5] Ingesta
 *** DONE Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
 CLOSED: [2013-12-27 Fri 12:01]
 :LOGBOOK:
@@ -50,9 +50,9 @@ CLOSED: [2013-12-27 Fri 12:02]
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-** [4/37] Caspa
-*** [/] Tests
-*** [/] MultiUser
+** [6/37] Caspa
+*** [0/0] Tests
+*** [0/0] MultiUser
 *** [0/1] system wide
 **** TODO transforms
 widget con popup
@@ -113,7 +113,7 @@ verificar que mosto interprete IN OUT
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-*** [0/6] EditPlaylist
+*** [1/7] EditPlaylist
 **** STARTED Tags (UI, Backend)
 :PROPERTIES:
 :ESTIMATED: 1d
@@ -126,7 +126,7 @@ verificar que mosto interprete IN OUT
 :PROPERTIES:
 :ESTIMATED: 4h
 :END:
-**** TODO doble click agrega
+**** DONE doble click agrega
 :PROPERTIES:
 :ESTIMATED: 4h
 :END:
@@ -203,9 +203,8 @@ link a playout view
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-
-*** [1/5] Config
-**** [1/4] Widgets para config
+*** [2/5] Config
+**** [2/4] Widgets para config
 (tipos ahora solo soporta texto)
 ***** DONE switch (on/off)
 :PROPERTIES:
@@ -219,7 +218,7 @@ link a playout view
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-***** TODO spin button (Up/Down ?)
+***** DONE spin button (Up/Down ?)
 :PROPERTIES:
 :ESTIMATED: 4h
 :END:
@@ -242,7 +241,7 @@ link a playout view
 :END:
 *** TODO Issues
 ** [0/6] Playout
-*** [0/3] Sysadmin
+*** [0/5] Sysadmin
 **** [0/2] servidor de instalacion.
 :PROPERTIES:
 :ESTIMATED: 1d
@@ -266,20 +265,20 @@ link a playout view
 :PROPERTIES:
 :ESTIMATED: 3d
 :END:
-** [4/10] WebFX
+** [5/10] WebFX
 *** TODO Server
 **** STARTED Automatization (driver en mosto)
 ***** levantar transforms & sketchs
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-*** [4/9] Editor
+*** [5/9] Editor
 Focalizar en logo, hora y tiempo
 **** TODO no contraer header
 :PROPERTIES:
 :ESTIMATED: 4h
 :END:
-***** TODO  TODO Botón de contraccion queda asociado a edit
+***** TODO Botón de contraccion queda asociado a edit
 **** DONE Volver a cargar objetos luego de resize
 :PROPERTIES:
 :ESTIMATED: 1d
@@ -297,7 +296,7 @@ CLOSED: [2013-12-27 Fri 12:11]
 :ESTIMATED: 1d
 :END:
 Mosto messages
-**** TODO Animación/loop de imaganes desde carpeta
+**** [2/2] Animación/loop de imaganes desde carpeta
 :PROPERTIES:
 :ESTIMATED: 2d
 :END:
@@ -306,7 +305,7 @@ CLOSED: [2013-12-27 Fri 12:10]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:10]
 :END:
-***** TODO animar a config.fps (fps global del playout)
+***** DONE animar a config.fps (fps global del playout)
 **** DONE Infraestrucutra para widgets, hooks como kludget
 CLOSED: [2013-12-27 Fri 12:12]
 :LOGBOOK:
@@ -315,6 +314,7 @@ CLOSED: [2013-12-27 Fri 12:12]
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
+**** TODO Reutilizar medios ya subidos
 ** [0/0] Otros
 Cosas que seguro no vamos hacer: Vivo, Tetra hasta marzo
 A todo esto hay que agregar Mosto, Webvfx, server/test/deploy/blackmagic
