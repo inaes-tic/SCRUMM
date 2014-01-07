@@ -31,14 +31,17 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 **** TODO Tech research
 **** TODO Script
 **** TODO Animate
-* <2014-01-06 Mon> [7/11]
-** [2/4] Adri
+* <2014-01-06 Mon> [8/11]
+** [3/4] Adri
 *** DONE Navigators animation
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-03 Fri 11:34]
     :END:
 *** DONE Playlist: add click on double click
-*** TODO Ayuda a Josx en "ConfView to Knockout"
+*** DONE Ayuda a Josx en "ConfView to Knockout"
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-01-07 Tue 09:37]
+    :END:
 *** STARTED Stateful views review
     SCHEDULED: <2014-01-03 Fri>
     :LOGBOOK:
