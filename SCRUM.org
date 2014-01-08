@@ -227,14 +227,14 @@ DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
-* <2013-12-02 Mon> [12/18]
-** [3/3] Adri
+* <2013-12-02 Mon> [12/21]
+** [3/5] Adri
 *** DONE Filmstrip from Ingestor
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 10:53]
     :END:
-*** [2/2] App: stateful views
+*** [2/4] App: stateful views
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-23 Mon 13:25]
@@ -247,6 +247,14 @@ DEADLINE: <2013-12-02 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-23 Mon 13:25]
      :END:
+**** STARTED models jump to other collections
+:LOGBOOK:
+- State "TODO"       from ""           [2014-01-07 Tue 13:16]
+:END:
+**** STARTED fetch releated issue.
+:LOGBOOK:
+- State "STARTED"    from ""           [2014-01-07 Tue 13:17]
+:END:
 ** [1/1] Alejo
 *** DONE Metadata editor purposes
 DEADLINE: <2013-12-02 Mon>
@@ -1613,7 +1621,7 @@ CLOSED: [2014-01-07 Tue 12:53] DEADLINE: <2013-07-24 Wed>
  carpeta de la coop.) que certifica haber recibido todos los convenios y
  facturas. Me dijo que hoy le entrega todo a Nahum para que lo firme así que
  quedamos a merced de ese intercambio.
-* <2013-05-13 Mon> todo: tests funcionales
+* <2013-05-13 Mon> tests funcionales
 ** DONE +terminar los tests de mosto
 CLOSED: [2013-08-12 Mon 05:00]
 <2013-05-10 Fri> not started
