@@ -6,7 +6,21 @@
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 
-* <2014-01-13 Mon> [2/5]
+* <2014-01-13 Mon> [3/8]
+** [1/1] Adri
+*** DONE Rebase Patero
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-01-10 Fri 10:20]
+    :END:
+** [1/2] Josx
+*** DONE Moving maxage to common
+*** STARTED Adding List widget
+    :LOGBOOK:
+    - State "STARTED"    from ""           [2014-01-08 Wed 16:31]
+    :END:
+** [0/2] JMR
+*** STARTED Media from images
+*** STARTED Media from stream
 ** [1/3] Mariana
 *** [1/3] Animate MinCyT Map
 DEADLINE: <2014-01-13 Mon>
@@ -19,13 +33,7 @@ DEADLINE: <2014-01-13 Mon>
 DEADLINE: <2014-01-13 Mon>
 **** TODO Animate
 DEADLINE: <2014-01-13 Mon>
-** [1/2] Josx
-*** DONE Moving maxage to common
-*** STARTED Adding List widget
-    :LOGBOOK:
-    - State "STARTED"    from ""           [2014-01-08 Wed 16:31]
-    :END:
-* <2014-01-06 Mon> [9/11]
+* <2014-01-06 Mon> [9/12]
 ** [4/4] Adri
 *** DONE Navigators animation
 DEADLINE: <2014-01-06 Mon>
@@ -56,8 +64,8 @@ DEADLINE: <2014-01-06 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-06 Mon 10:29]
     :END:
-** [1/3] Leo
-*** [1/3] Etiquette Fixes
+** [1/4] Leo
+*** [1/4] Etiquette Fixes
 DEADLINE: <2014-01-06 Mon>
 **** TODO Use uploaded images (#7)
 DEADLINE: <2014-01-06 Mon>
@@ -79,7 +87,7 @@ DEADLINE: <2014-01-06 Mon>
     - State "DONE"       from "TODO"       [2014-01-06 Mon 10:29]
     :END:
 *** DONE Llevar factura a Cooperar
-DEADLINE: <2014-01-06 Mon>
+    DEADLINE: <2014-01-06 Mon>
 * <2013-12-30 Mon> [2/4]
 ** [2/2] Mariana
 *** DONE Hablar con Ana Paula de Cooperar
