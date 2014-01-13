@@ -6,16 +6,17 @@
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 
-* <2014-01-13 Mon> [3/8]
+* <2014-01-13 Mon> [4/8]
 ** [1/1] Adri
 *** DONE Rebase Patero
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-10 Fri 10:20]
     :END:
-** [1/2] Josx
+** [2/2] Josx
 *** DONE Moving maxage to common
-*** STARTED Adding List widget
+*** DONE Adding List widget
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-01-13 Mon 11:27]
     - State "STARTED"    from ""           [2014-01-08 Wed 16:31]
     :END:
 ** [0/2] JMR
@@ -33,7 +34,7 @@ DEADLINE: <2014-01-13 Mon>
 DEADLINE: <2014-01-13 Mon>
 **** TODO Animate
 DEADLINE: <2014-01-13 Mon>
-* <2014-01-06 Mon> [9/12]
+* <2014-01-06 Mon> [10/12]
 ** [4/4] Adri
 *** DONE Navigators animation
 DEADLINE: <2014-01-06 Mon>
@@ -64,14 +65,15 @@ DEADLINE: <2014-01-06 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-06 Mon 10:29]
     :END:
-** [1/4] Leo
-*** [1/4] Etiquette Fixes
+** [2/4] Leo
+*** [2/4] Etiquette Fixes
 DEADLINE: <2014-01-06 Mon>
 **** TODO Use uploaded images (#7)
 DEADLINE: <2014-01-06 Mon>
-**** STARTED Weather widget localization (#16)
+**** DONE Weather widget localization (#16)
 DEADLINE: <2014-01-06 Mon>
      :LOGBOOK:
+     - State "DONE"       from "STARTED"    [2014-01-13 Mon 11:30]
      - State "STARTED"    from "TODO"       [2014-01-06 Mon 10:34]
      :END:
 **** DONE Do not lose content on resize (#20)
