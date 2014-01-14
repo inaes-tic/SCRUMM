@@ -6,6 +6,15 @@
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 
+* <2014-01-20 Mon> [0/4]
+** [0/1] Adri
+*** TODO Generic Redis+Mongo transport layer
+** [0/1] Josx
+*** TODO Etiquette scheduling to backbone.io
+** [0/2] Pato
+*** [0/2] Contabilidad
+**** TODO Pagar Diciembre
+**** TODO Actualizar cuentas
 * <2014-01-13 Mon> [4/8]
 ** [1/1] Adri
 *** DONE Rebase Patero
