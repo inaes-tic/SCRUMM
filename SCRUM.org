@@ -6,14 +6,25 @@
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 
-* <2014-01-20 Mon> [0/4]
+* <2014-01-20 Mon> [1/5]
 ** [0/1] Adri
-*** TODO Generic Redis+Mongo transport layer
+*** STARTED Generic Redis+Mongo transport layer
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:22]
+    :END:
+**** Needs to fix server side
 ** [0/1] Josx
-*** TODO Etiquette scheduling to backbone.io
-** [0/2] Pato
-*** [0/2] Contabilidad
-**** TODO Pagar Diciembre
+*** STARTED Etiquette scheduling to backbone.io
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:33]
+    :END:
+** [1/3] Pato
+*** [1/2] Contabilidad
+**** DONE Pagar Diciembre
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-15 Wed 10:20]
+     :END:
+**** TODO Recalcular enero (paternidad JMR)
 **** TODO Actualizar cuentas
 * <2014-01-13 Mon> [4/8]
 ** [1/1] Adri
@@ -43,7 +54,7 @@ DEADLINE: <2014-01-13 Mon>
 DEADLINE: <2014-01-13 Mon>
 **** TODO Animate
 DEADLINE: <2014-01-13 Mon>
-* <2014-01-06 Mon> [10/12]
+* <2014-01-06 Mon> [11/12]
 ** [4/4] Adri
 *** DONE Navigators animation
 DEADLINE: <2014-01-06 Mon>
@@ -74,11 +85,14 @@ DEADLINE: <2014-01-06 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-06 Mon 10:29]
     :END:
-** [2/4] Leo
-*** [2/4] Etiquette Fixes
+** [3/4] Leo
+*** [3/4] Etiquette Fixes
 DEADLINE: <2014-01-06 Mon>
-**** TODO Use uploaded images (#7)
+**** STARTED Use uploaded images (#7)
 DEADLINE: <2014-01-06 Mon>
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2014-01-15 Wed 10:34]
+:END:
 **** DONE Weather widget localization (#16)
 DEADLINE: <2014-01-06 Mon>
      :LOGBOOK:
@@ -90,7 +104,10 @@ DEADLINE: <2014-01-06 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-03 Fri 11:33]
      :END:
-**** TODO Use Config.Mosto.fps for animations
+**** DONE Use Config.Mosto.fps for animations
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-15 Wed 10:37]
+     :END:
 ** [2/2] Mariana
 *** DONE Terminar Mapa MinCyT (again)
 DEADLINE: <2014-01-06 Mon>
