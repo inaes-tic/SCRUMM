@@ -54,7 +54,7 @@ DEADLINE: <2014-01-13 Mon>
 DEADLINE: <2014-01-13 Mon>
 **** TODO Animate
 DEADLINE: <2014-01-13 Mon>
-* <2014-01-06 Mon> [11/12]
+* <2014-01-06 Mon> [12/12]
 ** [4/4] Adri
 *** DONE Navigators animation
 DEADLINE: <2014-01-06 Mon>
@@ -85,12 +85,13 @@ DEADLINE: <2014-01-06 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-06 Mon 10:29]
     :END:
-** [3/4] Leo
-*** [3/4] Etiquette Fixes
+** [4/4] Leo
+*** [4/4] Etiquette Fixes
 DEADLINE: <2014-01-06 Mon>
-**** STARTED Use uploaded images (#7)
+**** DONE Use uploaded images (#7)
 DEADLINE: <2014-01-06 Mon>
 :LOGBOOK:
+- State "DONE"       from "STARTED"    [2014-01-16 Thu 19:55]
 - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:34]
 :END:
 **** DONE Weather widget localization (#16)
