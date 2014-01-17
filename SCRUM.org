@@ -6,25 +6,34 @@
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
 
-* <2014-01-20 Mon> [1/5]
-** [0/1] Adri
-*** STARTED Generic Redis+Mongo transport layer
-    :LOGBOOK:
-    - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:22]
-    :END:
-**** Needs to fix server side
+* <2014-01-20 Mon> [4/7]
+** [2/3] Adri
+*** [2/3] Generic Redis+Mongo transport layer
+**** DONE Implement
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:22]
+     - State "DONE"       from "STARTED"       [2014-01-17 Fri 10:13]
+     :END:
+**** DONE Needs to fix server side
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-17 Fri 10:16]
+     :END:
+**** TODO Merge
 ** [0/1] Josx
 *** STARTED Etiquette scheduling to backbone.io
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:33]
     :END:
-** [1/3] Pato
-*** [1/2] Contabilidad
+** [2/3] Pato
+*** [2/3] Contabilidad
 **** DONE Pagar Diciembre
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-15 Wed 10:20]
      :END:
-**** TODO Recalcular enero (paternidad JMR)
+**** DONE Recalcular enero (paternidad JMR)
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-17 Fri 12:29]
+     :END:
 **** TODO Actualizar cuentas
 * <2014-01-13 Mon> [4/8]
 ** [1/1] Adri
@@ -202,8 +211,11 @@ DEADLINE: <2013-12-09 Mon>
     - State "STARTED"    from "TODO"       [2013-12-09 Mon 10:26]
     :END:
 ** [0/1] Leo
-*** TODO Investigar Edicion In/Out (ver NovaCut)
+*** STARTED Investigar Edicion In/Out (ver NovaCut)
 DEADLINE: <2013-12-09 Mon>
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2014-01-17 Fri 12:34]
+:END:
 ** [2/2] Niv
 *** DONE Auth
 DEADLINE: <2013-12-09 Mon>
