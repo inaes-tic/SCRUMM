@@ -5,8 +5,14 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-
-* <2014-01-20 Mon> [4/7]
+* <2014-01-27 Mon>
+** [0/1] Josx
+*** TODO VisualSearch adjustments
+** [0/1] Mariana
+*** TODO Presupuesto MAM
+** [0/1] Pato
+*** TODO Refactoring POV
+* <2014-01-20 Mon> [6/9]
 ** [2/3] Adri
 *** [2/3] Generic Redis+Mongo transport layer
 **** DONE Implement
@@ -18,9 +24,11 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-17 Fri 10:16]
      :END:
+**** STARTED Refactoring
 **** TODO Merge
-** [0/1] Josx
-*** STARTED Etiquette scheduling to backbone.io
+** [2/2] Josx
+*** DONE Etiquette scheduling to backbone.io
+**** DONE Dynamic filter refactoring with backbone.io and knockout
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:33]
     :END:
@@ -544,8 +552,8 @@ DEADLINE: <2013-11-01 Fri>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-11-11 Mon 11:11]
     :END:
-* <2013-10-25 Fri> [27/28]
-** [6/6] Adri
+* <2013-10-25 Fri> [28/29]
+** [7/7] Adri
 *** DONE Tetra stabilization
 DEADLINE: <2013-10-25 Fri>
     :LOGBOOK:
@@ -666,7 +674,7 @@ DEADLINE: <2013-10-25 Fri>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-11-18 Mon 12:00]
      :END:
-** [4/4] Tom
+** [4/5] Tom
 *** STARTED [4/4] ++++ Mosto messages to Caspa
 DEADLINE: <2013-10-25 Fri>
     :LOGBOOK:
