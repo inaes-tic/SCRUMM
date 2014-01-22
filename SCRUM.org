@@ -5,16 +5,31 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-01-27 Mon>
+* <2014-01-30 Thu> [0/1]
 ** [0/1] Josx
 *** TODO VisualSearch adjustments
+* <2014-01-27 Mon> [1/8]
+** [1/2] Adri
+*** [1/2] Patero upgrades
+**** DONE Improve communication with Caspa
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-22 Wed 12:28]
+     :END:
+**** TODO Include JMR new media sources
+** [0/4] Josx
+*** [0/3] MBC-Etiquette upgrades
+**** TODO Unify models (server and editor)
+**** TODO Serve filter from server as a view
+**** TODO Move scheduling to the filter code
+** [0/1] Leo
+*** TODO Refactor video editor with backbone and knockout
 ** [0/1] Mariana
 *** TODO Presupuesto MAM
 ** [0/1] Pato
-*** TODO Refactoring POV
-* <2014-01-20 Mon> [6/9]
-** [2/3] Adri
-*** [2/3] Generic Redis+Mongo transport layer
+*** TODO Refactoring D3Timeline
+* <2014-01-20 Mon> [7/9]
+** [3/4] Adri
+*** [3/4] Generic Redis+Mongo transport layer
 **** DONE Implement
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:22]
@@ -24,7 +39,10 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-17 Fri 10:16]
      :END:
-**** STARTED Refactoring
+**** DONE Refactoring
+     :LOGBOOK:
+     - State "DONE"       from "STARTED"    [2014-01-22 Wed 11:55]
+     :END:
 **** TODO Merge
 ** [2/2] Josx
 *** DONE Etiquette scheduling to backbone.io
