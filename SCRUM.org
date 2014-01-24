@@ -8,21 +8,41 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 * <2014-01-30 Thu> [0/1]
 ** [0/1] Josx
 *** TODO VisualSearch adjustments
-* <2014-01-27 Mon> [1/8]
-** [1/2] Adri
-*** [1/2] Patero upgrades
+* <2014-01-27 Mon> [3/12]
+** [2/3] Adri
+*** [2/3] Patero upgrades
 **** DONE Improve communication with Caspa
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-22 Wed 12:28]
      :END:
-**** TODO Include JMR new media sources
-** [0/4] Josx
+**** DONE Include JMR new media sources
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-24 Fri 10:50]
+     :END:
+**** TODO Merge
+** [0/3] Josx
 *** [0/3] MBC-Etiquette upgrades
-**** TODO Unify models (server and editor)
-**** TODO Serve filter from server as a view
+**** STARTED Unify models (server and editor)
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
+     :END:
+**** STARTED Serve filter from server as a view
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
+     :END:
 **** TODO Move scheduling to the filter code
-** [0/1] Leo
-*** TODO Refactor video editor with backbone and knockout
+** [1/4] Leo
+*** [1/4] Refactor video editor with backbone and knockout
+**** DONE Migration to Knockout
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-24 Fri 12:18]
+     :END:
+**** STARTED Update Tests
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:26]
+     :END:
+**** TODO Add Keybindings
+**** TODO Create repository (inaes-tic)
 ** [0/1] Mariana
 *** TODO Presupuesto MAM
 ** [0/1] Pato
