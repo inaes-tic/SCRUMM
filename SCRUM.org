@@ -56,7 +56,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     :END:
 ** [0/1] Pato
 *** TODO Refactoring D3Timeline
-* <2014-01-20 Mon> [7/9]
+* <2014-01-20 Mon> [8/9]
 ** [3/4] Adri
 *** [3/4] Generic Redis+Mongo transport layer
 **** DONE Implement
@@ -79,8 +79,8 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:33]
     :END:
-** [2/3] Pato
-*** [2/3] Contabilidad
+** [3/3] Pato
+*** [3/3] Contabilidad
 **** DONE Pagar Diciembre
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-15 Wed 10:20]
@@ -89,7 +89,10 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-17 Fri 12:29]
      :END:
-**** TODO Actualizar cuentas
+**** DONE Actualizar cuentas
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-27 lun 11:08]
+     :END:
 * <2014-01-13 Mon> [4/8]
 ** [1/1] Adri
 *** DONE Rebase Patero
