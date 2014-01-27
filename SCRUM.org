@@ -5,10 +5,14 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-01-30 Thu> [0/1]
+* <2014-01-31 vie> [0/3]
+** [0/2] Adri
+*** TODO Patero testing
+*** [0/1] Extras, maybe
+**** TODO GTK config editor for patero
 ** [0/1] Josx
 *** TODO VisualSearch adjustments
-* <2014-01-27 Mon> [3/12]
+* <2014-01-27 Mon> [4/12]
 ** [2/3] Adri
 *** [2/3] Patero upgrades
 **** DONE Improve communication with Caspa
@@ -22,12 +26,14 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 **** TODO Merge
 ** [0/3] Josx
 *** [0/3] MBC-Etiquette upgrades
-**** STARTED Unify models (server and editor)
+**** REVIEWING Unify models (server and editor)
      :LOGBOOK:
+     - State "REVIEWING"  from "STARTED"    [2014-01-27 lun 10:04]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
-**** STARTED Serve filter from server as a view
+**** REVIEWING Serve filter from server as a view
      :LOGBOOK:
+     - State "REVIEWING"  from "STARTED"    [2014-01-27 lun 10:04]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
 **** TODO Move scheduling to the filter code
@@ -43,8 +49,11 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :END:
 **** TODO Add Keybindings
 **** TODO Create repository (inaes-tic)
-** [0/1] Mariana
-*** TODO Presupuesto MAM
+** [1/1] Mariana
+*** DONE Presupuesto MAM
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-01-27 lun 10:22]
+    :END:
 ** [0/1] Pato
 *** TODO Refactoring D3Timeline
 * <2014-01-20 Mon> [7/9]
@@ -273,14 +282,14 @@ DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
-* <2013-12-02 Mon> [12/21]
-** [3/5] Adri
+* <2013-12-02 Mon> [13/21]
+** [4/5] Adri
 *** DONE Filmstrip from Ingestor
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 10:53]
     :END:
-*** [2/4] App: stateful views
+*** [3/4] App: stateful views
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-23 Mon 13:25]
@@ -293,8 +302,9 @@ DEADLINE: <2013-12-02 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-23 Mon 13:25]
      :END:
-**** STARTED models jump to other collections
+**** DONE models jump to other collections
 :LOGBOOK:
+- State "DONE"       from "STARTED"    [2014-01-27 lun 10:55]
 - State "TODO"       from ""           [2014-01-07 Tue 13:16]
 :END:
 **** STARTED fetch releated issue.
