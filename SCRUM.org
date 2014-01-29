@@ -5,14 +5,25 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-01-31 vie> [0/3]
-** [0/2] Adri
-*** TODO Patero testing
-*** [0/1] Extras, maybe
+* <2014-02-03 lun> [0/4]
+** [0/3] Adri
+*** STARTED Patero testing
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-01-29 mié 10:58]
+    :END:
+*** [0/2] Extras, maybe
 **** TODO GTK config editor for patero
+**** STARTED DAL: redis/mongo mapper to Python objects
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-01-29 mié 11:43]
+     :END:
 ** [0/1] Josx
-*** TODO VisualSearch adjustments
-* <2014-01-27 Mon> [4/12]
+*** STARTED VisualSearch adjustments
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-01-29 mié 11:44]
+    :END:
+Writing code over VisualSearch because it doesn't support the behavior we need.
+* <2014-01-27 Mon> [6/13]
 ** [2/3] Adri
 *** [2/3] Patero upgrades
 **** DONE Improve communication with Caspa
@@ -24,26 +35,35 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      - State "DONE"       from "TODO"       [2014-01-24 Fri 10:50]
      :END:
 **** TODO Merge
-** [0/3] Josx
-*** [0/3] MBC-Etiquette upgrades
-**** REVIEWING Unify models (server and editor)
+** [2/3] Josx
+*** [2/3] MBC-Etiquette upgrades
+**** DONE Unify models (server and editor)
      :LOGBOOK:
+     - State "DONE"       from "REVIEWING"  [2014-01-29 mié 11:36]
      - State "REVIEWING"  from "STARTED"    [2014-01-27 lun 10:04]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
-**** REVIEWING Serve filter from server as a view
+**** DONE Serve filter from server as a view
      :LOGBOOK:
+     - State "DONE"       from "REVIEWING"  [2014-01-29 mié 11:36]
      - State "REVIEWING"  from "STARTED"    [2014-01-27 lun 10:04]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
 **** TODO Move scheduling to the filter code
-** [1/4] Leo
-*** [1/4] Refactor video editor with backbone and knockout
+** [1/5] Leo
+*** [1/5] Refactor video editor with backbone and knockout
 **** DONE Migration to Knockout
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-24 Fri 12:18]
      :END:
-**** STARTED Update Tests
+**** [0/2] Update Tests
+***** STARTED Research test engines
+      :LOGBOOK:
+      - State "STARTED"    from "TODO"       [2014-01-29 mié 11:32]
+      :END:
+Checked and liked Selenium, making tests.
+Pending: check compatibility with travis.
+***** STARTED Rewrite tests
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:26]
      :END:
