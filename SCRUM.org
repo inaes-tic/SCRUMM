@@ -23,7 +23,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     - State "STARTED"    from "TODO"       [2014-01-29 mié 11:44]
     :END:
 Writing code over VisualSearch because it doesn't support the behavior we need.
-* <2014-01-27 Mon> [6/13]
+* <2014-01-27 Mon> [8/13]
 ** [2/3] Adri
 *** [2/3] Patero upgrades
 **** DONE Improve communication with Caspa
@@ -50,21 +50,23 @@ Writing code over VisualSearch because it doesn't support the behavior we need.
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
 **** TODO Move scheduling to the filter code
-** [1/5] Leo
-*** [1/5] Refactor video editor with backbone and knockout
+** [3/5] Leo
+*** [3/5] Refactor video editor with backbone and knockout
 **** DONE Migration to Knockout
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-24 Fri 12:18]
      :END:
-**** [0/2] Update Tests
-***** STARTED Research test engines
+**** [2/2] Update Tests
+***** DONE Research test engines
       :LOGBOOK:
+      - State "DONE"       from "STARTED"    [2014-01-31 vie 10:50]
       - State "STARTED"    from "TODO"       [2014-01-29 mié 11:32]
       :END:
 Checked and liked Selenium, making tests.
 Pending: check compatibility with travis.
-***** STARTED Rewrite tests
+***** DONE Rewrite tests
      :LOGBOOK:
+     - State "DONE"       from "STARTED"    [2014-01-31 vie 10:50]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:26]
      :END:
 **** TODO Add Keybindings
@@ -113,7 +115,7 @@ Pending: check compatibility with travis.
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-27 lun 11:08]
      :END:
-* <2014-01-13 Mon> [4/8]
+* <2014-01-13 Mon> [5/8]
 ** [1/1] Adri
 *** DONE Rebase Patero
     :LOGBOOK:
@@ -129,18 +131,24 @@ Pending: check compatibility with travis.
 ** [0/2] JMR
 *** STARTED Media from images
 *** STARTED Media from stream
-** [1/3] Mariana
-*** [1/3] Animate MinCyT Map
+** [2/3] Mariana
+*** [2/3] Animate MinCyT Map
 DEADLINE: <2014-01-13 Mon>
 **** DONE Tech research
 DEADLINE: <2014-01-13 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2014-01-08 Wed 16:37]
 :END:
-**** TODO Script
+**** DONE Script
 DEADLINE: <2014-01-13 Mon>
-**** TODO Animate
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2014-01-31 vie 10:56]
+:END:
+**** STARTED Animate
 DEADLINE: <2014-01-13 Mon>
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2014-01-31 vie 10:55]
+:END:
 * <2014-01-06 Mon> [12/12]
 ** [4/4] Adri
 *** DONE Navigators animation
@@ -528,7 +536,7 @@ DEADLINE: <2013-11-08 Fri>
     - State "DONE"       from "STARTED"    [2013-11-25 Mon 16:51]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:11]
     :END:
-* <2013-11-01 Fri> [16/18]
+* <2013-11-01 Fri> [17/19]
 ** [2/2] Alejo
 *** [2/2] Tests de Caspa
 DEADLINE: <2013-11-01 Fri>
@@ -578,9 +586,14 @@ DEADLINE: <2013-11-01 Fri>
 DEADLINE: <2013-11-01 Fri>
 **** DONE Logos en el repo design-artwork
 DEADLINE: <2013-11-01 Fri>
-** [0/2] Mariana
-*** TODO Caspa UI for Mosto Messages
+** [1/3] Mariana
+*** [1/2] Caspa UI for Mosto Messages
 DEADLINE: <2013-11-01 Fri>
+**** DONE Design
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-01-31 vie 10:56]
+     :END:
+**** TODO Implement
 *** TODO PlayoutView Rendering
 DEADLINE: <2013-11-01 Fri>
 ** [6/6] Ruth
