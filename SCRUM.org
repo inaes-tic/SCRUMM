@@ -278,6 +278,7 @@ DEADLINE: <2014-01-06 Mon>
      - State "DONE"       from "TODO"       [2014-01-03 Fri 11:33]
      :END:
 **** DONE Use Config.Mosto.fps for animations
+DEADLINE: <2014-01-06 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-15 Wed 10:37]
      :END:
@@ -418,11 +419,13 @@ DEADLINE: <2013-12-02 Mon>
      - State "DONE"       from "TODO"       [2013-12-23 Mon 13:25]
      :END:
 **** DONE models jump to other collections
+DEADLINE: <2013-12-02 Mon>
 :LOGBOOK:
 - State "DONE"       from "STARTED"    [2014-01-27 lun 10:55]
 - State "TODO"       from ""           [2014-01-07 Tue 13:16]
 :END:
 **** STARTED fetch releated issue.
+DEADLINE: <2013-12-02 Mon>
 :LOGBOOK:
 - State "STARTED"    from ""           [2014-01-07 Tue 13:17]
 :END:
