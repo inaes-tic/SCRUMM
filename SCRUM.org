@@ -5,59 +5,102 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-02-03 lun> [0/4]
-** [0/3] Adri
-*** STARTED Patero testing
+* <2014-02-05 Wed> [/]
+** Adri
+*** STARTED Patero: test funcional global
+*** TODO create with id
+
+** Leo
+*** STARTED tests
+**** DONE tests interfaz editor
+**** DONE tests unitarios de modelo
+**** DONE tests en travis (unitarios)
+**** STARTED tests en travis (funcional)
+problema con el driver de chrome
+**** STARTED codigo en node y en el navegador
+*** TODO migracion a menor precision en currentTime
+*** TODO implementar diseño de mosto message en caspa
+** Mariana
+*** TODO cerrar logo
+* <2014-02-03 lun> [1/5]
+:LOGBOOK:
+- State "TODO"       from "TODO"       [2014-02-03 Mon 11:02]
+:END:
+** TODO [1/3] Adri
+:LOGBOOK:
+:END:
+*** DONE Patero testing
+CLOSED: [2014-02-03 Mon 11:02]
+
+DEADLINE: <2014-02-03 Mon>
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-01-29 mié 10:58]
     :END:
 *** [0/2] Extras, maybe
 **** TODO GTK config editor for patero
+DEADLINE: <2014-02-03 Mon>
 **** STARTED DAL: redis/mongo mapper to Python objects
+DEADLINE: <2014-02-03 Mon>
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-01-29 mié 11:43]
      :END:
 ** [0/1] Josx
 *** STARTED VisualSearch adjustments
+DEADLINE: <2014-02-03 Mon>
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-01-29 mié 11:44]
     :END:
 Writing code over VisualSearch because it doesn't support the behavior we need.
-* <2014-01-27 Mon> [8/13]
+* <2014-01-27 Mon> [9/15]
+:LOGBOOK:
+- State "TODO"       from "TODO"       [2014-02-03 Mon 11:04]
+:END:
 ** [2/3] Adri
 *** [2/3] Patero upgrades
 **** DONE Improve communication with Caspa
+DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-22 Wed 12:28]
      :END:
 **** DONE Include JMR new media sources
+DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-24 Fri 10:50]
      :END:
 **** TODO Merge
+DEADLINE: <2014-01-27 Mon>
 ** [2/3] Josx
 *** [2/3] MBC-Etiquette upgrades
 **** DONE Unify models (server and editor)
+DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "REVIEWING"  [2014-01-29 mié 11:36]
      - State "REVIEWING"  from "STARTED"    [2014-01-27 lun 10:04]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
 **** DONE Serve filter from server as a view
+DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "REVIEWING"  [2014-01-29 mié 11:36]
      - State "REVIEWING"  from "STARTED"    [2014-01-27 lun 10:04]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
 **** TODO Move scheduling to the filter code
-** [3/5] Leo
-*** [3/5] Refactor video editor with backbone and knockout
+DEADLINE: <2014-01-27 Mon>
+** TODO [4/6] Leo
+:LOGBOOK:
+:END:
+*** TODO [4/5] Refactor video editor with backbone and knockout
+:LOGBOOK:
+:END:
 **** DONE Migration to Knockout
+DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-24 Fri 12:18]
      :END:
 **** [2/2] Update Tests
 ***** DONE Research test engines
+DEADLINE: <2014-01-27 Mon>
       :LOGBOOK:
       - State "DONE"       from "STARTED"    [2014-01-31 vie 10:50]
       - State "STARTED"    from "TODO"       [2014-01-29 mié 11:32]
@@ -65,72 +108,106 @@ Writing code over VisualSearch because it doesn't support the behavior we need.
 Checked and liked Selenium, making tests.
 Pending: check compatibility with travis.
 ***** DONE Rewrite tests
+DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "STARTED"    [2014-01-31 vie 10:50]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:26]
      :END:
 **** TODO Add Keybindings
-**** TODO Create repository (inaes-tic)
+DEADLINE: <2014-01-27 Mon>
+**** DONE Create repository (inaes-tic)
+CLOSED: [2014-02-03 Mon 11:04] DEADLINE: <2014-01-27 Mon>
+:LOGBOOK:
+:END:
 ** [1/1] Mariana
 *** DONE Presupuesto MAM
+DEADLINE: <2014-01-27 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-27 lun 10:22]
     :END:
 ** [0/1] Pato
 *** TODO Refactoring D3Timeline
-* <2014-01-20 Mon> [8/9]
-** [3/4] Adri
-*** [3/4] Generic Redis+Mongo transport layer
+DEADLINE: <2014-01-27 Mon>
+**** DONE KnockOut/KnockBack
+**** TODO llegar diseño anterior
+**** TODO sistemas de coordenadas
+
+* DONE <2014-01-20 Mon> [11/11]
+:LOGBOOK:
+- State "DONE"       from "DONE"       [2014-02-03 Mon 11:15]
+:END:
+** DONE [5/5] Adri
+:LOGBOOK:
+:END:
+*** DONE [4/4] Generic Redis+Mongo transport layer
+:LOGBOOK:
+:END:
 **** DONE Implement
+DEADLINE: <2014-01-20 Mon>
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:22]
      - State "DONE"       from "STARTED"       [2014-01-17 Fri 10:13]
      :END:
 **** DONE Needs to fix server side
+DEADLINE: <2014-01-20 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-17 Fri 10:16]
      :END:
 **** DONE Refactoring
+DEADLINE: <2014-01-20 Mon>
      :LOGBOOK:
      - State "DONE"       from "STARTED"    [2014-01-22 Wed 11:55]
      :END:
-**** TODO Merge
+**** DONE Merge
+CLOSED: [2014-02-03 Mon 11:15] DEADLINE: <2014-01-20 Mon>
+:LOGBOOK:
+:END:
 ** [2/2] Josx
 *** DONE Etiquette scheduling to backbone.io
+DEADLINE: <2014-01-20 Mon>
 **** DONE Dynamic filter refactoring with backbone.io and knockout
+DEADLINE: <2014-01-20 Mon>
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-01-15 Wed 10:33]
     :END:
 ** [3/3] Pato
 *** [3/3] Contabilidad
 **** DONE Pagar Diciembre
+DEADLINE: <2014-01-20 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-15 Wed 10:20]
      :END:
 **** DONE Recalcular enero (paternidad JMR)
+DEADLINE: <2014-01-20 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-17 Fri 12:29]
      :END:
 **** DONE Actualizar cuentas
+DEADLINE: <2014-01-20 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-27 lun 11:08]
      :END:
 * <2014-01-13 Mon> [5/8]
 ** [1/1] Adri
 *** DONE Rebase Patero
+DEADLINE: <2014-01-13 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-01-10 Fri 10:20]
     :END:
 ** [2/2] Josx
 *** DONE Moving maxage to common
+DEADLINE: <2014-01-13 Mon>
 *** DONE Adding List widget
+DEADLINE: <2014-01-13 Mon>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2014-01-13 Mon 11:27]
     - State "STARTED"    from ""           [2014-01-08 Wed 16:31]
     :END:
 ** [0/2] JMR
 *** STARTED Media from images
+DEADLINE: <2014-01-13 Mon>
 *** STARTED Media from stream
+DEADLINE: <2014-01-13 Mon>
 ** [2/3] Mariana
 *** [2/3] Animate MinCyT Map
 DEADLINE: <2014-01-13 Mon>
@@ -234,7 +311,6 @@ DEADLINE: <2013-12-30 Mon>
 DEADLINE: <2013-12-30 Mon>
 *** TODO Conseguir presupuestos sitio OpCode
 DEADLINE: <2013-12-30 Mon>
-* <2013-12-23 Mon> [0/0]
 * <2013-12-16 Mon> [6/7]
 ** [1/1] Adri
 *** DONE Caspa: navigator-like view switching
@@ -282,7 +358,10 @@ DEADLINE: <2013-12-16 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
      :END:
-* <2013-12-09 Mon> [4/5]
+* DONE <2013-12-09 Mon> [6/6]
+:LOGBOOK:
+- State "DONE"       from "DONE"       [2014-02-03 Mon 11:09]
+:END:
 ** [1/1] JMR
 *** DONE travis conf to 0.10 0.12
 DEADLINE: <2013-12-09 Mon>
@@ -296,9 +375,11 @@ DEADLINE: <2013-12-09 Mon>
     - State "DONE"       from "STARTED"    [2013-12-30 Mon 14:10]
     - State "STARTED"    from "TODO"       [2013-12-09 Mon 10:26]
     :END:
-** [0/1] Leo
-*** STARTED Investigar Edicion In/Out (ver NovaCut)
-DEADLINE: <2013-12-09 Mon>
+** DONE [1/1] Leo
+:LOGBOOK:
+:END:
+*** WONTFIX Investigar Edicion In/Out (ver NovaCut)
+CLOSED: [2014-02-03 Mon 11:09] DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "STARTED"    from "TODO"       [2014-01-17 Fri 12:34]
 :END:
@@ -313,7 +394,10 @@ DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
-* <2013-12-02 Mon> [13/21]
+* TODO <2013-12-02 Mon> [14/22]
+:LOGBOOK:
+- State "TODO"       from "TODO"       [2014-02-03 Mon 11:30]
+:END:
 ** [4/5] Adri
 *** DONE Filmstrip from Ingestor
 DEADLINE: <2013-12-02 Mon>
@@ -381,7 +465,9 @@ DEADLINE: <2013-12-02 Mon>
 DEADLINE: <2013-12-02 Mon>
 **** DONE Subir zip con PNG's y generar el png con todos los frames
 DEADLINE: <2013-12-02 Mon>
-** [1/3] Mariana
+** TODO [2/3] Mariana
+:LOGBOOK:
+:END:
 *** DONE Mapa de malbec
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
@@ -389,8 +475,8 @@ DEADLINE: <2013-12-02 Mon>
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:08]
     :END:
 Primera etapa OK, pasa a Alejo
-*** STARTED Estilos del ingestor
-DEADLINE: <2013-12-02 Mon>
+*** DONE Estilos del ingestor
+CLOSED: [2014-02-03 Mon 11:30] DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:10]
     :END:
@@ -536,7 +622,10 @@ DEADLINE: <2013-11-08 Fri>
     - State "DONE"       from "STARTED"    [2013-11-25 Mon 16:51]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:11]
     :END:
-* <2013-11-01 Fri> [17/19]
+* TODO <2013-11-01 Fri> [19/21]
+:LOGBOOK:
+- State "TODO"       from "TODO"       [2014-02-03 Mon 11:30]
+:END:
 ** [2/2] Alejo
 *** [2/2] Tests de Caspa
 DEADLINE: <2013-11-01 Fri>
@@ -586,15 +675,23 @@ DEADLINE: <2013-11-01 Fri>
 DEADLINE: <2013-11-01 Fri>
 **** DONE Logos en el repo design-artwork
 DEADLINE: <2013-11-01 Fri>
-** [1/3] Mariana
-*** [1/2] Caspa UI for Mosto Messages
+** TODO [3/4] Mariana
+:LOGBOOK:
+:END:
+*** DONE [2/2] Caspa UI for Mosto Messages
 DEADLINE: <2013-11-01 Fri>
+:LOGBOOK:
+:END:
 **** DONE Design
+DEADLINE: <2013-11-01 Fri>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-31 vie 10:56]
      :END:
-**** TODO Implement
-*** TODO PlayoutView Rendering
+**** WONTFIX Implement
+CLOSED: [2014-02-03 Mon 11:30] DEADLINE: <2013-11-01 Fri>
+:LOGBOOK:
+:END:
+*** TODO PlayoutView Design
 DEADLINE: <2013-11-01 Fri>
 ** [6/6] Ruth
 *** WONTFIX Reestructuración de la Cooperativa
