@@ -27,6 +27,7 @@
         (org-map-tree
          '(lambda ()
             (if (and (< 2 (org-current-level))
+                     (org-get-todo-state)
                      (not (org-get-deadline-time (point))))
                 (org-deadline nil time))))))))
 
