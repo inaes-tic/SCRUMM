@@ -5,13 +5,12 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-02-05 Wed> [/]
-** Adri
+* <2014-02-05 Wed> [3/10]
+** [0/2] Adri
 *** STARTED Patero: test funcional global
 *** TODO create with id
-
-** Leo
-*** STARTED tests
+** [3/7] Leo
+*** [3/5] Video editor tests
 **** DONE tests interfaz editor
 **** DONE tests unitarios de modelo
 **** DONE tests en travis (unitarios)
@@ -20,13 +19,13 @@ problema con el driver de chrome
 **** STARTED codigo en node y en el navegador
 *** TODO migracion a menor precision en currentTime
 *** TODO implementar diseño de mosto message en caspa
-** Mariana
 *** TODO cerrar logo
-* <2014-02-03 lun> [1/5]
+** [0/1] Mariana
+* <2014-02-03 Mon> [1/5]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:02]
 :END:
-** TODO [1/3] Adri
+** [1/3] Adri
 :LOGBOOK:
 :END:
 *** DONE Patero testing
@@ -87,10 +86,10 @@ DEADLINE: <2014-01-27 Mon>
      :END:
 **** TODO Move scheduling to the filter code
 DEADLINE: <2014-01-27 Mon>
-** TODO [4/6] Leo
+** [4/6] Leo
 :LOGBOOK:
 :END:
-*** TODO [4/5] Refactor video editor with backbone and knockout
+*** [4/5] Refactor video editor with backbone and knockout
 :LOGBOOK:
 :END:
 **** DONE Migration to Knockout
@@ -132,7 +131,7 @@ DEADLINE: <2014-01-27 Mon>
 **** TODO llegar diseño anterior
 **** TODO sistemas de coordenadas
 
-* DONE <2014-01-20 Mon> [11/11]
+* <2014-01-20 Mon> [11/11]
 :LOGBOOK:
 - State "DONE"       from "DONE"       [2014-02-03 Mon 11:15]
 :END:
@@ -359,7 +358,7 @@ DEADLINE: <2013-12-16 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2013-12-20 Fri 10:37]
      :END:
-* DONE <2013-12-09 Mon> [6/6]
+* <2013-12-09 Mon> [6/6]
 :LOGBOOK:
 - State "DONE"       from "DONE"       [2014-02-03 Mon 11:09]
 :END:
@@ -395,7 +394,7 @@ DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
-* TODO <2013-12-02 Mon> [14/22]
+* <2013-12-02 Mon> [14/22]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:30]
 :END:
@@ -468,7 +467,7 @@ DEADLINE: <2013-12-02 Mon>
 DEADLINE: <2013-12-02 Mon>
 **** DONE Subir zip con PNG's y generar el png con todos los frames
 DEADLINE: <2013-12-02 Mon>
-** TODO [2/3] Mariana
+** [2/3] Mariana
 :LOGBOOK:
 :END:
 *** DONE Mapa de malbec
@@ -625,7 +624,7 @@ DEADLINE: <2013-11-08 Fri>
     - State "DONE"       from "STARTED"    [2013-11-25 Mon 16:51]
     - State "STARTED"    from "TODO"       [2013-11-11 Mon 11:11]
     :END:
-* TODO <2013-11-01 Fri> [19/21]
+* <2013-11-01 Fri> [19/21]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:30]
 :END:
@@ -678,7 +677,7 @@ DEADLINE: <2013-11-01 Fri>
 DEADLINE: <2013-11-01 Fri>
 **** DONE Logos en el repo design-artwork
 DEADLINE: <2013-11-01 Fri>
-** TODO [3/4] Mariana
+** [3/4] Mariana
 :LOGBOOK:
 :END:
 *** DONE [2/2] Caspa UI for Mosto Messages
