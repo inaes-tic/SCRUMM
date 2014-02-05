@@ -8,7 +8,10 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 * <2014-02-05 Wed> [3/10]
 ** [0/2] Adri
 *** STARTED Patero: test funcional global
-*** TODO create with id
+*** REVIEWING create with id
+    :LOGBOOK:
+    - State "REVIEWING"  from "TODO"       [2014-02-05 mié 15:23]
+    :END:
 ** [3/7] Leo
 *** [3/5] Video editor tests
 **** DONE tests interfaz editor
@@ -19,8 +22,9 @@ problema con el driver de chrome
 **** STARTED codigo en node y en el navegador
 *** TODO migracion a menor precision en currentTime
 *** TODO implementar diseño de mosto message en caspa
-*** TODO cerrar logo
 ** [0/1] Mariana
+*** [0/1] cerrar logo
+**** STARTED Animar texto desde XML en AS2.0 y 3.0
 * <2014-02-03 Mon> [1/5]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:02]
