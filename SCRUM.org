@@ -171,9 +171,10 @@ DEADLINE: <2014-01-27 Mon>
      - State "DONE"       from "STARTED"    [2014-01-31 vie 10:50]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:26]
      :END:
-**** STARTED Add Keybindings
+**** REVIEWING Add Keybindings
 DEADLINE: <2014-01-27 Mon>
 :LOGBOOK:
+- State "REVIEWING"  from "STARTED"    [2014-02-14 Fri 14:18]
 - State "STARTED"    from "TODO"       [2014-02-14 Fri 10:23]
 :END:
 **** DONE Create repository (inaes-tic)
