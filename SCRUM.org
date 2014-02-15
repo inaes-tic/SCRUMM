@@ -109,7 +109,7 @@ DEADLINE: <2014-02-03 Mon>
     - State "STARTED"    from "TODO"       [2014-01-29 mié 11:44]
     :END:
 Writing code over VisualSearch because it doesn't support the behavior we need.
-* <2014-01-27 Mon> [10/16]
+* <2014-01-27 Mon> [11/16]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:04]
 :END:
@@ -145,10 +145,10 @@ DEADLINE: <2014-01-27 Mon>
      :END:
 **** TODO Move scheduling to the filter code
 DEADLINE: <2014-01-27 Mon>
-** [4/5] Leo
+** [5/5] Leo
 :LOGBOOK:
 :END:
-*** [4/5] Refactor video editor with backbone and knockout
+*** [5/5] Refactor video editor with backbone and knockout
 :LOGBOOK:
 :END:
 **** DONE Migration to Knockout
@@ -171,9 +171,10 @@ DEADLINE: <2014-01-27 Mon>
      - State "DONE"       from "STARTED"    [2014-01-31 vie 10:50]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:26]
      :END:
-**** REVIEWING Add Keybindings
+**** DONE Add Keybindings
 DEADLINE: <2014-01-27 Mon>
 :LOGBOOK:
+- State "DONE"       from "REVIEWING"  [2014-02-14 Fri 22:53]
 - State "REVIEWING"  from "STARTED"    [2014-02-14 Fri 14:18]
 - State "STARTED"    from "TODO"       [2014-02-14 Fri 10:23]
 :END:
