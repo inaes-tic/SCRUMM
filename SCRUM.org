@@ -5,6 +5,31 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
+* <2014-02-24 Mon> [1/14]
+** [0/2] Adri
+*** TODO IfNotEtcd: NDN / Redis for distributed config
+*** [0/1] iobackends to Mosto
+**** TODO reimplement Mosto messages to Caspa
+** [0/1] Josx
+*** [0/1] SearchBox adjustments
+**** TODO Check typeahead
+** [1/11] Mariana
+*** [1/11] Trámites administrativos
+**** DONE Cambiar clave fiscal AFIP
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-02-17 Mon 16:43]
+     :END:
+**** TODO Facturar Febrero a Cooperar
+**** TODO Cambiar domicilio fiscal
+**** TODO Solicitar talonario de facturas nuevas
+**** TODO Facturar Marzo a Cooperar
+**** TODO Armar bibliorato de gastos y egresos
+**** TODO Fotocopia de monotributos al día
+**** [0/2] Libros rubricados
+***** TODO Actualizar libro de registro de asambleas
+***** TODO Actualizar libro de asociados
+**** TODO Adhesión de asociados a OPCODE en la AFIP
+**** TODO Presentar nota de exención de IIBB
 * <2014-02-17 Mon> [2/7]
 ** [2/4] Adri
 *** [2/3] Webkit wrapper
@@ -81,7 +106,7 @@ problema con el driver de chrome
 ** [0/1] Mariana
 *** [0/1] Playout logo
 **** STARTED Animate text from XML in AS 2.0 and 3.0
-* <2014-02-03 Mon> [3/4]
+* <2014-02-03 Mon> [3/3]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:02]
 :END:
@@ -102,10 +127,11 @@ DEADLINE: <2014-02-03 Mon>
      - State "DONE"       from "STARTED"    [2014-02-10 Mon 11:47]
      - State "STARTED"    from "TODO"       [2014-01-29 mié 11:43]
      :END:
-** [0/1] Josx
-*** STARTED VisualSearch adjustments
+** [1/1] Josx
+*** WONTFIX VisualSearch adjustments
 DEADLINE: <2014-02-03 Mon>
     :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2014-02-17 Mon 11:31]
     - State "STARTED"    from "TODO"       [2014-01-29 mié 11:44]
     :END:
 Writing code over VisualSearch because it doesn't support the behavior we need.
