@@ -5,32 +5,64 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-02-24 Mon> [1/14]
-** [0/2] Adri
-*** TODO IfNotEtcd: NDN / Redis for distributed config
+* <2014-03-03 Mon> [0/5]
+** [0/1] Leo
+*** TODO D3Timeline
+** [0/2] Josx
+*** TODO Widgets: Path Selector
+*** TODO Widgets: Object
+** [0/2] JMR
+*** TODO Schedule Sketchs
+*** TODO Rview iobackends to mosto
+* <2014-02-24 Mon> [6/16]
+** [1/2] Adri
+*** WONTFIX IfNotEtcd: NDN / Redis for distributed config
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2014-02-24 lun 11:11]
+    :END:
 *** [0/1] iobackends to Mosto
-**** TODO reimplement Mosto messages to Caspa
-** [0/1] Josx
-*** [0/1] SearchBox adjustments
-**** TODO Check typeahead
-** [1/11] Mariana
-*** [1/11] Trámites administrativos
+**** STARTED reimplement Mosto messages to Caspa
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-02-24 lun 11:11]
+     :END:
+** [2/3] Josx
+*** [2/3] SearchBox adjustments
+**** DONE Check typeahead
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-02-24 lun 11:08]
+     :END:
+**** DONE upgrade to jquery 1.9
+**** TODO prefetch webscokets PR
+** [3/11] Mariana
+*** [3/11] Trámites administrativos
 **** DONE Cambiar clave fiscal AFIP
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-17 Mon 16:43]
      :END:
-**** TODO Facturar Febrero a Cooperar
-**** TODO Cambiar domicilio fiscal
-**** TODO Solicitar talonario de facturas nuevas
+**** DONE Facturar Febrero a Cooperar
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-02-24 lun 11:12]
+     :END:
+**** DONE Cambiar domicilio fiscal
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-02-24 lun 11:12]
+     :END:
+**** STARTED Solicitar talonario de facturas nuevas
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-02-24 lun 11:12]
+     :END:
 **** TODO Facturar Marzo a Cooperar
 **** TODO Armar bibliorato de gastos y egresos
-**** TODO Fotocopia de monotributos al día
+**** STARTED Fotocopia de monotributos al día
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-02-24 lun 11:12]
+     :END:
 **** [0/2] Libros rubricados
 ***** TODO Actualizar libro de registro de asambleas
 ***** TODO Actualizar libro de asociados
 **** TODO Adhesión de asociados a OPCODE en la AFIP
 **** TODO Presentar nota de exención de IIBB
-* <2014-02-17 Mon> [2/7]
+* <2014-02-17 Mon> [3/7]
 ** [2/4] Adri
 *** [2/3] Webkit wrapper
 **** DONE Generic wrapper
@@ -42,20 +74,27 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      - State "DONE"       from "STARTED"    [2014-02-14 Fri 10:11]
      - State "STARTED"    from "TODO"       [2014-02-12 Wed 13:55]
      :END:
-**** STARTED Wrapped webkit config editor for patero
+**** TODO Wrapped webkit config editor for patero
 DEADLINE: <2014-02-03 Mon>
 :LOGBOOK:
+- State "TODO"       from "STARTED"    [2014-02-24 lun 11:05]
 - State "STARTED"    from "TODO"       [2014-02-14 Fri 12:13]
 :END:
 *** STARTED Check etcd for distributed config
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-02-12 Wed 13:55]
     :END:
-** [0/3] Leo
-*** TODO Video editor tests liability
+** [1/3] Leo
+*** DONE Video editor tests liability
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-02-24 lun 11:04]
+    :END:
 *** [0/2] Background tasks
 **** TODO Evaluate docker (testing, playout paralelization, etc)
-**** TODO Etiquette tests
+**** STARTED Etiquette tests
+     :LOGBOOK:
+     - State "STARTED"    from "TODO"       [2014-02-24 lun 11:04]
+     :END:
 * <2014-02-13 Thu> [1/1]
 ** [1/1] Mariana
 *** DONE Nab Show 2014 Form
