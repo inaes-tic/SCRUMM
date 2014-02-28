@@ -5,16 +5,21 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-03 Mon> [0/5]
+* <2014-03-03 Mon> [0/4]
 ** [0/1] Leo
-*** TODO D3Timeline
+*** STARTED D3Timeline
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-02-28 vie 10:33]
+    :END:
 ** [0/2] Josx
 *** TODO Widgets: Path Selector
 *** TODO Widgets: Object
-** [0/2] JMR
-*** TODO Schedule Sketchs
-*** TODO Rview iobackends to mosto
-* <2014-02-24 Mon> [6/16]
+** [0/1] JMR
+*** STARTED Schedule Sketchs
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-02-28 vie 10:41]
+    :END:
+* <2014-02-24 Mon> [7/17]
 ** [1/2] Adri
 *** WONTFIX IfNotEtcd: NDN / Redis for distributed config
     :LOGBOOK:
@@ -25,14 +30,18 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:11]
      :END:
-** [2/3] Josx
-*** [2/3] SearchBox adjustments
+** [3/4] Josx
+*** [3/4] SearchBox adjustments
 **** DONE Check typeahead
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-24 lun 11:08]
      :END:
 **** DONE upgrade to jquery 1.9
-**** TODO prefetch webscokets PR
+**** DONE prefetch webscokets PR
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-02-28 vie 10:43]
+     :END:
+**** TODO add typeahead to caspa
 ** [3/11] Mariana
 *** [3/11] Trámites administrativos
 **** DONE Cambiar clave fiscal AFIP
@@ -62,8 +71,8 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ***** TODO Actualizar libro de asociados
 **** TODO Adhesión de asociados a OPCODE en la AFIP
 **** TODO Presentar nota de exención de IIBB
-* <2014-02-17 Mon> [3/7]
-** [2/4] Adri
+* <2014-02-17 Mon> [5/8]
+** [3/5] Adri
 *** [2/3] Webkit wrapper
 **** DONE Generic wrapper
      :LOGBOOK:
@@ -80,17 +89,22 @@ DEADLINE: <2014-02-03 Mon>
 - State "TODO"       from "STARTED"    [2014-02-24 lun 11:05]
 - State "STARTED"    from "TODO"       [2014-02-14 Fri 12:13]
 :END:
-*** STARTED Check etcd for distributed config
+*** DONE Check etcd for distributed config
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-02-28 vie 10:47]
     - State "STARTED"    from "TODO"       [2014-02-12 Wed 13:55]
     :END:
-** [1/3] Leo
+*** STARTED Move config to etcd
+** [2/3] Leo
 *** DONE Video editor tests liability
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-02-24 lun 11:04]
     :END:
-*** [0/2] Background tasks
-**** TODO Evaluate docker (testing, playout paralelization, etc)
+*** [1/2] Background tasks
+**** DONE Evaluate docker (testing, playout paralelization, etc)
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-02-28 vie 10:33]
+     :END:
 **** STARTED Etiquette tests
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:04]
@@ -101,7 +115,7 @@ DEADLINE: <2014-02-03 Mon>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2014-02-12 Wed 16:25]
     :END:
-* <2014-02-10 Mon> [10/13]
+* <2014-02-10 Mon> [11/13]
 ** [1/2] Adri
 *** STARTED Patero: test funcional global
 *** DONE create with id
@@ -109,7 +123,7 @@ DEADLINE: <2014-02-03 Mon>
     - State "DONE"       from "REVIEWING"  [2014-02-12 Wed 13:54]
     - State "REVIEWING"  from "TODO"       [2014-02-05 mié 15:23]
     :END:
-** [9/10] Leo
+** [10/10] Leo
 *** [5/5] Video editor tests
 **** DONE tests interfaz editor
 **** DONE tests unitarios de modelo
@@ -127,7 +141,7 @@ problema con el driver de chrome
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-02-10 Mon 12:03]
     :END:
-*** [3/4] Mosto messages in caspa
+*** [4/4] Mosto messages in caspa
 **** DONE Layout
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-10 Mon 12:11]
@@ -141,7 +155,10 @@ problema con el driver de chrome
      - State "DONE"       from "STARTED"    [2014-02-14 Fri 11:54]
      - State "STARTED"    from "TODO"       [2014-02-12 Wed 13:57]
      :END:
-**** TODO Add timestamp to messages
+**** DONE Add timestamp to messages
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-02-28 vie 10:33]
+     :END:
 ** [0/1] Mariana
 *** [0/1] Playout logo
 **** STARTED Animate text from XML in AS 2.0 and 3.0
