@@ -265,16 +265,16 @@ link a playout view
 :PROPERTIES:
 :ESTIMATED: 3d
 :END:
-** [5/10] WebFX
+** [7/10] WebFX
 *** TODO Server
 **** STARTED Automatization (driver en mosto)
 ***** levantar transforms & sketchs
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-*** [5/9] Editor
+*** [7/9] Editor
 Focalizar en logo, hora y tiempo
-**** TODO no contraer header
+**** DONE no contraer header
 :PROPERTIES:
 :ESTIMATED: 4h
 :END:
@@ -314,7 +314,7 @@ CLOSED: [2013-12-27 Fri 12:12]
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
-**** TODO Reutilizar medios ya subidos
+**** DONE Reutilizar medios ya subidos
 ** [0/0] Otros
 Cosas que seguro no vamos hacer: Vivo, Tetra hasta marzo
 A todo esto hay que agregar Mosto, Webvfx, server/test/deploy/blackmagic
