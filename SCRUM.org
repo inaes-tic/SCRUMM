@@ -539,8 +539,9 @@ DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
-* <2013-12-02 Mon> [15/21]
+* TODO <2013-12-02 Mon> [17/22]
 :LOGBOOK:
+- State "TODO"       from "TODO"       [2014-03-05 Wed 11:52]
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:30]
 :END:
 ** [4/5] Adri
@@ -600,9 +601,11 @@ DEADLINE: <2013-12-02 Mon>
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:05]
     :END:
 Mergeando e incluyendo Mongo.Join
-** [3/3] Leo
-*** STARTED [3/3] Finish WebFX UI
-DEADLINE: <2013-12-02 Mon>
+** DONE [4/4] Leo
+:LOGBOOK:
+:END:
+*** DONE [3/3] Finish WebFX UI
+CLOSED: [2014-03-05 Wed 11:52] DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2013-12-02 Mon 11:07]
     :END:
