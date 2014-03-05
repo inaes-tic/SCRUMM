@@ -5,10 +5,11 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-03 Mon> [0/4]
-** [0/1] Leo
-*** STARTED D3Timeline
+* <2014-03-03 Mon> [1/4]
+** [1/1] Leo
+*** WONTFIX D3Timeline
     :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2014-03-05 mié 11:54]
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:33]
     :END:
 ** [0/2] Josx
@@ -19,7 +20,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:41]
     :END:
-* <2014-02-24 Mon> [7/17]
+* <2014-02-24 Mon> [8/17]
 ** [1/2] Adri
 *** WONTFIX IfNotEtcd: NDN / Redis for distributed config
     :LOGBOOK:
@@ -30,8 +31,8 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:11]
      :END:
-** [3/4] Josx
-*** [3/4] SearchBox adjustments
+** [4/4] Josx
+*** [4/4] SearchBox adjustments
 **** DONE Check typeahead
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-24 lun 11:08]
@@ -41,7 +42,10 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-28 vie 10:43]
      :END:
-**** TODO add typeahead to caspa
+**** DONE add typeahead to caspa
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-03-05 mié 11:56]
+     :END:
 ** [3/11] Mariana
 *** [3/11] Trámites administrativos
 **** DONE Cambiar clave fiscal AFIP
@@ -191,7 +195,7 @@ DEADLINE: <2014-02-03 Mon>
     - State "STARTED"    from "TODO"       [2014-01-29 mié 11:44]
     :END:
 Writing code over VisualSearch because it doesn't support the behavior we need.
-* <2014-01-27 Mon> [11/16]
+* <2014-01-27 Mon> [12/16]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:04]
 :END:
@@ -209,8 +213,8 @@ DEADLINE: <2014-01-27 Mon>
      :END:
 **** TODO Merge
 DEADLINE: <2014-01-27 Mon>
-** [2/3] Josx
-*** [2/3] MBC-Etiquette upgrades
+** [3/3] Josx
+*** [3/3] MBC-Etiquette upgrades
 **** DONE Unify models (server and editor)
 DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
@@ -225,8 +229,11 @@ DEADLINE: <2014-01-27 Mon>
      - State "REVIEWING"  from "STARTED"    [2014-01-27 lun 10:04]
      - State "STARTED"    from "TODO"       [2014-01-24 Fri 12:17]
      :END:
-**** TODO Move scheduling to the filter code
+**** WONTFIX Move scheduling to the filter code
 DEADLINE: <2014-01-27 Mon>
+:LOGBOOK:
+- State "WONTFIX"    from "TODO"       [2014-03-05 mié 11:55]
+:END:
 ** [5/5] Leo
 :LOGBOOK:
 :END:
