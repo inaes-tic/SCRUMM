@@ -5,13 +5,14 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-03 Mon> [1/4]
-** [1/1] Leo
+* <2014-03-03 Mon> [2/6]
+** [1/2] Leo
 *** WONTFIX D3Timeline
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2014-03-05 mié 11:54]
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:33]
     :END:
+*** STARTED Crossdomain etiquette bug
 ** [0/2] Josx
 *** TODO Widgets: Path Selector
 *** TODO Widgets: Object
@@ -20,6 +21,8 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:41]
     :END:
+** [1/1] Adri...
+*** DONE Config with iobackends (redis, avahi)
 * <2014-02-24 Mon> [8/17]
 ** [1/2] Adri
 *** WONTFIX IfNotEtcd: NDN / Redis for distributed config
@@ -75,8 +78,8 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ***** TODO Actualizar libro de asociados
 **** TODO Adhesión de asociados a OPCODE en la AFIP
 **** TODO Presentar nota de exención de IIBB
-* <2014-02-17 Mon> [5/8]
-** [3/5] Adri
+* <2014-02-17 Mon> [6/8]
+** [4/5] Adri
 *** [2/3] Webkit wrapper
 **** DONE Generic wrapper
      :LOGBOOK:
@@ -98,7 +101,10 @@ DEADLINE: <2014-02-03 Mon>
     - State "DONE"       from "STARTED"    [2014-02-28 vie 10:47]
     - State "STARTED"    from "TODO"       [2014-02-12 Wed 13:55]
     :END:
-*** STARTED Move config to etcd
+*** WONTFIX Move config to etcd
+    :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2014-03-07 vie 10:31]
+    :END:
 ** [2/3] Leo
 *** DONE Video editor tests liability
     :LOGBOOK:
@@ -211,8 +217,11 @@ DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-24 Fri 10:50]
      :END:
-**** TODO Merge
+**** STARTED Merge
 DEADLINE: <2014-01-27 Mon>
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2014-03-07 vie 10:28]
+:END:
 ** [3/3] Josx
 *** [3/3] MBC-Etiquette upgrades
 **** DONE Unify models (server and editor)
@@ -546,7 +555,7 @@ DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
-* TODO <2013-12-02 Mon> [17/22]
+* <2013-12-02 Mon> [17/22]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-03-05 Wed 11:52]
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:30]
