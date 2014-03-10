@@ -5,7 +5,12 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-03 Mon> [2/6]
+* <2014-03-10 Mon> [0/2]
+** [0/1] Leo
+*** STARTED Redraw widgets with scale on liveview
+** [0/1] Adri
+*** TODO Create docker image for streaming
+* <2014-03-03 Mon> [4/8]
 ** [1/2] Leo
 *** WONTFIX D3Timeline
     :LOGBOOK:
@@ -13,16 +18,18 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:33]
     :END:
 *** STARTED Crossdomain etiquette bug
-** [0/2] Josx
+** [1/3] Josx
 *** TODO Widgets: Path Selector
 *** TODO Widgets: Object
+*** DONE Streaming server install and tests
 ** [0/1] JMR
 *** STARTED Schedule Sketchs
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:41]
     :END:
-** [1/1] Adri...
+** [2/2] Adri...
 *** DONE Config with iobackends (redis, avahi)
+*** DONE Streaming Server install and tests
 * <2014-02-24 Mon> [8/17]
 ** [1/2] Adri
 *** WONTFIX IfNotEtcd: NDN / Redis for distributed config
