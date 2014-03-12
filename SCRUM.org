@@ -5,11 +5,25 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-10 Mon> [0/2]
-** [0/1] Leo
+* <2014-03-10 Mon> [5/12]
+** [0/4] Leo
 *** STARTED Redraw widgets with scale on liveview
+*** STARTED Video Fullscreen on liveview
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-12 mié 10:51]
+    :END
+*** TODO Install mbc-etiquette server
+*** TODO Review JMR schedule branches
 ** [0/1] Adri
 *** TODO Create docker image for streaming
+** [5/7] Josx
+*** DONE Add to read libavahi-compat-libdnssd-dev
+*** DONE Review Patero Branches
+*** DONE Merged PR Replace screenshots dir with conf
+*** DONE Review CrossDomain Bug
+*** DONE Update accountability (gnucash)
+*** TODO Fix Patero readme
+*** TODO Review JMR schedule branches
 * <2014-03-03 Mon> [4/8]
 ** [1/2] Leo
 *** WONTFIX D3Timeline
@@ -208,12 +222,12 @@ DEADLINE: <2014-02-03 Mon>
     - State "STARTED"    from "TODO"       [2014-01-29 mié 11:44]
     :END:
 Writing code over VisualSearch because it doesn't support the behavior we need.
-* <2014-01-27 Mon> [12/16]
+* <2014-01-27 Mon> [13/16]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:04]
 :END:
-** [2/3] Adri
-*** [2/3] Patero upgrades
+** [3/3] Adri
+*** [3/3] Patero upgrades
 **** DONE Improve communication with Caspa
 DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
@@ -224,9 +238,11 @@ DEADLINE: <2014-01-27 Mon>
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-01-24 Fri 10:50]
      :END:
-**** STARTED Merge
+**** DONE Merge
 DEADLINE: <2014-01-27 Mon>
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2014-03-12 mié 10:30]
+- State "TODO"       from "STARTED"    [2014-03-12 mié 10:29]
 - State "STARTED"    from "TODO"       [2014-03-07 vie 10:28]
 :END:
 ** [3/3] Josx
