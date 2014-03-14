@@ -5,26 +5,47 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-10 Mon> [5/12]
-** [0/4] Leo
-*** STARTED Redraw widgets with scale on liveview
+* <2014-03-10 Mon> [12/14]
+** [3/4] Leo
+*** DONE Redraw widgets with scale on liveview
+    :LOGBOOK:
+    - State "DONE"       from "REPORT"     [2014-03-14 vie 10:08]
+    - State "REPORT"     from "STARTED"    [2014-03-14 vie 10:08]
+    :END:
 *** STARTED Video Fullscreen on liveview
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-03-12 mié 10:51]
     :END
-*** TODO Install mbc-etiquette server
-*** TODO Review JMR schedule branches
+*** DONE Install mbc-etiquette server
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-14 vie 10:08]
+    :END:
+*** DONE Review JMR schedule branches
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-14 vie 10:11]
+    :END:
 ** [0/1] Adri
 *** TODO Create docker image for streaming
-** [5/7] Josx
+** [2/2] JMR
+*** DONE Review Mosto messages PR
+*** DONE Bugs Mosto
+** [7/7] Josx
 *** DONE Add to read libavahi-compat-libdnssd-dev
 *** DONE Review Patero Branches
 *** DONE Merged PR Replace screenshots dir with conf
 *** DONE Review CrossDomain Bug
 *** DONE Update accountability (gnucash)
-*** TODO Fix Patero readme
-*** TODO Review JMR schedule branches
-* <2014-03-03 Mon> [4/8]
+*** DONE Fix Patero readme
+    :LOGBOOK:
+    - State "DONE"       from "REPORT"     [2014-03-14 vie 09:54]
+    - State "REPORT"     from "STARTED"    [2014-03-14 vie 09:54]
+    - State "STARTED"    from "TODO"       [2014-03-14 vie 09:54]
+    :END:
+*** DONE Review JMR schedule branches
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-14 vie 09:54]
+    :END:
+* <2014-03-03 Mon> [5/8]
 ** [1/2] Leo
 *** WONTFIX D3Timeline
     :LOGBOOK:
@@ -36,9 +57,10 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 *** TODO Widgets: Path Selector
 *** TODO Widgets: Object
 *** DONE Streaming server install and tests
-** [0/1] JMR
-*** STARTED Schedule Sketchs
+** [1/1] JMR
+*** DONE Schedule Sketchs
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-03-14 vie 10:13]
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:41]
     :END:
 ** [2/2] Adri...
@@ -578,18 +600,18 @@ DEADLINE: <2013-12-09 Mon>
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2013-12-27 Fri 12:21]
 :END:
-* <2013-12-02 Mon> [17/22]
+* <2013-12-02 Mon> [18/22]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-03-05 Wed 11:52]
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:30]
 :END:
-** [4/5] Adri
+** [5/5] Adri
 *** DONE Filmstrip from Ingestor
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2013-12-02 Mon 10:53]
     :END:
-*** [3/4] App: stateful views
+*** [4/4] App: stateful views
 DEADLINE: <2013-12-02 Mon>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-12-23 Mon 13:25]
@@ -608,9 +630,10 @@ DEADLINE: <2013-12-02 Mon>
 - State "DONE"       from "STARTED"    [2014-01-27 lun 10:55]
 - State "TODO"       from ""           [2014-01-07 Tue 13:16]
 :END:
-**** STARTED fetch releated issue.
+**** DONE fetch releated issue.
 DEADLINE: <2013-12-02 Mon>
 :LOGBOOK:
+- State "DONE"       from "STARTED"    [2014-03-14 vie 09:56]
 - State "STARTED"    from ""           [2014-01-07 Tue 13:17]
 :END:
 ** [1/1] Alejo
