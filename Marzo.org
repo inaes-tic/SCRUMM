@@ -7,7 +7,7 @@
 #+PROJECT_TIME: 60d
 
 * Total 
-** [3/5] Ingesta
+** [4/5] Ingesta
 *** DONE Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
 CLOSED: [2013-12-27 Fri 12:01]
 :LOGBOOK:
@@ -29,8 +29,8 @@ CLOSED: [2013-12-27 Fri 12:01]
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
-*** [1/3] Pantalla de ingesta en caspa
-**** TODO progress de ingesta
+*** [2/3] Pantalla de ingesta en caspa
+**** DONE progress de ingesta
 :PROPERTIES:
 :ESTIMATED: 1w
 :END:
