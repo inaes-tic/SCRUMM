@@ -5,7 +5,7 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-17 Mon> [0/9]
+* <2014-03-17 Mon> [0/11]
 ** [0/3] Leo
 *** TODO mbc-etiquette integration testing support
 *** TODO sketchs select test (all load)
@@ -19,6 +19,9 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 *** TODO Move config to own serve
 *** TODO Move config view to common
 *** TODO Capas, Config, Patero integration details
+** [0/2] JMR
+*** TODO Bug Mosto luego y antes de 24hs
+*** STARTED Usar decklink/streams/posixshm como source
 * <2014-03-10 Mon> [12/14]
 ** [3/4] Leo
 *** DONE Redraw widgets with scale on liveview
