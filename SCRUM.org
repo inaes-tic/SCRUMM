@@ -5,13 +5,20 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-17 Mon> [0/11]
+* <2014-03-17 Mon> [1/12]
 ** [0/3] Leo
-*** TODO mbc-etiquette integration testing support
+*** STARTED mbc-etiquette integration testing support
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-19 mié 10:14]
+    :END:
 *** TODO sketchs select test (all load)
 *** TODO sketch object list test (avoid duplicates)
-** [0/3] Josx
-*** TODO Move common browser libraries to common
+** [1/4] Josx
+*** DONE Fix bug including relational on etiquette
+*** STARTED Move common browser libraries to common (bower)
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-19 mié 10:23]
+    :END:
 *** TODO Bug: Duplicated sketch objects
 *** TODO Bug: Empty sketchs in select
 
