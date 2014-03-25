@@ -5,30 +5,68 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-17 Mon> [1/12]
+* <2014-03-25 Tue> [0/11]
+** [0/1] Leo
+*** TODO mbc-caspa integration testing support...
+*** TODO Review Bower PR
+** [0/4] Mariana
+*** TODO Coordinar reunión Contador para asamblea
+*** TODO Confirmar firmas en recibos y libro de asociados
+*** TODO Pago honorarios contadores
+*** TODO Finalización informe febrero
+** [0/2] Pato
+*** TODO gnucash, informes para contador (IVA, IIBB)
+*** TODO Review Bower PR
+** [0/3] Josx
+*** TODO Add more libs to bower
+*** TODO d3timeline review current code
+*** TODO server routes to common
+* <2014-03-17 Mon> [8/16]
 ** [0/3] Leo
 *** STARTED mbc-etiquette integration testing support
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-03-19 mié 10:14]
     :END:
-*** TODO sketchs select test (all load)
-*** TODO sketch object list test (avoid duplicates)
-** [1/4] Josx
-*** DONE Fix bug including relational on etiquette
-*** STARTED Move common browser libraries to common (bower)
+*** STARTED sketchs select test (all load)
     :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-25 mar 08:17]
+    :END:
+*** TODO sketch object list test (avoid duplicates)
+** [4/4] Josx
+*** DONE Fix bug including relational on etiquette
+*** DONE Move common browser libraries to common (bower)
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-03-25 mar 09:05]
     - State "STARTED"    from "TODO"       [2014-03-19 mié 10:23]
     :END:
-*** TODO Bug: Duplicated sketch objects
-*** TODO Bug: Empty sketchs in select
+*** WONTFIX Bug: Duplicated sketch objects
+    :LOGBOOK:
+    - State "WONTFIX"    from "TODO"       [2014-03-25 mar 09:06]
+    :END:
+*** DONE Bug: Empty sketchs in select
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-25 mar 09:05]
+    :END:
 
 ** [0/3] Adri
-*** TODO Move config to own serve
-*** TODO Move config view to common
+*** STARTED Move config to own serve
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-25 mar 08:24]
+    :END:
+*** STARTED Move config view to common
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-25 mar 08:24]
+    :END:
 *** TODO Capas, Config, Patero integration details
 ** [0/2] JMR
 *** TODO Bug Mosto luego y antes de 24hs
 *** STARTED Usar decklink/streams/posixshm como source
+** [3/3] Mariana
+*** DONE Imprimir talonaria facturas
+*** DONE Certificación en Consejo de contadores
+*** DONE Entrega Credicoop Documentación Factura internacional
+** [1/1] Pato
+*** DONE Revisar y ajustar GnuCash
 * <2014-03-10 Mon> [12/14]
 ** [3/4] Leo
 *** DONE Redraw widgets with scale on liveview
@@ -72,14 +110,17 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-03-14 vie 09:54]
     :END:
-* <2014-03-03 Mon> [6/8]
-** [1/2] Leo
+* <2014-03-03 Mon> [7/8]
+** [2/2] Leo
 *** WONTFIX D3Timeline
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2014-03-05 mié 11:54]
     - State "STARTED"    from "TODO"       [2014-02-28 vie 10:33]
     :END:
-*** STARTED Crossdomain etiquette bug
+*** DONE Crossdomain etiquette bug
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-03-25 mar 08:16]
+    :END:
 ** [2/3] Josx
 *** TODO Widgets: Path Selector
 *** DONE Widgets: Object
@@ -96,7 +137,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** [2/2] Adri...
 *** DONE Config with iobackends (redis, avahi)
 *** DONE Streaming Server install and tests
-* <2014-02-24 Mon> [8/17]
+* <2014-02-24 Mon> [13/17]
 ** [1/2] Adri
 *** WONTFIX IfNotEtcd: NDN / Redis for distributed config
     :LOGBOOK:
@@ -122,8 +163,8 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-03-05 mié 11:56]
      :END:
-** [3/11] Mariana
-*** [3/11] Trámites administrativos
+** [8/11] Mariana
+*** [8/11] Trámites administrativos
 **** DONE Cambiar clave fiscal AFIP
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-17 Mon 16:43]
@@ -136,22 +177,35 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-24 lun 11:12]
      :END:
-**** STARTED Solicitar talonario de facturas nuevas
+**** DONE Solicitar talonario de facturas nuevas
      :LOGBOOK:
+     - State "DONE"       from "STARTED"    [2014-03-25 mar 08:36]
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:12]
      :END:
 **** TODO Facturar Marzo a Cooperar
-**** TODO Armar bibliorato de gastos y egresos
+**** DONE Armar bibliorato de gastos y egresos
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-03-25 mar 08:40]
+     :END:
 **** STARTED Fotocopia de monotributos al día
      :LOGBOOK:
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:12]
      :END:
-**** [0/2] Libros rubricados
-***** TODO Actualizar libro de registro de asambleas
-***** TODO Actualizar libro de asociados
+**** [2/2] Libros rubricados
+***** DONE Actualizar libro de registro de asambleas
+      :LOGBOOK:
+      - State "DONE"       from "TODO"       [2014-03-25 mar 08:40]
+      :END:
+***** DONE Actualizar libro de asociados
+      :LOGBOOK:
+      - State "DONE"       from "TODO"       [2014-03-25 mar 08:40]
+      :END:
 **** TODO Adhesión de asociados a OPCODE en la AFIP
-**** TODO Presentar nota de exención de IIBB
-* <2014-02-17 Mon> [6/8]
+**** DONE Presentar nota de exención de IIBB
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-03-25 mar 08:40]
+     :END:
+* <2014-02-17 Mon> [7/8]
 ** [4/5] Adri
 *** [2/3] Webkit wrapper
 **** DONE Generic wrapper
@@ -178,18 +232,19 @@ DEADLINE: <2014-02-03 Mon>
     :LOGBOOK:
     - State "WONTFIX"    from "STARTED"    [2014-03-07 vie 10:31]
     :END:
-** [2/3] Leo
+** [3/3] Leo
 *** DONE Video editor tests liability
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2014-02-24 lun 11:04]
     :END:
-*** [1/2] Background tasks
+*** [2/2] Background tasks
 **** DONE Evaluate docker (testing, playout paralelization, etc)
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-28 vie 10:33]
      :END:
-**** STARTED Etiquette tests
+**** WONTFIX Etiquette tests
      :LOGBOOK:
+     - State "WONTFIX"    from "STARTED"    [2014-03-25 mar 08:44]
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:04]
      :END:
 * <2014-02-13 Thu> [1/1]
@@ -244,7 +299,7 @@ problema con el driver de chrome
      :END:
 ** [0/1] Mariana
 *** [0/1] Playout logo
-**** STARTED Animate text from XML in AS 2.0 and 3.0
+**** STARTED Animate text from XML in AS 2.0
 * <2014-02-03 Mon> [3/3]
 :LOGBOOK:
 - State "TODO"       from "TODO"       [2014-02-03 Mon 11:02]
@@ -545,8 +600,11 @@ DEADLINE: <2013-12-30 Mon>
 ** [0/2] Pato
 *** TODO Filmstrip en POV: show on load
 DEADLINE: <2013-12-30 Mon>
-*** TODO Conseguir presupuestos sitio OpCode
+*** STARTED Conseguir presupuestos sitio OpCode
 DEADLINE: <2013-12-30 Mon>
+:LOGBOOK:
+- State "STARTED"    from "TODO"       [2014-03-25 mar 08:52]
+:END:
 * <2013-12-16 Mon> [6/7]
 ** [1/1] Adri
 *** DONE Caspa: navigator-like view switching
