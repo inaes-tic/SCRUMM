@@ -5,10 +5,15 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-25 Tue> [0/11]
-** [0/1] Leo
+* <2014-03-25 Tue> [2/14]
+** [1/4] Leo
 *** TODO mbc-caspa integration testing support...
-*** TODO Review Bower PR
+*** STARTED Review Bower PR
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-26 mié 08:18]
+    :END:
+*** DONE avoid auth on tests
+*** TODO Review Typeahead PR
 ** [0/4] Mariana
 *** TODO Coordinar reunión Contador para asamblea
 *** TODO Confirmar firmas en recibos y libro de asociados
@@ -16,11 +21,15 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 *** TODO Finalización informe febrero
 ** [0/2] Pato
 *** TODO gnucash, informes para contador (IVA, IIBB)
-*** TODO Review Bower PR
-** [0/3] Josx
+*** STARTED Review Bower PR
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-26 mié 08:21]
+    :END:
+** [1/4] Josx
 *** TODO Add more libs to bower
 *** TODO d3timeline review current code
 *** TODO server routes to common
+*** DONE move confview to common
 * <2014-03-17 Mon> [8/16]
 ** [0/3] Leo
 *** STARTED mbc-etiquette integration testing support
