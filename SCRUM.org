@@ -5,32 +5,60 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
-* <2014-03-25 Tue> [2/14]
-** [1/4] Leo
-*** TODO mbc-caspa integration testing support...
-*** STARTED Review Bower PR
+* <2014-03-25 Tue> [13/16]
+** [3/4] Leo
+*** DONE Review Bower PR
     :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-03-28 vie 08:15]
     - State "STARTED"    from "TODO"       [2014-03-26 mié 08:18]
     :END:
 *** DONE avoid auth on tests
 *** TODO Review Typeahead PR
-** [0/4] Mariana
-*** TODO Coordinar reunión Contador para asamblea
-*** TODO Confirmar firmas en recibos y libro de asociados
-*** TODO Pago honorarios contadores
-*** TODO Finalización informe febrero
-** [0/2] Pato
-*** TODO gnucash, informes para contador (IVA, IIBB)
-*** STARTED Review Bower PR
     :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 08:15]
+    :END:
+*** DONE Review Kinetic Upgrade 5.x
+** [5/5] Mariana
+*** DONE Coordinar reunión Contador para asamblea
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 17:54]
+    :END:
+*** DONE Confirmar firmas en recibos y libro de asociados
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 17:55]
+    :END:
+*** DONE Pago honorarios contadores
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 17:55]
+    :END:
+*** DONE Finalización informe febrero
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 17:55]
+    :END:
+*** DONE Finalización informe marzo
+** [2/2] Pato
+*** DONE gnucash, informes para contador (IVA, IIBB)
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 18:01]
+    :END:
+*** DONE Review Bower PR
+    :LOGBOOK:
+    - State "DONE"       from "STARTED"    [2014-03-28 vie 18:01]
     - State "STARTED"    from "TODO"       [2014-03-26 mié 08:21]
     :END:
-** [1/4] Josx
-*** TODO Add more libs to bower
+** [3/5] Josx
+*** DONE Add more libs to bower
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 08:01]
+    :END:
 *** TODO d3timeline review current code
-*** TODO server routes to common
+*** STARTED server routes to common
+    :LOGBOOK:
+    - State "STARTED"    from "TODO"       [2014-03-28 vie 18:08]
+    :END:
 *** DONE move confview to common
-* <2014-03-17 Mon> [8/16]
+*** DONE Upgrade kinetic 5.x
+* <2014-03-17 Mon> [9/16]
 ** [0/3] Leo
 *** STARTED mbc-etiquette integration testing support
     :LOGBOOK:
@@ -57,13 +85,14 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
     - State "DONE"       from "TODO"       [2014-03-25 mar 09:05]
     :END:
 
-** [0/3] Adri
+** [1/3] Adri
 *** STARTED Move config to own serve
     :LOGBOOK:
     - State "STARTED"    from "TODO"       [2014-03-25 mar 08:24]
     :END:
-*** STARTED Move config view to common
+*** WONTFIX Move config view to common
     :LOGBOOK:
+    - State "WONTFIX"    from "STARTED"    [2014-03-28 vie 18:03]
     - State "STARTED"    from "TODO"       [2014-03-25 mar 08:24]
     :END:
 *** TODO Capas, Config, Patero integration details
@@ -76,15 +105,17 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 *** DONE Entrega Credicoop Documentación Factura internacional
 ** [1/1] Pato
 *** DONE Revisar y ajustar GnuCash
-* <2014-03-10 Mon> [12/14]
-** [3/4] Leo
+* <2014-03-10 Mon> [13/14]
+** [4/4] Leo
 *** DONE Redraw widgets with scale on liveview
     :LOGBOOK:
     - State "DONE"       from "REPORT"     [2014-03-14 vie 10:08]
     - State "REPORT"     from "STARTED"    [2014-03-14 vie 10:08]
     :END:
-*** STARTED Video Fullscreen on liveview
+*** DONE Video Fullscreen on liveview
     :LOGBOOK:
+    - State "DONE"       from "TODO"       [2014-03-28 vie 17:51]
+    - State "TODO"       from "STARTED"    [2014-03-28 vie 17:50]
     - State "STARTED"    from "TODO"       [2014-03-12 mié 10:51]
     :END
 *** DONE Install mbc-etiquette server
@@ -146,7 +177,7 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 ** [2/2] Adri...
 *** DONE Config with iobackends (redis, avahi)
 *** DONE Streaming Server install and tests
-* <2014-02-24 Mon> [13/17]
+* <2014-02-24 Mon> [16/17]
 ** [1/2] Adri
 *** WONTFIX IfNotEtcd: NDN / Redis for distributed config
     :LOGBOOK:
@@ -172,8 +203,8 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-03-05 mié 11:56]
      :END:
-** [8/11] Mariana
-*** [8/11] Trámites administrativos
+** [11/11] Mariana
+*** [11/11] Trámites administrativos
 **** DONE Cambiar clave fiscal AFIP
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-02-17 Mon 16:43]
@@ -191,13 +222,17 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
      - State "DONE"       from "STARTED"    [2014-03-25 mar 08:36]
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:12]
      :END:
-**** TODO Facturar Marzo a Cooperar
+**** DONE Facturar Marzo a Cooperar
+     :LOGBOOK:
+     - State "DONE"       from "TODO"       [2014-03-28 vie 17:56]
+     :END:
 **** DONE Armar bibliorato de gastos y egresos
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-03-25 mar 08:40]
      :END:
-**** STARTED Fotocopia de monotributos al día
+**** WONTFIX Fotocopia de monotributos al día
      :LOGBOOK:
+     - State "WONTFIX"    from "STARTED"    [2014-03-28 vie 17:58]
      - State "STARTED"    from "TODO"       [2014-02-24 lun 11:12]
      :END:
 **** [2/2] Libros rubricados
@@ -209,7 +244,10 @@ https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
       :LOGBOOK:
       - State "DONE"       from "TODO"       [2014-03-25 mar 08:40]
       :END:
-**** TODO Adhesión de asociados a OPCODE en la AFIP
+**** WONTFIX Adhesión de asociados a OPCODE en la AFIP
+     :LOGBOOK:
+     - State "WONTFIX"    from "TODO"       [2014-03-28 vie 18:00]
+     :END:
 **** DONE Presentar nota de exención de IIBB
      :LOGBOOK:
      - State "DONE"       from "TODO"       [2014-03-25 mar 08:40]
@@ -1359,7 +1397,7 @@ DEADLINE: <2013-10-09 Wed>
     :LOGBOOK:
     - State "WONTFIX"    from "TODO"       [2013-12-09 Mon 16:13]
     :END:
-* <2013-10-07 Mon> [8/16]
+* <2013-10-07 Mon> [15/19]
 ** [0/1] Adri
 *** STARTED +++ Guardar salidas + EDL (Lista de cambios)
 DEADLINE: <2013-10-07 Mon>
@@ -1416,15 +1454,27 @@ DEADLINE: <2013-10-07 Mon>
     :LOGBOOK:
     - State "DONE"       from "STARTED"    [2013-10-07 Mon 18:01]
     :END:
-** [0/4] Tom
-*** STARTED +++ Tests
+** [4/4] Tom
+*** WONTFIX +++ Tests
 DEADLINE: <2013-10-07 Mon>
-**** TODO Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
+:LOGBOOK:
+- State "WONTFIX"    from "STARTED"    [2014-03-28 vie 18:06]
+:END:
+**** WONTFIX Faltan sólo los que dependen de los cambios de los modelos por el sprint de Caspa
 DEADLINE: <2013-10-07 Mon>
-**** TODO Agregar test que falle cuando el coverage sea menor a 90%
+:LOGBOOK:
+- State "WONTFIX"    from "TODO"       [2014-03-28 vie 18:07]
+:END:
+**** WONTFIX Agregar test que falle cuando el coverage sea menor a 90%
 DEADLINE: <2013-10-07 Mon>
-*** TODO ++++ Control de proceso melted (mbc-waitpid o tal vez systemd)
+:LOGBOOK:
+- State "WONTFIX"    from "TODO"       [2014-03-28 vie 18:07]
+:END:
+*** WONTFIX ++++ Control de proceso melted (mbc-waitpid o tal vez systemd)
 DEADLINE: <2013-10-07 Mon>
+:LOGBOOK:
+- State "WONTFIX"    from "TODO"       [2014-03-28 vie 18:06]
+:END:
 * <2013-10-04 Fri> [9/9]
 ** [1/1] Adri
 *** DONE ++ Picture in Picture
@@ -1475,7 +1525,7 @@ DEADLINE: <2013-09-27 Fri>
 ** [1/1] Mariana
 *** WONTFIX + Finalizar tramitación de cuenta credicoop (lo hacen pato y josx)
 DEADLINE: <2013-09-27 Fri>
-* <2013-09-20 Fri> [14/19]
+* <2013-09-20 Fri> [19/22]
 ** [5/5] Agus
 *** DONE FrameFreak
 DEADLINE: <2013-09-20 Fri>
@@ -1544,7 +1594,7 @@ DEADLINE: <2013-09-20 Fri>
 DEADLINE: <2013-09-20 Fri>
 **** DONE Guardar y recuperar los cambios (ahora usa LocalStorage)
 DEADLINE: <2013-09-20 Fri>
-** [3/6] Mariana
+** [6/7] Mariana
 *** DONE FrameFreak
 DEADLINE: <2013-09-20 Fri>
 **** DONE Viernes + Domingo + 1/2 Lunes
@@ -1553,12 +1603,18 @@ DEADLINE: <2013-09-20 Fri>
 DEADLINE: <2013-09-20 Fri>
 **** DONE Terminar layout
 DEADLINE: <2013-09-20 Fri>
-**** STARTED Paginate wait
+**** WONTFIX Paginate wait
 DEADLINE: <2013-09-20 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from "STARTED"    [2014-03-28 vie 18:05]
+:END:
 **** DONE commitear
 DEADLINE: <2013-09-20 Fri>
-**** TODO Hay bugs por arreglar
+**** WONTFIX Hay bugs por arreglar
 DEADLINE: <2013-09-20 Fri>
+:LOGBOOK:
+- State "WONTFIX"    from "TODO"       [2014-03-28 vie 18:05]
+:END:
 ** [1/1] Tom
 *** WONTFIX + Chequear con JMR que falla en mosto (Confiabilidad de tests)
 CLOSED: [2014-01-07 Tue 13:03] DEADLINE: <2013-09-20 Fri>
