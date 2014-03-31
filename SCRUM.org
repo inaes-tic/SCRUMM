@@ -5,6 +5,15 @@
 #+PROPERTY: COOKIE_DATA todo recursive
 https://github.com/inaes-tic/SCRUMM/blob/master/SCRUM.org
 
+* <2014-03-31 Mon> [0/5]
+** [0/2] Leo
+*** TODO Install mbc playout server en AIO for testing
+*** TODO Make tutorial/readme for installation
+** [0/2] Josx
+*** TODO Fullscreen tweaks (stream-m)
+*** TODO migrate knockback 0.18
+** [0/1] Mariana
+*** TODO Nota de banco para transferencia a brasil
 * <2014-03-25 Tue> [13/16]
 ** [3/4] Leo
 *** DONE Review Bower PR
