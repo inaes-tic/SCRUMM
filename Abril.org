@@ -50,7 +50,10 @@ CLOSED: [2013-12-27 Fri 12:02]
 :PROPERTIES:
 :ESTIMATED: 1d
 :END:
+un error en la ingesta produce un error en la UI.
+es possible tomar acciones sobre errores en la ingesta desde la UI (i.e. retry)
 **** TODO notificación transiente de ingesta
+se muestra una notificacion cuando se esta ingestando.
 ** [6/37] Caspa
 *** [0/0] Tests
 *** [0/0] MultiUser
@@ -58,18 +61,23 @@ CLOSED: [2013-12-27 Fri 12:02]
 **** TODO transforms
 widget con popup
 **** TODO undo atomico con UI
+cada acción muestra un botton de undo (a la gmail) permitiendo de volver al
+estado inmediatamente anterior
 **** TODO 0 ventanas transientes (popups)
 *** [0/1] Messages
 **** TODO Implementar UI para MOSTO-MSG
 :PROPERTIES:
 :ESTIMATED: 2d
 :END:
+terminar de implementar el diseño a la g+
 *** [1/4] MediaEdit
 **** [1/2] Tags (UI, Backend)
 ***** TODO UI: creacion de tags, muestra los anteriores
 :PROPERTIES:
 :ESTIMATED: 2d
 :END:
+la UI de media edit permite asignar tags preseleccionando al tipeo tags
+similares anteriores
 ***** DONE Backend: optim de busqueda de tags
 :PROPERTIES:
 :ESTIMATED: 2d
@@ -86,6 +94,7 @@ widget con popup
 :END:
 *** [0/3] MediaDetails
 **** TODO In/out
+capacidad de editar ins y out para cada media
 ***** UI
 :PROPERTIES:
 :ESTIMATED: 1w
@@ -161,6 +170,7 @@ link a playout view
 ******* pull up/pull down
 ******* info de consequencias
 **** TODO live track
+capacidad de schedulear un evento live en una playlist.
 *** [0/10] Playout view
 **** TODO mostrar los agujeros en la programación
 :PROPERTIES:
