@@ -1,13 +1,10 @@
-#+TITLE: OpCode Malbec BroadCast Playout Project: Mars
+#+TITLE: OpCode Malbec BroadCast Playout Project: April
 #+AUTHOR: Niv Sardi, Patricio Reboratti
 #+EMAIL: xaiki@inaes.gob.ar, patricio@opcode.coop
 #+COLUMNS: %29ITEM %TASKID %OWNER %3PRIORITY %TODO %15ESTIMATED{:} %3ACTUAL{+}
 #+PROPERTY: ESTIMATED_ALL 4h 1d 2d 3d 4d 1w 2w 3w 1m 2m
 #+PROPERTY: COOKIE_DATA todo recursive
 #+PROJECT_TIME: 60d
-
-* Objetivos globales:
-** 0 ventanas transientes
 
 * Total
 ** [4/5] Ingesta
@@ -61,6 +58,7 @@ CLOSED: [2013-12-27 Fri 12:02]
 **** TODO transforms
 widget con popup
 **** TODO undo atomico con UI
+**** TODO 0 ventanas transientes (popups)
 *** [0/1] Messages
 **** TODO Implementar UI para MOSTO-MSG
 :PROPERTIES:
