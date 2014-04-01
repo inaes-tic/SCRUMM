@@ -1,0 +1,332 @@
+#+TITLE: OpCode Malbec BroadCast Playout Project: Mars
+#+AUTHOR: Niv Sardi, Patricio Reboratti
+#+EMAIL: xaiki@inaes.gob.ar, patricio@opcode.coop
+#+COLUMNS: %29ITEM %TASKID %OWNER %3PRIORITY %TODO %15ESTIMATED{:} %3ACTUAL{+}
+#+PROPERTY: ESTIMATED_ALL 4h 1d 2d 3d 4d 1w 2w 3w 1m 2m
+#+PROPERTY: COOKIE_DATA todo recursive
+#+PROJECT_TIME: 60d
+
+* Objetivos globales:
+** 0 ventanas transientes
+
+* Total
+** [4/5] Ingesta
+*** DONE Script monitoreando directorio compartido, transcodea a escritorio sin permisos de escritura
+CLOSED: [2013-12-27 Fri 12:01]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-12-27 Fri 12:01]
+:END:
+**** inotify con script python de zumo (zumo/lib/Melt.py) y api endpoint en caspa o redis
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+**** alta en DB
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** DONE Generación de Thumbnail y video para filmstrip
+CLOSED: [2013-12-27 Fri 12:01]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-12-27 Fri 12:01]
+:END:
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** [2/3] Pantalla de ingesta en caspa
+**** DONE progress de ingesta
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+**** DONE reaccion al add
+CLOSED: [2013-12-27 Fri 12:02]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-12-27 Fri 12:02]
+- State "TODO"       from ""           [2013-12-27 Fri 12:02]
+:END:
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO handeling/notificacion de errores
+:LOGBOOK:
+- State "TODO"       from ""           [2013-12-27 Fri 12:02]
+:END:
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO notificación transiente de ingesta
+** [6/37] Caspa
+*** [0/0] Tests
+*** [0/0] MultiUser
+*** [0/1] system wide
+**** TODO transforms
+widget con popup
+**** TODO undo atomico con UI
+*** [0/1] Messages
+**** TODO Implementar UI para MOSTO-MSG
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+*** [1/4] MediaEdit
+**** [1/2] Tags (UI, Backend)
+***** TODO UI: creacion de tags, muestra los anteriores
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+***** DONE Backend: optim de busqueda de tags
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+
+**** [0/2] migracion Media -> Piece
+***** TODO listas apuntan a pices
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** TODO edit playlist ofrece pieces en vez de medias
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** [0/3] MediaDetails
+**** TODO In/out
+***** UI
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+****** Mirar popcorn.js/otros                                     :xleo:
+****** Implementación
+***** Backend:
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+verificar que mosto interprete IN OUT
+
+**** TODO Rediseño respentando formas actual de caspa (botones, layout, scroll, etc)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO Layout de panel o de diálogo modal
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** [1/1] MediaSearch
+**** DONE Busqueda por tags
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+*** [0/1] Playlist View
+**** TODO  marcador de schedule
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** [1/7] EditPlaylist
+**** STARTED Tags (UI, Backend)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO Autogenerador de playlist con tiempo, sin tiempo, ¿bulk? (ver UI de Airtime)
+:PROPERTIES:
+:ESTIMATED: 3d
+:END:
+**** TODO Mejorar Drop area en Playlist
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** DONE doble click agrega
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Funcionalidad para Duplicar playlist
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+no se puede modificar la playlist si esta sched -> duplicarla.
+el aviso se tiene que mostrar antes de que se intente editar
+**** TODO Playlists de tiempo fijo: marcar cuando se paso del tiempo que queria rellenar
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** [0/2] Handeling de playlist scheduleada
+***** TODO al aire ahora
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+link a playout view
+***** TODO scheduleada (a futuro)
+****** cartel: por defecto te voy a duplicar la playlist,
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+****** opcion para modificar las ocurrences ya escheduleadas.
+:PROPERTIES:
+:ESTIMATED: 3d
+:END:
+******* pull up/pull down
+******* info de consequencias
+**** TODO live track
+*** [0/10] Playout view
+**** TODO mostrar los agujeros en la programación
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Mover playlist ya programadas
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO Programar no ajustado a la grilla (ofrecer ponerlo a mano) (pixel perfect)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Problema del drag and drop / click
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO drag from top
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Render de clips - tiempo exacto de inicio, fin
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO Now indicator: faltante para próximo evento
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO PushDown de data no cargada
+:PROPERTIES:
+:ESTIMATED: 4d
+:END:
+**** TODO Colores
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Performance?
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+*** [0/1] Schedule view
+**** TODO Migrar a playoutview solo con vista semanal
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+*** [2/5] Config
+**** [2/4] Widgets para config
+(tipos ahora solo soporta texto)
+***** DONE switch (on/off)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+***** TODO path selector
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** TODO combo box
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** DONE spin button (Up/Down ?)
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Configuración distribuida
+**** TODO conf de entrada
+***** TODO auto detect (desde mosto) de entradas possibles
+*** [1/2] Auth
+**** TODO ADM de Usuarios
+***** add, remove
+***** per time ACL
+***** per sched ACL
+**** TODO Pantalla de login (REWORK)
+*** [0/1] PosixSHM/Mosto
+**** TODO UI para configurar consumers SHM.
+** [2/3] Mosto
+*** [1/1] In/Out
+**** DONE tests
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+*** [1/1] PosixSHM
+**** DONE poder nombrar producers (en el consumer)
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** TODO Issues
+** [0/6] Playout
+*** [0/5] Sysadmin
+**** [0/2] servidor de instalacion.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+***** TODO FAI
+***** TODO PUPPET
+**** TODO installar desde la red y salir andando.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** TODO tests con instalación.
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+**** TODO imagen de maquinas de tests con BM a dentro.
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+*** TODO Monitoreo
+**** Munin/Monit o otro
+:PROPERTIES:
+:ESTIMATED: 3d
+:END:
+** [7/10] WebFX
+*** TODO Server
+**** STARTED Automatization (driver en mosto)
+***** levantar transforms & sketchs
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+*** [7/9] Editor
+Focalizar en logo, hora y tiempo
+**** DONE no contraer header
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+***** TODO Botón de contraccion queda asociado a edit
+**** DONE Volver a cargar objetos luego de resize
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+**** DONE Editar text no funciona
+CLOSED: [2013-12-27 Fri 12:11]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-12-27 Fri 12:11]
+:END:
+:PROPERTIES:
+:ESTIMATED: 4h
+:END:
+**** TODO Aviso si el webvfx server no esta funcionando
+:PROPERTIES:
+:ESTIMATED: 1d
+:END:
+Mosto messages
+**** [2/2] Animación/loop de imaganes desde carpeta
+:PROPERTIES:
+:ESTIMATED: 2d
+:END:
+***** DONE subir zip
+CLOSED: [2013-12-27 Fri 12:10]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-12-27 Fri 12:10]
+:END:
+***** DONE animar a config.fps (fps global del playout)
+**** DONE Infraestrucutra para widgets, hooks como kludget
+CLOSED: [2013-12-27 Fri 12:12]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2013-12-27 Fri 12:12]
+:END:
+:PROPERTIES:
+:ESTIMATED: 1w
+:END:
+**** DONE Reutilizar medios ya subidos
+**** TODO composición sobre vivo.
+** [0/0] Otros
+Cosas que seguro no vamos hacer: Vivo, Tetra hasta marzo
+A todo esto hay que agregar Mosto, Webvfx, server/test/deploy/blackmagic
